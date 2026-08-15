@@ -37,6 +37,7 @@ issue:           N
 |---|------|------|------------|
 | 001 | [编码代理有品味吗？29,787 条 Discord 消息里的美/丑代码话语](marginalia/001-code-taste-discord/note.zh.md) · [EN](marginalia/001-code-taste-discord/note.en.md) | 2026-08-15 | [#1](https://github.com/UniqueClouds/marginalia/issues/1) |
 | 002 | [像 Dourish 那样写作：21 篇文本的语料分析（2004–2026）](marginalia/002-writing-like-dourish/note.zh.md) · [EN](marginalia/002-writing-like-dourish/note.en.md) | 2026-08-15 | [#3](https://github.com/UniqueClouds/marginalia/issues/3) |
+| 003 | [NOTUGLY-S：学"不丑"而非"美"——NLP × 程序分析提案](marginalia/003-notugly-s/note.zh.md) · [EN](marginalia/003-notugly-s/note.en.md) | 2026-08-15 | [#2](https://github.com/UniqueClouds/marginalia/issues/2) |
 | — | *（条目发布后会出现在这里）* | | |
 
 ## 语言
