@@ -38,11 +38,11 @@ issue:           N
 | 001 | [Do coding agents have taste? What 29,787 Discord messages say about beautiful vs. ugly code](marginalia/001-code-taste-discord/note.en.md) · [中文](marginalia/001-code-taste-discord/note.zh.md) | 2026-08-15 | [#1](https://github.com/UniqueClouds/marginalia/issues/1) |
 | 002 | [Writing like Dourish: a 21-text corpus analysis of a critical HCI voice (2004–2026)](marginalia/002-writing-like-dourish/note.en.md) · [中文](marginalia/002-writing-like-dourish/note.zh.md) · [skill artifact](marginalia/002-writing-like-dourish/artifact.en.md) | 2026-08-15 | [#3](https://github.com/UniqueClouds/marginalia/issues/3) |
 | 003 | [NOTUGLY-S: learning "not ugly" instead of "beautiful" — an NLP × program-analysis proposal](marginalia/003-notugly-s/note.en.md) · [中文](marginalia/003-notugly-s/note.zh.md) | 2026-08-15 | [#2](https://github.com/UniqueClouds/marginalia/issues/2) |
-| 004 | [Is CHI/ACL a storytelling festival? From community gripe to measurable construct](marginalia/004-storytelling-quantified/note.en.md) · [中文](marginalia/004-storytelling-quantified/note.zh.md) | 2026-08-15 | [#7](https://github.com/UniqueClouds/marginalia/issues/7) |
+| 004 | [Is CHI/ACL a storytelling festival? From community gripe to measurable construct](marginalia/004-storytelling-quantified/note.en.md) · [中文](marginalia/004-storytelling-quantified/note.zh.md) · [original docs (中文)](marginalia/004-storytelling-quantified/docs/storytelling-survey.zh.md) | 2026-08-15 | [#7](https://github.com/UniqueClouds/marginalia/issues/7) |
 
 ## Languages
 
-Every document exists twice — `*.en.md` and `*.zh.md`, same content, neither an afterthought: switch to [中文版 README](README.zh-CN.md).
+Every **note** exists twice — `*.en.md` and `*.zh.md`, same content, neither an afterthought. Verbatim **artifacts** (skills, original source documents) are published as-is, in whatever language they were born in: switch to [中文版 README](README.zh-CN.md).
 
 ---
 
