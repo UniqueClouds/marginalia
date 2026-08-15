@@ -35,6 +35,7 @@ issue:           N
 
 | # | 条目 | 日期 | Issue → PR |
 |---|------|------|------------|
+| 001 | [编码代理有品味吗？29,787 条 Discord 消息里的美/丑代码话语](marginalia/001-code-taste-discord/note.zh.md) · [EN](marginalia/001-code-taste-discord/note.en.md) | 2026-08-15 | [#1](https://github.com/UniqueClouds/marginalia/issues/1) |
 | — | *（条目发布后会出现在这里）* | | |
 
 ## 语言
