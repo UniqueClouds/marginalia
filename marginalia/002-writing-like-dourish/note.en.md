@@ -52,7 +52,7 @@ Two specimens (both 2004, verified in-corpus):
 
 1. **The report** — `Dourish_语言特征分析报告.md` (~40KB), every quote verified.
 2. **A reusable pipeline** — scripts + JSON intermediates + 12 motif quote files.
-3. **A `dourish-style` skill** — polishing workflow with Register A/B and recipes P1–P10; red line: *never copy Dourish verbatim*, only reproduce the mechanism.
+3. **A `dourish-style` skill** — polishing workflow with Register A/B and recipes P1–P10; red line: *never copy Dourish verbatim*, only reproduce the mechanism. Published as an artifact: [artifact.en.md](artifact.en.md).
 4. **A first experiment** — my own OSS position paper revised in that register (with a change log).
 
 ## Provenance

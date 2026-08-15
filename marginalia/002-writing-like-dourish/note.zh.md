@@ -52,7 +52,7 @@ PyMuPDF 版面块提取 → 去参考文献 → 段落语料（`paras.json`）�
 
 1. **分析报告** —— `Dourish_语言特征分析报告.md`（约 40KB），全部引文经核验。
 2. **可复用管线** —— 脚本 + JSON 中间产物 + 12 个母题引文文件。
-3. **`dourish-style` 技能** —— 修稿工作流：Register A/B、食谱 P1–P10；红线：*绝不照抄原句*，只复现机制。
+3. **`dourish-style` 技能** —— 修稿工作流：Register A/B、食谱 P1–P10；红线：*绝不照抄原句*，只复现机制。已作为 artifact 发布：[artifact.zh.md](artifact.zh.md)。
 4. **第一个实验** —— 用该语域改写我自己的 OSS 立场论文（附变更表）。
 
 ## 溯源
