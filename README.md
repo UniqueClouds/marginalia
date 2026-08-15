@@ -36,10 +36,21 @@ issue:           N
 | # | Entry | Date | Issue → PR |
 |---|-------|------|------------|
 | 001 | [Do coding agents have taste? What 29,787 Discord messages say about beautiful vs. ugly code](marginalia/001-code-taste-discord/note.en.md) · [中文](marginalia/001-code-taste-discord/note.zh.md) | 2026-08-15 | [#1](https://github.com/UniqueClouds/marginalia/issues/1) |
-| 002 | [Writing like Dourish: a 21-text corpus analysis of a critical HCI voice (2004–2026)](marginalia/002-writing-like-dourish/note.en.md) · [中文](marginalia/002-writing-like-dourish/note.zh.md) · [skill artifact](marginalia/002-writing-like-dourish/artifact.en.md) | 2026-08-15 | [#3](https://github.com/UniqueClouds/marginalia/issues/3) |
+| 002 | [Writing like Dourish: a 21-text corpus analysis of a critical HCI voice (2004–2026)](marginalia/002-writing-like-dourish/note.en.md) · [中文](marginalia/002-writing-like-dourish/note.zh.md) | 2026-08-15 | [#3](https://github.com/UniqueClouds/marginalia/issues/3) |
 | 003 | [NOTUGLY-S: learning "not ugly" instead of "beautiful" — an NLP × program-analysis proposal](marginalia/003-notugly-s/note.en.md) · [中文](marginalia/003-notugly-s/note.zh.md) | 2026-08-15 | [#2](https://github.com/UniqueClouds/marginalia/issues/2) |
-| 004 | [Is CHI/ACL a storytelling festival? From community gripe to measurable construct](marginalia/004-storytelling-quantified/note.en.md) · [中文](marginalia/004-storytelling-quantified/note.zh.md) · [original docs (中文)](marginalia/004-storytelling-quantified/docs/storytelling-survey.zh.md) | 2026-08-15 | [#7](https://github.com/UniqueClouds/marginalia/issues/7) |
-| 005 | [Four academic voices, measured: language styles of BDS/HCI/Sociology/SE classics (314 papers, 3.3M words)](marginalia/005-discipline-style-voices/note.en.md) · [中文](marginalia/005-discipline-style-voices/note.zh.md) · [full reports (中文)](marginalia/005-discipline-style-voices/reports/05-cross-discipline.zh.md) | 2026-08-15 | [#11](https://github.com/UniqueClouds/marginalia/issues/11) |
+| 004 | [Is CHI/ACL a storytelling festival? From community gripe to measurable construct](marginalia/004-storytelling-quantified/note.en.md) · [中文](marginalia/004-storytelling-quantified/note.zh.md) | 2026-08-15 | [#7](https://github.com/UniqueClouds/marginalia/issues/7) |
+| 005 | [Four academic voices, measured: language styles of BDS/HCI/Sociology/SE classics (314 papers, 3.3M words)](marginalia/005-discipline-style-voices/note.en.md) · [中文](marginalia/005-discipline-style-voices/note.zh.md) | 2026-08-15 | [#11](https://github.com/UniqueClouds/marginalia/issues/11) |
+
+## Artifacts
+
+Companions to the entries above, published **verbatim** — live skills, original source documents, full reports — in whatever language they were born in. Each lives inside its entry's directory but arrives in its own PR; artifacts need no issue.
+
+| Artifact | Entry | PR |
+|---|---|---|
+| `dourish-style` polishing skill (since superseded by `academic-voices`) | [002](marginalia/002-writing-like-dourish/artifact.en.md) | [#9](https://github.com/UniqueClouds/marginalia/pull/9) |
+| Storytelling originals — survey + proposal v2 (中文) | [004](marginalia/004-storytelling-quantified/docs/storytelling-survey.zh.md) | [#10](https://github.com/UniqueClouds/marginalia/pull/10) |
+| Five full discipline-style reports (中文) | [005](marginalia/005-discipline-style-voices/reports/05-cross-discipline.zh.md) | [#12](https://github.com/UniqueClouds/marginalia/pull/12) |
+| `academic-voices` skill — five measured voices, density baselines + voice classifier | [005](marginalia/005-discipline-style-voices/artifact.en.md) | [#13](https://github.com/UniqueClouds/marginalia/pull/13) |
 
 ## Languages
 
