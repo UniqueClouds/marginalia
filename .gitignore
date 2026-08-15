@@ -1,0 +1,21 @@
+# ============================================================================
+# Default-deny: EVERYTHING in this workspace is ignored by default.
+#
+# The directory behind this repo is an active research workspace holding raw
+# corpora (Discord dumps, paper text, Zotero extracts), private drafts,
+# proposals, secrets (.env, *token*) and large binaries. None of it is ever
+# published implicitly.
+#
+# Only the paths re-included below are ever committable. To publish something,
+# add an explicit `!` whitelist rule here AND stage it deliberately.
+# (Supersedes the previous ignore list: .env, *token*, discord_workflow/raw/.)
+# ============================================================================
+
+/*
+
+# --- whitelist: repo meta & curated marginalia notes only ---
+!/.gitignore
+!/README.md
+!/README.zh-CN.md
+!/marginalia/
+!/marginalia/**
