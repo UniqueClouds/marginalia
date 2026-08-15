@@ -53,6 +53,8 @@ M1–M5: coding scheme + 500-figure gold set → 250k-figure census → payoff d
 
 ## Provenance
 
+The original source documents (verbatim, in Chinese) are published alongside this note in [`docs/`](docs/storytelling-survey.zh.md) — the full survey and the proposal v2, not just this summary.
+
 | field | value |
 |---|---|
 | Data | `CHI_ACL_故事会量化_调研.md`; `AI论文显隐叙事主义_提案v2.md`; external chain as listed in frontmatter |
