@@ -36,10 +36,21 @@ issue:           N
 | # | 条目 | 日期 | Issue → PR |
 |---|------|------|------------|
 | 001 | [编码代理有品味吗？29,787 条 Discord 消息里的美/丑代码话语](marginalia/001-code-taste-discord/note.zh.md) · [EN](marginalia/001-code-taste-discord/note.en.md) | 2026-08-15 | [#1](https://github.com/UniqueClouds/marginalia/issues/1) |
-| 002 | [像 Dourish 那样写作：21 篇文本的语料分析（2004–2026）](marginalia/002-writing-like-dourish/note.zh.md) · [EN](marginalia/002-writing-like-dourish/note.en.md) · [技能 artifact](marginalia/002-writing-like-dourish/artifact.zh.md) | 2026-08-15 | [#3](https://github.com/UniqueClouds/marginalia/issues/3) |
+| 002 | [像 Dourish 那样写作：21 篇文本的语料分析（2004–2026）](marginalia/002-writing-like-dourish/note.zh.md) · [EN](marginalia/002-writing-like-dourish/note.en.md) | 2026-08-15 | [#3](https://github.com/UniqueClouds/marginalia/issues/3) |
 | 003 | [NOTUGLY-S：学"不丑"而非"美"——NLP × 程序分析提案](marginalia/003-notugly-s/note.zh.md) · [EN](marginalia/003-notugly-s/note.en.md) | 2026-08-15 | [#2](https://github.com/UniqueClouds/marginalia/issues/2) |
-| 004 | [CHI/ACL 是故事会吗？从社区吐槽到可测量的构念](marginalia/004-storytelling-quantified/note.zh.md) · [EN](marginalia/004-storytelling-quantified/note.en.md) · [原始文档](marginalia/004-storytelling-quantified/docs/storytelling-survey.zh.md) | 2026-08-15 | [#7](https://github.com/UniqueClouds/marginalia/issues/7) |
-| 005 | [四种学科的声音：BDS/HCI/Sociology/SE 经典论文的语言风格测量（314 篇/330 万词）](marginalia/005-discipline-style-voices/note.zh.md) · [EN](marginalia/005-discipline-style-voices/note.en.md) · [完整报告](marginalia/005-discipline-style-voices/reports/05-cross-discipline.zh.md) | 2026-08-15 | [#11](https://github.com/UniqueClouds/marginalia/issues/11) |
+| 004 | [CHI/ACL 是故事会吗？从社区吐槽到可测量的构念](marginalia/004-storytelling-quantified/note.zh.md) · [EN](marginalia/004-storytelling-quantified/note.en.md) | 2026-08-15 | [#7](https://github.com/UniqueClouds/marginalia/issues/7) |
+| 005 | [四种学科的声音：BDS/HCI/Sociology/SE 经典论文的语言风格测量（314 篇/330 万词）](marginalia/005-discipline-style-voices/note.zh.md) · [EN](marginalia/005-discipline-style-voices/note.en.md) | 2026-08-15 | [#11](https://github.com/UniqueClouds/marginalia/issues/11) |
+
+## 制品（Artifacts）
+
+随想条目的原样伴随物——工作中的技能、原始文档、完整报告——以出生语言**原样发布**，不作翻译。各自住在所属条目目录里，但单独走自己的 PR；制品不需要 issue。
+
+| 制品 | 条目 | PR |
+|---|---|---|
+| `dourish-style` 润色技能（已被 `academic-voices` 取代） | [002](marginalia/002-writing-like-dourish/artifact.zh.md) | [#9](https://github.com/UniqueClouds/marginalia/pull/9) |
+| 故事会量化原始文档——调研 + 提案 v2 | [004](marginalia/004-storytelling-quantified/docs/storytelling-survey.zh.md) | [#10](https://github.com/UniqueClouds/marginalia/pull/10) |
+| 四学科风格五份完整报告 | [005](marginalia/005-discipline-style-voices/reports/05-cross-discipline.zh.md) | [#12](https://github.com/UniqueClouds/marginalia/pull/12) |
+| `academic-voices` 技能——五种实测风格、密度基线 + voice 分类器 | [005](marginalia/005-discipline-style-voices/artifact.zh.md) | [#13](https://github.com/UniqueClouds/marginalia/pull/13) |
 
 ## 语言
 

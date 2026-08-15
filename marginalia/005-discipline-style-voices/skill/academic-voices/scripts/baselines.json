@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "unit": "per-1000-words densities (avg_sent_len in words)",
+    "measured": "2026-08-15/16",
+    "dourish": "21 texts, 400,570 words (dourish_analysis/paras.json)",
+    "bds": "27 papers, 211,858 words (Big Data & Society / New Media & Society)",
+    "hci": "94 papers, 817,868 words (CHI / CSCW / PACMHCI)",
+    "soc": "79 papers, 1,105,574 words (AJS / ASR / BJS)",
+    "se": "114 papers, 1,166,765 words (ICSE / FSE / TSE / MSR)",
+    "source": "ZCodeProject/discipline_style_analysis/{metrics,moves}.json + dourish_analysis"
+  },
+  "voices": {
+    "dourish": {
+      "not simply...but": 0.93, "rather than": 0.82, "but rather": 0.41,
+      "there is/are": 0.799, "a set of": 0.964, "in other words": 0.192,
+      "we": 6.813, "I": 1.862, "our": 2.199,
+      "passive be+Ved": 8.473, "contraction": 0.147,
+      "semicolon": 4.204, "em-dash": 3.278, "open-curly-quote": 3.128,
+      "question marks": 1.078,
+      "hedge may": 0.956, "hedge might": 2.002, "hedge suggest": 0.811,
+      "increasingly": 0.15, "consistent with": 0.025,
+      "this article": 0.047, "this paper": 0.115, "In this paper, we": 0.042,
+      "in terms of": 0.47, "avg_sent_len": 23.9,
+      "ways in which": 1.05, "that is,": 0.34, "in the course of": 0.13,
+      "sorts/kinds of": 2.15, "practice(s)": 3.22, "everyday": 1.0,
+      "encounter(s)": 0.71, "mundane": 0.09, "achieve/achievement": 0.47,
+      "materiality": 0.18, "perhaps/arguably": 0.63
+    },
+    "bds": {
+      "not simply...but": 0.288, "rather than": 0.514, "but rather": 0.113,
+      "there is/are": 0.835, "a set of": 0.094, "in other words": 0.019,
+      "we": 3.776, "I": 1.161, "our": 1.341,
+      "passive be+Ved": 8.35, "contraction": 0.0,
+      "semicolon": 4.63, "em-dash": 1.676, "open-curly-quote": 2.615,
+      "question marks": 0.689,
+      "hedge may": 1.558, "hedge might": 0.694, "hedge suggest": 0.741,
+      "increasingly": 0.359, "consistent with": 0.028,
+      "this article": 0.316, "this paper": 0.099, "In this paper, we": 0.047,
+      "in terms of": 0.349, "avg_sent_len": 26.8
+    },
+    "hci": {
+      "not simply...but": 0.152, "rather than": 0.355, "but rather": 0.064,
+      "there is/are": 1.004, "a set of": 0.136, "in other words": 0.007,
+      "we": 9.149, "I": 1.684, "our": 3.442,
+      "passive be+Ved": 7.207, "contraction": 0.271,
+      "semicolon": 2.256, "em-dash": 1.35, "open-curly-quote": 5.091,
+      "question marks": 0.73,
+      "hedge may": 1.664, "hedge might": 0.758, "hedge suggest": 0.879,
+      "increasingly": 0.116, "consistent with": 0.056,
+      "this article": 0.009, "this paper": 0.377, "In this paper, we": 0.166,
+      "in terms of": 0.231, "avg_sent_len": 23.7
+    },
+    "soc": {
+      "not simply...but": 0.161, "rather than": 0.328, "but rather": 0.045,
+      "there is/are": 1.026, "a set of": 0.085, "in other words": 0.043,
+      "we": 5.221, "I": 1.581, "our": 1.814,
+      "passive be+Ved": 6.465, "contraction": 0.74,
+      "semicolon": 4.42, "em-dash": 3.463, "open-curly-quote": 5.588,
+      "question marks": 0.611,
+      "hedge may": 1.369, "hedge might": 0.549, "hedge suggest": 0.651,
+      "increasingly": 0.097, "consistent with": 0.146,
+      "this article": 0.227, "this paper": 0.064, "In this paper, we": 0.034,
+      "in terms of": 0.236, "avg_sent_len": 23.6, "net of": 0.028
+    },
+    "se": {
+      "not simply...but": 0.085, "rather than": 0.199, "but rather": 0.021,
+      "there is/are": 1.026, "a set of": 0.255, "in other words": 0.002,
+      "we": 10.299, "I": 0.879, "our": 4.048,
+      "passive be+Ved": 8.224, "contraction": 0.116,
+      "semicolon": 2.33, "em-dash": 0.714, "open-curly-quote": 3.025,
+      "question marks": 0.849,
+      "hedge may": 1.457, "hedge might": 0.449, "hedge suggest": 0.568,
+      "increasingly": 0.05, "consistent with": 0.053,
+      "this article": 0.033, "this paper": 0.372, "In this paper, we": 0.182,
+      "in terms of": 0.253, "avg_sent_len": 18.8
+    }
+  }
+}
