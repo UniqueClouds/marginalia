@@ -19,3 +19,12 @@
 !/README.zh-CN.md
 !/marginalia/
 !/marginalia/**
+scripts/.env
+!/mkdocs.yml
+!/docs/
+!/docs/**
+!/.github/
+!/.github/**
+!/scripts/
+!/scripts/**
+/scripts/.env

@@ -39,6 +39,7 @@ issue:           N
 | 002 | [Writing like Dourish: a 21-text corpus analysis of a critical HCI voice (2004–2026)](marginalia/002-writing-like-dourish/note.en.md) · [中文](marginalia/002-writing-like-dourish/note.zh.md) | 2026-08-15 | [#3](https://github.com/UniqueClouds/marginalia/issues/3) |
 | 003 | [NOTUGLY-S: learning "not ugly" instead of "beautiful" — an NLP × program-analysis proposal](marginalia/003-notugly-s/note.en.md) · [中文](marginalia/003-notugly-s/note.zh.md) | 2026-08-15 | [#2](https://github.com/UniqueClouds/marginalia/issues/2) |
 | 004 | [Is CHI/ACL a storytelling festival? From community gripe to measurable construct](marginalia/004-storytelling-quantified/note.en.md) · [中文](marginalia/004-storytelling-quantified/note.zh.md) | 2026-08-15 | [#7](https://github.com/UniqueClouds/marginalia/issues/7) |
+| 006 | [Spotify Podcast Guide 2026 · 英文播客推荐清单（26 节目 / 46 集精选，全部官方链接）](marginalia/006-podcast-guide/artifact.zh.md) · [English](marginalia/006-podcast-guide/artifact.en.md) | 2026-08-17 | [#13](https://github.com/UniqueClouds/marginalia/issues/13) |
 | 005 | [Four academic voices, measured: language styles of BDS/HCI/Sociology/SE classics (314 papers, 3.3M words)](marginalia/005-discipline-style-voices/note.en.md) · [中文](marginalia/005-discipline-style-voices/note.zh.md) | 2026-08-15 | [#11](https://github.com/UniqueClouds/marginalia/issues/11) |
 
 ## Artifacts

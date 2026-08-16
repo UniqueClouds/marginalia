@@ -1,0 +1,5 @@
+/* Marginalia 站点微调 */
+@media (max-width: 1000px) {
+  .md-content table { display: block; overflow-x: auto; }
+}
+.md-typeset img { border-radius: 8px; }

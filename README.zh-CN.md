@@ -39,6 +39,7 @@ issue:           N
 | 002 | [像 Dourish 那样写作：21 篇文本的语料分析（2004–2026）](marginalia/002-writing-like-dourish/note.zh.md) · [EN](marginalia/002-writing-like-dourish/note.en.md) | 2026-08-15 | [#3](https://github.com/UniqueClouds/marginalia/issues/3) |
 | 003 | [NOTUGLY-S：学"不丑"而非"美"——NLP × 程序分析提案](marginalia/003-notugly-s/note.zh.md) · [EN](marginalia/003-notugly-s/note.en.md) | 2026-08-15 | [#2](https://github.com/UniqueClouds/marginalia/issues/2) |
 | 004 | [CHI/ACL 是故事会吗？从社区吐槽到可测量的构念](marginalia/004-storytelling-quantified/note.zh.md) · [EN](marginalia/004-storytelling-quantified/note.en.md) | 2026-08-15 | [#7](https://github.com/UniqueClouds/marginalia/issues/7) |
+| 006 | [Spotify Podcast Guide 2026 · 英文播客推荐清单（26 节目 / 46 集精选，全部官方链接）](marginalia/006-podcast-guide/artifact.zh.md) · [English](marginalia/006-podcast-guide/artifact.en.md) | 2026-08-17 | [#13](https://github.com/UniqueClouds/marginalia/issues/13) |
 | 005 | [四种学科的声音：BDS/HCI/Sociology/SE 经典论文的语言风格测量（314 篇/330 万词）](marginalia/005-discipline-style-voices/note.zh.md) · [EN](marginalia/005-discipline-style-voices/note.en.md) | 2026-08-15 | [#11](https://github.com/UniqueClouds/marginalia/issues/11) |
 
 ## 制品（Artifacts）

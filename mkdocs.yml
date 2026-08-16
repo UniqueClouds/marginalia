@@ -1,0 +1,49 @@
+site_name: Marginalia
+site_description: Selective research & reading notes · 选择性研究与阅读笔记（双语）
+site_url: https://uniqueclouds.github.io/marginalia/
+repo_url: https://github.com/UniqueClouds/marginalia
+copyright: CC BY-NC 4.0 · UniqueClouds
+
+theme:
+  name: material
+  language: zh
+  palette:
+    scheme: default
+    primary: green
+    accent: orange
+  features:
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+markdown_extensions:
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+
+extra_css:
+  - assets/extra.css
+
+nav:
+  - 🏠 首页: index.md
+  - 播客清单 · Podcast Guide:
+      - 🎧 清单全文: podcast-guide/index.md
+      - 📦 数据下载: podcast-guide/data.md
+  - 条目 Entries:
+      - 001 · 编码代理有品味吗: entries/001-code-taste-discord.zh.md
+      - 002 · 像 Dourish 一样写作: entries/002-writing-like-dourish.zh.md
+      - 003 · NOTUGLY-S: entries/003-notugly-s.zh.md
+      - 004 · CHI/ACL 故事会量化: entries/004-storytelling-quantified.zh.md
+      - 005 · 四学科学术声音: entries/005-discipline-style-voices.zh.md
