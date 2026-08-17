@@ -15,6 +15,7 @@
 
 # --- whitelist: repo meta & curated marginalia notes only ---
 !/.gitignore
+!/AGENTS.md
 !/README.md
 !/README.zh-CN.md
 !/marginalia/
