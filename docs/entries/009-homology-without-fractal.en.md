@@ -1,72 +1,85 @@
-# Borrowed the Boundary, Not the Fractal — a reading note on Benz et al., Homologies in Fields of Cultural Production (Poetics 2024)
+# Homologies in Fields of Cultural Production. Evidence from the European Scientific Field — a reading note: borrowed the boundary, not the fractal
 
 <div class="lang-switch" markdown>
 🌐 Language / 语言：[中文](009-homology-without-fractal.zh.md) · **English**
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-009-en</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Borrowed the Boundary, Not the Fractal — a reading note on Benz et al., Homologies in Fields of Cultural Production (Poetics 2024)</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-17</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-17</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>note (paper reading note)</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>17</td></tr></table></details>
+<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-009-en</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Homologies in Fields of Cultural Production. Evidence from the European Scientific Field — a reading note: borrowed the boundary, not the fractal</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-17</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-17</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>note (paper reading note)</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>17</td></tr></table></details>
 
 
-# Borrowed the Boundary, Not the Fractal — a reading note on Benz et al. (Poetics 2024)
+# *Homologies in Fields of Cultural Production. Evidence from the European Scientific Field* — a reading note: borrowed the boundary, not the fractal
 
 > Putting two "fields" side by side always brings you back to one question: is it resemblance, isomorphism, or homology; and at which scale does it run.
 
-## Musing
+## The paper itself
+
+- **Source**: *Poetics* vol. 107 (2024), article 101945; doi:10.1016/j.poetic.2024.101945. CC-BY open access; the LSE Research Online mirror hosts a clean published PDF.
+- **Authors**: Pierre Benz (École de bibliothéconomie et des sciences de l'information, Université de Montréal), Kristoffer Kropp and Trine Cosmus Nobel (Department of Social Sciences and Business, Roskilde University), Thierry Rossier (LIVES, University of Lausanne; Sociology, LSE).
+- **Keywords (as the paper tags itself)**: Disciplines · Fields · Homology · Autonomy · Topics · Culture.
+
+### Abstract (quoted verbatim)
+
+> This article suggests a comparative field analytical approach to fields of cultural production. Combining concepts from field analysis and focusing on homology with topic modeling and multiple correspondence analysis, we compare four scientific disciplines and show homological structures along both internal and external principles of differentiation. The empirical analysis suggests that despite major differences between the four disciplines (biology, chemistry, economics, and sociology), they are structured along similar principles. Moreover, cognitive distinctions in certain disciplines can be correlated with institutional properties and symbolic hierarchies. Despite the similarities, the analysis also shows important differences between the four disciplines related to internal organization and their relations to both other scientific disciplines and the field of power. The article shows how topic modeling and multiple correspondence analysis can cross-fertilize to understand how fields of cultural production differentiate and how cultural practices (here scientific knowledge production) relate to social structures (here academic hierarchies and prestige). The method hence allows for comparison between fields of cultural production while retaining a nuanced analysis of specific fields and the practices that constitute them.
+
+One-sentence compression: **graft LDA topic modeling and multiple correspondence analysis (MCA) onto field analysis, compare four scientific disciplines, and show that they share structural form (homology) — but the depth and the weight of the "internal/external" principles of differentiation vary across disciplines.**
+
+### Data and method skeleton
+
+- **Data**: 12,206 ERC (European Research Council) grants + 200,576 associated publications. An ERC grant abstract is the PI declaring what they will do — used as a proxy for position-takings; publications are classified via Scopus's 27 major fields / 300+ minor fields.
+- **Method**: **LDA topic modeling** grows a topic space; **MCA (multiple correspondence analysis, a branch of geometric data analysis)** projects topics alongside supplementary variables (journal discipline, ERC panel, high-ranked journal, supportive organisation, most-funded).
+- **The three measurable principles of homology** (the paper's own operationalization):
+
+  1. **position-takings ↔ positions** — whether the topic space is structured by disciplinary affiliations;
+  2. **relative autonomy from neighbouring disciplines** — whether a discipline's main axis is dominated by its relation to adjacent ones;
+  3. **interaction with the field of power** — whether external power-field pressures (funding priorities, recognition regimes of high-cited journals) are projected within the discipline.
+
+  Once both main axes are computed for each discipline, the horizontal axis collapses onto the same pair everywhere: **autonomy ↔ heteronomy** — the hidden protagonist sitting in the middle of the paper.
+
+### Empirical findings per discipline (§5.1–5.4)
+
+**Biology §5.1**: the first axis is field-specific — functional biology on the left, evolutionary biology on the right (the Mayr 1961 dual), with high-ranked journals pinned to functional biology; strongest homology.
+
+![Fig. 3 · space of topics in biology](/assets/entries/009-homology-without-fractal/fig3-biology.png)
+*Fig. 3 · the space of topics in biology (taken from p. 8 of the paper)*
+
+**Chemistry §5.2**: the first axis is *not* field-specific — left electronic / energy / semiconductor (PE8 engineering, PE3 condensed-matter physics), right cell / disease / protein (bleeding into biology); the disciplinary boundary is looser than biology's.
+
+![Fig. 4 · space of topics in chemistry](/assets/entries/009-homology-without-fractal/fig4-chemistry.png)
+*Fig. 4 · the space of topics in chemistry (taken from p. 9 of the paper)*
+
+**Economics §5.3**: first axis = autonomous vs heteronomous — heteronomous pole productivity / growth / business / firm / inequality responds to political-economic demand; autonomous pole model / equilibrium / inference / contract is the microeconomic vocabulary; the topic axis does *not* correspond to disciplinary affiliation — captured by the field of power.
+
+![Fig. 5 · space of topics in economics](/assets/entries/009-homology-without-fractal/fig5-economics.png)
+*Fig. 5 · the space of topics in economics (taken from p. 10 of the paper)*
+
+**Sociology §5.4**: first axis = autonomous vs heteronomous as well — left culture / global / social (autonomous), right citizen / party / opinion (political sociology / political science); but political-science and sociology journals are bundled together and spread evenly, so no stable hierarchy can be recovered — the paper's verdict is "dissolved."
+
+![Fig. 6 · space of topics in sociology](/assets/entries/009-homology-without-fractal/fig6-sociology.png)
+*Fig. 6 · the space of topics in sociology (taken from p. 11 of the paper)*
+
+### Closing Table 2, made compact
+
+| Discipline | Main axis | Second axis | homology status |
+|---|---|---|---|
+| Biology | topics↔disciplines | autonomy vs other disciplines | **strong** homology |
+| Chemistry | autonomy vs other disciplines | topics↔disciplines | **moderate** homology |
+| Economics | autonomy vs field of power | autonomy, no topics↔disciplines | **heteronomous** |
+| Sociology | autonomy vs other disciplines | autonomy vs other disciplines | **dissolved** |
+
+"Dissolved" is the paper's word for sociology floating in the topic space and never recovering a stable hierarchy. In Table 2, sociology's two columns are both autonomy-only — the discipline is compressed down to the single dimension "where it sits relative to the others."
+
+## Reading note: borrowed the boundary, not the fractal
 
 The pleasure of this paper is not in what it solves but in the small move it does not make. Benz et al. neatly hang Andrew Abbott's "boundary + disciplinary chaos" pair — the 1995 *Things of Boundaries* and the 2001 *Chaos of Disciplines* — on their reference shelf, yet in sixteen pages of body the **mechanism that is genuinely Abbott's, namely fractal distinction (the same cleavage reproducing itself across recursive scales), is never switched on.** I ran a cheap check: pulled the PDF into plain text and grepped the whole document for `fractal`, `recursive`, `self-similar`, `nested`, `linked ecolog` — **zero hits.**
 
 That is not a sign the paper is wrong — it is a sign that they borrowed Abbott's "boundary" skin and left his "fractal" blade in its sheath. As a result the paper's verdict, "partial homology," sits frozen on a static ladder: four disciplines graded strong-to-dissolved, then a stop. So a marginalia entry is exactly the right shape for what I want to record: a switch that was already present, inside the paper, that no one pressed.
 
-## The paper
-
-- **Source**: *Poetics* vol. 107 (2024), article 101945; doi:10.1016/j.poetic.2024.101945. CC-BY open access; the LSE Research Online mirror hosts a clean published PDF.
-- **Authors**: Pierre Benz (École de bibliothéconomie et des sciences de l'information, Université de Montréal), Kristoffer Kropp and Trine Cosmus Nobel (Department of Social Sciences and Business, Roskilde University), Thierry Rossier (LIVES, University of Lausanne; Sociology, LSE).
-- **Method skeleton**: they treat ERC (European Research Council) grant abstracts as carriers of "disciplinary position-takings," run **LDA topic modeling** to grow a topic space, then **MCA (multiple correspondence analysis, a branch of geometric data analysis)** to project topics alongside supplementary variables (journal discipline, ERC panel, high-ranked journal, supportive organisation, most-funded); and finally compare the "axis 1 + axis 2" pair across four disciplines (biology, chemistry, economics, sociology).
-- **Data scale**: 12,206 ERC grants + 200,576 associated publications. This is a genuine "field analysis × scientometrics" graft — not yet another LDA paper.
-
-## What they make "homology" do
-
-Two lines should be kept apart before reading on:
-
-- **homology** — Bourdieu's usage (1979:547 / 1989:384): the same principle of vision and division recurring across different fields. It runs **horizontally**: discipline vs discipline;
-- **isomorphism** — the new-institutionalist usage. Wang 2016 has carefully cut this conceptual pair apart, and the entry is clean on Benz's reference list, yet **the body text never cuts the term** — `isomorph` only appears in the body as a word inside the Wang 2016 reference entry; the prose of the paper does not use it.
-
-This is a deliberate terminological narrowing: they want a *comparably empirical* operational concept (homology) without loading the structural-isomorphism baggage that comes with isomorphism. Worth marking.
-
-Their operational "homology" is decomposed into three measurable principles:
-
-1. **position-takings ↔ positions** — whether the topic space is structured by disciplinary affiliations (how strongly topics correspond to disciplines);
-2. **relative autonomy from neighbouring disciplines** — whether a discipline's topic axis is dominated by its relation to adjacent ones;
-3. **interaction with the field of power** — whether external power-field pressures (funding priorities, recognition regimes of high-cited journals) are projected within the discipline.
-
-The two main axes that come out of measuring the three principles all collapse onto the same pair: **autonomy ↔ heteronomy.** That dichotomy is the never-named but always-there central axis of the paper.
-
-## Translating their claims
-
-1. **ERC abstracts are a legitimate vehicle for field analysis**: ERC is a common European arena, cross-comparable; abstracts are PIs declaring what they will do — a proxy for position-takings, not for the totality of a discipline.
-2. **Which layer homology runs on is the question**: Bourdieu's homology in *Distinction* marks the correspondence of position ↔ position-taking; this paper stretches it into "shared vision/division across fields" — a use case of GDA that has been available but underused (Schmidt-Wellenburg & Lebaron 2018:26 already flagged this).
-3. **The horizontal axis collapses to autonomy/heteronomy**: across all four disciplines, both axes of interpretation ultimately fall onto this same pair — differing only in which one sits at axis 1 and which at axis 2.
-4. **Partial homology**: the four disciplines are not equally "homologous" but graded — biology strong, chemistry next, chemistry standardized, economics dragged off by the field of power, sociology "dissolved."
-5. **Their clean closing table (Table 2)**:
-
-   | Discipline | Main axis | Second axis | homology status |
-   |---|---|---|---|
-   | Biology | topics↔disciplines | autonomy vs other disciplines | **strong** homology |
-   | Chemistry | autonomy vs other disciplines | topics↔disciplines | **moderate** homology |
-   | Economics | autonomy vs field of power | autonomy, no topics↔disciplines | **heteronomous** |
-   | Sociology | autonomy vs other disciplines | autonomy vs other disciplines | **dissolved** |
-
-   "Dissolved" is the paper's word for sociology floating in the topic space and never recovering a stable hierarchy. In Table 2, sociology's two columns are both autonomy-only — the discipline is compressed down to the single dimension "where it sits relative to the others."
-
-6. **Biology under the lens is an empirical specimen for Abbott**: the biology axis-1 is topics↔disciplines; axis-2 is autonomy; high-ranked journals are pinned to functional biology; the paper cites Mayr 1961 to make the "functional vs evolutionary" substructure explicit — this is already an empirical version of "the same cleavage recurs at lower scales," i.e. Abbott's fractal distinction. The paper is standing within half a step of the fractal framing and does not take that step.
-
-## A few tensions I kept circling
-
-This marginalia is not a polemic, but three tensions sat with me after the last page:
+### A few tensions I kept circling
 
 - **Borrowed the boundary, not the fractal.** Abbott 1995 and 2001 are in the reference list; in the body, Abbott is invoked in §1 only to the extent that "disciplines are bounded, transgressive objects" — a soft citation. The genuine Abbott mechanism — the same cleavage reproducing itself at recursive scales — is not present. The paper can only deliver "partial homology" as a static four-level grading because it does not engage the one mechanism that would explain *why depths differ*.
 - **Wang 2016 is on the shelf, never cut.** Wang's piece doing the homology-vs-isomorphism cut is referenced, but the body never takes the theoretical consequence that cut implies — the paper's "homology" tilts toward "seeing similar principles across fields" and never walks down to the deeper, structurally-isomorphic institutional layer that the contrast would have opened up.
 - **autonomy/heteronomy is the hidden protagonist.** The third principle measures it directly, but more importantly Table 2 puts it at the centre of all four disciplines' interpretations — only the paper never names it as Abbott would, as a "fractal depth." Reading this I kept hearing one line in my head: **homology runs on the horizontal axis; the fractal could have run on the vertical.**
+- **Biology under the lens is an empirical specimen for Abbott.** Biology axis-1 is topics↔disciplines; axis-2 is autonomy; high-ranked journals are pinned to functional biology; the paper cites Mayr 1961 to make the "functional vs evolutionary" substructure explicit — this is already an empirical version of "the same cleavage recurs at lower scales," i.e. Abbott's fractal distinction. The paper is standing within half a step of the fractal framing and does not take that step.
 
 ## Sentences I kept
 

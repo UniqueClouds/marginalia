@@ -82,7 +82,7 @@
 
     ---
 
-    借了边界，没借分形——读 Benz 等《文化生产场中的同构：来自欧洲科学场的证据》（Poetics 2024）
+    Homologies in Fields of Cultural Production. Evidence from the European Scientific Field — 读记：借了边界，没借分形
 
     [中文版](entries/009-homology-without-fractal.zh.md) · [English](entries/009-homology-without-fractal.en.md)
 

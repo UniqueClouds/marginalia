@@ -60,6 +60,58 @@ files directly. When you add a new page: add its sibling + toggle in the same
 commit, wire both into `mkdocs.yml` nav (🌐 English group mirrors the Chinese
 nav).
 
+## Note-title rule — keep paper titles in their original language
+
+When a note is a **reading note on a specific paper (or book)**, the
+note's YAML `title:` and the H1 of `note.zh.md` / `note.en.md` **must
+keep the work's original title verbatim in its source language** (typically
+English for most journal articles / ML books, sometimes the original
+Chinese / French, etc.). Do **not** translate or paraphrase the paper's
+title into the other language — not in the YAML `title:`, not in the H1,
+not in the `mkdocs.yml` nav label.
+
+Reasoning: a translated title is untraceable — readers can't find the
+underlying paper by the Chinese name you invented for it. We keep the
+original title as the anchor and append a free-form gloss / hook in the
+note's working language:
+
+- `title: "Homologies in Fields of Cultural Production. Evidence from the European Scientific Field — 读记：借了边界，没借分形"`
+- `title: "How to Scale Your Model — reading note: LLM training taken from alchemy to a roofline accounting"`
+
+The `— <gloss>` suffix carries the agent's framing (what the note is
+*about* in one phrase); the part **before** the em dash is the paper's
+own title and stays untouched across both language versions.
+
+In `mkdocs.yml` nav the entry label should still show the paper title
+(prominently enough to be findable): e.g.
+`009 · Homologies in fields of cultural production`. Keep nav labels
+short enough to render — but never at the cost of dropping the actual
+paper title.
+
+## Figures rule — `figs/` + site-absolute image paths
+
+To embed a figure (PDF page render, chart, diagram) in a note:
+
+1. Drop the image into `marginalia/NNN-slug/figs/<name>.png` (source of truth,
+   kept under version control as provenance; `.png`/`.jpg`/`.jpeg`/`.gif`/
+   `.svg`/`.webp` accepted).
+2. In `note.zh.md` / `note.en.md` reference it with a **site-absolute** path:
+
+   ```md
+   ![Fig. 3 · biology](/assets/entries/009-homology-without-fractal/fig3-biology.png)
+   ```
+
+   The leading slash is resolved by MkDocs against the site root
+   (`/marginalia/`), independent of where the generated page sits.
+3. `scripts/build_site_pages.py` copies every `marginalia/NNN-slug/figs/*`
+   image into `docs/assets/entries/NNN-slug/` on regen — so the path above
+   resolves on the built site. Do **not** hand-copy images into `docs/`;
+   always run the regen loop.
+
+Do **not** use the legacy relative `figs/xxx.png` form — it broke on the
+generated page because the source `figs/` dir is not under `docs/`. The
+site-absolute `/assets/entries/...` form is the only supported one.
+
 ## Icon rule — emoji, never shortcodes
 
 Use Unicode emoji (`📖`, `🎧`, `🌐`, `🐙`). Do **not** use `:material-*:`
