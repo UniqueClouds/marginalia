@@ -50,22 +50,22 @@ One-sentence compression: **graft LDA topic modeling and multiple correspondence
 
 **Biology §5.1**: the first axis is field-specific — functional biology on the left, evolutionary biology on the right (the Mayr 1961 dual), with high-ranked journals pinned to functional biology; strongest homology.
 
-![Fig. 3 · space of topics in biology](/assets/entries/009-homology-without-fractal/fig3-biology.png)
+![Fig. 3 · space of topics in biology](../assets/entries/009-homology-without-fractal/fig3-biology.png)
 *Fig. 3 · the space of topics in biology (taken from p. 8 of the paper)*
 
 **Chemistry §5.2**: the first axis is *not* field-specific — left electronic / energy / semiconductor (PE8 engineering, PE3 condensed-matter physics), right cell / disease / protein (bleeding into biology); the disciplinary boundary is looser than biology's.
 
-![Fig. 4 · space of topics in chemistry](/assets/entries/009-homology-without-fractal/fig4-chemistry.png)
+![Fig. 4 · space of topics in chemistry](../assets/entries/009-homology-without-fractal/fig4-chemistry.png)
 *Fig. 4 · the space of topics in chemistry (taken from p. 9 of the paper)*
 
 **Economics §5.3**: first axis = autonomous vs heteronomous — heteronomous pole productivity / growth / business / firm / inequality responds to political-economic demand; autonomous pole model / equilibrium / inference / contract is the microeconomic vocabulary; the topic axis does *not* correspond to disciplinary affiliation — captured by the field of power.
 
-![Fig. 5 · space of topics in economics](/assets/entries/009-homology-without-fractal/fig5-economics.png)
+![Fig. 5 · space of topics in economics](../assets/entries/009-homology-without-fractal/fig5-economics.png)
 *Fig. 5 · the space of topics in economics (taken from p. 10 of the paper)*
 
 **Sociology §5.4**: first axis = autonomous vs heteronomous as well — left culture / global / social (autonomous), right citizen / party / opinion (political sociology / political science); but political-science and sociology journals are bundled together and spread evenly, so no stable hierarchy can be recovered — the paper's verdict is "dissolved."
 
-![Fig. 6 · space of topics in sociology](/assets/entries/009-homology-without-fractal/fig6-sociology.png)
+![Fig. 6 · space of topics in sociology](../assets/entries/009-homology-without-fractal/fig6-sociology.png)
 *Fig. 6 · the space of topics in sociology (taken from p. 11 of the paper)*
 
 ### Closing Table 2, made compact

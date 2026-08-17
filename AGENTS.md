@@ -95,22 +95,36 @@ To embed a figure (PDF page render, chart, diagram) in a note:
 1. Drop the image into `marginalia/NNN-slug/figs/<name>.png` (source of truth,
    kept under version control as provenance; `.png`/`.jpg`/`.jpeg`/`.gif`/
    `.svg`/`.webp` accepted).
-2. In `note.zh.md` / `note.en.md` reference it with a **site-absolute** path:
+2. In `note.zh.md` / `note.en.md` reference it with a path **relative to the
+   `.md` source file's own directory** (i.e. relative to `docs/entries/`):
 
    ```md
-   ![Fig. 3 · biology](/assets/entries/009-homology-without-fractal/fig3-biology.png)
+   ![Fig. 3 · biology](../assets/entries/009-homology-without-fractal/fig3-biology.png)
    ```
 
-   The leading slash is resolved by MkDocs against the site root
-   (`/marginalia/`), independent of where the generated page sits.
+   Use a **single** `../` here. Two `../` steps causes mkdocs 1.6 link
+   validation to warn `contains a link ... not found` (validation runs from
+   the source `.md`'s directory, where one `../` already lands on `docs/`).
+   At render time mkdocs prepends the extra `../` itself, because with
+   `use_directory_urls: true` the page renders as
+   `site/entries/NNN-slug.{zh,en}/index.html` — so the emitted `<img src>`
+   ends up as `../../assets/...` and resolves correctly on the built site.
+
+   Do **not** use a single leading-slash "absolute" path like `/assets/...`:
+   this site is deployed at a GitHub Pages **subpath**
+   (`/marginalia/`, see `site_url`), and a single leading slash is resolved
+   by the browser against the Pages root
+   (`https://uniqueclouds.github.io/assets/...`) — not against the site
+   root — and returns 404. (We hit exactly this on entry 009's Fig.3–6:
+   `/assets/...` built clean but rendered 404 live.)
 3. `scripts/build_site_pages.py` copies every `marginalia/NNN-slug/figs/*`
    image into `docs/assets/entries/NNN-slug/` on regen — so the path above
    resolves on the built site. Do **not** hand-copy images into `docs/`;
    always run the regen loop.
 
-Do **not** use the legacy relative `figs/xxx.png` form — it broke on the
-generated page because the source `figs/` dir is not under `docs/`. The
-site-absolute `/assets/entries/...` form is the only supported one.
+Do **not** use the legacy relative `figs/xxx.png` form either — it broke on
+the generated page because the source `figs/` dir is not under `docs/`. The
+single-`../` `../assets/entries/...` form is the only supported one.
 
 ## Icon rule — emoji, never shortcodes
 
