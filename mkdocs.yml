@@ -87,6 +87,7 @@ nav:
       - 003 · NOTUGLY-S: entries/003-notugly-s.zh.md
       - 004 · CHI/ACL 故事会量化: entries/004-storytelling-quantified.zh.md
       - 005 · 四学科学术声音: entries/005-discipline-style-voices.zh.md
+      - 008 · LLM Scaling 摘记: entries/008-llm-scaling-book.zh.md
   - 🌐 English:
       - Home: index.en.md
       - About: about.en.md
@@ -96,3 +97,4 @@ nav:
       - 003 · NOTUGLY-S: entries/003-notugly-s.en.md
       - 004 · Storytelling quantified: entries/004-storytelling-quantified.en.md
       - 005 · Discipline voices: entries/005-discipline-style-voices.en.md
+      - 008 · LLM Scaling note: entries/008-llm-scaling-book.en.md

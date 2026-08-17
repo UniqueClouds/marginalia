@@ -62,6 +62,14 @@ Each one is distilled through **issue → PR → squash commit**; bilingual (Eng
 
     [中文](entries/005-discipline-style-voices.zh.md) · [English](entries/005-discipline-style-voices.en.md)
 
+- 📖 **ENTRY 008** · 2026-08-17
+
+    ---
+
+    How to Scale Your Model — reading note: LLM training taken from alchemy to a roofline accounting (JAX-ML scaling book)
+
+    [中文](entries/008-llm-scaling-book.zh.md) · [English](entries/008-llm-scaling-book.en.md)
+
 - 🎧 **ENTRY 006 · ARTIFACT** · 2026-08-17
 
     ---
