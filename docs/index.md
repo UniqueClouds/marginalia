@@ -70,6 +70,14 @@
 
     [中文版](entries/008-llm-scaling-book.zh.md) · [English](entries/008-llm-scaling-book.en.md)
 
+- 📖 **ENTRY 009** · 2026-08-17
+
+    ---
+
+    借了边界，没借分形——读 Benz 等《文化生产场中的同构：来自欧洲科学场的证据》（Poetics 2024）
+
+    [中文版](entries/009-homology-without-fractal.zh.md) · [English](entries/009-homology-without-fractal.en.md)
+
 - 🎧 **ENTRY 006 · ARTIFACT** · 2026-08-17
 
     ---
