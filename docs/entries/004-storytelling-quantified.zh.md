@@ -58,5 +58,5 @@ M1–M5：编码方案 + 500 图金标 → 25 万图普查 → 回报分解 → 
 
 ---
 
-> 🌐 [Read this note in English](004-storytelling-quantified.en/)
+> 🌐 [Read this note in English](004-storytelling-quantified.en.md)
 

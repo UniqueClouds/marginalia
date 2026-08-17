@@ -1,5 +1,52 @@
-/* Marginalia 站点微调 */
+/* Marginalia 站点微调 — 书页边注气质（墨蓝 primary + 琥珀 accent） */
+
 @media (max-width: 1000px) {
-  .md-content table { display: block; overflow-x: auto; }
+  .md-content table {
+    display: block;
+    overflow-x: auto;
+  }
 }
-.md-typeset img { border-radius: 8px; }
+
+.md-typeset img {
+  border-radius: 8px;
+}
+
+/* 首页 hero 区 */
+.marg-hero {
+  padding: 1.6rem 1.8rem 1.3rem;
+  margin: .2rem 0 1.6rem;
+  border: 1px solid var(--md-default-fg-color--lightest, #dfe3e7);
+  border-left: 5px solid var(--md-accent-fg-color, #ffb300);
+  border-radius: 10px;
+  background:
+    linear-gradient(180deg, var(--md-default-bg-color, #fff) 0%,
+      rgba(96, 125, 139, 0.04) 100%);
+}
+.marg-hero > p:first-of-type {
+  font-size: 1.28rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin: 0 0 .35rem;
+}
+.marg-hero em {
+  display: block;
+  font-style: italic;
+  color: var(--md-default-fg-color--light, #607076);
+  font-size: .92rem;
+  margin: 0 0 .75rem;
+}
+.marg-hero sub {
+  font-size: .82rem;
+  color: var(--md-default-fg-color--light, #607076);
+}
+.marg-hero sub a { font-weight: 500; }
+
+/* grid cards 让卡片更松一点、标题够显眼 */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .cards > ul > li {
+  border-radius: 10px;
+}
+.md-typeset .grid.cards > ul > li p:nth-child(3),
+.md-typeset .grid > .cards > ul > li p:nth-child(3) {
+  font-weight: 600;
+}

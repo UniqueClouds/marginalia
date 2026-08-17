@@ -63,4 +63,4 @@ Proposal v1.1 (cross-lingual design + notugly2 validation), toy prototypes, and 
 
 ---
 
-> 🌐 [阅读中文版](003-notugly-s.zh/)
+> 🌐 [阅读中文版](003-notugly-s.zh.md)

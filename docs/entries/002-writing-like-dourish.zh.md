@@ -59,5 +59,5 @@ PyMuPDF 版面块提取 → 去参考文献 → 段落语料（`paras.json`）�
 
 ---
 
-> 🌐 [Read this note in English](002-writing-like-dourish.en/)
+> 🌐 [Read this note in English](002-writing-like-dourish.en.md)
 

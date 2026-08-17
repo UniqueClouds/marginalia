@@ -59,6 +59,6 @@ Companions to the entries above, published **verbatim** — live skills, origina
 
 Every **note** exists twice — `*.en.md` and `*.zh.md`, same content, neither an afterthought. Verbatim **artifacts** (skills, original source documents) are published as-is, in whatever language they were born in: switch to [中文版 README](README.zh-CN.md).
 
----
+## License
 
-Personal research notes — no license granted yet; please ask before reuse.
+The contents of this repository and the [website](https://uniqueclouds.github.io/marginalia/) — the entry notes, reports, the podcast guide — are licensed under **[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)**. You're free to share and adapt for any non-commercial purpose, as long as you credit the source; commercial use requires prior permission. The underlying data corpora are not redistributed here and remain governed by their original sources (each entry's `sources` field cites them).

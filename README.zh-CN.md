@@ -60,6 +60,6 @@ issue:           N
 
 每篇**笔记**都存在两份——`*.en.md` 与 `*.zh.md`，内容相同，互不将就；**artifact**（技能、原始文档）则原样收录，保留出生语言：切换到 [English README](README.md)。
 
----
+## 许可
 
-个人科研笔记——暂未授权任何许可，转载/引用前请先询问。
+本仓库及[网站](https://uniqueclouds.github.io/marginalia/)的内容物——条目笔记、报告、播客清单——均按 **[知识共享署名-非商业性使用 4.0 国际 (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)** 提供：署名即可用于任何非商业目的，商业使用需先取得许可。底层语料本身不在仓库中分发，仍受各自原始来源管辖（每条条目的 `sources` 字段已注明）。

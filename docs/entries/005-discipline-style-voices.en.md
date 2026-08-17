@@ -62,4 +62,4 @@ Same pipeline as 002: PyMuPDF block-level paragraph extraction → drop referenc
 
 ---
 
-> 🌐 [阅读中文版](005-discipline-style-voices.zh/)
+> 🌐 [阅读中文版](005-discipline-style-voices.zh.md)

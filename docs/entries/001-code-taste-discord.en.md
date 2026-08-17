@@ -66,4 +66,4 @@ Door #0, already taken: → [NOTUGLY-S, musing 003](003-notugly-s.en.md), which 
 
 ---
 
-> 🌐 [阅读中文版](001-code-taste-discord.zh/)
+> 🌐 [阅读中文版](001-code-taste-discord.zh.md)

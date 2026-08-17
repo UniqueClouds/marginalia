@@ -1,22 +1,43 @@
 site_name: Marginalia
-site_description: Selective research & reading notes · 选择性研究与阅读笔记（双语）
+site_description: 选择性研究与阅读笔记 · Selective research & reading notes (bilingual)
 site_url: https://uniqueclouds.github.io/marginalia/
+repo_name: UniqueClouds/marginalia
 repo_url: https://github.com/UniqueClouds/marginalia
-copyright: CC BY-NC 4.0 · UniqueClouds
+edit_uri: ""
+
+copyright: Copyright &copy; 2026 Yunqi Chen · <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>
 
 theme:
   name: material
   language: zh
+  icon:
+    logo: material/book-open-variant
+    repo: fontawesome/brands/github
   palette:
-    scheme: default
-    primary: green
-    accent: orange
+    - scheme: default
+      primary: blue grey
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色
+    - scheme: slate
+      primary: blue grey
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色
   features:
     - navigation.top
     - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.expand
+    - navigation.path
     - search.suggest
     - search.highlight
     - content.code.copy
+    - content.tooltips
     - toc.follow
 
 plugins:
@@ -26,25 +47,49 @@ plugins:
         - en
 
 markdown_extensions:
+  - abbr
   - attr_list
+  - md_in_html
   - tables
-  - toc:
-      permalink: true
   - admonition
   - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - toc:
+      permalink: true
 
 extra_css:
   - assets/extra.css
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/UniqueClouds/marginalia
+      name: GitHub repo
+    - icon: fontawesome/brands/github
+      link: https://github.com/UniqueClouds
+      name: Author · Yunqi Chen
+
+# 条目附属文档（reports/ docs/）是条目正文引用的深链目标，有意不进主导航
+not_in_nav: |
+  entries/reports/*.md
+  entries/docs/*.md
+
 nav:
   - 🏠 首页: index.md
   - 📖 项目说明: about.md
-  - 播客清单 · Podcast Guide:
-      - 🎧 清单全文: podcast-guide/index.md
+  - 🎧 播客清单 · Podcast Guide:
+      - 清单全文: podcast-guide/index.md
       - 📦 数据下载: podcast-guide/data.md
-  - 条目 Entries:
+  - 📚 条目 Entries:
       - 001 · 编码代理有品味吗: entries/001-code-taste-discord.zh.md
-      - 002 · 像 Dourish 一样写作: entries/002-writing-like-dourish.zh.md
+      - 002 · 像 Dourish 那样写作: entries/002-writing-like-dourish.zh.md
       - 003 · NOTUGLY-S: entries/003-notugly-s.zh.md
       - 004 · CHI/ACL 故事会量化: entries/004-storytelling-quantified.zh.md
       - 005 · 四学科学术声音: entries/005-discipline-style-voices.zh.md
+  - 🌐 English:
+      - 001 · Code taste: entries/001-code-taste-discord.en.md
+      - 002 · Writing like Dourish: entries/002-writing-like-dourish.en.md
+      - 003 · NOTUGLY-S: entries/003-notugly-s.en.md
+      - 004 · Storytelling quantified: entries/004-storytelling-quantified.en.md
+      - 005 · Discipline voices: entries/005-discipline-style-voices.en.md

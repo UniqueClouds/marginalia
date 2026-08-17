@@ -78,7 +78,7 @@ def build_entries():
                     shutil.copy(f, os.path.join(dst, os.path.basename(f)))
         en_link = ""
         if os.path.exists(en_p):
-            en_link = f"\n\n---\n\n> 🌐 [Read this note in English]({num}-{slug.split('-',1)[1]}.en/)\n"
+            en_link = f"\n\n---\n\n> 🌐 [Read this note in English]({num}-{slug.split('-',1)[1]}.en.md)\n"
         body = rewrite_links(body, num, slug)
         out = f"# {title}\n\n{meta_table(front)}{body}{extra_html}{en_link}\n"
         open(os.path.join(DOCS, "entries", f"{num}-{slug.split('-',1)[1]}.zh.md"), "w", encoding="utf-8").write(out)
@@ -86,7 +86,7 @@ def build_entries():
         if os.path.exists(en_p):
             front2, body2 = strip_front(open(en_p, encoding="utf-8").read())
             body2 = rewrite_links(body2, num, slug)
-            out2 = f"# {title}\n\n{meta_table(front2)}{body2}\n\n---\n\n> 🌐 [阅读中文版]({num}-{slug.split('-',1)[1]}.zh/)\n"
+            out2 = f"# {title}\n\n{meta_table(front2)}{body2}\n\n---\n\n> 🌐 [阅读中文版]({num}-{slug.split('-',1)[1]}.zh.md)\n"
             open(os.path.join(DOCS, "entries", f"{num}-{slug.split('-',1)[1]}.en.md"), "w", encoding="utf-8").write(out2)
         idx.append((num, title, slug, entry_date))
         print("entry:", num, title[:40])
@@ -113,33 +113,50 @@ def build_podcast():
 def build_index(idx):
     cards = []
     for num, title, slug, entry_date in idx:
-        label = slug.split("-", 1)[1].replace("-", " ")
+        s = slug.split("-", 1)[1]
+        zh_url = f"entries/{num}-{s}.zh.md"
+        en_url = f"entries/{num}-{s}.en.md"
         cards.append(
-            f'<div style="border:1px solid #e0e0e0;border-radius:12px;padding:14px 16px;margin-bottom:10px;background:#fff;">'
-            f'<div style="color:#1DB954;font-weight:700;font-size:12px;">ENTRY {num} <span style="color:#999;font-weight:400;">· {entry_date}</span></div>'
-            f'<div style="font-weight:600;margin:4px 0;">{title}</div>'
-            f'<div style="font-size:12.5px;color:#666;">'
-            f'<a href="entries/{num}-{slug.split("-",1)[1]}.zh/">中文版</a> · '
-            f'<a href="entries/{num}-{slug.split("-",1)[1]}.en/">English</a></div></div>')
-    pod_card = ('<div style="border:1px solid #e0e0e0;border-radius:12px;padding:14px 16px;margin-bottom:10px;background:#fff;">'
-                '<div style="color:#1DB954;font-weight:700;font-size:12px;">ENTRY 006 · ARTIFACT <span style="color:#999;font-weight:400;">· 2026-08-17</span></div>'
-                '<div style="font-weight:600;margin:4px 0;">🎧 Spotify Podcast Guide · 英文播客推荐（26 节目 / 46 集精选）</div>'
-                '<div style="font-size:12.5px;color:#666;"><a href="podcast-guide/">进入播客清单</a> · '
-                '<a href="podcast-guide/data/shows.csv">数据 CSV</a></div></div>')
-    cards.append(pod_card)
+            f"- :material-book-open-outline: **ENTRY {num}** · {entry_date}\n\n"
+            f"    ---\n\n"
+            f"    {title}\n\n"
+            f"    [中文版]({zh_url}) · [English]({en_url})")
+    cards.append(
+        f"- :material-podcast: **ENTRY 006 · ARTIFACT** · 2026-08-17\n\n"
+        f"    ---\n\n"
+        f"    🎧 Spotify Podcast Guide · 英文播客推荐（26 节目 / 46 集精选）\n\n"
+            f"    [进入播客清单](podcast-guide/index.md) · [数据 CSV](podcast-guide/data/shows.csv)")
+    cards_str = "\n\n".join(cards)
     page = f"""# Marginalia
 
-> *mar·gin·a·li·a* (n.) — notes scribbled in the margins of a book; the traces a reader leaves behind.
+<div class="marg-hero" markdown>
 
-选择性研究与阅读笔记（双语发布，English / 中文）——每条笔记以 **issue → PR → squash commit** 的方式沉淀。
+**Marginalia** \u2014 书页边注，选择性研究与阅读笔记。
 
-## 条目索引
+*mar·gin·a·li·a* (n.) — notes scribbled in the margins of a book; the traces a reader leaves behind.
 
-{''.join(cards)}
+<sub>📖 [项目说明](about.md) · 🐙 [GitHub](https://github.com/UniqueClouds/marginalia) · 🌐 [English README](https://github.com/UniqueClouds/marginalia/blob/main/README.md)</sub>
 
-## 数据与方法
+</div>
 
-- 仓库：github.com/UniqueClouds/marginalia · 站点由 MkDocs Material 构建，push 自动部署。
+## 📚 条目 Entries
+
+每条以 **issue → PR → squash commit** 仪式沉淀；中英双语，开头带完整溯源元数据。
+
+<div class="grid cards" markdown>
+
+{cards_str}
+
+</div>
+
+## 关于这个站
+
+- 站点由 [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) 构建，push 到 `main` 即自动重新部署（见 [.github/workflows/deploy.yml](https://github.com/UniqueClouds/marginalia/blob/main/.github/workflows/deploy.yml)）。
+- **仓库刻意保持稀疏**：默认全部 `gitignore`，只有显式加入白名单的、精选过的笔记才会被提交——不会有随手的提交。
+- 数据复现：每条条目内的 `sources` 字段列出依据的本地语料与工具来源；原始语料本身不随仓库公开。
+- 📖 详见 [项目说明](about.md) · 🐙 在 [GitHub](https://github.com/UniqueClouds/marginalia) 上查看仓库与发布历史。
+
+<sub>本页由 <code>scripts/build_site_pages.py</code> 自动生成；改首页请改脚本而非本文件。</sub>
 """
     open(os.path.join(DOCS, "index.md"), "w", encoding="utf-8").write(page)
     print("index built")

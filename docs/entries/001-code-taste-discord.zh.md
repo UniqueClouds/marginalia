@@ -66,5 +66,5 @@ Fedorova 等，《Coding Beauty and Decoding Ugliness》（Science, Technology, 
 
 ---
 
-> 🌐 [Read this note in English](001-code-taste-discord.en/)
+> 🌐 [Read this note in English](001-code-taste-discord.en.md)
 

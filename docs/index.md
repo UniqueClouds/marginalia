@@ -1,13 +1,76 @@
 # Marginalia
 
-> *mar·gin·a·li·a* (n.) — notes scribbled in the margins of a book; the traces a reader leaves behind.
+<div class="marg-hero" markdown>
 
-选择性研究与阅读笔记（双语发布，English / 中文）——每条笔记以 **issue → PR → squash commit** 的方式沉淀。
+**Marginalia** — 书页边注，选择性研究与阅读笔记。
 
-## 条目索引
+*mar·gin·a·li·a* (n.) — notes scribbled in the margins of a book; the traces a reader leaves behind.
 
-<div style="border:1px solid #e0e0e0;border-radius:12px;padding:14px 16px;margin-bottom:10px;background:#fff;"><div style="color:#1DB954;font-weight:700;font-size:12px;">ENTRY 001 <span style="color:#999;font-weight:400;">· 2026-08-15</span></div><div style="font-weight:600;margin:4px 0;">编码代理有品味吗？29,787 条 Discord 消息里的美/丑代码话语</div><div style="font-size:12.5px;color:#666;"><a href="entries/001-code-taste-discord.zh/">中文版</a> · <a href="entries/001-code-taste-discord.en/">English</a></div></div><div style="border:1px solid #e0e0e0;border-radius:12px;padding:14px 16px;margin-bottom:10px;background:#fff;"><div style="color:#1DB954;font-weight:700;font-size:12px;">ENTRY 002 <span style="color:#999;font-weight:400;">· 2026-08-15</span></div><div style="font-weight:600;margin:4px 0;">像 Dourish 那样写作：一位批判 HCI 学者 21 篇文本的语料分析（2004–2026）</div><div style="font-size:12.5px;color:#666;"><a href="entries/002-writing-like-dourish.zh/">中文版</a> · <a href="entries/002-writing-like-dourish.en/">English</a></div></div><div style="border:1px solid #e0e0e0;border-radius:12px;padding:14px 16px;margin-bottom:10px;background:#fff;"><div style="color:#1DB954;font-weight:700;font-size:12px;">ENTRY 003 <span style="color:#999;font-weight:400;">· 2026-08-15</span></div><div style="font-weight:600;margin:4px 0;">NOTUGLY-S：学\"不丑\"而非\"美\"——NLP 与程序分析融合训练提案</div><div style="font-size:12.5px;color:#666;"><a href="entries/003-notugly-s.zh/">中文版</a> · <a href="entries/003-notugly-s.en/">English</a></div></div><div style="border:1px solid #e0e0e0;border-radius:12px;padding:14px 16px;margin-bottom:10px;background:#fff;"><div style="color:#1DB954;font-weight:700;font-size:12px;">ENTRY 004 <span style="color:#999;font-weight:400;">· 2026-08-15</span></div><div style="font-weight:600;margin:4px 0;">CHI/ACL 是故事会吗？从社区吐槽到可测量的构念</div><div style="font-size:12.5px;color:#666;"><a href="entries/004-storytelling-quantified.zh/">中文版</a> · <a href="entries/004-storytelling-quantified.en/">English</a></div></div><div style="border:1px solid #e0e0e0;border-radius:12px;padding:14px 16px;margin-bottom:10px;background:#fff;"><div style="color:#1DB954;font-weight:700;font-size:12px;">ENTRY 005 <span style="color:#999;font-weight:400;">· 2026-08-15</span></div><div style="font-weight:600;margin:4px 0;">四种学科的声音：Big Data & Society / HCI / Sociology / Software Engineering 经典论文的语言风格测量（314 篇 / 330 万词）</div><div style="font-size:12.5px;color:#666;"><a href="entries/005-discipline-style-voices.zh/">中文版</a> · <a href="entries/005-discipline-style-voices.en/">English</a></div></div><div style="border:1px solid #e0e0e0;border-radius:12px;padding:14px 16px;margin-bottom:10px;background:#fff;"><div style="color:#1DB954;font-weight:700;font-size:12px;">ENTRY 006 · ARTIFACT <span style="color:#999;font-weight:400;">· 2026-08-17</span></div><div style="font-weight:600;margin:4px 0;">🎧 Spotify Podcast Guide · 英文播客推荐（26 节目 / 46 集精选）</div><div style="font-size:12.5px;color:#666;"><a href="podcast-guide/">进入播客清单</a> · <a href="podcast-guide/data/shows.csv">数据 CSV</a></div></div>
+<sub>📖 [项目说明](about.md) · 🐙 [GitHub](https://github.com/UniqueClouds/marginalia) · 🌐 [English README](https://github.com/UniqueClouds/marginalia/blob/main/README.md)</sub>
 
-## 数据与方法
+</div>
 
-- 仓库：github.com/UniqueClouds/marginalia · 站点由 MkDocs Material 构建，push 自动部署。
+## 📚 条目 Entries
+
+每条以 **issue → PR → squash commit** 仪式沉淀；中英双语，开头带完整溯源元数据。
+
+<div class="grid cards" markdown>
+
+- :material-book-open-outline: **ENTRY 001** · 2026-08-15
+
+    ---
+
+    编码代理有品味吗？29,787 条 Discord 消息里的美/丑代码话语
+
+    [中文版](entries/001-code-taste-discord.zh.md) · [English](entries/001-code-taste-discord.en.md)
+
+- :material-book-open-outline: **ENTRY 002** · 2026-08-15
+
+    ---
+
+    像 Dourish 那样写作：一位批判 HCI 学者 21 篇文本的语料分析（2004–2026）
+
+    [中文版](entries/002-writing-like-dourish.zh.md) · [English](entries/002-writing-like-dourish.en.md)
+
+- :material-book-open-outline: **ENTRY 003** · 2026-08-15
+
+    ---
+
+    NOTUGLY-S：学\"不丑\"而非\"美\"——NLP 与程序分析融合训练提案
+
+    [中文版](entries/003-notugly-s.zh.md) · [English](entries/003-notugly-s.en.md)
+
+- :material-book-open-outline: **ENTRY 004** · 2026-08-15
+
+    ---
+
+    CHI/ACL 是故事会吗？从社区吐槽到可测量的构念
+
+    [中文版](entries/004-storytelling-quantified.zh.md) · [English](entries/004-storytelling-quantified.en.md)
+
+- :material-book-open-outline: **ENTRY 005** · 2026-08-15
+
+    ---
+
+    四种学科的声音：Big Data & Society / HCI / Sociology / Software Engineering 经典论文的语言风格测量（314 篇 / 330 万词）
+
+    [中文版](entries/005-discipline-style-voices.zh.md) · [English](entries/005-discipline-style-voices.en.md)
+
+- :material-podcast: **ENTRY 006 · ARTIFACT** · 2026-08-17
+
+    ---
+
+    🎧 Spotify Podcast Guide · 英文播客推荐（26 节目 / 46 集精选）
+
+    [进入播客清单](podcast-guide/index.md) · [数据 CSV](podcast-guide/data/shows.csv)
+
+</div>
+
+## 关于这个站
+
+- 站点由 [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) 构建，push 到 `main` 即自动重新部署（见 [.github/workflows/deploy.yml](https://github.com/UniqueClouds/marginalia/blob/main/.github/workflows/deploy.yml)）。
+- **仓库刻意保持稀疏**：默认全部 `gitignore`，只有显式加入白名单的、精选过的笔记才会被提交——不会有随手的提交。
+- 数据复现：每条条目内的 `sources` 字段列出依据的本地语料与工具来源；原始语料本身不随仓库公开。
+- 📖 详见 [项目说明](about.md) · 🐙 在 [GitHub](https://github.com/UniqueClouds/marginalia) 上查看仓库与发布历史。
+
+<sub>本页由 <code>scripts/build_site_pages.py</code> 自动生成；改首页请改脚本而非本文件。</sub>

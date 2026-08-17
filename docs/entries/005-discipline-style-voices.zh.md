@@ -65,5 +65,5 @@ Zotero「各学科 Classic Papers」四个子库，共 347 条目、327 篇带 P
 
 ---
 
-> 🌐 [Read this note in English](005-discipline-style-voices.en/)
+> 🌐 [Read this note in English](005-discipline-style-voices.en.md)
 
