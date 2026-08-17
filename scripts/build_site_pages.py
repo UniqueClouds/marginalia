@@ -64,7 +64,7 @@ def build_entries():
                     extras.append(os.path.relpath(f, d).replace("\\", "/"))
         extra_html = ""
         if extras:
-            links = " · ".join(f"[{os.path.basename(x)}](../{slug}/{x})" for x in extras[:8])
+            links = " · ".join(f"[{os.path.basename(x)}]({BLOB}/{slug}/{x})" for x in extras[:8])
             extra_html = f"\n\n<div style='font-size:12.5px;color:#555;'>📎 附属材料：{links}</div>\n"
         # 复制子目录文档（reports/ docs/）使条目内相对链接可用
         for sub in ("reports", "docs"):
@@ -76,7 +76,7 @@ def build_entries():
                     shutil.copy(f, os.path.join(dst, os.path.basename(f)))
         en_link = ""
         if os.path.exists(en_p):
-            en_link = f"\n\n---\n\n> 🌐 [Read this note in English]({num}-{slug.split('-',1)[1]}.en.md)\n"
+            en_link = f"\n\n---\n\n> 🌐 [Read this note in English]({num}-{slug.split('-',1)[1]}.en/)\n"
         body = rewrite_links(body, num, slug)
         out = f"# {title}\n\n{meta_table(front)}{body}{extra_html}{en_link}\n"
         open(os.path.join(DOCS, "entries", f"{num}-{slug.split('-',1)[1]}.zh.md"), "w", encoding="utf-8").write(out)
@@ -84,7 +84,7 @@ def build_entries():
         if os.path.exists(en_p):
             front2, body2 = strip_front(open(en_p, encoding="utf-8").read())
             body2 = rewrite_links(body2, num, slug)
-            out2 = f"# {title}\n\n{meta_table(front2)}{body2}\n\n---\n\n> 🌐 [阅读中文版]({num}-{slug.split('-',1)[1]}.zh.md)\n"
+            out2 = f"# {title}\n\n{meta_table(front2)}{body2}\n\n---\n\n> 🌐 [阅读中文版]({num}-{slug.split('-',1)[1]}.zh/)\n"
             open(os.path.join(DOCS, "entries", f"{num}-{slug.split('-',1)[1]}.en.md"), "w", encoding="utf-8").write(out2)
         idx.append((num, title, slug))
         print("entry:", num, title[:40])
@@ -117,13 +117,14 @@ def build_index(idx):
             f'<div style="color:#1DB954;font-weight:700;font-size:12px;">ENTRY {num}</div>'
             f'<div style="font-weight:600;margin:4px 0;">{title}</div>'
             f'<div style="font-size:12.5px;color:#666;">'
-            f'<a href="entries/{num}-{slug.split("-",1)[1]}.zh.md">中文版</a> · '
-            f'<a href="entries/{num}-{slug.split("-",1)[1]}.en.md">English</a></div></div>')
+            f'<a href="entries/{num}-{slug.split("-",1)[1]}.zh/">中文版</a> · '
+            f'<a href="entries/{num}-{slug.split("-",1)[1]}.en/">English</a></div></div>')
     pod_card = ('<div style="border:1px solid #e0e0e0;border-radius:12px;padding:14px 16px;margin-bottom:10px;background:#fff;">'
                 '<div style="color:#1DB954;font-weight:700;font-size:12px;">ENTRY 006 · ARTIFACT</div>'
                 '<div style="font-weight:600;margin:4px 0;">🎧 Spotify Podcast Guide · 英文播客推荐（26 节目 / 46 集精选）</div>'
-                '<div style="font-size:12.5px;color:#666;"><a href="podcast-guide/index.md">进入播客清单</a> · '
+                '<div style="font-size:12.5px;color:#666;"><a href="podcast-guide/">进入播客清单</a> · '
                 '<a href="podcast-guide/data/shows.csv">数据 CSV</a></div></div>')
+    cards.append(pod_card)
     page = f"""# Marginalia
 
 > *mar·gin·a·li·a* (n.) — notes scribbled in the margins of a book; the traces a reader leaves behind.
@@ -132,7 +133,6 @@ def build_index(idx):
 
 ## 条目索引
 
-{pod_card}
 {''.join(cards)}
 
 ## 数据与方法

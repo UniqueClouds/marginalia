@@ -54,10 +54,10 @@ PyMuPDF 版面块提取 → 去参考文献 → 段落语料（`paras.json`）�
 | Issue | [#3](https://github.com/UniqueClouds/marginalia/issues/3) |
 
 
-<div style='font-size:12.5px;color:#555;'>📎 附属材料：[SKILL.md](../002-writing-like-dourish/skill/SKILL.md)</div>
+<div style='font-size:12.5px;color:#555;'>📎 附属材料：[SKILL.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/002-writing-like-dourish/skill/SKILL.md)</div>
 
 
 ---
 
-> 🌐 [Read this note in English](002-writing-like-dourish.en.md)
+> 🌐 [Read this note in English](002-writing-like-dourish.en/)
 

@@ -53,10 +53,10 @@ M1–M5：编码方案 + 500 图金标 → 25 万图普查 → 回报分解 → 
 | Issue | [#7](https://github.com/UniqueClouds/marginalia/issues/7) |
 
 
-<div style='font-size:12.5px;color:#555;'>📎 附属材料：[narrativism-proposal-v2.zh.md](../004-storytelling-quantified/docs/narrativism-proposal-v2.zh.md) · [storytelling-survey.zh.md](../004-storytelling-quantified/docs/storytelling-survey.zh.md)</div>
+<div style='font-size:12.5px;color:#555;'>📎 附属材料：[narrativism-proposal-v2.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/004-storytelling-quantified/docs/narrativism-proposal-v2.zh.md) · [storytelling-survey.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/004-storytelling-quantified/docs/storytelling-survey.zh.md)</div>
 
 
 ---
 
-> 🌐 [Read this note in English](004-storytelling-quantified.en.md)
+> 🌐 [Read this note in English](004-storytelling-quantified.en/)
 

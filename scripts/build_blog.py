@@ -100,7 +100,7 @@ def table(keys, header):
             f'<th style="padding:9px 12px;text-align:left;font-size:13.5px;">推荐理由</th></tr></thead><tbody>' + "".join(rows) + '</tbody></table>')
 
 def ep_row(e, strong_color):
-    num = f'<b style="color:{strong_color};font-size:13px;">№{e["number"]}</b> ' if e["number"] != "—" else ""
+    num = f'<b style="color:{strong_color};font-size:13px;">No.{e["number"]}</b> ' if e["number"] != "—" else ""
     title_html = f'<b style="color:#222;">{e["title_en"]}</b>'
     if e.get("spotify_url"):
         title_html = (f'<a href="{e["spotify_url"]}" target="_blank" style="color:#1DB954;text-decoration:none;">'
@@ -131,7 +131,7 @@ main_eps = restis_eps[:18]
 extra_eps = restis_eps[18:]
 other_eps = [e for e in eps if e.get("group") == "other"]
 def ep_row_other(e, color):
-    num = f'<b style="color:{color};font-size:13px;">№{e["number"]}</b> ' if e["number"] != "—" else ""
+    num = f'<b style="color:{color};font-size:13px;">No.{e["number"]}</b> ' if e["number"] != "—" else ""
     title_html = f'<b style="color:#222;">{e["title_en"]}</b>'
     if e.get("spotify_url"):
         title_html = (f'<a href="{e["spotify_url"]}" target="_blank" style="color:#1DB954;text-decoration:none;">'
@@ -232,7 +232,7 @@ doc.append('<h4 style="color:#00838F;margin:16px 0 6px;">③ 其他节目 · 精
 doc.append('<div style="font-size:12.5px;color:#888;margin-bottom:6px;">除 The Rest Is… 系列外，其余 19 档节目各精选 1–2 集（Geek\'s Guide to the Galaxy 两集）——按画像主题从各节目官方目录筛选。</div>')
 doc.append(ep_table_other(other_eps, "#00838F"))
 doc.append("""<div style="background:#FFF8E1;border:1px solid #FFE082;border-radius:10px;padding:12px 14px;margin-top:14px;font-size:13px;color:#5c4a00;">
-💡 <b>收听动线建议</b>：中国史线「№173 Chairman Mao → №366 The Architect of Modern China → №444 The First Emperor of China」；冷战线「№92 Nuclear Weapons → №125 The CIA → №160 The Fall of the Soviet Union → №370 Chilean Coup」；谍影线「№184 Kim Philby → №162 Argo → №101 James Bond」；科幻彩蛋「№412 Romans in Space」；产业放松线「Spielberg vs Nolan → The Oscars」；AI 社会线「№301 China AI Race → Data Centres vs. Water → №297 AI Workforce」。
+💡 <b>收听动线建议</b>：中国史线「No.173 Chairman Mao → No.366 The Architect of Modern China → No.444 The First Emperor of China」；冷战线「No.92 Nuclear Weapons → No.125 The CIA → No.160 The Fall of the Soviet Union → No.370 Chilean Coup」；谍影线「No.184 Kim Philby → No.162 Argo → No.101 James Bond」；科幻彩蛋「No.412 Romans in Space」；产业放松线「Spielberg vs Nolan → The Oscars」；AI 社会线「No.301 China AI Race → Data Centres vs. Water → No.297 AI Workforce」。
 </div>""")
 
 

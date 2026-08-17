@@ -63,5 +63,5 @@ s(x) = g_θ(d) + h_φ(d, c_r) + α·reviewer + ε
 
 ---
 
-> 🌐 [Read this note in English](003-notugly-s.en.md)
+> 🌐 [Read this note in English](003-notugly-s.en/)
 

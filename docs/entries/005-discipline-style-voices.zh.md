@@ -60,10 +60,10 @@ Zotero「各学科 Classic Papers」四个子库，共 347 条目、327 篇带 P
 **下一步可选**：把四份画像蒸馏成四个润色 skill（对标 002 的 dourish-style），或用 keyness 词表做一个"学科伪装检测器"——给一段文字，判断它最像哪个学科写的。
 
 
-<div style='font-size:12.5px;color:#555;'>📎 附属材料：[01-big-data-and-society.zh.md](../005-discipline-style-voices/reports/01-big-data-and-society.zh.md) · [02-hci.zh.md](../005-discipline-style-voices/reports/02-hci.zh.md) · [03-sociology.zh.md](../005-discipline-style-voices/reports/03-sociology.zh.md) · [04-software-engineering.zh.md](../005-discipline-style-voices/reports/04-software-engineering.zh.md) · [05-cross-discipline.zh.md](../005-discipline-style-voices/reports/05-cross-discipline.zh.md)</div>
+<div style='font-size:12.5px;color:#555;'>📎 附属材料：[01-big-data-and-society.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/005-discipline-style-voices/reports/01-big-data-and-society.zh.md) · [02-hci.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/005-discipline-style-voices/reports/02-hci.zh.md) · [03-sociology.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/005-discipline-style-voices/reports/03-sociology.zh.md) · [04-software-engineering.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/005-discipline-style-voices/reports/04-software-engineering.zh.md) · [05-cross-discipline.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/005-discipline-style-voices/reports/05-cross-discipline.zh.md)</div>
 
 
 ---
 
-> 🌐 [Read this note in English](005-discipline-style-voices.en.md)
+> 🌐 [Read this note in English](005-discipline-style-voices.en/)
 

@@ -55,4 +55,4 @@ The original source documents (verbatim, in Chinese) are published alongside thi
 
 ---
 
-> 🌐 [阅读中文版](004-storytelling-quantified.zh.md)
+> 🌐 [阅读中文版](004-storytelling-quantified.zh/)

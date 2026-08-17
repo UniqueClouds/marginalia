@@ -56,4 +56,4 @@ Two specimens (both 2004, verified in-corpus):
 
 ---
 
-> 🌐 [阅读中文版](002-writing-like-dourish.zh.md)
+> 🌐 [阅读中文版](002-writing-like-dourish.zh/)
