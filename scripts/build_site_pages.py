@@ -53,6 +53,8 @@ def build_entries():
         front, body = strip_front(open(zh_p, encoding="utf-8").read())
         title_m = re.search(r"title:\s*[\"']?(.+?)[\"']?\s*$", front, re.M)
         title = title_m.group(1) if title_m else slug
+        date_m = re.search(r"^(?:date|published):\s*(.+?)\s*$", front, re.M)
+        entry_date = (date_m.group(1) if date_m else "").strip()
         # 条目附属文件（skill/docs/reports/artifact）作为子页
         extras = []
         for sub in sorted(os.listdir(d)):
@@ -86,7 +88,7 @@ def build_entries():
             body2 = rewrite_links(body2, num, slug)
             out2 = f"# {title}\n\n{meta_table(front2)}{body2}\n\n---\n\n> 🌐 [阅读中文版]({num}-{slug.split('-',1)[1]}.zh/)\n"
             open(os.path.join(DOCS, "entries", f"{num}-{slug.split('-',1)[1]}.en.md"), "w", encoding="utf-8").write(out2)
-        idx.append((num, title, slug))
+        idx.append((num, title, slug, entry_date))
         print("entry:", num, title[:40])
     return idx
 
@@ -110,17 +112,17 @@ def build_podcast():
 
 def build_index(idx):
     cards = []
-    for num, title, slug in idx:
+    for num, title, slug, entry_date in idx:
         label = slug.split("-", 1)[1].replace("-", " ")
         cards.append(
             f'<div style="border:1px solid #e0e0e0;border-radius:12px;padding:14px 16px;margin-bottom:10px;background:#fff;">'
-            f'<div style="color:#1DB954;font-weight:700;font-size:12px;">ENTRY {num}</div>'
+            f'<div style="color:#1DB954;font-weight:700;font-size:12px;">ENTRY {num} <span style="color:#999;font-weight:400;">· {entry_date}</span></div>'
             f'<div style="font-weight:600;margin:4px 0;">{title}</div>'
             f'<div style="font-size:12.5px;color:#666;">'
             f'<a href="entries/{num}-{slug.split("-",1)[1]}.zh/">中文版</a> · '
             f'<a href="entries/{num}-{slug.split("-",1)[1]}.en/">English</a></div></div>')
     pod_card = ('<div style="border:1px solid #e0e0e0;border-radius:12px;padding:14px 16px;margin-bottom:10px;background:#fff;">'
-                '<div style="color:#1DB954;font-weight:700;font-size:12px;">ENTRY 006 · ARTIFACT</div>'
+                '<div style="color:#1DB954;font-weight:700;font-size:12px;">ENTRY 006 · ARTIFACT <span style="color:#999;font-weight:400;">· 2026-08-17</span></div>'
                 '<div style="font-weight:600;margin:4px 0;">🎧 Spotify Podcast Guide · 英文播客推荐（26 节目 / 46 集精选）</div>'
                 '<div style="font-size:12.5px;color:#666;"><a href="podcast-guide/">进入播客清单</a> · '
                 '<a href="podcast-guide/data/shows.csv">数据 CSV</a></div></div>')
