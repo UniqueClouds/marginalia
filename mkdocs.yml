@@ -74,6 +74,7 @@ extra:
 not_in_nav: |
   entries/reports/*.md
   entries/docs/*.md
+  entries/data/*.md
 
 nav:
   - 🏠 首页: index.md
@@ -87,6 +88,7 @@ nav:
       - 003 · NOTUGLY-S: entries/003-notugly-s.zh.md
       - 004 · CHI/ACL 故事会量化: entries/004-storytelling-quantified.zh.md
       - 005 · 四学科学术声音: entries/005-discipline-style-voices.zh.md
+      - 007 · Nuance 兴衰: entries/007-nuance-rises-and-falls.zh.md
       - 008 · LLM Scaling 摘记: entries/008-llm-scaling-book.zh.md
       - 009 · 借了边界没借分形: entries/009-homology-without-fractal.zh.md
   - 🌐 English:
@@ -98,5 +100,6 @@ nav:
       - 003 · NOTUGLY-S: entries/003-notugly-s.en.md
       - 004 · Storytelling quantified: entries/004-storytelling-quantified.en.md
       - 005 · Discipline voices: entries/005-discipline-style-voices.en.md
+      - 007 · Nuance rises and falls: entries/007-nuance-rises-and-falls.en.md
       - 008 · LLM Scaling note: entries/008-llm-scaling-book.en.md
       - 009 · Borrowed boundary, not fractal: entries/009-homology-without-fractal.en.md

@@ -62,6 +62,14 @@ Each one is distilled through **issue → PR → squash commit**; bilingual (Eng
 
     [中文](entries/005-discipline-style-voices.zh.md) · [English](entries/005-discipline-style-voices.en.md)
 
+- 📖 **ENTRY 007** · 2026-08-17
+
+    ---
+
+    Nuance rising and falling in scientific writing: identification, measurement, and one local-corpus test (314 papers / 3.3M words)
+
+    [中文](entries/007-nuance-rises-and-falls.zh.md) · [English](entries/007-nuance-rises-and-falls.en.md)
+
 - 📖 **ENTRY 008** · 2026-08-17
 
     ---
