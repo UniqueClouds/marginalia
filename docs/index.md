@@ -62,6 +62,14 @@
 
     [中文版](entries/005-discipline-style-voices.zh.md) · [English](entries/005-discipline-style-voices.en.md)
 
+- 📖 **ENTRY 008** · 2026-08-17
+
+    ---
+
+    「How to Scale Your Model」摘记：把 LLM 训练从玄学拆成 roofline 公算法（JAX-ML scaling book）
+
+    [中文版](entries/008-llm-scaling-book.zh.md) · [English](entries/008-llm-scaling-book.en.md)
+
 - 🎧 **ENTRY 006 · ARTIFACT** · 2026-08-17
 
     ---
