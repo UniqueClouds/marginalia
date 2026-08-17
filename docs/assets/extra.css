@@ -11,6 +11,18 @@
   border-radius: 8px;
 }
 
+/* 页面顶部语言切换条 */
+.lang-switch {
+  margin: .2rem 0 1.2rem;
+  padding: .4rem .85rem;
+  border: 1px solid var(--md-default-fg-color--lightest, #dfe3e7);
+  border-radius: 8px;
+  background: var(--md-default-bg-color, #fff);
+  font-size: .82rem;
+  color: var(--md-default-fg-color--light, #607076);
+}
+.lang-switch a { font-weight: 600; }
+
 /* 首页 hero 区 */
 .marg-hero {
   padding: 1.6rem 1.8rem 1.3rem;

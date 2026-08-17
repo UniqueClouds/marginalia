@@ -29,6 +29,18 @@ def meta_table(front):
 
 BLOB = "https://github.com/UniqueClouds/marginalia/blob/main/marginalia"
 
+def lang_zh(en_url):
+    """中文页顶部语言切换（指向英文版）"""
+    return (f'<div class="lang-switch" markdown>\n'
+            f'🌐 语言 / Language：**中文** · [English]({en_url})\n'
+            f'</div>\n\n')
+
+def lang_en(zh_url):
+    """English 页顶部语言切换（指向中文版）"""
+    return (f'<div class="lang-switch" markdown>\n'
+            f'🌐 Language / 语言：[中文]({zh_url}) · **English**\n'
+            f'</div>\n\n')
+
 def rewrite_links(text, num, slug):
     # 跨条目 note 链接 → 站内条目页
     text = re.sub(r"\.\./(\d{3}-[a-z0-9-]+)/note\.(zh|en)\.md", r"\1.\2.md", text)
@@ -77,18 +89,26 @@ def build_entries():
                 for f in glob.glob(os.path.join(sp, "*.md")):
                     shutil.copy(f, os.path.join(dst, os.path.basename(f)))
         en_link = ""
+        title_en = title  # 默认 fallback 用中文名
         if os.path.exists(en_p):
             en_link = f"\n\n---\n\n> 🌐 [Read this note in English]({num}-{slug.split('-',1)[1]}.en.md)\n"
+            front2, body2 = strip_front(open(en_p, encoding="utf-8").read())
+            title_en_m = re.search(r"title:\s*[\"']?(.+?)[\"']?\s*$", front2, re.M)
+            if title_en_m:
+                title_en = title_en_m.group(1)
+        s_tail = slug.split('-',1)[1]
+        en_url = f"{num}-{s_tail}.en.md"
+        zh_url = f"{num}-{s_tail}.zh.md"
         body = rewrite_links(body, num, slug)
-        out = f"# {title}\n\n{meta_table(front)}{body}{extra_html}{en_link}\n"
-        open(os.path.join(DOCS, "entries", f"{num}-{slug.split('-',1)[1]}.zh.md"), "w", encoding="utf-8").write(out)
+        out = f"# {title}\n\n{lang_zh(en_url)}{meta_table(front)}{body}{extra_html}{en_link}\n"
+        open(os.path.join(DOCS, "entries", f"{num}-{s_tail}.zh.md"), "w", encoding="utf-8").write(out)
         # EN page
         if os.path.exists(en_p):
-            front2, body2 = strip_front(open(en_p, encoding="utf-8").read())
             body2 = rewrite_links(body2, num, slug)
-            out2 = f"# {title}\n\n{meta_table(front2)}{body2}\n\n---\n\n> 🌐 [阅读中文版]({num}-{slug.split('-',1)[1]}.zh.md)\n"
-            open(os.path.join(DOCS, "entries", f"{num}-{slug.split('-',1)[1]}.en.md"), "w", encoding="utf-8").write(out2)
-        idx.append((num, title, slug, entry_date))
+            zh_link = f"\n\n---\n\n> 🌐 [阅读中文版]({num}-{s_tail}.zh.md)\n"
+            out2 = f"# {title_en}\n\n{lang_en(zh_url)}{meta_table(front2)}{body2}{zh_link}\n"
+            open(os.path.join(DOCS, "entries", f"{num}-{s_tail}.en.md"), "w", encoding="utf-8").write(out2)
+        idx.append((num, title, title_en, slug, entry_date))
         print("entry:", num, title[:40])
     return idx
 
@@ -97,37 +117,67 @@ def build_podcast():
     if not os.path.exists(src):
         print("podcast-guide 不在仓库，跳过")
         return
-    for name in ("artifact.zh.md",):
+    # 中文版 site page（index.md）
+    for name in ("artifact.zh.md", "artifact.en.md"):
         p = os.path.join(src, name)
-        if os.path.exists(p):
-            front, body = strip_front(open(p, encoding="utf-8").read())
-            title_m = re.search(r"title:\s*[\"']?(.+?)[\"']?\s*$", front, re.M)
-            title = title_m.group(1) if title_m else "Spotify Podcast Guide"
-            out = f"# {title}\n\n{meta_table(front)}{body}\n"
-            open(os.path.join(DOCS, "podcast-guide", "index.md"), "w", encoding="utf-8").write(out)
-            print("podcast index built")
+        if not os.path.exists(p):
+            continue
+        front, body = strip_front(open(p, encoding="utf-8").read())
+        title_m = re.search(r"title:\s*[\"']?(.+?)[\"']?\s*$", front, re.M)
+        title = title_m.group(1) if title_m else "Spotify Podcast Guide"
+        # 把原文里"姊妹版"自引用改成对应的站内页
+        body = re.sub(r"\]\((?:\./)?artifact\.zh\.md\)", "](index.md)", body)
+        body = re.sub(r"\]\((?:\./)?artifact\.en\.md\)", "](index.en.md)", body)
+        if name == "artifact.zh.md":
+            toggle = lang_zh("index.en.md")
+            out_path = os.path.join(DOCS, "podcast-guide", "index.md")
+        else:
+            toggle = lang_en("index.md")
+            out_path = os.path.join(DOCS, "podcast-guide", "index.en.md")
+        out = f"# {title}\n\n{toggle}{meta_table(front)}{body}\n"
+        open(out_path, "w", encoding="utf-8").write(out)
+        print("podcast page built:", name)
     for f in glob.glob(os.path.join(src, "data", "*")):
         shutil.copy(f, os.path.join(DOCS, "podcast-guide", "data", os.path.basename(f)))
     print("podcast data copied")
 
 def build_index(idx):
-    cards = []
-    for num, title, slug, entry_date in idx:
+    # idx: list of (num, title_zh, title_en, slug, entry_date)
+    cards_zh, cards_en = [], []
+    for num, title_zh, title_en, slug, entry_date in idx:
         s = slug.split("-", 1)[1]
         zh_url = f"entries/{num}-{s}.zh.md"
         en_url = f"entries/{num}-{s}.en.md"
-        cards.append(
-            f"- :material-book-open-outline: **ENTRY {num}** · {entry_date}\n\n"
+        title_en = title_en or title_zh
+        cards_zh.append(
+            f"- 📖 **ENTRY {num}** · {entry_date}\n\n"
             f"    ---\n\n"
-            f"    {title}\n\n"
+            f"    {title_zh}\n\n"
             f"    [中文版]({zh_url}) · [English]({en_url})")
-    cards.append(
-        f"- :material-podcast: **ENTRY 006 · ARTIFACT** · 2026-08-17\n\n"
+        cards_en.append(
+            f"- 📖 **ENTRY {num}** · {entry_date}\n\n"
+            f"    ---\n\n"
+            f"    {title_en}\n\n"
+            f"    [中文]({zh_url}) · [English]({en_url})")
+    cards_zh.append(
+        f"- 🎧 **ENTRY 006 · ARTIFACT** · 2026-08-17\n\n"
         f"    ---\n\n"
         f"    🎧 Spotify Podcast Guide · 英文播客推荐（26 节目 / 46 集精选）\n\n"
-            f"    [进入播客清单](podcast-guide/index.md) · [数据 CSV](podcast-guide/data/shows.csv)")
-    cards_str = "\n\n".join(cards)
-    page = f"""# Marginalia
+        f"    [进入播客清单](podcast-guide/index.md) · [数据 CSV](podcast-guide/data/shows.csv)")
+    cards_en.append(
+        f"- 🎧 **ENTRY 006 · ARTIFACT** · 2026-08-17\n\n"
+        f"    ---\n\n"
+        f"    🎧 Spotify Podcast Guide · 26 shows / 46 curated episodes\n\n"
+        f"    [Open podcast guide](podcast-guide/index.en.md) · [Data CSV](podcast-guide/data/shows.csv)")
+    cards_zh_str = "\n\n".join(cards_zh)
+    cards_en_str = "\n\n".join(cards_en)
+    page_zh = f"""# Marginalia
+
+<div class="lang-switch" markdown>
+
+🌐 语言 / Language：**中文** · [English](index.en.md)
+
+</div>
 
 <div class="marg-hero" markdown>
 
@@ -145,7 +195,7 @@ def build_index(idx):
 
 <div class="grid cards" markdown>
 
-{cards_str}
+{cards_zh_str}
 
 </div>
 
@@ -158,8 +208,46 @@ def build_index(idx):
 
 <sub>本页由 <code>scripts/build_site_pages.py</code> 自动生成；改首页请改脚本而非本文件。</sub>
 """
-    open(os.path.join(DOCS, "index.md"), "w", encoding="utf-8").write(page)
-    print("index built")
+    page_en = f"""# Marginalia
+
+<div class="lang-switch" markdown>
+
+🌐 Language / 语言：[中文](index.md) · **English**
+
+</div>
+
+<div class="marg-hero" markdown>
+
+**Marginalia** \u2014 marginal notes; selective research & reading notes.
+
+*mar·gin·a·li·a* (n.) — notes scribbled in the margins of a book; the traces a reader leaves behind.
+
+<sub>📖 [About](about.md) · 🐙 [GitHub](https://github.com/UniqueClouds/marginalia) · 🌐 [中文 README](https://github.com/UniqueClouds/marginalia/blob/main/README.zh-CN.md)</sub>
+
+</div>
+
+## 📚 Entries
+
+Each one is distilled through **issue → PR → squash commit**; bilingual (English / 中文), opening with full provenance metadata.
+
+<div class="grid cards" markdown>
+
+{cards_en_str}
+
+</div>
+
+## About this site
+
+- Built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/); a push to `main` redeploys automatically (see [.github/workflows/deploy.yml](https://github.com/UniqueClouds/marginalia/blob/main/.github/workflows/deploy.yml)).
+- **The repo is deliberately sparse** — everything is `gitignore`d by default; only explicitly whitelisted, curated notes are ever committed. Nothing lands here casually.
+- Reproducibility: each entry's `sources` field lists the local corpora and tools it rests on; the raw corpora themselves are not redistributed here.
+- 📖 See [About](about.md) · 🐙 Browse the [GitHub repo](https://github.com/UniqueClouds/marginalia) and release history.
+
+<sub>This page is generated by <code>scripts/build_site_pages.py</code>; edit the script, not this file.</sub>
+"""
+    open(os.path.join(DOCS, "index.md"), "w", encoding="utf-8").write(page_zh)
+    open(os.path.join(DOCS, "index.en.md"), "w", encoding="utf-8").write(page_en)
+    print("index built (zh + en)")
 
 if __name__ == "__main__":
     idx = build_entries()

@@ -1,4 +1,8 @@
-# 像 Dourish 那样写作：一位批判 HCI 学者 21 篇文本的语料分析（2004–2026）
+# Writing like Dourish: a 21-text corpus analysis of a critical HCI voice (2004–2026)
+
+<div class="lang-switch" markdown>
+🌐 Language / 语言：[中文](002-writing-like-dourish.zh.md) · **English**
+</div>
 
 <details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-002</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Writing like Dourish: a 21-text corpus analysis of a critical HCI voice (2004–2026)</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-15</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-15</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>analysis</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>3</td></tr></table></details>
 
@@ -57,3 +61,4 @@ Two specimens (both 2004, verified in-corpus):
 ---
 
 > 🌐 [阅读中文版](002-writing-like-dourish.zh.md)
+

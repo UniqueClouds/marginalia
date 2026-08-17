@@ -1,5 +1,11 @@
 # Marginalia
 
+<div class="lang-switch" markdown>
+
+🌐 语言 / Language：**中文** · [English](index.en.md)
+
+</div>
+
 <div class="marg-hero" markdown>
 
 **Marginalia** — 书页边注，选择性研究与阅读笔记。
@@ -16,7 +22,7 @@
 
 <div class="grid cards" markdown>
 
-- :material-book-open-outline: **ENTRY 001** · 2026-08-15
+- 📖 **ENTRY 001** · 2026-08-15
 
     ---
 
@@ -24,7 +30,7 @@
 
     [中文版](entries/001-code-taste-discord.zh.md) · [English](entries/001-code-taste-discord.en.md)
 
-- :material-book-open-outline: **ENTRY 002** · 2026-08-15
+- 📖 **ENTRY 002** · 2026-08-15
 
     ---
 
@@ -32,7 +38,7 @@
 
     [中文版](entries/002-writing-like-dourish.zh.md) · [English](entries/002-writing-like-dourish.en.md)
 
-- :material-book-open-outline: **ENTRY 003** · 2026-08-15
+- 📖 **ENTRY 003** · 2026-08-15
 
     ---
 
@@ -40,7 +46,7 @@
 
     [中文版](entries/003-notugly-s.zh.md) · [English](entries/003-notugly-s.en.md)
 
-- :material-book-open-outline: **ENTRY 004** · 2026-08-15
+- 📖 **ENTRY 004** · 2026-08-15
 
     ---
 
@@ -48,7 +54,7 @@
 
     [中文版](entries/004-storytelling-quantified.zh.md) · [English](entries/004-storytelling-quantified.en.md)
 
-- :material-book-open-outline: **ENTRY 005** · 2026-08-15
+- 📖 **ENTRY 005** · 2026-08-15
 
     ---
 
@@ -56,7 +62,7 @@
 
     [中文版](entries/005-discipline-style-voices.zh.md) · [English](entries/005-discipline-style-voices.en.md)
 
-- :material-podcast: **ENTRY 006 · ARTIFACT** · 2026-08-17
+- 🎧 **ENTRY 006 · ARTIFACT** · 2026-08-17
 
     ---
 

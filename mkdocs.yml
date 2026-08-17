@@ -88,6 +88,9 @@ nav:
       - 004 · CHI/ACL 故事会量化: entries/004-storytelling-quantified.zh.md
       - 005 · 四学科学术声音: entries/005-discipline-style-voices.zh.md
   - 🌐 English:
+      - Home: index.en.md
+      - About: about.en.md
+      - Podcast Guide: podcast-guide/index.en.md
       - 001 · Code taste: entries/001-code-taste-discord.en.md
       - 002 · Writing like Dourish: entries/002-writing-like-dourish.en.md
       - 003 · NOTUGLY-S: entries/003-notugly-s.en.md

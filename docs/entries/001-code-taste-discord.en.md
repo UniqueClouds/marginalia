@@ -1,4 +1,8 @@
-# 编码代理有品味吗？29,787 条 Discord 消息里的美/丑代码话语
+# Do coding agents have taste? What 29,787 Discord messages say about beautiful vs. ugly code
+
+<div class="lang-switch" markdown>
+🌐 Language / 语言：[中文](001-code-taste-discord.zh.md) · **English**
+</div>
 
 <details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-001</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Do coding agents have taste? What 29,787 Discord messages say about beautiful vs. ugly code</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-15</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-15</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>analysis</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>1</td></tr></table></details>
 
@@ -67,3 +71,4 @@ Door #0, already taken: → [NOTUGLY-S, musing 003](003-notugly-s.en.md), which 
 ---
 
 > 🌐 [阅读中文版](001-code-taste-discord.zh.md)
+

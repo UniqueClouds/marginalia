@@ -1,4 +1,8 @@
-# 四种学科的声音：Big Data & Society / HCI / Sociology / Software Engineering 经典论文的语言风格测量（314 篇 / 330 万词）
+# Four academic voices, measured: the language styles of Big Data & Society / HCI / Sociology / Software Engineering classics (314 papers, 3.3M words)
+
+<div class="lang-switch" markdown>
+🌐 Language / 语言：[中文](005-discipline-style-voices.zh.md) · **English**
+</div>
 
 <details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-005</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Four academic voices, measured: the language styles of Big Data & Society / HCI / Sociology / Software Engineering classics (314 papers, 3.3M words)</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-15</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-15</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>analysis</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>11</td></tr></table></details>
 
@@ -63,3 +67,4 @@ Same pipeline as 002: PyMuPDF block-level paragraph extraction → drop referenc
 ---
 
 > 🌐 [阅读中文版](005-discipline-style-voices.zh.md)
+

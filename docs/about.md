@@ -1,5 +1,11 @@
 # 项目说明
 
+<div class="lang-switch" markdown>
+
+🌐 语言 / Language：**中文** · [English](about.en.md)
+
+</div>
+
 **Marginalia**（书页边注）—— 选择性研究与阅读笔记，中英双语发布。每条笔记以 **issue → PR → squash commit** 的方式沉淀，保证仓库历史像目录一样可读。
 
 > 🌐 **本站：<https://uniqueclouds.github.io/marginalia/>**

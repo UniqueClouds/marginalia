@@ -1,4 +1,8 @@
-# CHI/ACL 是故事会吗？从社区吐槽到可测量的构念
+# Is CHI/ACL a storytelling festival? From community gripe to measurable construct
+
+<div class="lang-switch" markdown>
+🌐 Language / 语言：[中文](004-storytelling-quantified.zh.md) · **English**
+</div>
 
 <details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-004</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Is CHI/ACL a storytelling festival? From community gripe to measurable construct</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-15</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-15</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>survey + proposal</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>7</td></tr></table></details>
 
@@ -56,3 +60,4 @@ The original source documents (verbatim, in Chinese) are published alongside thi
 ---
 
 > 🌐 [阅读中文版](004-storytelling-quantified.zh.md)
+
