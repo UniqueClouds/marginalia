@@ -70,6 +70,14 @@ Each one is distilled through **issue → PR → squash commit**; bilingual (Eng
 
     [中文](entries/008-llm-scaling-book.zh.md) · [English](entries/008-llm-scaling-book.en.md)
 
+- 📖 **ENTRY 009** · 2026-08-17
+
+    ---
+
+    Borrowed the Boundary, Not the Fractal — a reading note on Benz et al., Homologies in Fields of Cultural Production (Poetics 2024)
+
+    [中文](entries/009-homology-without-fractal.zh.md) · [English](entries/009-homology-without-fractal.en.md)
+
 - 🎧 **ENTRY 006 · ARTIFACT** · 2026-08-17
 
     ---
