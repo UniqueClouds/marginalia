@@ -82,7 +82,7 @@ Each one is distilled through **issue → PR → squash commit**; bilingual (Eng
 
     ---
 
-    Borrowed the Boundary, Not the Fractal — a reading note on Benz et al., Homologies in Fields of Cultural Production (Poetics 2024)
+    Homologies in Fields of Cultural Production. Evidence from the European Scientific Field — a reading note: borrowed the boundary, not the fractal
 
     [中文](entries/009-homology-without-fractal.zh.md) · [English](entries/009-homology-without-fractal.en.md)
 

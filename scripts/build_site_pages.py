@@ -100,6 +100,16 @@ def build_entries():
                     if os.path.basename(f).lower() == "readme.md":
                         continue
                     shutil.copy(f, os.path.join(dst, os.path.basename(f)))
+        # 复制 figs/ 子目录的图片到 docs/assets/entries/{slug}/ —— note 用
+        # 站点绝对路径 `/assets/entries/{slug}/xxx.png` 引用，mkdocs 直接伺服。
+        sp_figs = os.path.join(d, "figs")
+        if os.path.isdir(sp_figs):
+            dst_figs = os.path.join(DOCS, "assets", "entries", slug)
+            os.makedirs(dst_figs, exist_ok=True)
+            for f in glob.glob(os.path.join(sp_figs, "*")):
+                if os.path.isfile(f) and os.path.splitext(f)[1].lower() in (
+                    ".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp"):
+                    shutil.copy(f, os.path.join(dst_figs, os.path.basename(f)))
         en_link = ""
         title_en = title  # 默认 fallback 用中文名
         if os.path.exists(en_p):
