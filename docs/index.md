@@ -62,6 +62,14 @@
 
     [中文版](entries/005-discipline-style-voices.zh.md) · [English](entries/005-discipline-style-voices.en.md)
 
+- 📖 **ENTRY 007** · 2026-08-17
+
+    ---
+
+    科学写作里 nuance 的兴衰：识别、计量与本机语料的一次试测（314 篇 / 330 万词）
+
+    [中文版](entries/007-nuance-rises-and-falls.zh.md) · [English](entries/007-nuance-rises-and-falls.en.md)
+
 - 📖 **ENTRY 008** · 2026-08-17
 
     ---

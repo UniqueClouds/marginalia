@@ -88,6 +88,18 @@ def build_entries():
                 os.makedirs(dst, exist_ok=True)
                 for f in glob.glob(os.path.join(sp, "*.md")):
                     shutil.copy(f, os.path.join(dst, os.path.basename(f)))
+        # 复制 data/ 子目录（.md 给 mkdocs 编译，CSV/其他文件作静态资源）
+        sp_data = os.path.join(d, "data")
+        if os.path.isdir(sp_data):
+            dst = os.path.join(DOCS, "entries", "data")
+            os.makedirs(dst, exist_ok=True)
+            for f in glob.glob(os.path.join(sp_data, "*")):
+                if os.path.isfile(f):
+                    # 跳过 README.md —— 它内含仓库源码路径下的相对链接，
+                    # 在 docs/ 下解析不到（不是要给站点读者看的页）
+                    if os.path.basename(f).lower() == "readme.md":
+                        continue
+                    shutil.copy(f, os.path.join(dst, os.path.basename(f)))
         en_link = ""
         title_en = title  # 默认 fallback 用中文名
         if os.path.exists(en_p):
