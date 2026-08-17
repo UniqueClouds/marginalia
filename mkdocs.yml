@@ -38,6 +38,7 @@ extra_css:
 
 nav:
   - 🏠 首页: index.md
+  - 📖 项目说明: about.md
   - 播客清单 · Podcast Guide:
       - 🎧 清单全文: podcast-guide/index.md
       - 📦 数据下载: podcast-guide/data.md

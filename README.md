@@ -4,6 +4,8 @@
 
 Selective research & reading notes by [Yunqi Chen](https://github.com/UniqueClouds) — distilled musings from AI-assisted analyses, published bilingually (English / [中文](README.zh-CN.md)).
 
+> 🌐 **Website:** <https://uniqueclouds.github.io/marginalia/> — 全部内容物在线阅读（MkDocs 构建，push 自动部署）
+
 **This repo is deliberately sparse.** The workspace behind it holds raw corpora, private drafts and unfinished work; by default **everything is git-ignored**, and only explicitly whitelisted, curated notes are ever committed. Nothing lands here casually — each entry is published on purpose, as **one issue → one pull request → one squashed commit**.
 
 ## How an entry is born

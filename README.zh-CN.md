@@ -1,5 +1,8 @@
 # Marginalia（书页边注）
 
+> 🌐 **网站：** <https://uniqueclouds.github.io/marginalia/> — 全部内容物在线阅读（push 自动部署）
+
+
 > *mar·gin·a·li·a*（名词）——写在书页边上的批注；读者留下的痕迹。
 
 [Yunqi Chen](https://github.com/UniqueClouds) 的科研随想与读文献随想精选——由 AI 辅助分析蒸馏出来的笔记，全部中英双语（[English](README.md) / 中文）。
