@@ -50,22 +50,22 @@ issue:           17
 
 **生物 §5.1**：第一轴 field-specific——左功能、右演化（Mayr 1961 的二元画法），高排名期刊钉在功能一极；最强 homology。
 
-![Fig.3 · 生物的主题空间](/assets/entries/009-homology-without-fractal/fig3-biology.png)
+![Fig.3 · 生物的主题空间](../assets/entries/009-homology-without-fractal/fig3-biology.png)
 *Fig. 3 · biology 的主题空间（取自论文第 8 页）*
 
 **化学 §5.2**：第一轴**跨学科**铺开——左侧 electronic / energy / semiconductor（PE8 工程、PE3 凝聚态物理），右侧 cell / disease / protein（延伸到生物域）；学科边界比生物松。
 
-![Fig.4 · 化学的主题空间](/assets/entries/009-homology-without-fractal/fig4-chemistry.png)
+![Fig.4 · 化学的主题空间](../assets/entries/009-homology-without-fractal/fig4-chemistry.png)
 *Fig. 4 · chemistry 的主题空间（取自论文第 9 页）*
 
 **经济 §5.3**：第一轴 = autonomous vs heteronomous——右极 productivity / growth / business / firm / inequality 响应政治与经济政策诉求，左极 model / equilibrium / inference / contract 是微观经济的自主语汇；主题轴**不与学科归属对应**——被 power 场拖走。
 
-![Fig.5 · 经济的主题空间](/assets/entries/009-homology-without-fractal/fig5-economics.png)
+![Fig.5 · 经济的主题空间](../assets/entries/009-homology-without-fractal/fig5-economics.png)
 *Fig. 5 · economics 的主题空间（取自论文第 10 页）*
 
 **社会学 §5.4**：第一轴同样 = autonomous vs heteronomous——左 culture / global / social（自治），右 citizen / party / opinion（政治社会学/政治学）；但政治学与社会学期刊在同一类别里均匀散开，难以"对位"出 stable hierarchy——判词"溶解"。
 
-![Fig.6 · 社会学的主题空间](/assets/entries/009-homology-without-fractal/fig6-sociology.png)
+![Fig.6 · 社会学的主题空间](../assets/entries/009-homology-without-fractal/fig6-sociology.png)
 *Fig. 6 · sociology 的主题空间（取自论文第 11 页）*
 
 ### 结论 Table 2 收得极简
