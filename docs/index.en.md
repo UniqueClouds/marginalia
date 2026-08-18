@@ -94,6 +94,14 @@ Each one is distilled through **issue → PR → squash commit**; bilingual (Eng
 
     [中文](entries/010-organizational-inertia.zh.md) · [English](entries/010-organizational-inertia.en.md)
 
+- 📖 **ENTRY 011** · 2026-08-17
+
+    ---
+
+    Awesome Auditable AI — reading note: 188 entries / 9 sections / 132 arXiv papers; how a curated list turns AI agent auditability from a slogan into reliability engineering
+
+    [中文](entries/011-auditable-agents-atlas.zh.md) · [English](entries/011-auditable-agents-atlas.en.md)
+
 - 🎧 **ENTRY 006 · ARTIFACT** · 2026-08-17
 
     ---

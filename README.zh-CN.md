@@ -48,6 +48,7 @@ issue:           N
 | 008 | [「How to Scale Your Model」摘记：把 LLM 训练从玄学拆成 roofline 公算法（JAX-ML scaling book）](marginalia/008-llm-scaling-book/note.zh.md) · [EN](marginalia/008-llm-scaling-book/note.en.md) | 2026-08-17 | [#15](https://github.com/UniqueClouds/marginalia/issues/15) |
 | 009 | [Homologies in fields of cultural production — 读记：借了边界，没借分形](marginalia/009-homology-without-fractal/note.zh.md) · [EN](marginalia/009-homology-without-fractal/note.en.md) | 2026-08-17 | [#17](https://github.com/UniqueClouds/marginalia/issues/17) |
 | 010 | [组织惰性:成功的副产品,抑或组织病症?——基于系统性审查方法的述评与展望 — 读记：被悬置的「成功 vs 病症」二分](marginalia/010-organizational-inertia/note.zh.md) · [EN](marginalia/010-organizational-inertia/note.en.md) | 2026-08-18 | [#22](https://github.com/UniqueClouds/marginalia/issues/22) |
+| 011 | [Awesome Auditable AI — 读记：188 条 / 9 节 / 132 arXiv，一份 curated list 把 AI agent 可审计性从口号变成可靠性工程](marginalia/011-auditable-agents-atlas/note.zh.md) · [EN](marginalia/011-auditable-agents-atlas/note.en.md) | 2026-08-17 | [#26](https://github.com/UniqueClouds/marginalia/issues/26) |
 
 ## 制品（Artifacts）
 
