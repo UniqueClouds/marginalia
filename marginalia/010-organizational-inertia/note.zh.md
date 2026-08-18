@@ -9,8 +9,11 @@ sources:
   - "摘要、关键词、作者署名与单位（东北财经大学工商管理学院）——CNKI 文摘页逐字核对：https://kns.cnki.net/kcms2/article/abstract?v=&uniplatform=NZKPT&language=CHS（DOI→CNKI 跳转链路经 chndoi.org 解析）"
   - "OpenAlex 与 Crossref 双源核对该论文元数据（一致）—— Bai Jingkun, Xun Ting, Zhang Zhenzhen. 2016. Waiguo jingji yu guanli 38(12):113–128"
   - "用户给出的 6 篇「第一优先级」经典文献，经 Crossref 逐一核对，三处署名/期刊需更正（详见下表）"
-  - "Becker-Knudsen-Yi 2016 摘要取自 Crossref 元数据直引"
-initial-prompt: "基于这篇 2016 年的中文系统性综述写一篇 marginalia 读记；用户给出 6 篇「第一优先级」经典文献作为锚点；并把该研究包命名为「企业组织惯性的相关研究」。"
+  - "Yi-Knudsen-Becker 2016 摘要取自 Crossref 元数据直引"
+  - "Song, Bo & Dinghong Peng. 2026. Research on a novel organizational anti-inertia evaluation method. *Decision* (Springer) 53(1):113–133. doi:10.1007/s40622-025-00458-8 —— 经 OpenAlex 核证（NSFC 72261020）；新近主张缺少系统性「反惯性/适应能力」评价方法的工作之一"
+  - "程露、苏敬勤、吕一博. 2019.《组织惯性：理论评述与研究框架构建》—— 主条目（Bai 等之后另一篇中文综述，按组织生态学 / 理性适应 / 混合视角三框架整理）；**本条用户工作笔记给出的引用，Crossref 与 OpenAlex 搜索均未索引到其期刊/卷期页/DOI**，本次修订只能按用户给出口径引用，期刊等细节待后续核证补全"
+  - '修订增补段（见下文「加注：把被悬置的『融合』接到一个相对指标上」）基于用户 2026-08-18 提供的同名工作笔记；其中相对惯性指标 I_it = V^E_it / (V^O_it + ε) 是用户本人在该工作笔记里做的概念化测量框架，本条 marginalia 收编时**保留其原创性、按出示引用**，**不**冒充为某一被引论文的既有指标。注：用户工作笔记原始写作中先出现了一种表述（V^O/V^E 版），后文以环境-超-组织为单位收口为 I = V^E/(V^O+ε)，即环境超组织=高惯性、组织超环境=低惯性——本条按后者最终口径记'
+initial-prompt: "基于这篇 2016 年的中文系统性综述写一篇 marginalia 读记；用户给出 6 篇「第一优先级」经典文献作为锚点；并把该研究包命名为「企业组织惯性的相关研究」。后续用户补交一份更系统化的同主题工作笔记，含相对惯性指标的概念化测量框架与新两篇引用（Song&Peng 2026、程露等 2019）；选择性合并其原创部分——指标框架、inertia/momentum/resistance 三组区分、dimensions 与 mechanisms 两张四分类小表、以及「组织是否跟得上环境」的理论转向——而不并入已经在主记里覆盖的导论弧线与公式推导中间步。"
 agent:           ZCode CLI
 model:           GLM（智谱）
 issue:           22
@@ -88,6 +91,78 @@ issue:           22
 > Traditionally, routines have been perceived as a primary source of inertia, which slows down organizational change and hinders organizational adaptation ... routine-level inertia may help, rather than hinder, organization-level adaptation because reduced rates of routine-level changes may lead to temporal reordering. ... inertia acts as a source of variation that turns out to be useful for adaptation, helping explain why apparently inertial organizations keep surviving.
 
 这张牌的反转力度：**"routine-level inertia → temporal reordering → organization-level adaptation"**——把惰性从阻碍变成一个时间维度上的间隔装置。Bai 等的"融合"叙述里没有这步间隔，所以"选择压 vs 适应"在他们的综述里始终是 spatial 二分，而 Yi-Knudsen-Becker 把这个二分**转到时间轴上消化掉**。
+
+## 加注：把被悬置的「融合」接到一个相对指标上
+
+> 后接一次修订。读完 Bai 等之后，用户交来一份同主题的系统化**工作笔记**——更直白的术语、四组维度表、以及一个把 Bai 等停在词条上的「融合」直接转成可计算形式的相对惯性指标。下文收入这份笔记里**原创的部分**：把"融合"从修辞回填到机制。
+
+Bai 等的"融合"是词条、不是机制——读完知道它在哪里但不知道它怎么走。所以最直接的读记结束不是停笔，而是**反向找出一个能让「融合」做功的器件**。整个十年窗（Bai 等 2016 → 程露等 2019 → Song & Peng 2026）中，最自然的器件是把"环境变化速度"与"组织变化速度"放在同一个测度里——把组织惯性从绝对名词翻成**相对概念** (relational concept)。这一步会同时回答 Bai 等悬置的两条线：让「副产品 / 病症」两组命题在一张指标下变成同一现象的不同取值，也让「selection vs adaptation」从对立变成同一指标的两条截。
+
+### 先把构念边界收一收——三而易混的几对
+
+读者工作笔记里强调：Bai 等综述里**组织惰性、组织持续 (persistence)、阻力 (resistance)、动量 (momentum)** 概念边界不清本身就是"差异来源"。三对最要紧：
+
+- **inertia ≠ momentum**。inertia 是组织倾向维持现态；momentum 是组织倾向沿既有的变化方向继续变。连续十年产品结构不变 = inertia；一家在过去十年持续国际扩张、现在仍在加码国际 = momentum。**两者共享惯性家族但不是同义词**——这是 Kelly & Amburgey 1991 已划下的界（拦住了把"不动"和"沿原方向动"误作同一现象）。
+- **inertia ≠ resistance**。inertia 可以在**没有任何主体主动抵抗**的情形下产生（沉没成本 + 惯例自沉积足以）；resistance 则隐含一个主体对变化的主动阻断。这一区分在管理语义学里比看上去重要：把 inertia 读成"组织抗拒变化"会自动把"内部政治利益受损者"列为唯一病因，关掉"成本机制 + 认知身份机制 + 惯例沉积机制"那一整面解释扇。
+- **inertia ≠ "no change"**。把 `I = −ΔO` 当指标，等于把一个完全没变的企业=max inertia——这一读法在稳定环境里不合逻辑（没变可能是当下最优）。需要把这个**绝对测度换作相对测度**才能站起来。
+
+### 维度与机制——两张四分式小表
+
+工作笔记的内核是把组织惯性拆解为两条互不重合的四分——**维度**（惰性发生在*哪里*）与**机制**（惰性来自*凭什么*）。它们正好补上 Bai 等综述里"测度散开"这层说明：
+
+| 维度（在哪里） | 持续的是什么 |
+|---|---|
+| 结构惯性 (structural) | 层级 · 部门边界 · 权力-汇报关系 · 正式化程度 |
+| 战略惯性 (strategic) | 产品组合 · 目标市场 · 技术路线 · 研发投入方向 · 商业模式 |
+| 资源刚性 (resource rigidity) | 是否改变既有资源配置——GPU 预算、许可证、供应商关系等 |
+| 惯例刚性 (routine rigidity) | 是否改变使用既有资源的流程——决策机制、协作方式、绩效评价 |
+
+| 机制（凭什么） | 病理 |
+|---|---|
+| 沉没成本与调整成本 | `Existing Structure → Investment → Switching Cost → Persistence` |
+| 惯例自沉积 | 重复行为→惯例→惯例再生→惯例约束未来行为 |
+| 权力结构 | `Existing Structure → Power Distribution → Political Resistance → Inertia` |
+| 认知与组织身份 | `Past Success → Identity → Cognitive Commitment → Strategic Inertia` |
+
+这两张表合力说明：Bai 等标题里"副产品 vs 病症"之所以会**互嵌共存**是因为维度（产物感更强）与机制（病症感更强）**可以拆开读**：一企业可以同时在结构性维度上有惯性的副产品感、在惯例维度上有疾病的病症感——Gilbert 2005 的 resource/routine 切分正是触及这条同列异位，但 Bai 等没把它放回 SA 的对照。
+
+### 把「融合」接到一个相对指标上：`I_it = V^E_it / (V^O_it + ε)`
+
+核心回填：把组织惯性定义为**组织变化相对于环境变化的适应滞后**。设企业状态 `O_it`、环境状态 `E_it`，两帧间的变化速度
+
+```
+V^O_it  = ‖ O_it   – O_{i,t-1} ‖      # 组织状态变化速度
+V^E_it  = ‖ E_it   – E_{i,t-1} ‖      # 环境状态变化速度
+```
+
+相对惯性指标（ε 用以避免分母为零）
+
+```
+        V^E_it
+I_it = ─────────────
+        V^O_it + ε
+```
+
+字段口诀：
+
+- `I > 1`：环境变化速度压过组织变化速度 → **相对惯性高**（适应滞后）
+- `I ≈ 1`：组织变化速度与环境变化速度**大致匹配**
+- `I < 1`：组织变化速度反超环境 → 此时把惯性当阻力的解读已不适用，惯性的"副产品"章节自然复位
+
+这个指标的**理论含义**远超过它的形式：它把上面被悬置的 Bai 等三组线索一次性锁到同一坐标——「副产品 / 病症」二分成为横轴 `V^O=0` 与 `V^O→∞` 两个极端的渐近书签；「selection vs adaptation」二分成为同一指标的两个截平面；Yi-Knudsen-Becker 的「routine-level inertia → temporal reordering → organization-level adaptation」给出了为什么 `I ≈ 1` 不是巧合、为什么"组织并不需要追环境追得一样紧"的微观基础。
+
+局限要直说：**这是一个 conceptual measurement framework，不是任何被引论文（Bai 2016 / 程露 2019 / Song & Peng 2026）的共识指标**。它解决"SA 融合如何被机制化"，但仍然把"环境状态如何取 `E_it`"这个**无默认解**的子题按问题挂起——Bai 等综述面对测度分歧时也卡在这里几十年。
+
+### 这一回填落到研究的可操作切口
+
+能让"环境-组织"相对测度跑起来，需要的最小数据是三件：企业纵向面板（描述组织状态 `O_it`）、对应时窗的环境状态代理（描述环境变化 `E_it`）、以及取该代理的归部（按产品组合维度？市场维度？技术路线维度？必须显式选一个或多个）。这使得该回填天然**接得住** yunqi 之前在 SE×AI 上做的面板数据工作——AIDev 等数据集里有 fintech/制造/招聘服务等行业的开发活动面板可作物态 `O`;行业-level 的技术采纳率、行业并购/rollable 表示产品等可作 `E`。把这些拼出来回归 AI adoption 速率，就是把上面的指标当成"组织反惯性"对"AI 部署速度"的解释力——正是 Gilbert 与 Yi-Knudsen-Becker 那对对立假设的检验场。
+
+一句话回填完成形态：**用户笔记里的相对指标读完，Bai 等的"成功 vs 病症"不再是二分而成了同一指标上的两端渐近；"环境选择 vs 组织适应"也成了同一指标的两个截平面。** This 回填是 Bai 等综述**没有走出**的那一步也是 marginalia 阅读该综述**自然走出**的那一步。
+
+### 后续验证 pin
+
+- 与 `### Yi-Knudsen-Becker 2016 摘要直引` 一致，**反向命题**与**回填相对指标**是 005 阅读路径下的两种概念插塞：前者把 inertias/adaptation 转到时间轴；后者把给组织行动者改变的速度搬到环境参照系。
+- Song & Peng 2026 (`doi:10.1007/s40622-025-00458-8`) 给出一种可被验证的"**反惯性 / 适应能力**"评价方法；该工作应被当作对上面的 conceptual framework 在运算侧的同期补计划——但它不是该 framework 的依据。
 
 ## 记下的几句
 
