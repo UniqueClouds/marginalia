@@ -86,6 +86,14 @@ Each one is distilled through **issue → PR → squash commit**; bilingual (Eng
 
     [中文](entries/009-homology-without-fractal.zh.md) · [English](entries/009-homology-without-fractal.en.md)
 
+- 📖 **ENTRY 010** · 2026-08-18
+
+    ---
+
+    组织惰性:成功的副产品,抑或组织病症?——基于系统性审查方法的述评与展望 — a reading note: the byproduct–symptom dichotomy, left standing
+
+    [中文](entries/010-organizational-inertia.zh.md) · [English](entries/010-organizational-inertia.en.md)
+
 - 🎧 **ENTRY 006 · ARTIFACT** · 2026-08-17
 
     ---
