@@ -102,6 +102,14 @@ Each one is distilled through **issue → PR → squash commit**; bilingual (Eng
 
     [中文](entries/011-auditable-agents-atlas.zh.md) · [English](entries/011-auditable-agents-atlas.en.md)
 
+- 📖 **ENTRY 012** · 2026-08-18
+
+    ---
+
+    Large-Scale Temporal Analysis of Wikipedia Edit History and Talk Pages — survey: the pieces are ready, the joint study is missing
+
+    [中文](entries/012-wikipedia-temporal-analysis.zh.md) · [English](entries/012-wikipedia-temporal-analysis.en.md)
+
 - 🎧 **ENTRY 006 · ARTIFACT** · 2026-08-17
 
     ---

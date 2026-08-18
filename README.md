@@ -48,6 +48,7 @@ issue:           N
 | 009 | [Homologies in Fields of Cultural Production. Evidence from the European Scientific Field — borrowed the boundary, not the fractal](marginalia/009-homology-without-fractal/note.en.md) · [中文](marginalia/009-homology-without-fractal/note.zh.md) | 2026-08-17 | [#17](https://github.com/UniqueClouds/marginalia/issues/17) |
 | 010 | [组织惰性:成功的副产品,抑或组织病症?——基于系统性审查方法的述评与展望 — a reading note: the byproduct–symptom dichotomy, left standing](marginalia/010-organizational-inertia/note.en.md) · [中文](marginalia/010-organizational-inertia/note.zh.md) | 2026-08-18 | [#22](https://github.com/UniqueClouds/marginalia/issues/22) |
 | 011 | [Awesome Auditable AI — reading note: 188 entries / 9 sections / 132 arXiv papers; how a curated list turns AI agent auditability from a slogan into reliability engineering](marginalia/011-auditable-agents-atlas/note.en.md) · [中文](marginalia/011-auditable-agents-atlas/note.zh.md) | 2026-08-17 | [#26](https://github.com/UniqueClouds/marginalia/issues/26) |
+| 012 | [Large-Scale Temporal Analysis of Wikipedia Edit History and Talk Pages — survey: the pieces are ready, the joint study is missing](marginalia/012-wikipedia-temporal-analysis/note.en.md) · [中文](marginalia/012-wikipedia-temporal-analysis/note.zh.md) | 2026-08-18 | [#28](https://github.com/UniqueClouds/marginalia/issues/28) |
 
 ## Artifacts
 

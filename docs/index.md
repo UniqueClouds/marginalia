@@ -102,6 +102,14 @@
 
     [中文版](entries/011-auditable-agents-atlas.zh.md) · [English](entries/011-auditable-agents-atlas.en.md)
 
+- 📖 **ENTRY 012** · 2026-08-18
+
+    ---
+
+    Wikipedia 编辑史与讨论页的大规模时序分析 —— 调研：部件已齐，联合尚缺
+
+    [中文版](entries/012-wikipedia-temporal-analysis.zh.md) · [English](entries/012-wikipedia-temporal-analysis.en.md)
+
 - 🎧 **ENTRY 006 · ARTIFACT** · 2026-08-17
 
     ---
