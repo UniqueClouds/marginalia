@@ -90,7 +90,7 @@ Each one is distilled through **issue → PR → squash commit**; bilingual (Eng
 
     ---
 
-    组织惰性:成功的副产品,抑或组织病症?——基于系统性审查方法的述评与展望 — a reading note: the byproduct–symptom dichotomy, left standing
+    组织惰性:成功的副产品,抑或组织病症?——基于系统性审查方法的述评与展望 — the dichotomy, dissolved onto a relative-inertia index
 
     [中文](entries/010-organizational-inertia.zh.md) · [English](entries/010-organizational-inertia.en.md)
 
