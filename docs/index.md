@@ -94,6 +94,14 @@
 
     [中文版](entries/010-organizational-inertia.zh.md) · [English](entries/010-organizational-inertia.en.md)
 
+- 📖 **ENTRY 011** · 2026-08-17
+
+    ---
+
+    Awesome Auditable AI — 读记：188 条 / 9 节 / 132 arXiv，一份 curated list 把 AI agent 可审计性从口号变成可靠性工程
+
+    [中文版](entries/011-auditable-agents-atlas.zh.md) · [English](entries/011-auditable-agents-atlas.en.md)
+
 - 🎧 **ENTRY 006 · ARTIFACT** · 2026-08-17
 
     ---
