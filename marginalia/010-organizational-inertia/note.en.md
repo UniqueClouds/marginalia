@@ -1,6 +1,6 @@
 ---
 id:              marginalia-010-en
-title:           "组织惰性:成功的副产品,抑或组织病症?——基于系统性审查方法的述评与展望 — a reading note: the byproduct–symptom dichotomy, left standing"
+title:           "组织惰性:成功的副产品,抑或组织病症?——基于系统性审查方法的述评与展望 — the dichotomy, dissolved onto a relative-inertia index"
 date:            2026-08-18
 published:       2026-08-18
 kind:            note (paper reading note + idea extension)
@@ -10,15 +10,18 @@ sources:
   - "OpenAlex + Crossref double-checked the paper's metadata; the English-deposited parallel title matches the user-provided one"
   - "Six 'first-priority' classic references cross-checked via Crossref; three of them needed author/venue corrections (see table below)"
   - "Yi-Knudsen-Becker 2016 abstract quoted verbatim from Crossref metadata"
-initial-prompt: "Write a bilingual marginalia reading note on this 2016 Chinese systematic review; the user supplies six 'first-priority' classic references as anchors and bundles the project under the idea-name 'organizational-inertia research for enterprises (企业组织惯性的相关研究)'."
+  - "Song, Bo & Dinghong Peng. 2026. Research on a novel organizational anti-inertia evaluation method. *Decision* (Springer) 53(1):113–133. doi:10.1007/s40622-025-00458-8 — verified via OpenAlex (NSFC 72261020); one of the recent works asserting that no systematic 'anti-inertia / adaptability' evaluation method yet exists"
+  - "Cheng Lu (程露), Su Jingqin (苏敬勤), Lyu Yibo (吕一博). 2019. 组织惯性：理论评述与研究框架构建 [Organizational inertia: theoretical review and research-framework construction]. A second Chinese-language review, the one after Bai et al., sorting the literature under ecology / rational-adaptation / hybrid. **Cited as the user supplied it from a working note; Crossref and OpenAlex searches in this session did not surface its venue/volume/issue/pages/DOI**, so those are left un-faked pending later verification."
+  - "The revision added-body further down (the '## Annotation: … to a relative index' section) integrates a second-pass working note supplied by the user on 2026-08-18; the relative-inertia index `I_it = V^E_it / (V^O_it + ε)` is the user's own conceptual measurement framework in that note. This marginalia incorporates it as the user's original contribution, **not as a metric imported from any of the cited papers**."
+initial-prompt: "Write a bilingual marginalia reading note on this 2016 Chinese systematic review; the user supplies six 'first-priority' classic references as anchors and bundles the project under the idea-name 'organizational-inertia research for enterprises (企业组织惯性的相关研究)'. On revision, the user supplied a second-pass systematic working note on the same construct — containing the relative-inertia index as a conceptual measurement framework plus two new references (Song & Peng 2026; Cheng et al. 2019); selectively merge its original parts — the index framework, the inertia/momentum/resistance distinctions, the two four-way taxonomies (dimensions and mechanisms), and the theoretical shift from 'does the org change' to 'does the org keep up with the environment' — without re-incorporating the introductory arc and the formula-derivation middle steps already covered in the main note."
 agent:           ZCode CLI
 model:           GLM (Zhipu)
 issue:           22
 ---
 
-# 组织惰性:成功的副产品,抑或组织病症?——基于系统性审查方法的述评与展望 — a reading note: the byproduct–symptom dichotomy, left standing
+# 组织惰性:成功的副产品,抑或组织病症?——基于系统性审查方法的述评与展望 — the dichotomy, dissolved onto a relative-inertia index
 
-> A Chinese systematic review that stands the dichotomy "organizational inertia — byproduct of success or organizational symptom" on its own two feet. Its contribution is to *name* the mountain; its limitation is to leave it as two mountains.
+> A Chinese systematic review that stands the dichotomy "organizational inertia — byproduct of success or organizational symptom" on its own two feet. Its contribution is to *name* the mountain; its limitation is to leave it as two mountains. On revision, the note walks up the valley the review left standing — dissolving that dichotomy onto a *relative*-inertia index where **byproduct** and **symptom** become two asymptotes instead of two opponents.
 
 ## The paper itself
 
@@ -92,6 +95,79 @@ The user listed six "first-priority" classic references; what follows is the **e
 > Traditionally, routines have been perceived as a primary source of inertia, which slows down organizational change and hinders organizational adaptation ... routine-level inertia may help, rather than hinder, organization-level adaptation because reduced rates of routine-level changes may lead to temporal reordering. ... inertia acts as a source of variation that turns out to be useful for adaptation, helping explain why apparently inertial organizations keep surviving.
 
 The flip is forceful: **routine-level inertia → temporal reordering → organisation-level adaptation** — inertia stops being an obstacle and becomes a timing device on the time axis. Bai et al.'s "fusion" narrative doesn't take this step, so "selection vs adaptation" stays a *spatial* dichotomy inside their review; Yi-Knudsen-Becker moves the dichotomy onto the **time axis and discharges it there**.
+
+## Annotation: taking the suspended "fusion" over to a relative index
+
+> A revision pass. Having finished Bai et al., the user delivered a same-construct systematic **working note** — plainer terminology, four-way taxonomies, and most importantly a *relative-inertia index* that turns Bai et al.'s label-level "fusion" into something computable. Below I bring in only the note's **original** parts: the "fusion" gets mechanically backfilled rather than just rhetoricised.
+
+Bai et al.'s "fusion" is a *label, not a mechanism* — you can see where it sits, but not how it walks. The most natural way to end a marginalia closer than the review did is to **back-search for the device that lets "fusion" do work**: to flip organisational inertia out of an absolute noun and into a **relational concept** that puts "environmental change" and "organisational change" on the same metronome. That step turns out to answer Bai et al.'s two suspended threads at once — the byproduct/symptom pair becomes two asymptotes of one index, and the selection/adaptation pair becomes two cross-sections of one index. Across the Bai 2016 → Cheng et al. 2019 → Song & Peng 2026 ten-year window, the relative-inertia index is precisely the device that lets that label load-bear real structure.
+
+### Tidying the construct boundary — three easy-to-conflate pairs
+
+The user's note stresses that the *boundary confusion* across **organisational inertia / persistence / resistance / momentum** is itself one of Bai et al.'s "reasons for divergence." Three pairs matter most:
+
+- **inertia ≠ momentum.** inertia = the organisation tends to hold its present state; momentum = the organisation tends to keep moving in whatever direction it was already moving. Ten years of an unchanged product portfolio = inertia; a firm that has spent a decade expanding internationally and keeps doing so = momentum. **Same family, not synonyms** — Kelly & Amburgey 1991 already drew this line, holding off the practice of treating "not moving" and "moving in the same direction" as the same phenomenon.
+- **inertia ≠ resistance.** inertia can arise **without any agent actively resisting** (sunk cost + routine sedimentation suffice); resistance presupposes an agent actively blocking. This matters in management semantics: reading inertia as "the organisation resists" closes all of the cost-mechanical, cognitive-identity, and routine-sedimentation flanks in favour of a single one — the political one.
+- **inertia ≠ "no change".** Treating `I = −ΔO` as the index privileges a firm that hasn't moved at all as max-inertia — which is illogical under a stable environment (where not moving may be locally optimal). **The absolute measurement must be replaced by a relative one.**
+
+### Dimensions and mechanisms — two compact four-way tables
+
+The working note's core architectural move is two orthogonal four-way taxonomies — **dimensions** (where inertia lives) and **mechanisms** (where inertia comes from). Together they backfill Bai et al.'s "measurement scatters" layer neatly:
+
+| Dimension (where) | What persists |
+|---|---|
+| Structural inertia | hierarchy · departmental boundaries · power-reporting relations · formalisation level |
+| Strategic inertia | product portfolio · target market · technology trajectory · R&D direction · business model |
+| Resource rigidity | whether the firm changes its *existing allocation* — GPU budget, licences, supplier ties |
+| Routine rigidity | whether the firm changes the *processes for using* those resources — decision mechanism, collaboration patterns, performance review |
+
+| Mechanism (why) | Pathology |
+|---|---|
+| Sunk cost & adjustment cost | `Existing Structure → Investment → Switching Cost → Persistence` |
+| Routine sedimentation | repeated behaviour → routine → routine reproduces itself → routine constrains future behaviour |
+| Power structure | `Existing Structure → Power Distribution → Political Resistance → Inertia` |
+| Cognition & org identity | `Past Success → Identity → Cognitive Commitment → Strategic Inertia` |
+
+Two tables together explain why Bai et al.'s byproduct-vs-symptom pair **co-embeds**: dimensions read byproduct-flavoured, mechanisms read symptom-flavoured, and **they can sit at different addresses on the same organisation at the same time** — a firm can carry "byproduct" structural inertia while carrying "disease" routine inertia. Gilbert 2005's resource/routine split already touches that same diagonal, but Bai et al. do not set it back against the S/A contrast.
+
+### Connecting "fusion" to a relative index: `I_it = V^E_it / (V^O_it + ε)`
+
+The core backfill is to define organisational inertia as a **lag of organisational change behind environmental change**. Given org state `O_it` and environment state `E_it`, frame-to-frame velocity is
+
+```
+V^O_it  = ‖ O_it  – O_{i,t-1} ‖      # organisational-state velocity
+V^E_it  = ‖ E_it  – E_{i,t-1} ‖      # environmental-state velocity
+```
+
+The relative-inertia index (ε avoids zero in the denominator)
+
+```
+        V^E_it
+I_it = ─────────────
+        V^O_it + ε
+```
+
+Reading the index:
+
+
+- `I > 1`: environmental change outpaces organisational change → **high relative inertia** (adaptive lag)
+- `I ≈ 1`: organisational change roughly matches environmental change
+- `I < 1`: organisational change is outpacing environmental change; here the "symptom" reading of inertia dissolves on its own, byproduct-intuition is restored
+
+The theoretical payoff dwarfs the form: this one index simultaneously parks every loose thread Bai et al. leave labelled but unresolved — byproduct vs symptom becomes the two asymptotes of the `V^O=0` and `V^O→∞` extremes; selection vs adaptation becomes two cross-sections of one index; and Yi-Knudsen-Becker's "routine-level inertia → temporal reordering → organisation-level adaptation" supplies the micro-foundation for *why* `I ≈ 1` is not a coincidence, i.e. why the organisation does not in fact need to chase the environment one-to-one frontier-tight.
+
+The caveat is direct: **this is a conceptual measurement framework, not a metric that any of Bai et al. 2016 / Cheng et al. 2019 / Song & Peng 2026 has adopted as standard.** It answers "how should S/A fusion be mechanised" but leaves "what is the environment state `E_it`?" — a well-known no-default sub-problem — explicitly hanging; Bai et al.'s review hits exactly this wall after decades of arguing about measurement.
+
+### How that backfill lands operationally — research cut
+
+The minimum viable stack to run the "environment-to-org" relative measure is three things: a longitudinal firm-level panel (state `O_it`), a same-window environment-state proxy (`E_it`), and an explicit **choice of which environment-axis to take** (product mix? market? technology roadmap? one or several). That makes the backfill adjacent to yunqi's existing SE×AI panel work — the AIDev class of datasets has long enough firm-level dev-activity panels in fintech / manufacturing / recruiting services to sit as `O`; sector-level tech-adoption rates, M&A / rollups as product proxies, and so on can serve as `E`. Regressing AI adoption rates on this `I` is the operational form of the Gilbert-vs-Yi-Knudsen-Becker pair of competing hypotheses the main note already lays out.
+
+One-line summary of the backfilling done: **under the relative index, Bai et al.'s "byproduct vs disease" is no longer a dichotomy but two asymptotes of the same index; "selection vs adaptation" is no longer a dichotomy but two cross-sections of the same index.** That backfill is the step Bai et al.'s review *did not* take, and the step a marginalia reading of the review *naturally* does.
+
+### Provenance pins for the revision
+
+- Consistent with `### Yi-Knudsen-Becker 2016 abstract, quoted verbatim`: the reverse proposition and the *relative index* are two forms of conceptual plug on the same reading path — the former moves inertias/adaptation onto the time axis, the latter moves the organisation's velocity to an environmental frame.
+- Song & Peng 2026 (`doi:10.1007/s40622-025-00458-8`) supply one verifiable co-concurrent effort at an "**anti-inertia / adaptability**" evaluation method — a computational companion to this conceptual framework, not its warrant.
 
 ## Sentences I kept
 
