@@ -6,6 +6,7 @@ DATA = r"C:\Users\yunqi\ZCodeProject\data"
 OUT = r"C:\Users\yunqi\ZCodeProject\Spotify_Podcast_定制清单_2026-08.md"
 shows = {s["key"]: s for s in json.load(open(os.path.join(DATA, "shows.json"), encoding="utf-8"))["shows"]}
 eps = json.load(open(os.path.join(DATA, "episodes.json"), encoding="utf-8"))["episodes"]
+TOP = json.load(open(os.path.join(DATA, "top_episodes.json"), encoding="utf-8"))
 state = {}
 if os.path.exists(os.path.join(DATA, "state.json")):
     state = json.load(open(os.path.join(DATA, "state.json"), encoding="utf-8"))
@@ -41,16 +42,27 @@ LOGO = {
     "lrb": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b2/57/13/b25713de-f7ac-b232-cf2a-a261adaf4ecd/mza_10223797150949552626.jpeg/600x600bb.jpg",
     "sinica": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/70/7b/43/707b43c0-64b0-e6c3-6e7b-138f84c16a32/mza_6990403855782084776.jpeg/600x600bb.jpg",
     "candidframe": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/3b/7f/eb/3b7febf4-2897-2cfd-794c-97d85c21b953/mza_2999533948577658608.jpg/600x600bb.jpg",
+    "videoarchives": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/44/b3/f9/44b3f953-fbae-4e99-4d82-4c2cc83630e5/mza_1552332279859047099.jpg/100x100bb.jpg",
+    "ymrt": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/da/e9/e6/dae9e6d3-6b4e-b600-bb37-0ce7833c24d5/mza_9711243178432328693.jpg/100x100bb.jpg",
+    "filmspotting": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/bd/8c/05/bd8c05d9-fd70-e35f-da50-f3d67256d648/mza_6805140787842707960.jpg/100x100bb.jpg",
+    "screendrafts": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/43/d0/6e/43d06e55-8738-e6b8-8443-52d8a8691524/mza_16169572317619041426.png/100x100bb.jpg",
+    "teamdeakins": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/a5/fa/f6/a5faf61e-b752-2ca4-0d26-d431795b66d2/mza_16741861178976893909.jpg/100x100bb.jpg",
+    "newyorkerfiction": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/06/5d/f2/065df280-c91f-b43c-2396-51affc5dc883/mza_15681886892269349970.jpeg/100x100bb.jpg",
+    "bookworm": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8a/b8/54/8ab8542d-284c-5845-06c6-600cb82f9c29/mza_18132178739310816340.png/100x100bb.jpg",
+    "literaryfriction": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/ed/ea/fe/edeafe0f-89ec-ebf9-9342-5140331bc33b/mza_5722044305146301427.jpg/100x100bb.jpg",
+    "inourtimeculture": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/96/f2/ee/96f2ee8b-5aac-19b0-5386-e0bf0ddc317e/mza_4055653295864790255.jpg/100x100bb.jpg",
 }
 CAT = {
-    "A": (["blankcheck", "filmcomment", "purecinema", "cinephiliacs"], "🎬", "电影 · 作者论与影评", "#C62828",
-          "这份清单的电影组，给两类人：一类把导演当坐标系、按作者论逐部刷片；另一类把影评当写作来读。前者有 Blank Check 的整部作品长谈，后者有 Film Comment 的期刊级批评——Pure Cinema Podcast 与 The Cinephiliacs 分别补足冷门片单与学院派方法论。"),
+    "A": (["blankcheck", "filmcomment", "purecinema", "cinephiliacs",
+           "videoarchives", "ymrt", "filmspotting", "screendrafts", "teamdeakins"], "🎬", "电影 · 作者论与影评 · 影史", "#C62828",
+          "这份清单的电影组，给两类人：一类把导演当坐标系、按作者论逐部刷片；另一类把影评当写作来读。前者有 Blank Check 的整部作品长谈，后者有 Film Comment 的期刊级批评——Pure Cinema Podcast 与 The Cinephiliacs 补足冷门片单与学院派方法论。2026-08 增补：昆汀·塔伦蒂诺亲开的 The Video Archives Podcast、Karina Longworth 的好莱坞秘史 You Must Remember This、影评常青树 Filmspotting、正典选秀 Screen Drafts 与摄影大师对谈 Team Deakins。"),
     "B": (["newbookssts", "techwontsaveus", "econtalk"], "🧪", "科技 · 社会 · 技术批判（STS）", "#1565C0",
           "科技与社会（STS）是英文播客里的小众富矿：New Books in Science, Technology, and Society 是学术新书访谈的正统频道，Tech Won't Save Us 提供批判科技的政治经济学，EconTalk 则以跨学科访谈把科学哲学与经济学连在一起。"),
     "C": (["philosophybites", "pel", "hpwag"], "🧠", "哲学 · 思想", "#6A1B9A",
           "三档互补的哲学入口：Philosophy Bites 是 15 分钟的对谈点心，The Partially Examined Life 是博士们逐段精读原著，History of Philosophy Without Any Gaps 把整部哲学史按年代无缝走完——从通勤速食到系统深造都有落点。"),
-    "D": (["betweenthecovers", "geeksguide", "parisreview", "backlisted"], "📖", "文学 · 科幻", "#2E7D32",
-          "文学组覆盖当代写作、文学正典与科幻前沿：Between the Covers 是当代作者访谈的顶配，The Paris Review 把文学季刊的最佳访谈变成声音，Backlisted 回访被遗忘的老书，Geek's Guide to the Galaxy 是科幻作者访谈的旗舰。"),
+    "D": (["betweenthecovers", "geeksguide", "parisreview", "backlisted",
+           "newyorkerfiction", "bookworm", "literaryfriction", "inourtimeculture"], "📖", "文学 · 科幻 · 文学评论", "#2E7D32",
+          "文学组覆盖当代写作、文学正典、科幻前沿与文学评论：Between the Covers 是当代作者访谈的顶配，The Paris Review 把文学季刊的最佳访谈变成声音，Backlisted 回访被遗忘的老书，Geek's Guide to the Galaxy 是科幻作者访谈的旗舰。2026-08 增补文学评论线：The New Yorker: Fiction 的作家朗读细读、Bookworm 三十余年的传奇文学访谈、Literary Friction 的主题式批评对谈，以及 BBC In Our Time: Culture 的学院派正典导读。"),
     "E": (["rih", "rip", "ripus", "riplead", "rient", "rimoney", "riclass"], "🏛️", "The Rest Is… 系列 · 历史 · 政治 · 谍影 · 娱乐 · 经济", "#EF6C00",
           "Goalhanger 出品的 The Rest Is… 宇宙是英文播客的现象级存在：历史、政治、影视、财经、谍影五条线，周更 2–3 期，单是历史一档就有近千集。以下按为何值得听排序，并从全量目录里筛好了 26 集精华。"),
     "F": (["historyhit", "longnow", "lrb", "sinica", "candidframe"], "🧭", "扩展精选 · 画像延伸", "#00838F",
@@ -81,6 +93,22 @@ def show_cell(s):
     links += "</div>"
     return img + name + cn + chips + links
 
+def hot_block(key):
+    rows = TOP.get(key) or []
+    if not rows:
+        return ""
+    items = []
+    for i, r in enumerate(rows, 1):
+        t = r["title"]
+        if len(t) > 56:
+            t = t[:54] + "…"
+        items.append(f'<div style="margin-top:2px;">{i} <a href="{r["spotify_url"]}" target="_blank" '
+                     f'style="color:#12805c;text-decoration:none;">{t}</a></div>')
+    return ('<div style="margin-top:7px;font-size:11.8px;color:#333;line-height:1.6;background:#F7F7F7;'
+            'border-left:3px solid #1DB954;padding:6px 9px;border-radius:0 6px 6px 0;">'
+            '<b style="color:#111;">🔥 热门单集</b>' + "".join(items) + '</div>')
+
+
 def table(keys, header):
     rows = []
     for k in keys:
@@ -93,7 +121,7 @@ def table(keys, header):
             f'<td style="padding:12px 12px;width:31%;vertical-align:top;">{show_cell(s)}</td>'
             f'<td style="padding:12px 12px;vertical-align:top;"><div style="font-size:12.3px;color:#777;line-height:1.55;">{desc_en}</div>'
             f'<div style="font-size:12.8px;color:#333;line-height:1.6;margin-top:6px;background:#FAFAFA;border-left:3px solid {header};padding:6px 10px;border-radius:0 6px 6px 0;">{s["desc_cn"]}</div></td>'
-            f'<td style="padding:12px 12px;vertical-align:top;color:#444;font-size:13px;width:22%;line-height:1.6;">{s["reason_cn"]}</td></tr>')
+            f'<td style="padding:12px 12px;vertical-align:top;color:#444;font-size:13px;width:22%;line-height:1.6;">{s["reason_cn"]}{hot_block(k)}</td></tr>')
     return (f'<table style="width:100%;border-collapse:collapse;font-family:-apple-system,\'Segoe UI\',Roboto,sans-serif;font-size:13px;box-shadow:0 1px 6px rgba(0,0,0,.06);border-radius:10px;overflow:hidden;">'
             f'<thead><tr style="background:{header};color:#fff;"><th style="padding:9px 12px;text-align:left;font-size:13.5px;">节目（原名 · 中文名）</th>'
             f'<th style="padding:9px 12px;text-align:left;font-size:13.5px;">官方简介 <span style="font-weight:400;font-size:11px;">(EN 原文 / 中文)</span></th>'
@@ -163,8 +191,8 @@ def ep_table_other(rows, color):
 
 hero = f"""<div align="center" style="background:linear-gradient(135deg,#1DB954 0%,#121212 55%,#191414 100%);color:#fff;padding:36px 22px;border-radius:18px;font-family:-apple-system,'Segoe UI',Roboto,sans-serif;box-shadow:0 6px 24px rgba(29,185,84,.18);">
 <h1 style="margin:0 0 8px;font-size:31px;letter-spacing:1px;">🎧 Spotify Podcast Guide</h1>
-<div style="font-size:16px;opacity:.95;">英文播客推荐博客 · 26 档节目 / 26 集精选 · 官方链接全部验证</div>
-<div style="margin-top:14px;font-size:12.8px;opacity:.9;">🎬 电影作者论 · 🧪 科技与社会 STS · 🧠 哲学 · 📖 文学科幻 · 🏛️ 历史政治谍影 · 💷 经济 AI</div>
+<div style="font-size:16px;opacity:.95;">英文播客推荐博客 · 35 档节目 / 65 集精选 · 官方链接全部验证</div>
+<div style="margin-top:14px;font-size:12.8px;opacity:.9;">🎬 电影作者论与影史 · 🧪 科技与社会 STS · 🧠 哲学 · 📖 文学·科幻·文学评论 · 🏛️ 历史政治谍影 · 💷 经济 AI</div>
 <div style="margin-top:10px;font-size:11.5px;opacity:.75;">上次自动更新：{UPDATED} &nbsp;·&nbsp; 数据源：官方 RSS / iTunes / Spotify API（详见文末）</div>
 </div>"""
 
@@ -195,7 +223,7 @@ doc.append("""
 5. [📖 文学 · 科幻](#sec-d)
 6. [🏛️ The Rest Is… 系列](#sec-e)
 7. [🧭 扩展精选](#sec-f)
-8. [推荐单集精选（46 集）](#sec-ep)
+8. [推荐单集精选（65 集）](#sec-ep)
 9. [自动化更新 / 数据与方法](#sec-meta)
 
 ---
@@ -204,11 +232,11 @@ doc.append("""
 <h2 id="sec-about">一、这份清单怎么来的</h2>
 
 1. **主题线筛选**：按影迷、STS 研究者、哲学/文学/科幻读者、历史政治爱好者四条兴趣线，从英文播客池中初筛 40+ 档；
-2. **内容深挖**：把 The Rest Is… 系列 7 档节目全部官方 RSS（约 3,100 集）拉到本地，按主题关键词逐条比对，筛出 46 集精华（The Rest Is… 26 集 + 其他节目 20 集）；
-3. **链接核验**：26 档节目与 46 集单集的 Spotify 官方链接全部经 **Spotify Web API 逐条解析并二次校验**（节目用 `GET /v1/shows/{id}`、单集用 `GET /v1/episodes/{id}` 核对节目名与标题一致）；
+2. **内容深挖**：把 The Rest Is… 系列 7 档节目全部官方 RSS（约 3,100 集）拉到本地，按主题关键词逐条比对，筛出 65 集精华（The Rest Is… 26 集 + 其他节目 39 集）；
+3. **链接核验**：35 档节目与 65 集单集的 Spotify 官方链接全部经 **Spotify Web API 逐条解析并二次校验**（节目用 `GET /v1/shows/{id}`、单集用 `GET /v1/shows/{id}/episodes` 列表核对标题一致）；
 4. **自动化**：`scripts/update_pipeline.py` 可随时重跑——刷新 RSS、刷新 iTunes 元数据、增量扫描新单集候选、重建数据与博客。
 
-✅ 本版状态：**26/26 节目、46/46 单集全部 🟢 官方链接已验证**，无待核验项。
+✅ 本版状态：**35/35 节目、65/65 单集全部 🟢 官方链接已验证**，无待核验项。
 
 ---
 """)
@@ -219,17 +247,17 @@ for sec, (keys, emoji, title, color, intro) in CAT.items():
     doc.append(table(keys, color))
     doc.append("")
 
-doc.append("<h2 id=\"sec-ep\">八、推荐单集精选（46 集）</h2>")
+doc.append("<h2 id=\"sec-ep\">八、推荐单集精选（65 集）</h2>")
 doc.append('''<div style="background:#FFF8E1;border:1px solid #FFE082;border-radius:10px;padding:12px 14px;font-size:13px;color:#5c4a00;margin-bottom:10px;">
-🎯 全部 46 集精选在一个章节里：The Rest Is… 系列 26 集（主推 18 + 进阶 8）+ 其他节目 20 集。<b>单集编号与标题均为英文原题</b>，中文译名随附；点击标题或绿色按钮直达 Spotify 单集；日期为开播日（RSS 核验）。
+🎯 全部 65 集精选在一个章节里：The Rest Is… 系列 26 集（主推 18 + 进阶 8）+ 其他节目 39 集。<b>单集编号与标题均为英文原题</b>，中文译名随附；点击标题或绿色按钮直达 Spotify 单集；日期为开播日（RSS 核验）。
 </div>''')
 doc.append('<h4 style="color:#B71C1C;margin:16px 0 6px;">① The Rest Is… 系列 · 主推 18 集</h4>')
 doc.append(ep_table(main_eps, "#B71C1C"))
 doc.append('<h4 style="color:#37474F;margin:16px 0 6px;">② The Rest Is… 系列 · 进阶 8 集</h4>')
 doc.append('<div style="font-size:12.5px;color:#888;margin-bottom:6px;">主推之外的第二梯队——同样从全量目录筛出，主题更发散。</div>')
 doc.append(ep_table(extra_eps, "#37474F", "#455A64"))
-doc.append('<h4 style="color:#00838F;margin:16px 0 6px;">③ 其他节目 · 精选 20 集</h4>')
-doc.append('<div style="font-size:12.5px;color:#888;margin-bottom:6px;">除 The Rest Is… 系列外，其余 19 档节目各精选 1–2 集（Geek\'s Guide to the Galaxy 两集）——按画像主题从各节目官方目录筛选。</div>')
+doc.append('<h4 style="color:#00838F;margin:16px 0 6px;">③ 其他节目 · 精选 39 集</h4>')
+doc.append('<div style="font-size:12.5px;color:#888;margin-bottom:6px;">除 The Rest Is… 系列外，其余 28 档节目各精选 1–3 集（2026-08 增补电影组与文学评论组共 9 档）——按画像主题从各节目官方目录筛选。</div>')
 doc.append(ep_table_other(other_eps, "#00838F"))
 doc.append("""<div style="background:#FFF8E1;border:1px solid #FFE082;border-radius:10px;padding:12px 14px;margin-top:14px;font-size:13px;color:#5c4a00;">
 💡 <b>收听动线建议</b>：中国史线「No.173 Chairman Mao → No.366 The Architect of Modern China → No.444 The First Emperor of China」；冷战线「No.92 Nuclear Weapons → No.125 The CIA → No.160 The Fall of the Soviet Union → No.370 Chilean Coup」；谍影线「No.184 Kim Philby → No.162 Argo → No.101 James Bond」；科幻彩蛋「No.412 Romans in Space」；产业放松线「Spielberg vs Nolan → The Oscars」；AI 社会线「No.301 China AI Race → Data Centres vs. Water → No.297 AI Workforce」。
@@ -261,8 +289,8 @@ python scripts/update_pipeline.py --force-episodes  # 强制重解析全部单�
 
 | 文件 | 内容 |
 |---|---|
-| `shows.json` / `shows.csv` | 26 档节目：原名/中文名/出品方/类型/集数/Spotify ID/Apple 页/官网/官方简介 EN+CN/推荐理由 |
-| `episodes.json` / `episodes.csv` | 46 集精选：节目/编号/英文原题/中文译名/日期/主题/Spotify 单集直链/Apple 链接 |
+| `shows.json` / `shows.csv` | 35 档节目：原名/中文名/出品方/类型/集数/Spotify ID/Apple 页/官网/官方简介 EN+CN/推荐理由 |
+| `episodes.json` / `episodes.csv` | 65 集精选：节目/编号/英文原题/中文译名/日期/主题/Spotify 单集直链/Apple 链接 |
 | `itunes_meta.json` / `feed_meta.json` | iTunes 与 RSS 元数据快照（管线自动刷新） |
 | `spotify_episode_lookup.json` | 单集直链解析结果（含校验匹配到的官方标题） |
 | `new_episode_candidates.json` | 增量扫描出的新单集候选（人工审阅后可选并入） |
@@ -270,7 +298,7 @@ python scripts/update_pipeline.py --force-episodes  # 强制重解析全部单�
 
 ### 🧾 验证与口径
 
-- 26 档节目、46 集单集的 Spotify 官方链接均经官方 API 解析并二次校验（`/v1/shows/{id}`、`/v1/episodes/{id}` 核对名称一致）。
+- 35 档节目、65 集单集的 Spotify 官方链接均经官方 API 解析并二次校验（`/v1/shows/{id}`、`/v1/shows/{id}/episodes` 列表核对名称一致）。
 - 单集日期与编号来自 Goalhanger 官方 RSS；集数来自 RSS/iTunes（每次更新自动刷新）。
 - Spotify 不公开单集播放量，故以「集数 + 日期」作为参考维度。
 - 官方简介取自各节目官方 RSS / Apple 页面摘要；The Cinephiliacs 官方简介暂未取得（以概述替代，数据中 `desc_official=false` 标注）。
