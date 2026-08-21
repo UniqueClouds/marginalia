@@ -48,7 +48,7 @@
 4. **Psathas（1995）归纳五种取向**：①实际行动与实际推理的组织；②谈话在互动中的组织（CA）；③制度/组织情境中的谈话在互动；④工作研究（work）；⑤工作的"个体性/本己性"（haecceity）——什么使一场测试成为测试、一场竞赛成为竞赛。
 5. **后期重心转向 workplace studies（工作研究）**：Lucy Suchman《Plans and Situated Actions》（1987）用常人方法学批判 HCI/AI 的"计划"范式；Michael Lynch《Art and Artifact in Laboratory Science》（1985）、Eric Livingston《The Ethnomethodological Foundations of Mathematics》（1986）。
 6. **二手经典**：Heritage（1984）《Garfinkel and Ethnomethodology》是标准导读。
-7. **在 HCI / CSCW 的应用（与本站条目 002 呼应）**：Dourish & Button 提出 **technomethodology（技术方法学，1996/1998）**，把常人方法学的 "accountability" 与系统设计的 "abstraction" 做*"基础关系"*类比；Dourish《Where the Action Is》（2001/2021）以现象学（Heidegger/Wittgenstein）与常人方法学为"具身交互"奠基。相关：参见 [像 Dourish 那样写作](002-writing-like-dourish.zh.md)。
+7. **在 HCI / CSCW 的应用（与本站条目 002 呼应）**：Dourish & Button 提出 **technomethodology（技术方法学）**，见其 CHI 1996 论文《Technomethodology: Paradoxes and Possibilities》，把常人方法学的 "accountability" 与系统设计的 "abstraction" 做*"基础关系"*类比；Dourish《Where the Action Is》（2001/2021）以现象学（Heidegger/Wittgenstein）与常人方法学为"具身交互"奠基。相关：参见 [像 Dourish 那样写作](002-writing-like-dourish.zh.md)。
 8. **EMCA 合称与近年动向**：ethnomethodology + conversation analysis 并称 EMCA；视频化互动研究（Goodwin、Heath、Mondada）；科学、技术与社会（Lynch）；以及 AI/人机互动中的常人方法学（2022 专辑）。综述见 Maynard & Heritage（2024, *Annual Review of Sociology* 50, DOI 10.1146/annurev-soc-020321-033738）。
 
 ## 四、核心概念速查
@@ -74,7 +74,7 @@
 7. Maynard, D. W. & Heritage, J. (2024). "Ethnomethodology's Legacies and Prospects." *Annual Review of Sociology* 50. DOI 10.1146/annurev-soc-020321-033738
 8. Meier zu Verl, C. et al. (2022). "Ethnomethodological ethnography." *Qualitative Research*. DOI 10.1177/14687941221129798
 9. Suchman, L. (1987). *Plans and Situated Actions*. Cambridge University Press.
-10. Dourish, P. & Button, G. (1998/1999). "Technomethodology." *Technomethodology: Paradoxes and Possibilities* (CHI 1996) / *Foundational Relationships between Ethnomethodology and System Design*.
+10. Dourish, P. & Button, G. (1996). "Technomethodology: Paradoxes and Possibilities." Proc. CHI '96, pp. 337–344.
 11. Lynch, M. (1985). *Art and Artifact in Laboratory Science*. Routledge.
 12. Livingston, E. (1986). *The Ethnomethodological Foundations of Mathematics*. Routledge.
 13. Turowetz, J. & Rawls, A. (2020). "Garfinkel's life in the archives: The marginality of a sociological visionary." *Journal of the History of the Behavioral Sciences*.

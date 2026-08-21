@@ -11,7 +11,7 @@ sources:
   - "Pollner, M. & Emerson, R. M. (2001). 'Ethnomethodology and Ethnography.' In P. Atkinson et al. (Eds.), Handbook of Ethnography. Sage."
   - "Maynard, D. W. & Heritage, J. (2024). 'Ethnomethodology's Legacies and Prospects.' Annual Review of Sociology, 50. DOI 10.1146/annurev-soc-020321-033738"
   - "Meier zu Verl, C. et al. (2022). 'Ethnomethodological ethnography.' Qualitative Research. DOI 10.1177/14687941221129798"
-  - "Dourish, P. & Button, G. (1998/1999). 'Technomethodology' (EM applied to HCI/CSCW; see entry 002 in this site)"
+  - "Dourish, P. & Button, G. (1996). 'Technomethodology: Paradoxes and Possibilities.' Proc. CHI '96, pp. 337–344 (EM applied to HCI/CSCW; see entry 002 in this site)"
   - "Psathas, G. (1995). Conversation Analysis: The Study of Talk-in-Interaction. Sage."
 initial-prompt: "Survey the origins of ethnomethodology, how it differs from and resembles ethnography, and its development; search Wikipedia or relevant reviews and summarize, then submit to the marginalia repo."
 agent: opencode
@@ -60,7 +60,7 @@ Both share the interpretive tradition, concern for the lifeworld, and respect fo
 4. **Psathas (1995) distinguishes five approaches**: ① organisation of practical actions and practical reasoning; ② organisation of talk-in-interaction (CA); ③ talk-in-interaction in institutional/organisational settings; ④ the study of work; ⑤ the haecceity of work — what makes a test a test, a competition a competition.
 5. **Later shift toward workplace studies**: Lucy Suchman's *Plans and Situated Actions* (1987) used ethnomethodology to critique the "planning" paradigm in HCI/AI; Michael Lynch's *Art and Artifact in Laboratory Science* (1985) and Eric Livingston's *The Ethnomethodological Foundations of Mathematics* (1986).
 6. **The standard secondary source**: Heritage (1984), *Garfinkel and Ethnomethodology*.
-7. **Application to HCI / CSCW (echoing entry 002 in this site)**: Dourish & Button proposed **technomethodology** (1996/1998), drawing a "foundational relationship" between EM's *accountability* and system design's *abstraction*; Dourish's *Where the Action Is* (2001/2021) grounds "embodied interaction" in phenomenology (Heidegger/Wittgenstein) and ethnomethodology. Related: see [Writing like Dourish](../002-writing-like-dourish/note.en.md).
+7. **Application to HCI / CSCW (echoing entry 002 in this site)**: Dourish & Button proposed **technomethodology**, in their CHI 1996 paper "Technomethodology: Paradoxes and Possibilities", drawing a "foundational relationship" between EM's *accountability* and system design's *abstraction*; Dourish's *Where the Action Is* (2001/2021) grounds "embodied interaction" in phenomenology (Heidegger/Wittgenstein) and ethnomethodology. Related: see [Writing like Dourish](../002-writing-like-dourish/note.en.md).
 8. **The EMCA label and recent directions**: ethnomethodology + conversation analysis are jointly called EMCA; video-based studies of interaction (Goodwin, Heath, Mondada); science & technology studies (Lynch); and ethnomethodology in AI / human–machine interaction (2022 special issue). For a review, see Maynard & Heritage (2024, *Annual Review of Sociology* 50, DOI 10.1146/annurev-soc-020321-033738).
 
 ## 4. Core concepts at a glance
@@ -86,7 +86,7 @@ Both share the interpretive tradition, concern for the lifeworld, and respect fo
 7. Maynard, D. W. & Heritage, J. (2024). "Ethnomethodology's Legacies and Prospects." *Annual Review of Sociology* 50. DOI 10.1146/annurev-soc-020321-033738
 8. Meier zu Verl, C. et al. (2022). "Ethnomethodological ethnography." *Qualitative Research*. DOI 10.1177/14687941221129798
 9. Suchman, L. (1987). *Plans and Situated Actions*. Cambridge University Press.
-10. Dourish, P. & Button, G. (1998/1999). "Technomethodology." *Technomethodology: Paradoxes and Possibilities* (CHI 1996) / *Foundational Relationships between Ethnomethodology and System Design*.
+10. Dourish, P. & Button, G. (1996). "Technomethodology: Paradoxes and Possibilities." Proc. CHI '96, pp. 337–344.
 11. Lynch, M. (1985). *Art and Artifact in Laboratory Science*. Routledge.
 12. Livingston, E. (1986). *The Ethnomethodological Foundations of Mathematics*. Routledge.
 13. Turowetz, J. & Rawls, A. (2020). "Garfinkel's life in the archives: The marginality of a sociological visionary." *Journal of the History of the Behavioral Sciences*.
