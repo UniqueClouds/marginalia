@@ -1,10 +1,10 @@
 # Ethnomethodology — survey: origins, its relation to ethnography, and development
 
 <div class="lang-switch" markdown>
-🌐 Language / 语言：[中文](014-ethnomethodology.zh.md) · **English**
+🌐 Language / 语言：[中文](013-ethnomethodology.zh.md) · **English**
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-014</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Ethnomethodology — survey: origins, its relation to ethnography, and development</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-21</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-21</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>survey (literature survey)</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>30</td></tr></table></details>
+<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-013</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Ethnomethodology — survey: origins, its relation to ethnography, and development</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-21</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-21</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>survey (literature survey)</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>30</td></tr></table></details>
 
 
 # Ethnomethodology
@@ -80,7 +80,8 @@ Both share the interpretive tradition, concern for the lifeworld, and respect fo
 13. Turowetz, J. & Rawls, A. (2020). "Garfinkel's life in the archives: The marginality of a sociological visionary." *Journal of the History of the Behavioral Sciences*.
 
 
+
 ---
 
-> 🌐 [阅读中文版](014-ethnomethodology.zh.md)
+> 🌐 [阅读中文版](013-ethnomethodology.zh.md)
 

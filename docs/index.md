@@ -110,13 +110,13 @@
 
     [中文版](entries/012-wikipedia-temporal-analysis.zh.md) · [English](entries/012-wikipedia-temporal-analysis.en.md)
 
-- 📖 **ENTRY 014** · 2026-08-21
+- 📖 **ENTRY 013** · 2026-08-21
 
     ---
 
     常人方法学（Ethnomethodology）—— 调研：来源、与民族志的异同、发展脉络
 
-    [中文版](entries/014-ethnomethodology.zh.md) · [English](entries/014-ethnomethodology.en.md)
+    [中文版](entries/013-ethnomethodology.zh.md) · [English](entries/013-ethnomethodology.en.md)
 
 - 🎧 **ENTRY 006 · ARTIFACT** · 2026-08-17
 
