@@ -1,5 +1,5 @@
 ---
-id: marginalia-014
+id: marginalia-013
 title: "Ethnomethodology — survey: origins, its relation to ethnography, and development"
 date: 2026-08-21
 published: 2026-08-21
@@ -90,3 +90,4 @@ Both share the interpretive tradition, concern for the lifeworld, and respect fo
 11. Lynch, M. (1985). *Art and Artifact in Laboratory Science*. Routledge.
 12. Livingston, E. (1986). *The Ethnomethodological Foundations of Mathematics*. Routledge.
 13. Turowetz, J. & Rawls, A. (2020). "Garfinkel's life in the archives: The marginality of a sociological visionary." *Journal of the History of the Behavioral Sciences*.
+
