@@ -1,0 +1,840 @@
+{
+ "rih": [
+  {
+   "title": "427. Titanic: The Tragedy Begins (Part 1)",
+   "date": "2024-03-11",
+   "note": "泰坦尼克号 · 沉没始末（六部曲开篇）",
+   "spotify_url": "https://open.spotify.com/episode/0fMeR40Q8kEuCsmKXLWXr7"
+  },
+  {
+   "title": "195. Young Cleopatra (Part 1)",
+   "date": "2022-06-13",
+   "note": "埃及艳后 · 少年克娄巴特拉（四部曲开篇）",
+   "spotify_url": "https://open.spotify.com/episode/7vdYhLc8y8hZdBUvdo0pPS"
+  },
+  {
+   "title": "503. The French Revolution: Bloodbath in Paris (Part 1)",
+   "date": "2024-10-13",
+   "note": "法国大革命 · 巴黎血洗（系列开篇）",
+   "spotify_url": "https://open.spotify.com/episode/3BDIjgZI5eHW9nZ2sU9bVb"
+  },
+  {
+   "title": "126. Napoleon in Egypt",
+   "date": "2021-11-29",
+   "note": "拿破仑远征埃及",
+   "spotify_url": "https://open.spotify.com/episode/0tiQqVre2FF2PPN6D7dx49"
+  },
+  {
+   "title": "527.  Beethoven: Napoleon and the Music of War LIVE at the Royal Albert Hall",
+   "date": "2025-01-02",
+   "note": "贝多芬与拿破仑 · 皇家阿尔伯特音乐厅现场",
+   "spotify_url": "https://open.spotify.com/episode/1doBaYTQoxP5wiFHFe7ts2"
+  }
+ ],
+ "rip": [
+  {
+   "title": "439. The Pro-Putin President: Are Zelensky and Europe sleepwalking into disaster?",
+   "date": "2025-08-19",
+   "note": "亲普京的总统？泽连斯基与欧洲是否在梦游",
+   "spotify_url": "https://open.spotify.com/episode/611BtUmlDdTy6aOPQ6mepa"
+  },
+  {
+   "title": "438. Inside the Trump-Putin Summit: What Really Happened in Alaska?",
+   "date": "2025-08-16",
+   "note": "特朗普-普京阿拉斯加峰会内幕",
+   "spotify_url": "https://open.spotify.com/episode/7x4N4SOFGySTLndszpLWEz"
+  },
+  {
+   "title": "495. Terror in Minnesota: The Putinisation of America (Question Time)",
+   "date": "2026-01-29",
+   "note": "明尼苏达恐袭 · 美国的普京化（Question Time）",
+   "spotify_url": "https://open.spotify.com/episode/2JNFAZ4NPdiSzkC1tNl1Gf"
+  },
+  {
+   "title": "491. Trump at Davos: Rory and Alastair React",
+   "date": "2026-01-21",
+   "note": "特朗普达沃斯行 · 双人即时反应",
+   "spotify_url": "https://open.spotify.com/episode/1l4dGgGX0f4JW3nranXvd5"
+  }
+ ],
+ "ripus": [
+  {
+   "title": "126. Dick Cheney: The Most Controversial Vice President in History?",
+   "date": "2025-11-04",
+   "note": "迪克·切尼：史上最具争议的副总统？",
+   "spotify_url": "https://open.spotify.com/episode/1ctGBakD3oy5NXSYVxFf0r"
+  },
+  {
+   "title": "88. The Great Joe Biden Cover-Up",
+   "date": "2025-05-22",
+   "note": "拜登健康隐瞒事件",
+   "spotify_url": "https://open.spotify.com/episode/4TLEWdUzoeg2RlsWvjbQZg"
+  },
+  {
+   "title": "Could Obama Beat Trump?",
+   "date": "2025-06-08",
+   "note": "奥巴马能打败特朗普吗？",
+   "spotify_url": "https://open.spotify.com/episode/7jSK8dbgGFGmRR8Hxi9rDu"
+  },
+  {
+   "title": "How Trump Won the White House: Did Obama Create Trump? (Ep 2)",
+   "date": "2024-09-23",
+   "note": "特朗普的胜选：是奥巴马造就了特朗普？（系列第 2 集）",
+   "spotify_url": "https://open.spotify.com/episode/7jTpIEgjRUs7j05XZmUkT4"
+  }
+ ],
+ "riplead": [
+  {
+   "title": "137. Jacinda Ardern: Why I Stepped Down as Prime Minister of New Zealand",
+   "date": "2025-06-01",
+   "note": "新西兰前总理阿德恩：我为何辞职",
+   "spotify_url": "https://open.spotify.com/episode/6WtocFO5cm59rxspB0g5oR"
+  },
+  {
+   "title": "15: Hillary Clinton: Fighting Putin, the Return of Trump, and the Killing of Osama Bin Laden",
+   "date": "2023-04-24",
+   "note": "希拉里·克林顿：对抗普京、特朗普回归",
+   "spotify_url": "https://open.spotify.com/episode/4O2vWqDoQ5ZkEnGcCnYCAu"
+  },
+  {
+   "title": "77. David Blunkett: Tony Blair, growing up blind, and where Margaret Thatcher went wrong (Part 1)",
+   "date": "2024-06-02",
+   "note": "戴维·布兰基特谈布莱尔与撒切尔时代",
+   "spotify_url": "https://open.spotify.com/episode/5euOXkx8jEqu2rLtKb0URc"
+  }
+ ],
+ "rient": [
+  {
+   "title": "Ben Elton on Blackadder, Rik Mayall & The Joy of Writing",
+   "date": "2025-10-22",
+   "note": "本·埃尔顿谈《黑爵士》与瑞克·梅奥尔",
+   "spotify_url": "https://open.spotify.com/episode/2BSx3cCAR1keNIMQwn1KAe"
+  },
+  {
+   "title": "Oscars Nominations: A Bluffer's Guide",
+   "date": "2026-01-23",
+   "note": "奥斯卡提名装懂指南",
+   "spotify_url": "https://open.spotify.com/episode/6b21nLRxHXgwLSwZXotGp8"
+  },
+  {
+   "title": "James Bond: Desperate For A Deal (Ep2)",
+   "date": "2026-08-18",
+   "note": "007 系列产业拉锯战（Ep2）",
+   "spotify_url": "https://open.spotify.com/episode/4Vla9YzoUpjjWWS4ebfaj9"
+  }
+ ],
+ "rimoney": [
+  {
+   "title": "30. How to solve the housing crisis",
+   "date": "2024-02-09",
+   "note": "住房危机怎么破",
+   "spotify_url": "https://open.spotify.com/episode/2Kz387lk2p84rm4TGcrZJp"
+  },
+  {
+   "title": "141. Why Aren’t UK Pension Funds Backing Britain?",
+   "date": "2025-02-24",
+   "note": "英国养老金为何不投英国",
+   "spotify_url": "https://open.spotify.com/episode/6k7NWLc3RDcEFivwUr8D8s"
+  },
+  {
+   "title": "299. Trump’s new tariffs - can anyone win a trade war?",
+   "date": "2026-07-27",
+   "note": "特朗普新关税：贸易战有赢家吗",
+   "spotify_url": "https://open.spotify.com/episode/1iVvNCJ2rwKXNP7m5zdOB4"
+  },
+  {
+   "title": "281. How to tax billionaires",
+   "date": "2026-05-24",
+   "note": "如何对亿万富翁征税",
+   "spotify_url": "https://open.spotify.com/episode/0lVns7ZqnSg9qcpTGlqCZE"
+  }
+ ],
+ "riclass": [
+  {
+   "title": "Mossad: The Truth About Israeli Intelligence",
+   "date": "2026-07-28",
+   "note": "摩萨德：以色列情报机构真相",
+   "spotify_url": "https://open.spotify.com/episode/5He2VoiYxhl4uPZYwh25L4"
+  },
+  {
+   "title": "Inside a Former KGB Hotel",
+   "date": "2026-06-09",
+   "note": "住进前克格勃酒店",
+   "spotify_url": "https://open.spotify.com/episode/4VY8re3AEBGI4NDDrwNADc"
+  },
+  {
+   "title": "Kim Philby's Speech To The Stasi",
+   "date": "2026-02-06",
+   "note": "菲尔比对斯塔西的演讲",
+   "spotify_url": "https://open.spotify.com/episode/2RXbHbw0uqcj6fkxyQCO8M"
+  },
+  {
+   "title": "The Cambridge Five With Antonia Senior",
+   "date": "2026-01-30",
+   "note": "剑桥五杰总纲（嘉宾 Antonia Senior）",
+   "spotify_url": "https://open.spotify.com/episode/2IL6qKpiwC8MUB89c3WnUq"
+  }
+ ],
+ "blankcheck": [
+  {
+   "title": "Jurassic Park with Sean Fennessey",
+   "date": "2025-04-13",
+   "note": "侏罗纪公园 × Sean Fennessey",
+   "spotify_url": "https://open.spotify.com/episode/6wAfWs97yY4N0DUEhXOMiz"
+  },
+  {
+   "title": "Jaws with Timothy Simons",
+   "date": "2025-01-19",
+   "note": "大白鲨 × Timothy Simons",
+   "spotify_url": "https://open.spotify.com/episode/0PXL9RcM8eSW0glSFdX303"
+  },
+  {
+   "title": "The Matrix Resurrections",
+   "date": "2022-04-21",
+   "note": "黑客帝国：矩阵重启",
+   "spotify_url": "https://open.spotify.com/episode/6FpcYKHWbxZghaeoCX1n4z"
+  },
+  {
+   "title": "Terminator: Dark Fate",
+   "date": "2024-04-01",
+   "note": "终结者：黑暗命运",
+   "spotify_url": "https://open.spotify.com/episode/2oXsSFeSdTK8ppQlFh41wc"
+  }
+ ],
+ "filmcomment": [
+  {
+   "title": "Cannes 2026 #9: Breaking Borders at Cannes Docs",
+   "date": "2026-06-02",
+   "note": "戛纳 2026 圆桌 #9（旗舰栏目）",
+   "spotify_url": "https://open.spotify.com/episode/2HWe9gk7Segv4Kz0jAfUFt"
+  },
+  {
+   "title": "Martin Scorsese and The Irishman",
+   "date": "2019-11-27",
+   "note": "斯科塞斯谈《爱尔兰人》",
+   "spotify_url": "https://open.spotify.com/episode/2rVmG5nLbQD2NhIxWjVzAM"
+  },
+  {
+   "title": "Pedro Almodóvar and Pain and Glory",
+   "date": "2019-09-18",
+   "note": "阿尔莫多瓦谈《痛苦与荣耀》",
+   "spotify_url": "https://open.spotify.com/episode/4w0d1fTuB4GAgL0ToFcs8Z"
+  },
+  {
+   "title": "Cannes 2023 #6: Todd Haynes on May December",
+   "date": "2023-05-24",
+   "note": "托德·海因斯谈《五月十二月》",
+   "spotify_url": "https://open.spotify.com/episode/2AvDPGzHPl34Jq3W7r3V4Y"
+  }
+ ],
+ "purecinema": [
+  {
+   "title": "Film Noir Sampler",
+   "date": "2022-11-07",
+   "note": "黑色电影片单采样",
+   "spotify_url": "https://open.spotify.com/episode/5AcrKlrNGiV0zhQEmyaFEr"
+  },
+  {
+   "title": "Anything Goes: 80s!",
+   "date": "2025-03-04",
+   "note": "任意门：80 年代大杂烩",
+   "spotify_url": "https://open.spotify.com/episode/7488mJjYZbmeTt8PcMhvhx"
+  },
+  {
+   "title": "70s Cult Movies",
+   "date": "2019-11-12",
+   "note": "70 年代邪典片单",
+   "spotify_url": "https://open.spotify.com/episode/09bkcuSeCudMqEdDVf9NXI"
+  }
+ ],
+ "cinephiliacs": [
+  {
+   "title": "TC #119 - Racquel Gates (White Chicks)",
+   "date": "2019-10-18",
+   "note": "Racquel Gates 谈《白人女孩也疯狂》与流行影像批评",
+   "spotify_url": "https://open.spotify.com/episode/2kVRIJilBXv4YMp3qFNAvk"
+  },
+  {
+   "title": "TC #124 - Brian L. Frye (The Hart of London)",
+   "date": "2020-07-01",
+   "note": "Brian L. Frye 谈《伦敦之心》与实验电影",
+   "spotify_url": "https://open.spotify.com/episode/7Gt8NNym7Y6Ay2e6JLUprW"
+  },
+  {
+   "title": "Framing Media #6 - Christina Lane on Producer Joan Harrison, The Mistress of Suspense",
+   "date": "2020-12-01",
+   "note": "Joan Harrison：悬念大师背后的制片人",
+   "spotify_url": "https://open.spotify.com/episode/3ZG6APICuOj4oixlFyCphS"
+  }
+ ],
+ "newbookssts": [
+  {
+   "title": "Pedro Domingos, \"The Master Algorithm: How the Quest for the Ultimate Learning Machine Will Remake Our World\" ﻿(Basic Books, 2018)",
+   "date": "2026-05-30",
+   "note": "Pedro Domingos《终极算法》",
+   "spotify_url": "https://open.spotify.com/episode/1PH94ZO9E92MC0LDK2TsOD"
+  },
+  {
+   "title": "Ray Brescia, \"The Private Is Political: Identity and Democracy in the Age of Surveillance Capitalism\" (NYU Press, 2025)",
+   "date": "2025-02-17",
+   "note": "监控时代的身份与民主",
+   "spotify_url": "https://open.spotify.com/episode/2ravWXmO0jwjkHw0cA93xJ"
+  },
+  {
+   "title": "Ali Fard, \"Grounding the Cloud: Urbanism in the Shadow of Data\" (U Minnesota Press, 2026)",
+   "date": "2026-07-10",
+   "note": "云的地基：数据中心阴影下的城市主义",
+   "spotify_url": "https://open.spotify.com/episode/66ihSDqLnFz9h4tl7A3YVz"
+  }
+ ],
+ "techwontsaveus": [
+  {
+   "title": "Is Tesla Still a Car Company? w/ Ed Niedermeyer",
+   "date": "2025-09-25",
+   "note": "特斯拉还是车企吗（Ed Niedermeyer）",
+   "spotify_url": "https://open.spotify.com/episode/3Wsvj7esYRkLnO4Y66zQ1U"
+  },
+  {
+   "title": "Beating Uber at the UK Supreme Court w/ Yaseen Aslam",
+   "date": "2021-10-19",
+   "note": "在英国最高法院打赢 Uber（零工权益）",
+   "spotify_url": "https://open.spotify.com/episode/1k1cBhhDSyj5yMPpDZAafJ"
+  },
+  {
+   "title": "We All Suffer from OpenAI’s Pursuit of Scale w/ Karen Hao [Replay]",
+   "date": "2026-01-08",
+   "note": "Karen Hao：OpenAI 的规模执念",
+   "spotify_url": "https://open.spotify.com/episode/6fvizxWSZEIPO9sASl80vb"
+  },
+  {
+   "title": "Tim Cook’s Real Legacy at Apple w/ Brian Merchant",
+   "date": "2026-04-30",
+   "note": "Brian Merchant 评库克的苹果遗产",
+   "spotify_url": "https://open.spotify.com/episode/3eNLCDamCDuNmW5MkdqC41"
+  }
+ ],
+ "econtalk": [
+  {
+   "title": "Nassim Nicholas Taleb on the Nations, States, and Scale",
+   "date": "2022-07-11",
+   "note": "塔勒布：国家、城邦与规模（《黑天鹅》作者）",
+   "spotify_url": "https://open.spotify.com/episode/1DqCf4ktYOFZVw6TxQGWPz"
+  },
+  {
+   "title": "Angela Duckworth on Character",
+   "date": "2022-03-07",
+   "note": "Angela Duckworth 谈品格与 Grit",
+   "spotify_url": "https://open.spotify.com/episode/1ZWptBRGuHTzwibvkkcsi2"
+  },
+  {
+   "title": "Richard Thaler on Libertarian Paternalism",
+   "date": "2006-11-06",
+   "note": "塞勒：自由意志主义家长制（诺奖行为经济学）",
+   "spotify_url": "https://open.spotify.com/episode/6VKJWJ7s4NQ7M5BJoraOBl"
+  },
+  {
+   "title": "The Economics of Scarcity and the UNC-Duke Basketball Game (with Michael Munger)",
+   "date": "2026-03-16",
+   "note": "Michael Munger 常驻对谈",
+   "spotify_url": "https://open.spotify.com/episode/6BMpmkYB0ZJahYPUMQHUfc"
+  }
+ ],
+ "philosophybites": [
+  {
+   "title": "Peter Singer on Ending Innocent Lives",
+   "date": "2026-07-30",
+   "note": "彼得·辛格：结束无辜生命",
+   "spotify_url": "https://open.spotify.com/episode/3hFhF3lyzamaeAPSj42Pe7"
+  },
+  {
+   "title": "Martha Nussbaum on the Value of the Humanities",
+   "date": "2010-12-24",
+   "note": "努斯鲍姆：人文学科的价值",
+   "spotify_url": "https://open.spotify.com/episode/2gp98hMkAwvJg1nijmYOog"
+  },
+  {
+   "title": "David Chalmers on Technophiloosphy and the Extended Mind",
+   "date": "2024-01-22",
+   "note": "查尔莫斯：技术哲学与延展心灵",
+   "spotify_url": "https://open.spotify.com/episode/6PhqIVpFE6QJCqUyLqf6XD"
+  },
+  {
+   "title": "Michael Sandel on Justice",
+   "date": "2011-01-14",
+   "note": "桑德尔谈正义（经典入门）",
+   "spotify_url": "https://open.spotify.com/episode/5WAtoIX6GvMb2I7ODNNkOd"
+  }
+ ],
+ "pel": [
+  {
+   "title": "Ep. 310: Wittgenstein On World-Pictures (Part Two)",
+   "date": "2023-02-13",
+   "note": "维特根斯坦论世界图景",
+   "spotify_url": "https://open.spotify.com/episode/4rGktLkChzn1TLQMjO0U3s"
+  },
+  {
+   "title": "Ep. 376: Plato's \"Laws\" (Part Two)",
+   "date": "2025-09-29",
+   "note": "柏拉图《法篇》",
+   "spotify_url": "https://open.spotify.com/episode/1bCZsStE18eXn7XBygfh73"
+  },
+  {
+   "title": "Ep. 300: Nietzsche on Relating to History (Part Two)",
+   "date": "2022-09-19",
+   "note": "尼采：我们如何对待历史",
+   "spotify_url": "https://open.spotify.com/episode/1i3TtzTpPZUOFhwhM31KMQ"
+  },
+  {
+   "title": "Ep. 297: Heidegger on the Human Condition (Part Two)",
+   "date": "2022-07-18",
+   "note": "海德格尔论人的境况",
+   "spotify_url": "https://open.spotify.com/episode/0MOrO3uX3860ke3hc6cZZ3"
+  }
+ ],
+ "hpwag": [
+  {
+   "title": "HoP 015 - Socrates without Plato - the Portrayals of Aristophanes and Xenophon",
+   "date": "2011-01-10",
+   "note": "没有柏拉图的苏格拉底",
+   "spotify_url": "https://open.spotify.com/episode/5vDnwzRCZbJvkWqlEdEIgG"
+  },
+  {
+   "title": "HoP 034 - Mr. Know It All - Aristotle's Life And Works",
+   "date": "2011-05-23",
+   "note": "亚里士多德的生平与著作",
+   "spotify_url": "https://open.spotify.com/episode/3RUz83S5yXJ1xqQWnclFkT"
+  },
+  {
+   "title": "HoP 242 - Therese Cory on Self-Awareness in Albert and Aquinas",
+   "date": "2015-12-06",
+   "note": "阿奎那的自我意识（嘉宾 Therese Cory）",
+   "spotify_url": "https://open.spotify.com/episode/2aqnUv7t8atpdEGsaeXBgZ"
+  },
+  {
+   "title": "HoP 138 - The Self-Made Man - Avicenna's Life and Works",
+   "date": "2013-07-21",
+   "note": "伊本·西那（伊斯兰哲学高峰）",
+   "spotify_url": "https://open.spotify.com/episode/0Os2nVTjJv05u6Uwvi0vlt"
+  }
+ ],
+ "betweenthecovers": [
+  {
+   "title": "Ursula K. Le Guin : Words Are My Matter",
+   "date": "2017-02-14",
+   "note": "勒古恩《词语是我的材料》（传奇长访）",
+   "spotify_url": "https://open.spotify.com/episode/2qt90NSQ2Pc4j3KpoB91ee"
+  },
+  {
+   "title": "George Saunders : Tenth of December",
+   "date": "2013-02-14",
+   "note": "桑德斯《十二月十日》",
+   "spotify_url": "https://open.spotify.com/episode/4I21LlVOhKSdLVHd1bbw8l"
+  },
+  {
+   "title": "From the Archives : Zadie Smith : Grand Union",
+   "date": "2026-05-01",
+   "note": "扎迪·史密斯《大联盟》",
+   "spotify_url": "https://open.spotify.com/episode/54CDT1cUjfYTK9Ud7TLJ8V"
+  }
+ ],
+ "geeksguide": [
+  {
+   "title": "169. Creating The Martian (with Andy Weir)",
+   "date": "2015-09-26",
+   "note": "安迪·威尔聊《火星救援》诞生记",
+   "spotify_url": "https://open.spotify.com/episode/5uAvTE6jb6rAnFBuS0Srxe"
+  },
+  {
+   "title": "22. George R. R. Martin (A Game of Thrones) / A Song of Ice and Fire",
+   "date": "2010-10-06",
+   "note": "乔治·R·R·马丁谈《权力的游戏》原著",
+   "spotify_url": "https://open.spotify.com/episode/1dB5ZWSg2RlWkuuRzpj84M"
+  },
+  {
+   "title": "165. N. K. Jemisin, author of The Fifth Season",
+   "date": "2015-08-29",
+   "note": "N·K·杰米辛《第五季》",
+   "spotify_url": "https://open.spotify.com/episode/1jhL3iApMj68yxuPzM3y1J"
+  }
+ ],
+ "parisreview": [
+  {
+   "title": "S4E12 | Concerning the Future of Souls, by Joy Williams",
+   "date": "2024-03-20",
+   "note": "Joy Williams《关于灵魂的未来》",
+   "spotify_url": "https://open.spotify.com/episode/7FxSSdIMFyRzAwCLKR2CCa"
+  },
+  {
+   "title": "Personals | “The Smoker,” by Ottessa Moshfegh",
+   "date": "2025-09-08",
+   "note": "Personals 系列：莫什费什《吸烟者》",
+   "spotify_url": "https://open.spotify.com/episode/16KRqOzpsQdc7gNOBua9dN"
+  },
+  {
+   "title": "Inside the Issue | \"My Life, By Barbara Rosenberg,\" by Jordy Rosenberg",
+   "date": "2025-11-17",
+   "note": "刊内独家：Jordy Rosenberg 新作",
+   "spotify_url": "https://open.spotify.com/episode/2KS82FPjXM35fFhvrikL5i"
+  }
+ ],
+ "backlisted": [
+  {
+   "title": "Graham Greene",
+   "date": "2023-05-15",
+   "note": "格林厄姆·格林特辑",
+   "spotify_url": "https://open.spotify.com/episode/0LVmYY2FsyO1YT0FPkT1LX"
+  },
+  {
+   "title": "Memento Mori by Muriel Spark",
+   "date": "2024-05-28",
+   "note": "缪丽尔·斯帕克《勿忘你终有一死》",
+   "spotify_url": "https://open.spotify.com/episode/3YmqwMbNXCBM7baPQ0O6z9"
+  },
+  {
+   "title": "Wuthering Heights by Emily Brontë",
+   "date": "2025-10-28",
+   "note": "《呼啸山庄》（2025 新季）",
+   "spotify_url": "https://open.spotify.com/episode/0ZdeO0CsVrx2KrQzbbK8CI"
+  }
+ ],
+ "historyhit": [
+  {
+   "title": "The Battle of Agincourt",
+   "date": "2025-10-02",
+   "note": "阿金库尔战役",
+   "spotify_url": "https://open.spotify.com/episode/3gh8KDQN7qV1SX4oH6qDny"
+  },
+  {
+   "title": "Anne Boleyn: Myths vs Reality",
+   "date": "2025-09-18",
+   "note": "安妮·博林：神话与现实",
+   "spotify_url": "https://open.spotify.com/episode/6s8NRl70tmtyhWG0ncTwAX"
+  },
+  {
+   "title": "The Battle of Hastings",
+   "date": "2025-09-25",
+   "note": "黑斯廷斯战役（1066）",
+   "spotify_url": "https://open.spotify.com/episode/1P5tCnkbAxgRwUyVx7S8qX"
+  },
+  {
+   "title": "The Day Churchill Destroyed The French Navy",
+   "date": "2026-05-08",
+   "note": "丘吉尔摧毁法国海军的那一天",
+   "spotify_url": "https://open.spotify.com/episode/2fB9yQj5hKPIz5OHWxcCzC"
+  }
+ ],
+ "longnow": [
+  {
+   "title": "Jonathan Haidt, Kevin Kelly,  & Stewart Brand: Democracy in the Next Cycle of History",
+   "date": "2022-10-06",
+   "note": "Haidt × Kelly × Brand：下一个历史周期的民主",
+   "spotify_url": "https://open.spotify.com/episode/3OOawLw3AI6xNKOjHORw1x"
+  },
+  {
+   "title": "Neal Stephenson: Polostan",
+   "date": "2024-11-14",
+   "note": "尼尔·斯蒂芬森《Polostan》",
+   "spotify_url": "https://open.spotify.com/episode/5NhTtzOWVUNSVaw0QbLhTk"
+  },
+  {
+   "title": "Vernor Vinge: What If the Singularity Does NOT Happen?",
+   "date": "2007-02-16",
+   "note": "弗诺·文奇：如果奇点没有发生？",
+   "spotify_url": "https://open.spotify.com/episode/2hDAVq7Pgfow5Qi3Ri0gl4"
+  }
+ ],
+ "lrb": [
+  {
+   "title": "James Meek: Robin Hood in a Time of Austerity",
+   "date": "2016-02-18",
+   "note": "紧缩时代的罗宾汉（James Meek）",
+   "spotify_url": "https://open.spotify.com/episode/2S4pP1iL7nLTpXOcIxeo3d"
+  },
+  {
+   "title": "Marina Warner: Learning My Lesson",
+   "date": "2015-03-19",
+   "note": "Marina Warner《吸取我的教训》",
+   "spotify_url": "https://open.spotify.com/episode/7FEPBaaPMzu0PCfzZn96dg"
+  },
+  {
+   "title": "China's Gold Rush Migrants",
+   "date": "2022-07-19",
+   "note": "中国的淘金移民",
+   "spotify_url": "https://open.spotify.com/episode/3k2HcIk9fjyaFOgUBc1wfV"
+  }
+ ],
+ "sinica": [
+  {
+   "title": "China's Response to U.S. Semiconductor Export Controls, with Paul Triolo and Kevin Xu",
+   "date": "2024-08-08",
+   "note": "中国如何应对美国芯片出口管制",
+   "spotify_url": "https://open.spotify.com/episode/5nMEKWYrJmmbFDYzztQ55k"
+  },
+  {
+   "title": "Taiwan, Ukraine, and the Sino-American Rivalry",
+   "date": "2024-06-06",
+   "note": "台湾、乌克兰与中美竞争",
+   "spotify_url": "https://open.spotify.com/episode/0Ur5aS4ERXtzmb5mq8b0L9"
+  },
+  {
+   "title": "Semiconductors and the unspoken U.S. tech policy on China, with Paul Triolo",
+   "date": "2022-07-15",
+   "note": "美国对华芯片政策的潜台词（2022）",
+   "spotify_url": "https://open.spotify.com/episode/03hWwXrCFRU5yV488nnRY5"
+  }
+ ],
+ "candidframe": [
+  {
+   "title": "TCF Ep. 615 - Joel Meyerowitz",
+   "date": "2023-12-23",
+   "note": "Joel Meyerowitz 街头摄影大师",
+   "spotify_url": "https://open.spotify.com/episode/3VSeua8lvyWFencwWkwzc9"
+  },
+  {
+   "title": "The Candid Frame #194 - Mary Ellen Mark",
+   "date": "2013-07-08",
+   "note": "Mary Ellen Mark 纪实摄影传奇",
+   "spotify_url": "https://open.spotify.com/episode/6GZQL5nJ6JMMtO0xVP8jXu"
+  },
+  {
+   "title": "TCF Ep. 338 - Dan Winters",
+   "date": "2016-09-05",
+   "note": "Dan Winters：科学与名人摄影",
+   "spotify_url": "https://open.spotify.com/episode/5Bbvtend9dJrkpA08EIhxY"
+  }
+ ],
+ "videoarchives": [
+  {
+   "title": "212 - 1941",
+   "date": "2025-04-01",
+   "note": "第 212 期：《1941》（斯皮尔伯格烂片考）",
+   "spotify_url": "https://open.spotify.com/episode/1qkAUbR4UJFFRppnGwElY2"
+  },
+  {
+   "title": "213 - The Hunt for Red October & More",
+   "date": "2025-04-15",
+   "note": "第 213 期：《猎杀红十月》",
+   "spotify_url": "https://open.spotify.com/episode/6E20GB1BpwQUoCVYLuXZfU"
+  },
+  {
+   "title": "109 - Star 80",
+   "date": "2022-11-08",
+   "note": "第 109 期：《星尘往事》Bob Fosse 传记",
+   "spotify_url": "https://open.spotify.com/episode/0SAhPkXdm4RQgdoPl7MF8p"
+  },
+  {
+   "title": "208 - The Gold Rush & More",
+   "date": "2025-02-04",
+   "note": "第 208 期：《淘金记》（卓别林）",
+   "spotify_url": "https://open.spotify.com/episode/4GEgyvAPro1sh8SdFRvJ2Y"
+  },
+  {
+   "title": "119 - The Great Waldo Pepper",
+   "date": "2023-03-28",
+   "note": "第 119 期：《大骗子》",
+   "spotify_url": "https://open.spotify.com/episode/1n9ZbFdxQRMAuzoYZ3Zu4q"
+  }
+ ],
+ "ymrt": [
+  {
+   "title": "34: Star Wars Episode VIII: How Norma Jeane Became Marilyn Monroe",
+   "date": "2015-02-24",
+   "note": "星战系列：Norma Jeane 如何成为梦露",
+   "spotify_url": "https://open.spotify.com/episode/6Lemy2qnaEdAL7YM6hHw8w"
+  },
+  {
+   "title": "145: Ramon Novarro (Fake News: Fact Checking Hollywood Babylon Episode 19)",
+   "date": "2019-01-29",
+   "note": "好莱坞巴比伦事实核查季：Ramon Novarro",
+   "spotify_url": "https://open.spotify.com/episode/7GQ0Ez6QcBmkvap4z86qxP"
+  },
+  {
+   "title": "Rupert Hughes's Women (The Seduced, Episode 1)",
+   "date": "2018-10-16",
+   "note": "《被诱惑者》季开篇：Rupert Hughes 的女人们",
+   "spotify_url": "https://open.spotify.com/episode/1952HPEfk4PsKPkQRRmi4y"
+  }
+ ],
+ "filmspotting": [
+  {
+   "title": "Top 10 Films of 2025 (Pt. 1) with Michael Phillips and Alison Willmore",
+   "date": "2025-12-19",
+   "note": "2025 十佳（上）× Michael Phillips & Alison Willmore",
+   "spotify_url": "https://open.spotify.com/episode/13pvpvWuza653042mNwdRE"
+  },
+  {
+   "title": "Top 5 Meryl Streep Scenes | #1063",
+   "date": "2026-05-08",
+   "note": "梅丽尔·斯特里普五佳场面",
+   "spotify_url": "https://open.spotify.com/episode/1xKSfaVSJNig9pbtsoOeWr"
+  },
+  {
+   "title": "Power Ranking Spielberg Decades | Archive",
+   "date": "2026-06-17",
+   "note": "斯皮尔伯格年代战力榜",
+   "spotify_url": "https://open.spotify.com/episode/6t1PXTVm46q789bZKEZqOV"
+  }
+ ],
+ "screendrafts": [
+  {
+   "title": "STAR WARS SUPER DRAFT (with Devan Coggan, Adam B. Vary, and Chancellor Agard)",
+   "date": "2020-01-09",
+   "note": "星战超级选秀",
+   "spotify_url": "https://open.spotify.com/episode/5AL9Czb0pDZ5UmBoebP5zQ"
+  },
+  {
+   "title": "MCU SUPER DRAFT (with Darren Franich & Chancellor Agard)",
+   "date": "2019-04-23",
+   "note": "漫威电影宇宙超级选秀",
+   "spotify_url": "https://open.spotify.com/episode/2bFm9tvU5hDUJ9OCUqMquo"
+  },
+  {
+   "title": "NICOLAS CAGE MEGA DRAFT (with BenDavid Grabinski, Drea Clark, Marc Calderaro, and John Freiler)",
+   "date": "2019-08-27",
+   "note": "尼古拉斯·凯奇超级选秀",
+   "spotify_url": "https://open.spotify.com/episode/1zLWvDvhQhVqRAY1OdkyVQ"
+  },
+  {
+   "title": "2010s DECADE MEGA DRAFT (with Darren Franich, Alison Herman, Piya Sinha-Roy, & Clay)",
+   "date": "2019-12-10",
+   "note": "2010 年代十年选秀",
+   "spotify_url": "https://open.spotify.com/episode/2vrGshSqlXEnZkvSngu0KB"
+  }
+ ],
+ "teamdeakins": [
+  {
+   "title": "Sam Mendes - Director",
+   "date": "2020-06-14",
+   "note": "萨姆·门德斯（《1917》）",
+   "spotify_url": "https://open.spotify.com/episode/4E9Mf3Hf5sLlsGs8Chjevi"
+  },
+  {
+   "title": "REFLECTIONS: ON CINEMATOGRAPHY - written by Roger Deakins",
+   "date": "2025-11-05",
+   "note": "罗杰亲笔：论摄影",
+   "spotify_url": "https://open.spotify.com/episode/6SEfzit8oKCsdV2RdmZOzf"
+  },
+  {
+   "title": "COLOUR - 100th Episode Special",
+   "date": "2024-07-31",
+   "note": "第 100 期特别节目：色彩",
+   "spotify_url": "https://open.spotify.com/episode/2ZHP2K5NrCoGP14hE5NcU6"
+  },
+  {
+   "title": "Turning the Tables - Sicario",
+   "date": "2021-08-08",
+   "note": "反转局：《边境杀手》复盘",
+   "spotify_url": "https://open.spotify.com/episode/2QnYd5eI0g4KHGrEhv3Qun"
+  }
+ ],
+ "newyorkerfiction": [
+  {
+   "title": "David Sedaris Reads George Saunders",
+   "date": "2024-08-01",
+   "note": "塞达里斯读桑德斯",
+   "spotify_url": "https://open.spotify.com/episode/77esoHr2KRflXvoMxGnbzS"
+  },
+  {
+   "title": "Orhan Pamuk Reads Jorge Luis Borges",
+   "date": "2019-01-02",
+   "note": "帕慕克读博尔赫斯",
+   "spotify_url": "https://open.spotify.com/episode/5PrYYigaSNwoxCJDKuAM1W"
+  },
+  {
+   "title": "Jennifer Egan Reads Margaret Atwood",
+   "date": "2025-01-01",
+   "note": "伊根读阿特伍德",
+   "spotify_url": "https://open.spotify.com/episode/7vGTD6HPBaq1sbj2JtdTkQ"
+  },
+  {
+   "title": "Rachel Cusk Reads Marguerite Duras",
+   "date": "2024-05-01",
+   "note": "卡斯克读杜拉斯",
+   "spotify_url": "https://open.spotify.com/episode/2l11t1fQLcz8xjO1OQ1X8w"
+  }
+ ],
+ "bookworm": [
+  {
+   "title": "Ursula LeGuin",
+   "date": "2018-01-25",
+   "note": "厄休拉·勒古恩",
+   "spotify_url": "https://open.spotify.com/episode/3FVmnBp6CJD2yWYz9mXgFb"
+  },
+  {
+   "title": "In Memory of Joan Didion: 'Blue Nights'",
+   "date": "2022-01-13",
+   "note": "琼·狄迪恩纪念：《蓝夜》",
+   "spotify_url": "https://open.spotify.com/episode/07tOJuRxvypAkqbnDMNMyz"
+  },
+  {
+   "title": "George Saunders: Lincoln in the Bardo (Part I)",
+   "date": "2017-08-31",
+   "note": "桑德斯《林肯在中阴身》（上）",
+   "spotify_url": "https://open.spotify.com/episode/6be4oh8NwKM6jG2e7u2vFO"
+  },
+  {
+   "title": "Toni Morrison Tribute",
+   "date": "2019-08-08",
+   "note": "托妮·莫里森纪念特辑",
+   "spotify_url": "https://open.spotify.com/episode/7p45Mr5bYb4MP5aon70FCi"
+  }
+ ],
+ "literaryfriction": [
+  {
+   "title": "RE-RUN: Author Special with Ocean Vuong",
+   "date": "2023-08-10",
+   "note": "Ocean Vuong 作者特辑",
+   "spotify_url": "https://open.spotify.com/episode/6uw1eErZt4X1WaENVNRUUu"
+  },
+  {
+   "title": "Literary Friction - Real Estate with Deborah Levy",
+   "date": "2021-06-17",
+   "note": "黛博拉·利维谈“房产”",
+   "spotify_url": "https://open.spotify.com/episode/2BjV7b33HGmSARJ1S8rqc7"
+  },
+  {
+   "title": "Literary Friction - Rest & Relaxation with Ottessa Moshfegh",
+   "date": "2018-09-05",
+   "note": "莫什费什谈“休息与放松”",
+   "spotify_url": "https://open.spotify.com/episode/4PGcek1dqlDS2nZZJq6tbw"
+  },
+  {
+   "title": "Literary Friction - Conversations With Sally Rooney",
+   "date": "2017-06-14",
+   "note": "萨莉·鲁尼早期对谈",
+   "spotify_url": "https://open.spotify.com/episode/1z9etvmi5mdnE6GlxJO4gv"
+  }
+ ],
+ "inourtimeculture": [
+  {
+   "title": "Hamlet",
+   "date": "2017-12-28",
+   "note": "《哈姆雷特》",
+   "spotify_url": "https://open.spotify.com/episode/3Vrc7QvJjkug2xNA7UdQjn"
+  },
+  {
+   "title": "Moby Dick",
+   "date": "2017-12-07",
+   "note": "《白鲸》",
+   "spotify_url": "https://open.spotify.com/episode/4HwsGpy1Svlu13WCqzpu9z"
+  },
+  {
+   "title": "Nineteen Eighty-Four",
+   "date": "2022-10-13",
+   "note": "《一九八四》",
+   "spotify_url": "https://open.spotify.com/episode/4DghmV9NycrEZhnKTGwNTU"
+  },
+  {
+   "title": "Italo Calvino",
+   "date": "2024-12-19",
+   "note": "卡尔维诺",
+   "spotify_url": "https://open.spotify.com/episode/74v9OztNKDicVEdupABZo8"
+  },
+  {
+   "title": "The Iliad",
+   "date": "2018-09-13",
+   "note": "《伊利亚特》",
+   "spotify_url": "https://open.spotify.com/episode/1BFr0TFyMry3aVGjKpOCNw"
+  }
+ ]
+}
