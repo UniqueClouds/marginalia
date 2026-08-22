@@ -9,7 +9,7 @@
 
 # Spotify Podcast Guide 2026
 
-A theme-first map of English-language podcasts: **47 shows** (each with 3–5 🔥 popular episodes attached, 149 in total) (cinema auteurism & film history / STS / philosophy / literature, sci-fi & literary criticism / The Rest Is… series / extended picks / photography) plus **77 curated episodes** — 26 from the Rest Is… catalog (18 core + 8 advanced) and 51 from the other 40 shows. Every show and episode carries an official Spotify link, verified via the Spotify Web API (show and episode endpoints checked against the canonical names). Original English titles are kept everywhere; the full Chinese version with bilingual official descriptions is [artifact.zh.md](index.md). 2026-08-21 update: added 9 shows with 19 selected episodes; 2026-08-22 update: added a 📷 Photography group of 12 shows (every podcast that interviewed Tillmans / Soth / Shore) and attached 3–5 popular episodes to every show (149 total, all verified via the official API / oEmbed) — film: The Video Archives Podcast (Quentin Tarantino × Roger Avary), You Must Remember This, Filmspotting, Screen Drafts, Team Deakins; literary criticism: The New Yorker: Fiction, Bookworm, Literary Friction, In Our Time: Culture.
+A theme-first map of English-language podcasts: **52 shows** (each with 🔥 popular episodes attached, 161 in total) (cinema auteurism & film history / STS / philosophy / literature, sci-fi & literary criticism / The Rest Is… series / extended picks / photography / sociology & social science) plus **81 curated episodes** — 26 from the Rest Is… catalog (18 core + 8 advanced) and 55 from the other 44 shows. Every show and episode carries an official Spotify link, verified via the Spotify Web API (show and episode endpoints checked against the canonical names). Original English titles are kept everywhere; the full Chinese version with bilingual official descriptions is [artifact.zh.md](index.md). 2026-08-21 update: added 9 shows with 19 selected episodes; 2026-08-22 update: added a 📷 Photography group of 12 shows (every podcast that interviewed Tillmans / Soth / Shore) and a 🎓 Sociology group of 5 shows anchored on Andrew Abbott & Brian Uzzi; popular episodes attached across all shows (161 total, verified via the official API / oEmbed) — film: The Video Archives Podcast (Quentin Tarantino × Roger Avary), You Must Remember This, Filmspotting, Screen Drafts, Team Deakins; literary criticism: The New Yorker: Fiction, Bookworm, Literary Friction, In Our Time: Culture.
 
 ## Shows by category
 
@@ -101,6 +101,19 @@ A theme-first map of English-language podcasts: **47 shows** (each with 3–5 �
 - **Thought Pieces** — 摄影书名社 MACK 官方播客：作者亲读自己的艺术写作——Stephen Shore 读《Modern Instances》是代表集。 [Spotify](https://open.spotify.com/show/02Igw8mrCFSf09Ykhi4W4w) · 16 eps
   - 🔥 热门单集：[S2 Ep 7: Stephen Shore reads from 'Modern Instances'](https://open.spotify.com/episode/1an2GRV0GfoWsYOZ9CtunU)
 
+### 🎓 Sociology & Social Science
+
+- **New Books in Sociology** — 社会学家亲自讲自己的新书：科技劳工、阶层再生产、数字资本主义……NBN 旗下社会学正统频道。 [Spotify](https://open.spotify.com/show/4C00Q5pCTCpTVjOX5Fzgbu) · 996 eps
+- 🔥 热门单集：[Robert Dorschel, "The Social Codes of Tech Workers: Class Ident…](https://open.spotify.com/episode/2Sglm1lloeus7DsF4ReyjU) · [Jessie Abrahams, "Schooling Inequality: Aspirations, Opportunit…](https://open.spotify.com/episode/1Q5neReesHqgsXIZnS19Dw) · [The American Mirage: How Reality TV Upholds the Myth of Meritoc…](https://open.spotify.com/episode/0wsvtDTkcCU4N5B1d3piDh)
+- **Social Science Bites** — Philosophy Bites 团队打造：David Edmonds 每集 15 分钟采访一位顶尖社会科学家——Lamont 论污名即在此。 [Spotify](https://open.spotify.com/show/13BcvdCZQl3CiF8NimP7xa) · 120 eps
+- 🔥 热门单集：[Michèle Lamont on Stigma](https://open.spotify.com/episode/1OmkbtqaifmWCzGVO39Q3d) · [Joel Mokyr on Economic Lessons from the Past](https://open.spotify.com/episode/4FfiVmGR2pOsVdDU2oS5L7) · [Paul Bloom on Empathy](https://open.spotify.com/episode/1lvXYWQpddUJpUyPIswt4X) · [Tom Gilovich On the Spotlight Effect](https://open.spotify.com/episode/1F8EYGAoBnwjEZFeuyZcIO) · [Melissa Kearney on Marriage and Children](https://open.spotify.com/episode/3Xi47FhviSwtvbIdj5f4dY)
+- **Talking About Organizations Podcast** — 逐本精读组织研究经典：第 67/109 期整两期精读 Andrew Abbott《The System of Professions》——分形区分作者的另一场重头戏。 [Spotify](https://open.spotify.com/show/1CPbRaXU70DyaEHSkyVrEF) · 363 eps
+- 🔥 热门单集：[67: Professions & Professionalism -- Andrew Abbott (Part 1)](https://open.spotify.com/episode/5yeDvKn0990kzPIGAYGVc7) · [67: Professions & Professionalism -- Andrew Abbott (Part 2)](https://open.spotify.com/episode/3hhqO4VQnsQIssUUOnPXBw) · [55: Group Dynamics and Foundations of Organizational Change – K…](https://open.spotify.com/episode/1jRe7GRbbt6U4SG7meAdaa) · [48: Stratified Systems Theory - Elliott Jaques (Part 1)](https://open.spotify.com/episode/5183GpkZscT8gAdBMSnlJJ)
+- **give theory a chance** — The Society Pages 出品的社会理论播客：把经典理论与当下议题接通，课堂级的理论对谈。 [Spotify](https://open.spotify.com/show/2FxMB6f1Chzr5kjE11fxMJ) · 69 eps
+
+- **Uncommon Sense** — 《社会学评论》基金会官方播客：英国社会学界的公共声音，主题从算法社会到气候正义。 [Spotify](https://open.spotify.com/show/1JNi8ZKs55ozIIGiD6SVTB) · 53 eps
+
+
 ### 🏛️ The Rest Is… series
 
 - **The Rest Is History** — 历史顶流对谈；从中国史、冷战到科幻史都做，作者叙事强、信息密度高。 [Spotify](https://open.spotify.com/show/7Cvsbcjhtur7nplC148TWy) · 973 eps
@@ -163,7 +176,7 @@ A theme-first map of English-language podcasts: **47 shows** (each with 3–5 �
 - [How do we reshape our workforce in the AI era?](https://open.spotify.com/episode/5vMnShDAXX72BS3zqjifJz) — 2026-07-19 (AI×就业)
 - [Data Centres vs. Drinking Water: What Matters To Us Most?](https://open.spotify.com/episode/13xTupjN3Xq5yy6akK9eYD) — 2026-07-30 (STS·基建)
 
-### Other shows · 51
+### Other shows · 55
 
 - **Blank Check with Griffin & David**: [Mean Streets with Miriam Bale](https://open.spotify.com/episode/6hSE3FYnITw20yy18Ub8M0) — 2026-08-16 (电影·斯科塞斯)
 - **The Film Comment Podcast**: [Cannes 2026 #8, with Justin Chang, Tim Grierson, and Jessica Kiang](https://open.spotify.com/episode/5kp6GpHPgU7O9JFvv5xU88) — 2026-05-26 (电影·戛纳)
@@ -204,6 +217,10 @@ A theme-first map of English-language podcasts: **47 shows** (each with 3–5 �
 - **Literary Friction**: [Literary Friction - Feminism with Sara Ahmed](https://open.spotify.com/episode/7ydPDX85O2sQgXjDU8ANwi) — 2023-04-26 (文学评论·艾哈迈德)
 - **In Our Time: Culture**: [Middlemarch](https://open.spotify.com/episode/32F8CznFc3rPoADvlLXuO5) — 2018-04-19 (文学·乔治·艾略特)
 - **In Our Time: Culture**: [The Seventh Seal](https://open.spotify.com/episode/4cCzbPeCbrgxdTspA2ZRd1) — 2023-10-19 (文化·伯格曼)
+- **Talking About Organizations Podcast**: [67: Professions & Professionalism -- Andrew Abbott (Part 1)](https://open.spotify.com/episode/5yeDvKn0990kzPIGAYGVc7) — 2020-08-11 (社会学·Abbott)
+- **Talking About Organizations Podcast**: [67: Professions & Professionalism -- Andrew Abbott (Part 2)](https://open.spotify.com/episode/3hhqO4VQnsQIssUUOnPXBw) — 2020-08-18 (社会学·Abbott)
+- **Social Science Bites**: [Michèle Lamont on Stigma](https://open.spotify.com/episode/1OmkbtqaifmWCzGVO39Q3d) — 2021-03-01 (社会学·Lamont)
+- **New Books in Sociology**: [Robert Dorschel, "The Social Codes of Tech Workers: Class Identity in Digital Capitalism" (MIT Press, 2025)](https://open.spotify.com/episode/2Sglm1lloeus7DsF4ReyjU) — 2026-01-01 (社会学·科技劳工)
 - **A Small Voice**: [192 - Stephen Shore](https://open.spotify.com/episode/0dEWUgeKjbqwkdC7hYyi5G) — 2022-11-23 (摄影·Stephen Shore)
 - **PhotoWork with Sasha Wolf - Photography Podcast**: [Alec Soth - Episode 43](https://open.spotify.com/episode/0XeiX9FWz2LNJeQ5gP59OA) — 2022-05-19 (摄影·Alec Soth)
 - **A brush with...**: [A brush with… Wolfgang Tillmans](https://open.spotify.com/episode/3pVmKyZYqhAWfOlMfzbhwT) — 2025-09-30 (摄影·Tillmans)

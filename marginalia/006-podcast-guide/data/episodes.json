@@ -1155,6 +1155,66 @@
    "spotify_url": "https://open.spotify.com/episode/1an2GRV0GfoWsYOZ9CtunU",
    "spotify_matched_title": "S2 Ep 7: Stephen Shore reads from 'Modern Instances'",
    "group": "other"
+  },
+  {
+   "show": "taop",
+   "show_name": "Talking About Organizations Podcast",
+   "show_cn": "漫谈组织（组织理论精读）",
+   "number": "—",
+   "title_en": "67: Professions & Professionalism -- Andrew Abbott (Part 1)",
+   "title_cn": "Andrew Abbott《The System of Professions》精读（上）：管辖权与专业工作 ★首推",
+   "date": "2020-08-11",
+   "tag": "社会学·Abbott",
+   "link": "",
+   "spotify_episode_id": "5yeDvKn0990kzPIGAYGVc7",
+   "spotify_url": "https://open.spotify.com/episode/5yeDvKn0990kzPIGAYGVc7",
+   "spotify_matched_title": "67: Professions & Professionalism -- Andrew Abbott (Part 1)",
+   "group": "other"
+  },
+  {
+   "show": "taop",
+   "show_name": "Talking About Organizations Podcast",
+   "show_cn": "漫谈组织（组织理论精读）",
+   "number": "—",
+   "title_en": "67: Professions & Professionalism -- Andrew Abbott (Part 2)",
+   "title_cn": "Andrew Abbott 精读（下）：信息职业与'个人问题'管辖权案例",
+   "date": "2020-08-18",
+   "tag": "社会学·Abbott",
+   "link": "",
+   "spotify_episode_id": "3hhqO4VQnsQIssUUOnPXBw",
+   "spotify_url": "https://open.spotify.com/episode/3hhqO4VQnsQIssUUOnPXBw",
+   "spotify_matched_title": "67: Professions & Professionalism -- Andrew Abbott (Part 2)",
+   "group": "other"
+  },
+  {
+   "show": "socbites",
+   "show_name": "Social Science Bites",
+   "show_cn": "社会科学小咬（SAGE）",
+   "number": "—",
+   "title_en": "Michèle Lamont on Stigma",
+   "title_cn": "哈佛社会学家 Michèle Lamont 论污名（ASA 前主席）",
+   "date": "2021-03-01",
+   "tag": "社会学·Lamont",
+   "link": "",
+   "spotify_episode_id": "1OmkbtqaifmWCzGVO39Q3d",
+   "spotify_url": "https://open.spotify.com/episode/1OmkbtqaifmWCzGVO39Q3d",
+   "spotify_matched_title": "Michèle Lamont on Stigma",
+   "group": "other"
+  },
+  {
+   "show": "nbn_socio",
+   "show_name": "New Books in Sociology",
+   "show_cn": "社会学新书（NBN）",
+   "number": "—",
+   "title_en": "Robert Dorschel, \"The Social Codes of Tech Workers: Class Identity in Digital Capitalism\" (MIT Press, 2025)",
+   "title_cn": "科技工人的社会密码：数字资本主义中的阶层认同",
+   "date": "2026-01-01",
+   "tag": "社会学·科技劳工",
+   "link": "",
+   "spotify_episode_id": "2Sglm1lloeus7DsF4ReyjU",
+   "spotify_url": "https://open.spotify.com/episode/2Sglm1lloeus7DsF4ReyjU",
+   "spotify_matched_title": "Robert Dorschel, \"The Social Codes of Tech Workers: Class Identity in Digital Capitalism\" (MIT Press, 2025)",
+   "group": "other"
   }
  ]
 }
