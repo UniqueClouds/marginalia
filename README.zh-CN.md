@@ -50,6 +50,8 @@ issue:           N
 | 010 | [组织惰性:成功的副产品,抑或组织病症?——基于系统性审查方法的述评与展望 — 读记：被悬置的「成功 vs 病症」二分](marginalia/010-organizational-inertia/note.zh.md) · [EN](marginalia/010-organizational-inertia/note.en.md) | 2026-08-18 | [#22](https://github.com/UniqueClouds/marginalia/issues/22) |
 | 011 | [Awesome Auditable AI — 读记：188 条 / 9 节 / 132 arXiv，一份 curated list 把 AI agent 可审计性从口号变成可靠性工程](marginalia/011-auditable-agents-atlas/note.zh.md) · [EN](marginalia/011-auditable-agents-atlas/note.en.md) | 2026-08-17 | [#26](https://github.com/UniqueClouds/marginalia/issues/26) |
 | 012 | [Wikipedia 编辑史与讨论页的大规模时序分析 —— 调研：部件已齐，联合尚缺](marginalia/012-wikipedia-temporal-analysis/note.zh.md) · [EN](marginalia/012-wikipedia-temporal-analysis/note.en.md) | 2026-08-18 | [#28](https://github.com/UniqueClouds/marginalia/issues/28) |
+| 013 | [常人方法学（Ethnomethodology）—— 调研：来源、与民族志的异同、发展脉络](marginalia/013-ethnomethodology/note.zh.md) · [EN](marginalia/013-ethnomethodology/note.en.md) | 2026-08-21 | [#30](https://github.com/UniqueClouds/marginalia/issues/30) |
+| 014 | [扫描书高保真夹心 OCR——把普特南和罗蒂变成「原版一模一样+全文可检索」的 PDF](marginalia/014-sandwich-ocr-books/note.zh.md) · [EN](marginalia/014-sandwich-ocr-books/note.en.md) | 2026-08-22 | [#37](https://github.com/UniqueClouds/marginalia/issues/37) |
 
 ## 制品（Artifacts）
 
@@ -61,7 +63,7 @@ issue:           N
 | 故事会量化原始文档——调研 + 提案 v2 | [004](marginalia/004-storytelling-quantified/docs/storytelling-survey.zh.md) | [#10](https://github.com/UniqueClouds/marginalia/pull/10) |
 | 四学科风格五份完整报告 | [005](marginalia/005-discipline-style-voices/reports/05-cross-discipline.zh.md) | [#12](https://github.com/UniqueClouds/marginalia/pull/12) |
 | `academic-voices` 技能——五种实测风格、密度基线 + voice 分类器 | [005](marginalia/005-discipline-style-voices/artifact.zh.md) | [#13](https://github.com/UniqueClouds/marginalia/pull/13) |
-| `ocr_pipeline` 扫描书夹心 OCR——图像零重编码 + 字符级不可见文字层(独立工具,不挂条目) | — | [#36](https://github.com/UniqueClouds/marginalia/pull/36) |
+| `ocr_pipeline` 扫描书夹心 OCR——图像零重编码 + 字符级不可见文字层 | [014](marginalia/014-sandwich-ocr-books/note.zh.md) | [#36](https://github.com/UniqueClouds/marginalia/pull/36) |
 
 ## 语言
 

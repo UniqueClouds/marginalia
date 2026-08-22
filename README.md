@@ -49,6 +49,8 @@ issue:           N
 | 010 | [组织惰性:成功的副产品,抑或组织病症?——基于系统性审查方法的述评与展望 — a reading note: the byproduct–symptom dichotomy, left standing](marginalia/010-organizational-inertia/note.en.md) · [中文](marginalia/010-organizational-inertia/note.zh.md) | 2026-08-18 | [#22](https://github.com/UniqueClouds/marginalia/issues/22) |
 | 011 | [Awesome Auditable AI — reading note: 188 entries / 9 sections / 132 arXiv papers; how a curated list turns AI agent auditability from a slogan into reliability engineering](marginalia/011-auditable-agents-atlas/note.en.md) · [中文](marginalia/011-auditable-agents-atlas/note.zh.md) | 2026-08-17 | [#26](https://github.com/UniqueClouds/marginalia/issues/26) |
 | 012 | [Large-Scale Temporal Analysis of Wikipedia Edit History and Talk Pages — survey: the pieces are ready, the joint study is missing](marginalia/012-wikipedia-temporal-analysis/note.en.md) · [中文](marginalia/012-wikipedia-temporal-analysis/note.zh.md) | 2026-08-18 | [#28](https://github.com/UniqueClouds/marginalia/issues/28) |
+| 013 | [Ethnomethodology — survey: origins, its relation to ethnography, and development](marginalia/013-ethnomethodology/note.en.md) · [中文](marginalia/013-ethnomethodology/note.zh.md) | 2026-08-21 | [#30](https://github.com/UniqueClouds/marginalia/issues/30) |
+| 014 | [Sandwich OCR for scanned books — making Putnam and Rorty pixel-identical and fully searchable](marginalia/014-sandwich-ocr-books/note.en.md) · [中文](marginalia/014-sandwich-ocr-books/note.zh.md) | 2026-08-22 | [#37](https://github.com/UniqueClouds/marginalia/issues/37) |
 
 ## Artifacts
 
@@ -60,7 +62,7 @@ Companions to the entries above, published **verbatim** — live skills, origina
 | Storytelling originals — survey + proposal v2 (中文) | [004](marginalia/004-storytelling-quantified/docs/storytelling-survey.zh.md) | [#10](https://github.com/UniqueClouds/marginalia/pull/10) |
 | Five full discipline-style reports (中文) | [005](marginalia/005-discipline-style-voices/reports/05-cross-discipline.zh.md) | [#12](https://github.com/UniqueClouds/marginalia/pull/12) |
 | `academic-voices` skill — five measured voices, density baselines + voice classifier | [005](marginalia/005-discipline-style-voices/artifact.en.md) | [#13](https://github.com/UniqueClouds/marginalia/pull/13) |
-| `ocr_pipeline` — sandwich OCR for scanned books: byte-identical page images + per-character invisible text layer (standalone tooling, no entry) | — | [#36](https://github.com/UniqueClouds/marginalia/pull/36) |
+| `ocr_pipeline` — sandwich OCR for scanned books: byte-identical page images + per-character invisible text layer | [014](marginalia/014-sandwich-ocr-books/note.en.md) | [#36](https://github.com/UniqueClouds/marginalia/pull/36) |
 
 ## Languages
 

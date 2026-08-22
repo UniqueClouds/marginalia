@@ -118,6 +118,14 @@
 
     [中文版](entries/013-ethnomethodology.zh.md) · [English](entries/013-ethnomethodology.en.md)
 
+- 📖 **ENTRY 014** · 2026-08-22
+
+    ---
+
+    扫描书高保真夹心 OCR——把普特南和罗蒂变成'原版一模一样+全文可检索'的 PDF
+
+    [中文版](entries/014-sandwich-ocr-books.zh.md) · [English](entries/014-sandwich-ocr-books.en.md)
+
 - 🎧 **ENTRY 006 · ARTIFACT** · 2026-08-17
 
     ---
