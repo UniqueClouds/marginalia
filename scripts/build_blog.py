@@ -51,6 +51,18 @@ LOGO = {
     "bookworm": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8a/b8/54/8ab8542d-284c-5845-06c6-600cb82f9c29/mza_18132178739310816340.png/100x100bb.jpg",
     "literaryfriction": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/ed/ea/fe/edeafe0f-89ec-ebf9-9342-5140331bc33b/mza_5722044305146301427.jpg/100x100bb.jpg",
     "inourtimeculture": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/96/f2/ee/96f2ee8b-5aac-19b0-5386-e0bf0ddc317e/mza_4055653295864790255.jpg/100x100bb.jpg",
+    "asmallvoice": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/0e/1e/dd/0e1eddeb-c18f-6841-dc23-804958252210/mza_12449687298292391614.jpg/100x100bb.jpg",
+    "photowork": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/71/78/ac/7178ac57-01ea-6256-c6cf-bf25549a034e/mza_6390775298639228920.jpg/100x100bb.jpg",
+    "abrushwith": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/7d/2f/8f/7d2f8f2f-8e2e-1b7c-a00d-c444912b028a/mza_17793975999210383938.jpeg/100x100bb.jpg",
+    "talkart": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/a8/a3/09/a8a309c7-6670-cdd3-85b8-e6c8504ccc77/mza_18440349357499617051.jpg/100x100bb.jpg",
+    "artangle": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/fa/29/db/fa29db6d-424a-d811-d2f6-cc6fa3fdfcf1/mza_1413286888087716503.jpeg/100x100bb.jpg",
+    "areweonair": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/98/be/2a/98be2a36-9499-ad4b-bd9f-63f9d1ca9ddf/mza_14484981562628970456.jpg/100x100bb.jpg",
+    "messytruth": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/a3/a3/11/a3a31131-5a2f-5ea4-d581-1af5198cce98/mza_17867446674733191134.jpg/100x100bb.jpg",
+    "righteyedominant": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e8/9f/97/e89f9746-baaf-e470-c4fc-4933864a000f/mza_9624174152945520709.jpg/100x100bb.jpg",
+    "fost": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/be/fe/bd/befebda0-eb0b-fe2b-093f-811cdf999f6d/mza_10514524817047797964.jpg/100x100bb.jpg",
+    "emulsions": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a7/5c/fb/a75cfb40-0df0-78ab-3e48-54d3ee3cd860/mza_8667587312304846208.jpg/100x100bb.jpg",
+    "thoughtpieces": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/58/36/7c/58367cb8-6fd3-dcc1-70c4-e871ab3c4dde/mza_8563331525689247233.jpg/100x100bb.jpg",
+    "analogtalk": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/80/01/b5/8001b5ab-bb77-3b55-2685-cc1b803ea172/mza_9275432949298650948.jpg/100x100bb.jpg",
 }
 CAT = {
     "A": (["blankcheck", "filmcomment", "purecinema", "cinephiliacs",
@@ -65,8 +77,12 @@ CAT = {
           "文学组覆盖当代写作、文学正典、科幻前沿与文学评论：Between the Covers 是当代作者访谈的顶配，The Paris Review 把文学季刊的最佳访谈变成声音，Backlisted 回访被遗忘的老书，Geek's Guide to the Galaxy 是科幻作者访谈的旗舰。2026-08 增补文学评论线：The New Yorker: Fiction 的作家朗读细读、Bookworm 三十余年的传奇文学访谈、Literary Friction 的主题式批评对谈，以及 BBC In Our Time: Culture 的学院派正典导读。"),
     "E": (["rih", "rip", "ripus", "riplead", "rient", "rimoney", "riclass"], "🏛️", "The Rest Is… 系列 · 历史 · 政治 · 谍影 · 娱乐 · 经济", "#EF6C00",
           "Goalhanger 出品的 The Rest Is… 宇宙是英文播客的现象级存在：历史、政治、影视、财经、谍影五条线，周更 2–3 期，单是历史一档就有近千集。以下按为何值得听排序，并从全量目录里筛好了 26 集精华。"),
-    "F": (["historyhit", "longnow", "lrb", "sinica", "candidframe"], "🧭", "扩展精选 · 画像延伸", "#00838F",
-          "最后一组把偏好再往外推一步：Dan Snow's History Hit 是每日历史加餐，Long Now 谈长期主义与技术哲学，The LRB Podcast 是书评界最锋利的声音，Sinica Podcast 是英文世界的中国观察，The Candid Frame: Conversations on Photography 给摄影爱好者。"),
+    "F": (["historyhit", "longnow", "lrb", "sinica"], "🧭", "扩展精选 · 画像延伸", "#00838F",
+          "最后一组把偏好再往外推一步：Dan Snow's History Hit 是每日历史加餐，Long Now 谈长期主义与技术哲学，The LRB Podcast 是书评界最锋利的声音，Sinica Podcast 是英文世界的中国观察。"),
+    "G": (["candidframe", "asmallvoice", "photowork", "abrushwith",
+           "talkart", "artangle", "messytruth", "righteyedominant",
+           "analogtalk", "areweonair", "fost", "emulsions", "thoughtpieces"], "📷", "摄影 · 影像文化", "#455A64",
+          "摄影组以三位摄影师为锚点组织：Wolfgang Tillmans、Alec Soth、Stephen Shore 采访过的节目全部收录。核心访谈档：The Candid Frame 是老牌摄影对谈，A Small Voice（Ben Smith）与 PhotoWork（Sasha Wolf）是当代摄影深访的双璧，A brush with…（Art Newspaper）让艺术家自述影响图谱；机构媒体线：Talk Art 与 The Art Angle 覆盖当代艺术场域，The Messy Truth（Gem Fletcher）拆解行业真相，Right Eye Dominant 谈收藏与摄影史；胶片社区线：Analog Talk 与 Emulsions 来自胶片复兴一线；跨界线：ARE WE ON AIR ? 探访文化名人的「人生原声」，FoST 讲故事科学，MACK 出版社的 Thought Pieces 让作者亲读艺术写作。"),
 }
 
 def spotify_show_url(s):

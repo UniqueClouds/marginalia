@@ -9,7 +9,7 @@
 
 # Spotify Podcast Guide 2026
 
-A theme-first map of English-language podcasts: **35 shows** (each with 3–5 🔥 popular episodes attached, 128 in total) (cinema auteurism & film history / STS / philosophy / literature, sci-fi & literary criticism / The Rest Is… series / extended picks) plus **65 curated episodes** — 26 from the Rest Is… catalog (18 core + 8 advanced) and 39 from the other 28 shows. Every show and episode carries an official Spotify link, verified via the Spotify Web API (show and episode endpoints checked against the canonical names). Original English titles are kept everywhere; the full Chinese version with bilingual official descriptions is [artifact.zh.md](index.md). 2026-08-21 update: added 9 shows with 19 selected episodes; 2026-08-22 update: attached 3–5 popular episodes to every show (128 total, all verified via the official API) — film: The Video Archives Podcast (Quentin Tarantino × Roger Avary), You Must Remember This, Filmspotting, Screen Drafts, Team Deakins; literary criticism: The New Yorker: Fiction, Bookworm, Literary Friction, In Our Time: Culture.
+A theme-first map of English-language podcasts: **47 shows** (each with 3–5 🔥 popular episodes attached, 149 in total) (cinema auteurism & film history / STS / philosophy / literature, sci-fi & literary criticism / The Rest Is… series / extended picks / photography) plus **77 curated episodes** — 26 from the Rest Is… catalog (18 core + 8 advanced) and 51 from the other 40 shows. Every show and episode carries an official Spotify link, verified via the Spotify Web API (show and episode endpoints checked against the canonical names). Original English titles are kept everywhere; the full Chinese version with bilingual official descriptions is [artifact.zh.md](index.md). 2026-08-21 update: added 9 shows with 19 selected episodes; 2026-08-22 update: added a 📷 Photography group of 12 shows (every podcast that interviewed Tillmans / Soth / Shore) and attached 3–5 popular episodes to every show (149 total, all verified via the official API / oEmbed) — film: The Video Archives Podcast (Quentin Tarantino × Roger Avary), You Must Remember This, Filmspotting, Screen Drafts, Team Deakins; literary criticism: The New Yorker: Fiction, Bookworm, Literary Friction, In Our Time: Culture.
 
 ## Shows by category
 
@@ -72,6 +72,35 @@ A theme-first map of English-language podcasts: **35 shows** (each with 3–5 �
 - **In Our Time: Culture** — BBC Radio 4：Melvyn Bragg 召集三位学者四十五分钟讲透一个文化正典条目。2026-08 增补。 [Spotify](https://open.spotify.com/show/2B3OBjwY0aFXEa7ey1fjMh) · 207 eps
   - 🔥 热门单集：[Hamlet](https://open.spotify.com/episode/3Vrc7QvJjkug2xNA7UdQjn) · [Moby Dick](https://open.spotify.com/episode/4HwsGpy1Svlu13WCqzpu9z) · [Nineteen Eighty-Four](https://open.spotify.com/episode/4DghmV9NycrEZhnKTGwNTU) · [Italo Calvino](https://open.spotify.com/episode/74v9OztNKDicVEdupABZo8) · [The Iliad](https://open.spotify.com/episode/1BFr0TFyMry3aVGjKpOCNw)
 
+### 📷 Photography
+
+- **The Candid Frame** 等 13 档节目构成摄影组：以 Tillmans / Soth / Shore 三位摄影师采访过的节目为锚点全收录；核心深访 A Small Voice × PhotoWork × A brush with…，机构线 Talk Art × The Art Angle，胶片社区 Analog Talk × Emulsions，跨界 ARE WE ON AIR ? × FoST × Thought Pieces（MACK）。
+- **The Candid Frame** — 摄影访谈：每位摄影师谈自己的创作与观看。 [Spotify](https://open.spotify.com/show/2WiuIilqvFukFTpV86c8ds) · 669 eps
+  - 🔥 热门单集：[TCF Ep. 615 - Joel Meyerowitz](https://open.spotify.com/episode/3VSeua8lvyWFencwWkwzc9) · [The Candid Frame #194 - Mary Ellen Mark](https://open.spotify.com/episode/6GZQL5nJ6JMMtO0xVP8jXu) · [TCF Ep. 338 - Dan Winters](https://open.spotify.com/episode/5Bbvtend9dJrkpA08EIhxY)
+- **A Small Voice: Conversations with photographers and filmmakers** — Ben Smith 主持的英国摄影深访双周刊：从大师到新人都聊人生与过程，Stephen Shore 第 192 期是入门首选。 [Spotify](https://open.spotify.com/show/3IGrxj5Y4tkeogCz3w4GwJ) · 288 eps
+  - 🔥 热门单集：[192 - Stephen Shore](https://open.spotify.com/episode/0dEWUgeKjbqwkdC7hYyi5G) · [281 - Ilvy Njiokiktjien](https://open.spotify.com/episode/2vOcXZpCpr32LpqTY8iPOt)
+- **PhotoWork with Sasha Wolf - Photography Podcast** — 摄影书出版人 Sasha Wolf 的职业向深访：Alec Soth、Ocean Vuong、Mitch Epstein 都来聊'如何以摄影为生'。 [Spotify](https://open.spotify.com/show/3KtFXGjuyFptvcVTJzFsrK) · 124 eps
+  - 🔥 热门单集：[Alec Soth - Episode 43](https://open.spotify.com/episode/0XeiX9FWz2LNJeQ5gP59OA) · [Christian Patterson - Episode 87](https://open.spotify.com/episode/7zrtM7jbx6QlB9r9Wszuws)
+- **A brush with...** — Ben Luke 请艺术家自述影响图谱：从文学音乐到美术馆，Tillmans、Kentridge、Thomas Ruff 都做过客。 [Spotify](https://open.spotify.com/show/7I2YOBCNy4lRyyXte3Yl3r) · 144 eps
+  - 🔥 热门单集：[A brush with… Wolfgang Tillmans](https://open.spotify.com/episode/3pVmKyZYqhAWfOlMfzbhwT) · [A brush with... William Kentridge](https://open.spotify.com/episode/6vAuHD376f4lWqGEpFH5ax) · [A brush with… Pierre Huyghe](https://open.spotify.com/episode/0LrxyhAyABGUuMGFaZTqxR)
+- **Talk Art** — 演员 Russell Tovey × 画廊主 Robert Diament 的每周艺术闲谈：名人嘉宾入场门槛最低的当代艺术入口。 [Spotify](https://open.spotify.com/show/1rnFysoDaQrO7YSTJYSQmb) · 388 eps
+  - 🔥 热门单集：[Wolfgang Tillmans (QuarARTine special episode)](https://open.spotify.com/episode/0K1IEm1RD8b19WrOhdiifV) · [Ai Weiwei (Live at Kite Festival)](https://open.spotify.com/episode/1RzueIaQVN9UuKbQ6DjxbI) · [Jerry Saltz (QuarARTine special episode)](https://open.spotify.com/episode/5O7ORz9WISJ1c7yFrhWAcM)
+- **The Art Angle** — Artnet 新闻部每周把艺术圈最大新闻讲成人话：市场、博物馆、丑闻与趋势的一手内幕。 [Spotify](https://open.spotify.com/show/0W9WRDW5EaTsNmKxrACLeq) · 375 eps
+  - 🔥 热门单集：[How the Universe Taught Wolfgang Tillmans to Make Art](https://open.spotify.com/episode/41nS9eI15dtzHWcdcm9Rlb)
+- **The Messy Truth - Conversations on Photography** — 图片总监 Gem Fletcher 拆解行业里没人说的部分：Catherine Opie、Charlotte Cotton、Laia Abril 都来交底。 [Spotify](https://open.spotify.com/show/6k4j66ihRSzSechzMl6AiN) · 109 eps
+  - 🔥 热门单集：[Alec Soth - On Portraiture](https://open.spotify.com/episode/6D8vCIaQuV9vO6QfKWY1G7) · [Charlie Engman - On AI Images](https://open.spotify.com/episode/0YwUZkfGr7gu6cufU1NsDk) · [Jack Davison - On Craft](https://open.spotify.com/episode/42hXN3HP88jDIGiZIvMT4I)
+- **Right Eye Dominant** — 摄影师 Nick Tauro Jr. 的个人摄影课堂：Robert Frank 百期特辑、Burtynsky、Lev Manovich 谈 AI 时代的模拟记忆。 [Spotify](https://open.spotify.com/show/7fBBPsmRsTRMiEI4ReME6i) · 108 eps
+  - 🔥 热门单集：[Alec Soth: Looking Out, Looking In](https://open.spotify.com/episode/69PMZrzRbYnWcgkzdEv3rf)
+- **Analog Talk** — 胶片复兴一线的社区播客：Alec Soth 第 154 期之外，大画幅、宝丽来、中国胶片生态都有专集。 [Spotify](https://open.spotify.com/show/5n1Gv4962DdBWXLjLhncH7) · 220 eps
+- **ARE WE ON AIR ?** — 文化推手 Arman Naféei 探访全球文化名人的'人生原声'：Tillmans 那期从宇宙聊到俱乐部文化。 [Spotify](https://open.spotify.com/show/3jkmlUkOfQqofQabtYhU4Q) · 147 eps
+  - 🔥 热门单集：[Ep 39 // WOLFGANG TILLMANS](https://open.spotify.com/episode/6L4N8NnqzAPbuDXObxrxRX)
+- **Future of StoryTelling (FoST)** — 讲故事的科学：Stephen Shore 两度做客谈'照片与故事'——影像叙事的最佳交叉点。 [Spotify](https://open.spotify.com/show/496MvZ6ZfyW9nqAqyCpdNO) · 164 eps
+  - 🔥 热门单集：[Photos and Stories — Stephen Shore](https://open.spotify.com/episode/1SFn5lJlZYOxqGVUtddz4d) · [Photos and Stories — Stephen Shore, Revisited](https://open.spotify.com/episode/6cP7xOHydgwHVEFNuyZHlY)
+- **Emulsions Podcast** — 年轻一代的胶片播客：Stephen Shore 2023/2025 两度长访，谈 Uncommon Places 之后的人生。 [Spotify](https://open.spotify.com/show/4W1mVrmFWuJEf24bMjQ9fN) · 74 eps
+  - 🔥 热门单集：[Stephen Shore](https://open.spotify.com/episode/2ngcNPiHMazLoQdeXwprr4) · [Stephen Shore Interview](https://open.spotify.com/episode/20bLEDfFAiIvDeOzepsw5l)
+- **Thought Pieces** — 摄影书名社 MACK 官方播客：作者亲读自己的艺术写作——Stephen Shore 读《Modern Instances》是代表集。 [Spotify](https://open.spotify.com/show/02Igw8mrCFSf09Ykhi4W4w) · 16 eps
+  - 🔥 热门单集：[S2 Ep 7: Stephen Shore reads from 'Modern Instances'](https://open.spotify.com/episode/1an2GRV0GfoWsYOZ9CtunU)
+
 ### 🏛️ The Rest Is… series
 
 - **The Rest Is History** — 历史顶流对谈；从中国史、冷战到科幻史都做，作者叙事强、信息密度高。 [Spotify](https://open.spotify.com/show/7Cvsbcjhtur7nplC148TWy) · 973 eps
@@ -99,8 +128,6 @@ A theme-first map of English-language podcasts: **35 shows** (each with 3–5 �
   - 🔥 热门单集：[James Meek: Robin Hood in a Time of Austerity](https://open.spotify.com/episode/2S4pP1iL7nLTpXOcIxeo3d) · [Marina Warner: Learning My Lesson](https://open.spotify.com/episode/7FEPBaaPMzu0PCfzZn96dg) · [China's Gold Rush Migrants](https://open.spotify.com/episode/3k2HcIk9fjyaFOgUBc1wfV)
 - **Sinica Podcast** — 英文世界看中国的深度访谈节目。 [Spotify](https://open.spotify.com/show/1QlGMoMsAncoBdH9Uz5u4N) · 557 eps
   - 🔥 热门单集：[China's Response to U.S. Semiconductor Export Controls, with Pa…](https://open.spotify.com/episode/5nMEKWYrJmmbFDYzztQ55k) · [Taiwan, Ukraine, and the Sino-American Rivalry](https://open.spotify.com/episode/0Ur5aS4ERXtzmb5mq8b0L9) · [Semiconductors and the unspoken U.S. tech policy on China, with…](https://open.spotify.com/episode/03hWwXrCFRU5yV488nnRY5)
-- **The Candid Frame** — 摄影访谈：每位摄影师谈自己的创作与观看。 [Spotify](https://open.spotify.com/show/2WiuIilqvFukFTpV86c8ds) · 669 eps
-  - 🔥 热门单集：[TCF Ep. 615 - Joel Meyerowitz](https://open.spotify.com/episode/3VSeua8lvyWFencwWkwzc9) · [The Candid Frame #194 - Mary Ellen Mark](https://open.spotify.com/episode/6GZQL5nJ6JMMtO0xVP8jXu) · [TCF Ep. 338 - Dan Winters](https://open.spotify.com/episode/5Bbvtend9dJrkpA08EIhxY)
 
 ## Curated episodes (46)
 
@@ -136,7 +163,7 @@ A theme-first map of English-language podcasts: **35 shows** (each with 3–5 �
 - [How do we reshape our workforce in the AI era?](https://open.spotify.com/episode/5vMnShDAXX72BS3zqjifJz) — 2026-07-19 (AI×就业)
 - [Data Centres vs. Drinking Water: What Matters To Us Most?](https://open.spotify.com/episode/13xTupjN3Xq5yy6akK9eYD) — 2026-07-30 (STS·基建)
 
-### Other shows · 39
+### Other shows · 51
 
 - **Blank Check with Griffin & David**: [Mean Streets with Miriam Bale](https://open.spotify.com/episode/6hSE3FYnITw20yy18Ub8M0) — 2026-08-16 (电影·斯科塞斯)
 - **The Film Comment Podcast**: [Cannes 2026 #8, with Justin Chang, Tim Grierson, and Jessica Kiang](https://open.spotify.com/episode/5kp6GpHPgU7O9JFvv5xU88) — 2026-05-26 (电影·戛纳)
@@ -177,6 +204,18 @@ A theme-first map of English-language podcasts: **35 shows** (each with 3–5 �
 - **Literary Friction**: [Literary Friction - Feminism with Sara Ahmed](https://open.spotify.com/episode/7ydPDX85O2sQgXjDU8ANwi) — 2023-04-26 (文学评论·艾哈迈德)
 - **In Our Time: Culture**: [Middlemarch](https://open.spotify.com/episode/32F8CznFc3rPoADvlLXuO5) — 2018-04-19 (文学·乔治·艾略特)
 - **In Our Time: Culture**: [The Seventh Seal](https://open.spotify.com/episode/4cCzbPeCbrgxdTspA2ZRd1) — 2023-10-19 (文化·伯格曼)
+- **A Small Voice**: [192 - Stephen Shore](https://open.spotify.com/episode/0dEWUgeKjbqwkdC7hYyi5G) — 2022-11-23 (摄影·Stephen Shore)
+- **PhotoWork with Sasha Wolf - Photography Podcast**: [Alec Soth - Episode 43](https://open.spotify.com/episode/0XeiX9FWz2LNJeQ5gP59OA) — 2022-05-19 (摄影·Alec Soth)
+- **A brush with...**: [A brush with… Wolfgang Tillmans](https://open.spotify.com/episode/3pVmKyZYqhAWfOlMfzbhwT) — 2025-09-30 (摄影·Tillmans)
+- **Talk Art**: [Wolfgang Tillmans (QuarARTine special episode)](https://open.spotify.com/episode/0K1IEm1RD8b19WrOhdiifV) — 2020-07-27 (摄影·Tillmans)
+- **The Art Angle**: [How the Universe Taught Wolfgang Tillmans to Make Art](https://open.spotify.com/episode/41nS9eI15dtzHWcdcm9Rlb) — 2022-09-23 (摄影·Tillmans)
+- **ARE WE ON AIR ?**: [Ep 39 // WOLFGANG TILLMANS](https://open.spotify.com/episode/6L4N8NnqzAPbuDXObxrxRX) — 2020-12-18 (摄影·Tillmans)
+- **Analog Talk**: [154. Alec Soth](https://open.spotify.com/episode/5eTnQXgZoBJylI0z0wcFr6) — 2022-05-25 (摄影·Alec Soth)
+- **The Messy Truth - Conversations on Photography**: [Alec Soth - On Portraiture](https://open.spotify.com/episode/6D8vCIaQuV9vO6QfKWY1G7) — 2020-07-23 (摄影·Alec Soth)
+- **Right Eye Dominant**: [Alec Soth: Looking Out, Looking In](https://open.spotify.com/episode/69PMZrzRbYnWcgkzdEv3rf) — 2025-02-18 (摄影·Alec Soth)
+- **Future of StoryTelling (FoST)**: [Photos and Stories — Stephen Shore](https://open.spotify.com/episode/1SFn5lJlZYOxqGVUtddz4d) — 2023-10-05 (摄影·Stephen Shore)
+- **Emulsions Podcast**: [Stephen Shore](https://open.spotify.com/episode/2ngcNPiHMazLoQdeXwprr4) — 2023-08-31 (摄影·Stephen Shore)
+- **Thought Pieces**: [S2 Ep 7: Stephen Shore reads from 'Modern Instances'](https://open.spotify.com/episode/1an2GRV0GfoWsYOZ9CtunU) — 2026-05-18 (摄影·Stephen Shore)
 
 ## Data & methods
 
