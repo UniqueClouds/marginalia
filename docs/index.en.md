@@ -118,6 +118,14 @@ Each one is distilled through **issue → PR → squash commit**; bilingual (Eng
 
     [中文](entries/013-ethnomethodology.zh.md) · [English](entries/013-ethnomethodology.en.md)
 
+- 📖 **ENTRY 014** · 2026-08-22
+
+    ---
+
+    Sandwich OCR for scanned books — making Putnam and Rorty pixel-identical and fully searchable
+
+    [中文](entries/014-sandwich-ocr-books.zh.md) · [English](entries/014-sandwich-ocr-books.en.md)
+
 - 🎧 **ENTRY 006 · ARTIFACT** · 2026-08-17
 
     ---

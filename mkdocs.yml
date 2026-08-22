@@ -95,6 +95,7 @@ nav:
       - 011 · Awesome Auditable AI: entries/011-auditable-agents-atlas.zh.md
       - 012 · Wikipedia 编辑史与讨论页的时序分析: entries/012-wikipedia-temporal-analysis.zh.md
       - 013 · 常人方法学（Ethnomethodology）: entries/013-ethnomethodology.zh.md
+      - 014 · 扫描书高保真夹心 OCR: entries/014-sandwich-ocr-books.zh.md
   - 🌐 English:
       - Home: index.en.md
       - About: about.en.md
@@ -111,3 +112,4 @@ nav:
       - 011 · Awesome Auditable AI: entries/011-auditable-agents-atlas.en.md
       - 012 · Temporal analysis of Wikipedia edit history & talk pages: entries/012-wikipedia-temporal-analysis.en.md
       - 013 · Ethnomethodology: entries/013-ethnomethodology.en.md
+      - 014 · Sandwich OCR for scanned books: entries/014-sandwich-ocr-books.en.md
