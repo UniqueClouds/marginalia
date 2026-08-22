@@ -60,6 +60,7 @@ Companions to the entries above, published **verbatim** — live skills, origina
 | Storytelling originals — survey + proposal v2 (中文) | [004](marginalia/004-storytelling-quantified/docs/storytelling-survey.zh.md) | [#10](https://github.com/UniqueClouds/marginalia/pull/10) |
 | Five full discipline-style reports (中文) | [005](marginalia/005-discipline-style-voices/reports/05-cross-discipline.zh.md) | [#12](https://github.com/UniqueClouds/marginalia/pull/12) |
 | `academic-voices` skill — five measured voices, density baselines + voice classifier | [005](marginalia/005-discipline-style-voices/artifact.en.md) | [#13](https://github.com/UniqueClouds/marginalia/pull/13) |
+| `ocr_pipeline` — sandwich OCR for scanned books: byte-identical page images + per-character invisible text layer (standalone tooling, no entry) | — | [#36](https://github.com/UniqueClouds/marginalia/pull/36) |
 
 ## Languages
 
