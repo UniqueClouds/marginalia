@@ -63,6 +63,11 @@ LOGO = {
     "emulsions": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a7/5c/fb/a75cfb40-0df0-78ab-3e48-54d3ee3cd860/mza_8667587312304846208.jpg/100x100bb.jpg",
     "thoughtpieces": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/58/36/7c/58367cb8-6fd3-dcc1-70c4-e871ab3c4dde/mza_8563331525689247233.jpg/100x100bb.jpg",
     "analogtalk": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/80/01/b5/8001b5ab-bb77-3b55-2685-cc1b803ea172/mza_9275432949298650948.jpg/100x100bb.jpg",
+    "nbn_socio": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/d0/2a/26/d02a26fe-da6c-0870-b3d9-829565854eff/mza_16259726718725408912.jpeg/100x100bb.jpg",
+    "socbites": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/ca/6b/8b/ca6b8bee-2dff-876b-4fa0-1a21c8b904aa/mza_10919283292258937037.png/100x100bb.jpg",
+    "givetheory": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/26/20/d7/2620d76c-d952-d0e4-2a63-8ceb189590ce/mza_4274720744265111944.jpg/100x100bb.jpg",
+    "uncommonsense": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/87/24/2a/87242a0e-1999-958a-2db2-3f0500b42b74/mza_7661165672176171153.jpg/100x100bb.jpg",
+    "taop": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5b/f5/7c/5bf57cdf-2fc3-9326-94aa-0fcf6c33a3c6/mza_10936932589617636035.jpg/100x100bb.jpg",
 }
 CAT = {
     "A": (["blankcheck", "filmcomment", "purecinema", "cinephiliacs",
@@ -83,6 +88,8 @@ CAT = {
            "talkart", "artangle", "messytruth", "righteyedominant",
            "analogtalk", "areweonair", "fost", "emulsions", "thoughtpieces"], "📷", "摄影 · 影像文化", "#455A64",
           "摄影组以三位摄影师为锚点组织：Wolfgang Tillmans、Alec Soth、Stephen Shore 采访过的节目全部收录。核心访谈档：The Candid Frame 是老牌摄影对谈，A Small Voice（Ben Smith）与 PhotoWork（Sasha Wolf）是当代摄影深访的双璧，A brush with…（Art Newspaper）让艺术家自述影响图谱；机构媒体线：Talk Art 与 The Art Angle 覆盖当代艺术场域，The Messy Truth（Gem Fletcher）拆解行业真相，Right Eye Dominant 谈收藏与摄影史；胶片社区线：Analog Talk 与 Emulsions 来自胶片复兴一线；跨界线：ARE WE ON AIR ? 探访文化名人的「人生原声」，FoST 讲故事科学，MACK 出版社的 Thought Pieces 让作者亲读艺术写作。"),
+    "H": (["nbn_socio", "socbites", "taop", "givetheory", "uncommonsense"], "🎓", "社会学 · 社会科学", "#5D4037",
+          "社会学组以 Andrew Abbott 与 Brian Uzzi 为锚点：Abbott《The System of Professions》在 Talking About Organizations 第 67/109 期被整整精读两期；New Books in Sociology 是社会学家讲新书的正统频道（Uzzi 一系的网络与科学学研究常在此出现）；Social Science Bites 由 Philosophy Bites 团队打造，Lamont 论污名是代表集；give theory a chance 谈社会理论，Uncommon Sense 是《社会学评论》官方播客。"),
 }
 
 def spotify_show_url(s):
