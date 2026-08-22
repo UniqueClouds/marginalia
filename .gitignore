@@ -29,3 +29,10 @@ scripts/.env
 !/scripts/
 !/scripts/**
 /scripts/.env
+
+# --- whitelist: standalone book-scanning OCR tooling ---
+!/ocr_pipeline/
+!/ocr_pipeline/**
+/ocr_pipeline/__pycache__/
+/ocr_pipeline/*.jsonl
+/ocr_pipeline/*.log

@@ -61,6 +61,7 @@ issue:           N
 | 故事会量化原始文档——调研 + 提案 v2 | [004](marginalia/004-storytelling-quantified/docs/storytelling-survey.zh.md) | [#10](https://github.com/UniqueClouds/marginalia/pull/10) |
 | 四学科风格五份完整报告 | [005](marginalia/005-discipline-style-voices/reports/05-cross-discipline.zh.md) | [#12](https://github.com/UniqueClouds/marginalia/pull/12) |
 | `academic-voices` 技能——五种实测风格、密度基线 + voice 分类器 | [005](marginalia/005-discipline-style-voices/artifact.zh.md) | [#13](https://github.com/UniqueClouds/marginalia/pull/13) |
+| `ocr_pipeline` 扫描书夹心 OCR——图像零重编码 + 字符级不可见文字层(独立工具,不挂条目) | — | [#36](https://github.com/UniqueClouds/marginalia/pull/36) |
 
 ## 语言
 
