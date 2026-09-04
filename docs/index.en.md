@@ -126,6 +126,14 @@ Each one is distilled through **issue → PR → squash commit**; bilingual (Eng
 
     [中文](entries/014-sandwich-ocr-books.zh.md) · [English](entries/014-sandwich-ocr-books.en.md)
 
+- 📖 **ENTRY 015** · 2026-09-05
+
+    ---
+
+    The Qualitative HCI Landscape of UC Irvine Informatics — survey: who does qualitative, STS, and health information work
+
+    [中文](entries/015-uci-informatics-qualitative.zh.md) · [English](entries/015-uci-informatics-qualitative.en.md)
+
 - 🎧 **ENTRY 006 · ARTIFACT** · 2026-08-17
 
     ---
