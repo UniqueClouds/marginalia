@@ -126,6 +126,14 @@
 
     [中文版](entries/014-sandwich-ocr-books.zh.md) · [English](entries/014-sandwich-ocr-books.en.md)
 
+- 📖 **ENTRY 015** · 2026-09-05
+
+    ---
+
+    UCI Informatics 系的质性 HCI 版图——调研:谁在做质性、STS 与健康信息
+
+    [中文版](entries/015-uci-informatics-qualitative.zh.md) · [English](entries/015-uci-informatics-qualitative.en.md)
+
 - 🎧 **ENTRY 006 · ARTIFACT** · 2026-08-17
 
     ---
