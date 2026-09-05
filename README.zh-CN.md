@@ -53,6 +53,7 @@ issue:           N
 | 013 | [常人方法学（Ethnomethodology）—— 调研：来源、与民族志的异同、发展脉络](marginalia/013-ethnomethodology/note.zh.md) · [EN](marginalia/013-ethnomethodology/note.en.md) | 2026-08-21 | [#30](https://github.com/UniqueClouds/marginalia/issues/30) |
 | 015 | [UCI Informatics 系的质性 HCI 版图——调研:谁在做质性、STS 与健康信息](marginalia/015-uci-informatics-qualitative/note.zh.md) · [EN](marginalia/015-uci-informatics-qualitative/note.en.md) | 2026-09-05 | [#39](https://github.com/UniqueClouds/marginalia/issues/39) |
 | 014 | [扫描书高保真夹心 OCR——把普特南和罗蒂变成「原版一模一样+全文可检索」的 PDF](marginalia/014-sandwich-ocr-books/note.zh.md) · [EN](marginalia/014-sandwich-ocr-books/note.en.md) | 2026-08-22 | [#37](https://github.com/UniqueClouds/marginalia/issues/37) |
+| 016 | [92617 公寓办公桌选购——调研:升降桌的深度与预算不可兼得](marginalia/016-apartment-desk-shopping/note.zh.md) · [EN](marginalia/016-apartment-desk-shopping/note.en.md) | 2026-09-05 | [#43](https://github.com/UniqueClouds/marginalia/issues/43) |
 
 ## 制品（Artifacts）
 
