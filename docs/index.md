@@ -142,6 +142,14 @@
 
     [中文版](entries/016-apartment-desk-shopping.zh.md) · [English](entries/016-apartment-desk-shopping.en.md)
 
+- 📖 **ENTRY 017** · 2026-09-05
+
+    ---
+
+    Ways of Knowing in HCI — 读记:十八种认识法与各自的问责制
+
+    [中文版](entries/017-ways-of-knowing-in-hci.zh.md) · [English](entries/017-ways-of-knowing-in-hci.en.md)
+
 - 🎧 **ENTRY 006 · ARTIFACT** · 2026-08-17
 
     ---

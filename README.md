@@ -53,6 +53,7 @@ issue:           N
 | 015 | [The Qualitative HCI Landscape of UC Irvine Informatics — survey: who does qualitative, STS, and health information work](marginalia/015-uci-informatics-qualitative/note.en.md) · [中文](marginalia/015-uci-informatics-qualitative/note.zh.md) | 2026-09-05 | [#39](https://github.com/UniqueClouds/marginalia/issues/39) |
 | 014 | [Sandwich OCR for scanned books — making Putnam and Rorty pixel-identical and fully searchable](marginalia/014-sandwich-ocr-books/note.en.md) · [中文](marginalia/014-sandwich-ocr-books/note.zh.md) | 2026-08-22 | [#37](https://github.com/UniqueClouds/marginalia/issues/37) |
 | 016 | [Amazon Desk Shopping for ZIP 92617 — survey: desktop depth and budget don't combine in standing desks](marginalia/016-apartment-desk-shopping/note.en.md) · [中文](marginalia/016-apartment-desk-shopping/note.zh.md) | 2026-09-05 | [#43](https://github.com/UniqueClouds/marginalia/issues/43) |
+| 017 | [Ways of Knowing in HCI — reading note: eighteen ways of knowing and the accountabilities that govern them](marginalia/017-ways-of-knowing-in-hci/note.en.md) · [中文](marginalia/017-ways-of-knowing-in-hci/note.zh.md) | 2026-09-05 | [#45](https://github.com/UniqueClouds/marginalia/issues/45) |
 
 ## Artifacts
 
