@@ -134,6 +134,14 @@
 
     [中文版](entries/015-uci-informatics-qualitative.zh.md) · [English](entries/015-uci-informatics-qualitative.en.md)
 
+- 📖 **ENTRY 016** · 2026-09-05
+
+    ---
+
+    92617 公寓办公桌选购——调研:升降桌的深度与预算不可兼得
+
+    [中文版](entries/016-apartment-desk-shopping.zh.md) · [English](entries/016-apartment-desk-shopping.en.md)
+
 - 🎧 **ENTRY 006 · ARTIFACT** · 2026-08-17
 
     ---
