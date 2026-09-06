@@ -55,6 +55,13 @@ issue:           N
 | 014 | [扫描书高保真夹心 OCR——把普特南和罗蒂变成「原版一模一样+全文可检索」的 PDF](marginalia/014-sandwich-ocr-books/note.zh.md) · [EN](marginalia/014-sandwich-ocr-books/note.en.md) | 2026-08-22 | [#37](https://github.com/UniqueClouds/marginalia/issues/37) |
 | 016 | [92617 公寓办公桌选购——调研:升降桌的深度与预算不可兼得](marginalia/016-apartment-desk-shopping/note.zh.md) · [EN](marginalia/016-apartment-desk-shopping/note.en.md) | 2026-09-05 | [#43](https://github.com/UniqueClouds/marginalia/issues/43) |
 | 017 | [Ways of Knowing in HCI——读记:十八种认识法与各自的问责制](marginalia/017-ways-of-knowing-in-hci/note.zh.md) · [EN](marginalia/017-ways-of-knowing-in-hci/note.en.md) | 2026-09-05 | [#45](https://github.com/UniqueClouds/marginalia/issues/45) |
+| 018 | [SOTA 的奇观化：模型发布、审美疲劳与技术的时间政治](marginalia/018-sota-spectacle/note.zh.md) · [EN](marginalia/018-sota-spectacle/note.en.md) | 2026-09-06 | [#47](https://github.com/UniqueClouds/marginalia/issues/47) |
+| 019 | [TokenMaxxing：算力的炫耀性消费与一场三个月的道德运动](marginalia/019-tokenmaxxing/note.zh.md) · [EN](marginalia/019-tokenmaxxing/note.en.md) | 2026-09-06 | [#48](https://github.com/UniqueClouds/marginalia/issues/48) |
+| 020 | [AI 停电：故障、Reset 的补偿政治与灰色中转](marginalia/020-ai-as-utility/note.zh.md) · [EN](marginalia/020-ai-as-utility/note.en.md) | 2026-09-06 | [#49](https://github.com/UniqueClouds/marginalia/issues/49) |
+| 021 | [重跑一遍，一半论文会换人——Best Paper 的随机性与「不丑」的底线](marginalia/021-best-paper-lottery/note.zh.md) · [EN](marginalia/021-best-paper-lottery/note.en.md) | 2026-09-06 | [#50](https://github.com/UniqueClouds/marginalia/issues/50) |
+| 022 | [被模型拽着走：引力、移动的地基与「Attention is all you need」的社会同构](marginalia/022-gravity-of-models/note.zh.md) · [EN](marginalia/022-gravity-of-models/note.en.md) | 2026-09-06 | [#51](https://github.com/UniqueClouds/marginalia/issues/51) |
+| 023 | [当 Nature 学会标题党：顶刊的媒体化与 taste 重定向](marginalia/023-journal-mediatization/note.zh.md) · [EN](marginalia/023-journal-mediatization/note.en.md) | 2026-09-06 | [#52](https://github.com/UniqueClouds/marginalia/issues/52) |
+| 024 | [铁轨铺在火车前面：发布周期的政治经济学——从 CPU 跑分到 SOTA](marginalia/024-release-cycle-politics/note.zh.md) · [EN](marginalia/024-release-cycle-politics/note.en.md) | 2026-09-06 | [#53](https://github.com/UniqueClouds/marginalia/issues/53) |
 
 ## 制品（Artifacts）
 

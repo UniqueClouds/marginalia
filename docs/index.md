@@ -150,6 +150,62 @@
 
     [中文版](entries/017-ways-of-knowing-in-hci.zh.md) · [English](entries/017-ways-of-knowing-in-hci.en.md)
 
+- 📖 **ENTRY 018** · 2026-09-06
+
+    ---
+
+    SOTA 的奇观化：模型发布、审美疲劳与技术的时间政治
+
+    [中文版](entries/018-sota-spectacle.zh.md) · [English](entries/018-sota-spectacle.en.md)
+
+- 📖 **ENTRY 019** · 2026-09-06
+
+    ---
+
+    TokenMaxxing：算力的炫耀性消费与一场三个月的道德运动
+
+    [中文版](entries/019-tokenmaxxing.zh.md) · [English](entries/019-tokenmaxxing.en.md)
+
+- 📖 **ENTRY 020** · 2026-09-06
+
+    ---
+
+    AI 停电：故障、Reset 的补偿政治与灰色中转
+
+    [中文版](entries/020-ai-as-utility.zh.md) · [English](entries/020-ai-as-utility.en.md)
+
+- 📖 **ENTRY 021** · 2026-09-06
+
+    ---
+
+    重跑一遍，一半论文会换人——Best Paper 的随机性与「不丑」的底线
+
+    [中文版](entries/021-best-paper-lottery.zh.md) · [English](entries/021-best-paper-lottery.en.md)
+
+- 📖 **ENTRY 022** · 2026-09-06
+
+    ---
+
+    被模型拽着走：引力、移动的地基与「Attention is all you need」的社会同构
+
+    [中文版](entries/022-gravity-of-models.zh.md) · [English](entries/022-gravity-of-models.en.md)
+
+- 📖 **ENTRY 023** · 2026-09-06
+
+    ---
+
+    当 Nature 学会标题党：顶刊的媒体化与 taste 重定向
+
+    [中文版](entries/023-journal-mediatization.zh.md) · [English](entries/023-journal-mediatization.en.md)
+
+- 📖 **ENTRY 024** · 2026-09-06
+
+    ---
+
+    铁轨铺在火车前面：发布周期的政治经济学——从 CPU 跑分到 SOTA
+
+    [中文版](entries/024-release-cycle-politics.zh.md) · [English](entries/024-release-cycle-politics.en.md)
+
 - 🎧 **ENTRY 006 · ARTIFACT** · 2026-08-17
 
     ---

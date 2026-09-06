@@ -150,6 +150,62 @@ Each one is distilled through **issue → PR → squash commit**; bilingual (Eng
 
     [中文](entries/017-ways-of-knowing-in-hci.zh.md) · [English](entries/017-ways-of-knowing-in-hci.en.md)
 
+- 📖 **ENTRY 018** · 2026-09-06
+
+    ---
+
+    The Spectacularization of SOTA: model launches, aesthetic fatigue, and the politics of technological time
+
+    [中文](entries/018-sota-spectacle.zh.md) · [English](entries/018-sota-spectacle.en.md)
+
+- 📖 **ENTRY 019** · 2026-09-06
+
+    ---
+
+    TokenMaxxing: conspicuous consumption of compute and a three-month moral crusade
+
+    [中文](entries/019-tokenmaxxing.zh.md) · [English](entries/019-tokenmaxxing.en.md)
+
+- 📖 **ENTRY 020** · 2026-09-06
+
+    ---
+
+    AI Blackouts: outages, the compensatory politics of resets, and the grey reseller tier
+
+    [中文](entries/020-ai-as-utility.zh.md) · [English](entries/020-ai-as-utility.en.md)
+
+- 📖 **ENTRY 021** · 2026-09-06
+
+    ---
+
+    Re-run the review and half the program changes — Best Paper randomness and the floor of 'not-ugly'
+
+    [中文](entries/021-best-paper-lottery.zh.md) · [English](entries/021-best-paper-lottery.en.md)
+
+- 📖 **ENTRY 022** · 2026-09-06
+
+    ---
+
+    Dragged by the models: gravity, shifting ground, and the social isomorphism of 'Attention is all you need'
+
+    [中文](entries/022-gravity-of-models.zh.md) · [English](entries/022-gravity-of-models.en.md)
+
+- 📖 **ENTRY 023** · 2026-09-06
+
+    ---
+
+    When Nature learns clickbait: journal mediatization and the redirection of taste
+
+    [中文](entries/023-journal-mediatization.zh.md) · [English](entries/023-journal-mediatization.en.md)
+
+- 📖 **ENTRY 024** · 2026-09-06
+
+    ---
+
+    Laying the track ahead of the train: the political economy of release cycles, from CPU benchmarks to SOTA
+
+    [中文](entries/024-release-cycle-politics.zh.md) · [English](entries/024-release-cycle-politics.en.md)
+
 - 🎧 **ENTRY 006 · ARTIFACT** · 2026-08-17
 
     ---
