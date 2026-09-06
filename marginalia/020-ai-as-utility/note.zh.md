@@ -3,7 +3,7 @@ id:              marginalia-020
 title:           "AI 停电：故障、Reset 的补偿政治与灰色中转"
 date:            2026-09-06
 published:       2026-09-06
-kind:            essay（随想）
+kind:            research memo（研究备忘）
 sources:
   - "2026-09-03 ChatGPT/Claude/Grok 同源宕机：TechRound（09-04 专家问答）、Value Add Pulse（09-03）、IBTimes（34 万 Downdetector 报告）"
   - "ICPE 2025, 'An Empirical Characterization of Outages and Incidents in Public Services for Large Language Models.' arXiv:2501.12469"
@@ -19,51 +19,96 @@ issue:           49
 
 # AI 停电：故障、Reset 的补偿政治与灰色中转
 
-> 2026 年 9 月 3 日上午，ChatGPT、Claude 与 Grok 在同一个时间窗内相继无法访问。三家彼此竞争的公司，共享着同一层云基础设施；Gemini 因为跑在 Google 自有云上而幸存。Downdetector 记录了超过 34 万次报告。社交媒体上流传的那句自嘲——「有那么一会儿，几百万人不得不重新用自己的脑子」——比任何学术论文都准确地标记了转折点：模型连接已经成为公用事业，而公用事业是有停电的。本文从基础设施研究出发，处理三个现象：故障如何被体验与叙述；配额重置（reset）如何演变成一种补偿政治；以及在官方管道之外的灰色中转市场，用户如何与明知不稳定的服务长期共处。
+> 研究备忘：把「模型连接 = 公用事业」整理成三个可研究的现象面（故障志 / reset 补偿政治 / 灰色中转）与材料清单。旧版论证文见 git 历史。引用已于 2026-09-07 全量搜索核验——注意：三处数字/引句被核验证伪或降级为孤证，已在正文与文末核验记录中如实标注。
 
-## 一、Breakdown 才见基础设施
+## 核心想法
 
-1996 年，Star 与 Ruhleder 给基础设施下过一组定义，流传最广的一条是：基础设施是在崩解（breakdown）时才被看见的东西。停水停电的类比在 AI 时代突然精准，正是因为它把这条老命题重新激活了——模型不可用的瞬间，「AI 融入思考」这个原本 ready-to-hand 的状态，显形为一份依赖清单。
+1. **Breakdown 才见基础设施**：Star & Ruhleder 的老命题在 AI 上重新激活；2026-09-03 三家同窗故障是一个天然对照实验（把「竞争的产品」还原为「共享的管道」——注意：单一同源故障未被官方确认，见材料标注）。
+2. **故障志：计量已有，社会学尚空**：ICPE 2025 做了计量刻画（同厂商故障共现 >80%、跨厂商无共现）；质性侧只有一篇 netnography preprint；「单家故障不再构成新闻」的新闻价值通胀本身是公用事业化症候。
+3. **Reset = 公用事业没有的补偿仪式**：补偿/促销/里程碑/壁垒多重身份叠在同一个指标上；定义权属于工程师的一条推文；Max Woolf 的第四种读法（锁住重度用户）。
+4. **灰色中转：与明知不稳定的服务长期共处**：多站冗余、小额充值、「降智」民间理论；可靠性由人自己编织（Simone/Anand）。
+5. **双层结构与时间性契约**：官方管道按财报节奏、灰色市场按跑路节奏；「随时中断、随时补偿、随时锁进」成为常态条款。
 
-2026 年 9 月 3 日的事件比理论更好，它是一个天然的对照组。三家竞争对手同时倒下而 Gemini 幸存，等于用一次故障做完了本该由研究者完成的实验：把「竞争的产品」还原为「共享的管道」。TechRound 汇总的行业评论把结论说破：「AI 的可用性，其重要程度仅次于云计算和电力。」还有一位受访者补上了研究者容易漏掉的一层：故障中真正的受害者不是对着空白对话框的人，而是执行到一半的 agent——它们的任务不会优雅暂停，而是无记录地中断。
+## 想法 × 材料
 
-## 二、故障志：计量已有，意义尚空
+### 想法 1 · 2026-09-03 同窗故障（锚点事件）
 
-公共 LLM 服务的故障已经有计量传统。ICPE 2025 的一篇论文对八个 LLM 服务的故障与恢复做了系统刻画：OpenAI 与 Anthropic 的故障呈显著的工作日周期性；同厂商服务的故障同日共现概率超过 80%；不同厂商之间几乎无共现。最后这条写在 2025 年初，等于提前反驳了 2026 年 9 月的那次同源宕机：共现的缺位是当时的架构事实，而基础设施层的合并随时可以改写它。
+- **[Value Add Pulse: ChatGPT Claude Grok outage: Azure routing error](https://valueaddvc.com/pulse/chatgpt-claude-grok-simultaneous-outage-2026)**（2026-09-03）——三家底层均有 Azure；Azure 当日自身也在故障；**注意原文口径："three separate root causes reported, not one shared failure officially confirmed"**——「同源宕机」应表述为「同窗故障、被广泛归因于共享 Azure 层」。
+- **[TechRound: When AI Goes AWOL](https://techround.co.uk/news/when-ai-goes-awol-what-should-we-conclude-from-chatgpt-claude-and-groks-simultaneous-outage/)**（2026-09-04）——行业评论汇编；公用事业类比原句："AI availability is next to cloud computing and electricity for the level of reliance we have"。
+- **报告量级（谨慎使用）**：IBTimes「34 万 Downdetector 报告」**未找到原文，孤证**；可达旁证为 Forbes "tens of thousands"、tech-insider "74,000+ reports"、shattered.io "37,000+"——建议写「数万份报告」并补 IBTimes 链接后再引用具体数。
+- **Gemini 幸存**（跑 Google 自有云）——对照组的关键一栏。
 
-质性的一侧只有一篇 preprint：对 2024 年 12 月 ChatGPT 宕机期间 Reddit 讨论的 netnography，用依恋理论刻画用户反应。故障的计量学有人做了，故障的社会学还空着。尤其是事件序列层面：2026 年内，各家 multi-hour downtime 已经多到单家故障不再构成新闻，真正构成事件的是同源齐断。这种「新闻价值的通胀」本身就是公用事业化的症候。
+### 想法 2 · 故障志：计量已有，意义尚空
 
-至于用户怎么叙述，那句被广泛转发的自嘲值得当标题读：停电迫使人重新使用自己的脑子。它的流行说明，停电被体验为一种认知外包的暂时回收，而不是简单的服务中断。
+- **[Chu, Talluri, Lu & Iosup 2025, ICPE](https://arxiv.org/abs/2501.12469)**——"An Empirical Characterization of Outages and Incidents in Public Services for Large Language Models." 16th ACM/SPEC International Conference on Performance Engineering (ICPE 2025), 2025-05, Toronto（四位作者均 Vrije Universiteit Amsterdam）。已核对：8 个公共 LLM 服务（OpenAI/Anthropic/Character.AI）；Anthropic 组内两服务同日故障概率 **>80%**；"There is no correlation observed between services from different providers"；OpenAI/Anthropic 故障呈工作日周期。跨厂商无共现的结论写在 2025 年初，被 2026-09 事件打上问号——「基础设施层合并随时改写它」的伏笔。
+- **[Becodo 2026, Zenodo](https://zenodo.org/records/19380595)**——Ricky P. Becodo（独立作者，未经同行评审）。2026-04-02. "AI Downtime as Digital Disruption: A Netnography of User Responses to the 2024 ChatGPT Outage." doi:10.5281/zenodo.19380595——故障社会学目前唯一的质性前作（Reddit 讨论 + 依恋理论 + TAM + 认知负荷）。
+- 「那句自嘲」与「新闻价值通胀」为旧版观察（材料待补：找到转发量可测的自嘲帖样本）。
 
-## 三、Reset 的补偿政治
+### 想法 3 · Reset 的补偿政治
 
-如果说故障是基础设施的失灵时刻，配额重置就是它独有的补偿仪式。传统公用事业没有对应物：电力公司不会因为停电送你一度电。
+- **[the-decoder: OpenAI kicks off the AI price wars with flexible rate-limit resets](https://the-decoder.com/openai-kicks-off-the-ai-price-wars-with-flexible-rate-limit-resets-for-its-codex-coding-agent/)**（2026-06-12）——reset 制度化的时间锚点（Codex）。注意：旧版引句「当 agent 成为每日工具，每次中断都像机器停机」**不在此文，来源未定位**，暂删。
+- **[Max Woolf: What's the deal with all the random weekly quota resets for agents lately?](https://minimaxir.com/2026/07/agent-quota-reset/)**（2026-07-18）——第四种读法逐字："…not intended to be fun serendipity, but instead **intended to prevent power users from experimenting with sufficiently competitive competitors once the quota naturally runs out**."
+- **[knightli: Codex Usage Limits Explained](https://knightli.com/en/2026/04/15/codex-usage-limits-five-hour-weekly-credits/)**（2026-04-15；原 5-17 历史页已并入此篇）——民间分类尝试："Promotional resets, referral rewards, and incident compensation are temporary benefits"。旧版「四分类（增长里程碑/竞争壁垒）」两类未在可达文本中逐字证实，降级为「分类尝试」。
+- **[resetbeacon.com](https://resetbeacon.com)**——"When Is the Next Codex Reset? Live Forecast"——补偿仪式的民间预报台。
 
-OpenAI 的 Codex 把 reset 玩成了显学。2026 年 4 月 28 日，工程负责人 Thibault Sottiaux（社区称 Tibo）以「上周表现很好」为由重置全部付费计划的配额；5 月 13 日故障后补偿性 reset；7 月上旬六天内六次，其中两次间隔不足 72 小时；6 月 11 日，reset 制度化为可囤积的「banked reset」，并配上邀请好友「双方各得一次、30 天过期」的增长机制——损失厌恶的设计语法。民间知识随之成型：knightli.com 给 reset 做了四分类（事故补偿、发布促销、增长里程碑、竞争壁垒）；resetbeacon.com 专门预测下一次 goodwill reset 的时点，一座为补偿仪式修建的民间预报台。Max Woolf 提供了第四种读法：高频 reset 的功能，是让重度用户在配额耗尽时没机会去试竞品。
+### 想法 4 · 灰色中转：与不稳定共处
 
-补偿、促销、里程碑、壁垒，四个身份叠在同一个指标上，而定义权属于一条工程师的推文。Anthropic 侧的一篇报道标题恰好做了理论概括：「当 agent 成为每日工具，每次中断都像机器停机」。reset 于是成了停机保险——而保险的承保方，同时是事故的责任方。
+- **[每日经济新闻：《1元钱285万Token的陷阱！起底"AI中转站"》](https://www.stcn.com/article/detail/3905001.html)**（2026-05-12）——标题即硬数。
+- **脑极体：《AI 中转站的生死一梦》**（36氪，2026-08；镜像 [腾讯新闻 2026-08-18](https://news.qq.com/rain/a/20260818A06OGW00)）——"起步成本仅需两千元左右"；"2026 年 5 月监管信号释放后的短短三个月……六七成已经消失"（两处逐字核实；36氪直链有反爬，引用给镜像）。
+- **[腾讯新闻：《你花真金白银买的第三方API，有一半都是假的》](https://news.qq.com/rain/a/20260307A02C7I00)**（2026-03-07，01Founder）——转述 CISPA 报告 **"Real Money, Fake Models: Deceptive Models Claims in Shadow APIs"**（2026-03）：17 个头部影子 API 提供商（15 个个人运营、88.2% 无 ICP 备案）、污染 187 篇论文（116 篇顶会）、MedQA 准确率官方 83.82% vs 影子 API 平均约 36.95%（≈「37%」）。**注意：旧版的「25 个 shadow API、9 个注入恶意代码、17 个窃取云凭证、1 个盗走以太币」不在此文，未找到出处——已删，如需请另找原始审计。**
+- 应对技术（多站冗余/小额充值/「降智」手感理论）：散见于上述调查报道，待系统化采样。
 
-## 四、灰色中转：与不稳定共处
+### 想法 5 · 理论底座（源卡片见下）
 
-官方管道够不到或付不起的地方，长出了一个庞大的次级市场：把海外模型的 API 转售给无法直连、无法外币支付的用户。中文世界的调查已经把这个市场翻开。每经的起底报道（「1 元 285 万 token」）；36氪对站长灰产生涯的复盘（两千元成本起家，监管收紧后三个月消失六七成）；安全团队对 25 个 shadow API 的审计（9 个主动注入恶意代码，17 个窃取云凭证，1 个直接盗走以太币；被掉包模型的准确率平均跌到 37%）。
+## 理论源卡片
 
-曝光灰产的部分，记者已经做完了。本文的兴趣在一个还没人研究的问题：用户如何在明知不稳定的情况下，与这种服务长期共处。调查材料里已经能辨认出一套应对技术：多站冗余（同时买两三家，对冲跑路风险）；小额充值（把跑路损失控制在「便宜的教训」范围内）；还有一套「降智」民间理论——用户凭手感就能分辨后台被掉包的模型。
+### Star & Ruhleder 1996 · 基础设施的八条性质
 
-他们为什么支持？价格、地缘访问壁垒、人民币支付，以及一种对不稳定的主权声明：不稳定的体验本身，就是议价能力的对价。这个位置上有现成的理论。Simone 的「人作为基础设施」与 Anand 的《Hydraulic City》都描述过这样一种日常：可靠性不是别处提供的，而是在不稳定之中、由人自己编织出来的。
+**引用**：Star, Susan Leigh & Karen Ruhleder. 1996-03. "Steps Toward an Ecology of Infrastructure: Design and Access for Large Information Spaces." *Information Systems Research* **7(1)**: 111–134. doi:10.1287/isre.7.1.111.（**注意是 7(1)，常被误引为 7(2)**）
 
-## 五、结语：两层基础设施与时间性契约
+**大纲**：基于 WARP 大型系统的开发民族志，提出基础设施的关系性/生态性定义与八条性质：embeddedness、transparency、reach、learned as membership、links with practice、standards、installed base、visible on breakdown。
 
-把三个现象面叠起来，是一个双层结构：官方管道按财报的节奏运营，灰色次级市场按跑路的节奏运营，用户在两层之间流动。Graham 与 Marvin 在《Splintering Urbanism》里描述的「优质网络与标准网络的分裂」，在 AI 时代有了自己的版本。
+**原文关键句**（第 8 条性质，逐字）：
+> "becomes visible upon breakdown"
 
-本文的初步命题是：AI 公用事业化创造的不是一个更可靠的基础设施，而是一种新的时间性契约——用户被要求把「随时可能中断、随时可能被补偿、随时可能被锁进」当作常态接受下来；而不稳定本身，正在从事故变成这门生意的结构成分。后续的研究计划（事件库、reset 档案、中转站用户社群的观察）已另行登记。
+### Star 1999 · 方法论纲领
+
+**引用**：Star, Susan Leigh. 1999-11. "The Ethnography of Infrastructure." *American Behavioral Scientist* 43(3): 377–391. doi:10.1177/00027649921955326.
+
+**大纲**：把 1996 框架推进为民族志纲领——研究基础设施隐没与崩解的时刻。
+
+### Simone 2004 · 人作为基础设施
+
+**引用**：Simone, AbdouMaliq. 2004-09. "People as Infrastructure: Intersecting Fragments in Johannesburg." *Public Culture* 16(3): 407–429. doi:10.1215/08992363-16-3-407.
+
+**大纲与关键句**：约翰内斯堡民族志——正式管道缺位处，可靠性与协作由人群灵活、流动、暂时性的相互接口生成，不稳定本身即运营方式。
+> "people as infrastructure is a means of delineating dense, overlapping, and conflicting forms of cooperation"
+
+### Anand 2017 · Hydraulic City
+
+**引用**：Anand, Nikhil. 2017. *Hydraulic City: Water and the Infrastructures of Citizenship in Mumbai*. Durham, NC: Duke University Press. doi:10.1215/9780822373599.（副题按 Duke UP 电子版权记录；旧写法 "Aquifers, Waters…" 有误）
+
+**大纲**：孟买供水民族志——「水力公民权」（hydraulic citizenship）：公民身份由管道、压力、水车与国家的物质政治共同构成；可靠性是持续斗争的产物。
+
+### Graham & Marvin 2001 · Splintering Urbanism
+
+**引用**：Graham, Steve & Simon Marvin. 2001. *Splintering Urbanism: Networked Infrastructures, Technological Mobilities and the Urban Condition*. London: Routledge. doi:10.4324/9780203452202.
+
+**大纲**：网络自由化拆解现代主义整体性基础设施理想，生出精英专属的 "premium networked spaces" 与被弃置的大众网络——AI 时代有了自己的版本。
+
+### Dourish & Mazmanian 2013 · Media as Material
+
+**引用**：Dourish, Paul & Melissa Mazmanian. 2013. "Media as Material: Information Representations as Material Foundations for Organizational Practice." In Paul R. Carlile, Davide Nicolini, Ann Langley & Haridimos Tsoukas (eds.), *How Matter Matters: Objects, Artifacts, and Materiality in Organization Studies*. Oxford: Oxford University Press, 92–118. doi:10.1093/acprof:oso/9780199671533.003.0005.（**注意：出自 OUP《How Matter Matters》，不是 MIT Press 的 Media Technologies**）
+
+**大纲**：信息表征作为组织实践的物质基础；编码与表征稳固后反过来规训工作方式——与「模型连接成为思考的底座」高度可通。
 
 ## 参考资料
 
-- TechRound, "When AI Goes AWOL"（2026-09-04） — [链接](https://techround.co.uk/news/when-ai-goes-awol-what-should-we-conclude-from-chatgpt-claude-and-groks-simultaneous-outage/)；Value Add Pulse（2026-09-03） — [链接](https://valueaddvc.com/pulse/chatgpt-claude-grok-simultaneous-outage-2026)；IBTimes（2026-09-04，34 万报告）
-- ICPE 2025, "An Empirical Characterization of Outages and Incidents in Public Services for LLMs" — [arXiv:2501.12469](https://arxiv.org/html/2501.12469)
-- "AI Downtime as Digital Disruption"（netnography preprint） — [Zenodo 19380595](https://zenodo.org/records/19380595)
-- Max Woolf, "What's the deal with all the random weekly quota resets?"（2026-07-18） — [链接](https://minimaxir.com/2026/07/agent-quota-reset/)；the-decoder（2026-06-12） — [链接](https://the-decoder.com/openai-kicks-off-the-ai-price-wars-with-flexible-rate-limit-resets-for-its-codex-coding-agent/)；knightli reset 分类学 — [链接](https://knightli.com/en/2026/05/17/codex-usage-limit-reset-history/)；resetbeacon.com
-- 每日经济新闻，《1 元 285 万 Token 的陷阱》（2026-05-12） — [转载](https://www.stcn.com/article/detail/3905001.html)；36氪，《AI 中转站的生死一梦》（2026-08-14） — [链接](https://m.36kr.com/p/3939123750272132)；腾讯新闻，shadow API 审计（2026-03-07） — [链接](https://news.qq.com/rain/a/20260307A02C7I00)
-- Star & Ruhleder, "Steps Toward an Ecology of Infrastructure" (1996)；Star, "The Ethnography of Infrastructure" (1999)
-- Anand, *Hydraulic City* (2017)；Simone, "People as Infrastructure" (2004)；Graham & Marvin, *Splintering Urbanism* (2001)
-- 本站相关：[024 · 发布周期](../024-release-cycle-politics/note.zh.md)、[019 · TokenMaxxing](../019-tokenmaxxing/note.zh.md)（配额政治的另一面）
+（全部引用已内联于「想法 × 材料」并附链接。内部相关：[024 · 发布周期](../024-release-cycle-politics/note.zh.md)（弃用跑步机与配额制度）、[019 · TokenMaxxing](../019-tokenmaxxing/note.zh.md)（配额政治的另一面）。）
+
+## 核验记录（2026-09-07）
+
+- 11 条 URL 全部可达（36氪直链反爬，经腾讯镜像全文核验）；理论文献 6 条全部经 Crossref 落实；0 死链。
+- **证伪/降级 3 处（诚实标注）**：①「34 万 Downdetector 报告」孤证（旁证 3.7 万–7.4 万），降级为「数万份」待补原文；② shadow API「25/9/17/1 以太币」数字组不在所引腾讯文（该文的 17 = 服务商数），已删；③「每次中断都像机器停机」引句不在 the-decoder 文中，已删。
+- 已修正 3 处题录：Star & Ruhleder 为 ISR **7(1)**、doi:10.1287/isre.7.1.111；Anand 副题为 "Water and the Infrastructures of Citizenship in Mumbai"；Dourish & Mazmanian 出处为 OUP《How Matter Matters》92–118（非 MIT Press）。
+- 措辞缓冲：「同源宕机」→「同窗故障，被广泛归因于共享 Azure 层」（Value Add Pulse 明言官方未确认单一共享故障）。

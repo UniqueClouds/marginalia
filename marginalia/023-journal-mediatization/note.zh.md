@@ -3,7 +3,7 @@ id:              marginalia-023
 title:           "当 Nature 学会标题党：顶刊的媒体化与 taste 重定向"
 date:            2026-09-06
 published:       2026-09-06
-kind:            essay（随想）
+kind:            research memo（研究备忘）
 sources:
   - "Weingart, P. 2022. 'Trust or attention? Medialization of science revisited.' Public Understanding of Science. doi:10.1177/09636625211070888"
   - "Moorhead, Fleerackers & Maggio. 2023. '''It's my job''': a qualitative study of the mediatization of science.' JCOM 22(04)A05"
@@ -20,53 +20,75 @@ issue:           52
 
 # 当 Nature 学会标题党：顶刊的媒体化与 taste 重定向
 
-> 一个不太好听但值得认真对待的类比：Nature、Science 这样的顶刊，与量子位、机器之心这样的 AI 顶流公众号，正在变成同一种机构的不同纯度。判断依据不是形式——前者有同行评审，后者没有——而是逻辑：顶刊正在让自身的收稿品味（taste）服从两股非学术力量，快速迭代的技术节奏，和它想象中的受众的喜好。这股隐形的 taste 重定向让顶刊收录的 topic 大量偏向，投稿随之偏移；它是非技术的，文化与商业层面的。本文梳理它的学术坐标、实证基础，和一个可操作的研究设计。
+> 研究备忘：核心命题——顶刊正在让收稿品味（taste）服从「快速迭代的技术节奏」与「想象中的受众」，topic 分布随之偏向（LLM 化），投稿重定向；与自媒体构成媒介化连续谱。本条 = 想法提纲 + 核验材料 + 媒介化理论源卡片。旧版论证文见 git 历史。引用已于 2026-09-07 全量搜索核验，记录见文末。
 
-## 一、类比的反向证据
+## 核心想法
 
-先从中文世界的一个戏称说起：机器之心、量子位、新智元，被称为「中文 AI 三大顶会」。这是讽刺——吐槽它们标题党（「物理学不存在了」式标题）、软文明码标价、未中顶会先在公众号营销。但讽刺的结构值得注意：自媒体被叫作顶会，恰好说明在公众的感知里，顶会/顶刊与流量媒体已经在做同一件事。
+1. **反向证据（戏称的结构）**：自媒体被叫作「中文 AI 三大顶会」= 公众感知里顶刊与流量媒体在做同一件事；Hovy「LLM popcorn」+ 67% LLM 标题是英文侧对应物。
+2. **理论总锚 = 科学的媒介化**：Weingart 1998 开山（science–media coupling）→ 2022 再访（imagined publics；参与脱轨为营销）；Väliverronen 补「推介文化」中层概念。
+3. **期刊是主动一环**：Moorhead 等 2023——期刊压力（journal pressures）是科学家媒介化的三因素之一；顶刊一手包办 embargo/新闻稿/推广。
+4. **taste 重定向有计量证据且呈正反馈**：宣传词 +1% → 引用 +9–14%（13.6 万摘要）；正面词 40 年 +880%；夸大主要来自大学与期刊自己的新闻稿（OR 6.5–56）且不带来更多新闻采用 = 「自适应但无效」。
+5. **研究设计 = 三级转码链**：顶刊新闻稿 → 国际媒体 → 中文自媒体，测每级 hype 增幅；Leidecker-Sandmann 的 MSM≥100 框架可直接迁移；中文侧（CNS 榜、三大顶会话语）无人研究 = gap。
 
-英文世界的对应物，是 Hovy 在 ACL 2025 主旨里发明的「LLM popcorn」：多数论文像爆米花，吃时很饱，几分钟后空空如也——「收集蝴蝶」式的不够观察。同届会议，67% 的论文标题里带着 LLM 三个字母，与会者的回顾文章里写下了「LLM exhaustion and nausea」。
+## 想法 × 材料
 
-中文侧还有一个更具体的研究对象：腾讯新闻等平台常年生产「西湖大学四天 CNS 大满贯」「清北 CNS 发文榜」式报道，顶刊发文数被做成高校竞技积分榜，按周计数，按「帽子戏法」叙述。科研被媒体化的极致，是它获得了联赛的叙事结构。
+### 想法 1 · 反向证据
 
-## 二、媒介化：现成的理论总锚
+- **[腾讯新闻：西湖大学四天内连发 3 篇顶刊，实现 CNS 大满贯](https://news.qq.com/rain/a/20250927A00HI500)**（2025-09-27）——顶刊发文做成高校积分榜的样本。
+- **[unifuncs: AI 三大顶会调查](https://unifuncs.com/s/gr2npwic)**——「中文 AI 三大顶会」（机器之心/量子位/新智元）戏称的聚合页。注意：此页是 AI 生成聚合（二手），原始锚是知乎问题「如何评价中文 AI 三大顶会：机器之心、量子位、新智元？」。
+- Hovy「LLM popcorn」与 67%：一手记录见 **[018 想法 3](../018-sota-spectacle/note.zh.md)**（Gubelmann 逐字："LLM exhaustion and nausea (67% of Papers have ``LLM'' in title)"）。
 
-这个类比在科学传播研究里有现成的总锚：科学的媒介化（medialization/mediatization of science）。Weingart 从 1998 年起论证：科学与媒体系统的耦合，使科研机构日益以媒体为取向——媒体事件的预演、成果在同行评审之前先见媒体、期刊向媒体推销自己。他 2022 年的再访文章把机制点得更透：机构传播的合理性来自「想象中的公众」（imagined publics），而「公众参与」已经脱轨为营销、品牌与公关。Väliverronen 补上了「推介文化」（promotional culture）这个中层概念。
+### 想法 2 & 3 · 媒介化理论链（源卡片见下）
 
-最关键的一步由 Moorhead 等人完成。他们在一篇质性研究中提出：期刊自身也有媒介化——科学家向期刊的规范弯曲，甚于向记者弯曲。受访者的原话是：「如果你的论文没发在 Science 或 Nature——你都不好意思去告诉学校的新闻办公室。」期刊不是被媒体裹挟的受害者，而是媒介化链条里主动的一环。
+- Weingart 1998 / 2022；Moorhead, Fleerackers & Maggio 2023；Väliverronen 2021。
 
-## 三、taste 重定向的实证基础
+### 想法 4 · 计量证据
 
-「顶刊的品味在漂移」不是印象，是有计量证据的命题，而且证据显示出正反馈。
+- **[Stavrova, Kleinberg, Evans & Ivanović 2025, Communications Psychology](https://www.nature.com/articles/s44271-025-00293-8)**——136,615 篇摘要（1991–2023；PNAS 84,603 / Science 25,142 / Nature 26,870）：宣传词 +1%（约 2 词）→ 年引用 +9–14%、Altmetric +3–6%（139 词词典）。作者单位：Stavrova（Lübeck/Tilburg）、Kleinberg（UCL）、Evans（Allstate）、Ivanović（Ipsos）。可补：性别差异发现（宣传语言扩大男性作者引用优势）。
+- **[Vinkers, Tijdink & Otte 2015, BMJ](https://doi.org/10.1136/bmj.h6467)**——PubMed 摘要正面词 2.0%（1974–80）→ 17.5%（2014），相对 +880%；「robust」「novel」「innovative」「unprecedented」相对频率最高 +15,000%（约 150 倍）。单位：UMC Utrecht / VU Medical Center Amsterdam。
+- **[Sumner et al. 2014, BMJ](https://doi.org/10.1136/bmj.g7015)**——12 人（Cardiff University 为主；Venetis 在 Wollongong、Boy 在 Swansea Swansea University 通讯）：夸大主要来源是大学新闻稿，OR 6.5（建议类）/ 20（因果类）/ 56（动物推人类）；且夸大不增加新闻采用。姊妹篇：[Sumner et al. 2016, PLOS ONE](https://doi.org/10.1371/journal.pone.0168217)（期刊新闻稿 OR 2.4–11；caveats 不降低采用率）——OR 6.5–56 属 2014 BMJ 篇，引用时分开。
+- **[Wang & Sun 2026, Frontiers in Research Metrics and Analytics](https://www.frontiersin.org/journals/research-metrics-and-analytics/articles/10.3389/frma.2026.1893522/full)**——"Strategic decoupling between grant and publication language in AI and cancer research: a cross-national LLM-assisted analysis"（华南农业大学生命科学学院；400 对 NSFC/NIH-NSF 摘要对；AI r=0.78、癌免 r=0.56；提出 strategic textual decoupling 与 hidden cognitive tax）。
 
-Communications Psychology 2025 年分析了 1991–2023 年 PNAS/Science/Nature 的 13 万篇摘要：宣传性语言（promotional language）每增加约 1%（两个词），年引用量增加 9–14%，Altmetric 分数增加 3–6%。hyping 有回报，且回报直接进入学术界最在乎的指标。纵向看，PubMed 摘要中的正面词汇四十年间从 2.0% 涨到 17.5%（+880%）；「robust」「novel」「unprecedented」的相对频率最高涨了 150 倍（Vinkers et al., BMJ 2015）。
+### 想法 5 · 研究设计模板
 
-更妙的是 Sumner 团队的两篇研究：新闻的夸大，主要来源是大学与期刊自己的新闻稿（OR 6.5–56）；而且夸大并不带来更多新闻采用。品味错位是「自适应但无效」的：整个系统在为一个不存在的奖励而通胀。
+- **[Leidecker-Sandmann, Koppers & Lehmkuhl 2023, PLOS ONE](https://doi.org/10.1371/journal.pone.0280016)**——"Correlations between the selection of topics by news media and scientific journals"（KIT / Science Media Center Germany）：Altmetric MSM≥100 筛 983 篇高曝光论文，链接 185,166 篇同主题 PubMed 文献；59% 案例报道后同主题发文增多（p<0.01）；publicity effect vs earmark hypothesis 无法区分——框架可迁移为「LLM 选题重定向」检验。
 
-基金层有同样的结构。2026 年一篇中美比较研究显示，AI 领域基金申请书的宏观叙事语言（中文语境：产业赋能、卡脖子、国家重大需求）远高于肿瘤免疫学，发表时又骤降——作者称之为「战略性文本脱钩」，代价是研究者的「认知税」。
+## 理论源卡片
 
-## 四、研究设计：三级转码链
+### Weingart · 媒介化两篇
 
-把类比变成研究，核心装置是三级转码链：同一篇论文，从顶刊新闻稿，到国际媒体报道，再到中文自媒体，测量每一级的 hype 增幅与变形。
+**1998 开山**：Peter Weingart（Bielefeld University；2015–2020 兼 Stellenbosch 大学南非科学传播讲席）. 1998-12. "Science and the media." *Research Policy* 27(8): 869–879. doi:10.1016/S0048-7333(98)00096-1
+- 摘要原文："The traditional view of the popularization of science…is being challenged in the new arrangement between science and the media."
+- 三个标志案例（摘要原文）："pre-publication of results in the media, the role of media prominence in relation to scientific reputation, and the cassandra syndrome…"（同行评审前先见媒体 / 媒体可见度兑换声望 / 为注意力发动灾难话语）
+- 不可逆判断："The coupling with its problematic consequences seems inescapable given the increased dependency on public support…"
 
-方法上有现成模板。Leidecker-Sandmann 等人用 Altmetric 的主流媒体分（MSM≥100）筛出被国际媒体高强度报道的论文，再考察 PubMed 中同主题文献在报道前后的增长；这个「媒体选题与期刊选题趋同」的检验框架，可以直接迁移为「LLM 选题重定向」的检验。配上 Sumner 式的逐级内容编码与 13 万摘要式的计量面板，三个研究问题自然浮现：重定向的速率（顶刊 topic 分布的 LLM 化，与非 AI 热点期对照）；传动机制（编辑指南、News & Views 选文、封面如何编码想象中的受众）；以及中文侧的完整空白（CNS 榜体育化与「三大顶会」话语，均无学术研究）。
+**2022 再访**：Peter Weingart. 2022-04-01. "Trust or attention? Medialization of science revisited." *Public Understanding of Science* 31(3): 288–296. doi:10.1177/09636625211070888
+- "A closer look reveals the self-referentiality of institutional communication deriving its rationale from 'imagined publics'."
+- "The politically sponsored 'engagement of the public' has been derailed to become marketing, branding and public relations exercises."
+- 后果："…conflicts between faculty and management and possibly a loss of trust in science."（标题之问：换来 attention，押上 trust）
 
-## 五、命名与定位
+### Moorhead, Fleerackers & Maggio 2023 · 期刊压力
 
-给这个现象起名字，学术正典是 mediatization（媒介化）；媒介研究里还有现成的 tabloidization（小报化，taste 服从大众喜好的精确描述）；往场域理论走，Bourdieu 的答案是异治极的胜利（heteronomization）——当期刊的品味服从「想象中的受众」，科学场就从自主极滑向了他律极，这条线恰好接本站 009 号笔记的 Bourdieu 主题。如果想要一个接得住 Hovy 自造词的，popcornization 也可备随手取用。
+**引用**：Laura L. Moorhead（San Francisco State University）、Alice Fleerackers（Simon Fraser University，当时）、Lauren A. Maggio（Uniformed Services University of the Health Sciences）。2023-08-07. "'It's my job': a qualitative study of the mediatization of science within the scientist-journalist relationship." *Journal of Science Communication (JCOM)* 22(04): A05. doi:10.22323/2.22040205.（[PDF](https://jcom.sissa.it/article/1266/galley/2693/download/)）
 
-需要声明的边界只有一条：类比的论点是逻辑趋同，不是机构等同。顶刊有同行评审与共同体问责，自媒体没有；把两者说成一样，就取消了研究本身要解释的东西。
+**大纲**：
+1. 原命题是 journal pressures 为三因素之一（career status / journal pressures / institutional context）："The need to please journals was an important force shaping scientists' interactions with journalists."
+2. 受访者原话（Sci_10，逐字）："I was at, you know, a big R1 university, and the culture was sort of if your paper wasn't in Science or Nature — or maybe PNAS — like, you did not tell the press department. Like, they only cared about high-impact articles."（「期刊自身也有媒介化」是本词条的引申读法，原文未以此命题）
+3. "journals directly shaped scientists' interactions with journalists by setting embargoes, preparing and publicizing press releases, and promoting new studies. Again, 'high impact' journals appeared to play an outsized role."
+4. 方法：19 位科学家访谈（取自 8 家媒体 400 篇报道提及的研究）；在 Olesk (2021) 框架上新增第三模式 affiliation of media logic；四类 persona（Constrained Communicator / Ambivalent Media Source / Strategist / Media Enthusiast）。
+
+### Väliverronen 2021 · 推介文化
+
+**引用**：Esa Väliverronen（University of Helsinki）. 2021-02-28. "Mediatisation of science and the rise of promotional culture." Chapter 8 in *Routledge Handbook of Public Communication of Science and Technology*, 3rd ed., eds. Massimiano Bucchi & Brian Trench. Abingdon: Routledge. ISBN 9781003039242. **doi:10.4324/9781003039242-8-8**（旧版 DOI 末尾少「-8」，未注册）。OA：[Taylor & Francis](https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003039242-8/mediatisation-science-rise-promotional-culture-esa-v%C3%A4liverronen)、[OAPEN](https://library.oapen.org/handle/20.500.12657/49683)
+- 核心论证："from 'publish or perish' to 'promote yourself or perish'"（引 Wernick 1991、Davis 2013）。
 
 ## 参考资料
 
-- Weingart, "Trust or attention? Medialization of science revisited" (2022) — [doi:10.1177/09636625211070888](https://doi.org/10.1177/09636625211070888)
-- Moorhead, Fleerackers & Maggio, "'It's my job'" (2023) — [JCOM](https://jcom.sissa.it/article/1266/galley/2693/download/)
-- Väliverronen, "Mediatisation of science and the rise of promotional culture" (2021) — [doi:10.4324/9781003039242-8](https://doi.org/10.4324/9781003039242-8)
-- Sumner et al., BMJ 2014 — [doi:10.1136/bmj.g7015](https://www.bmj.com/content/349/bmj.g7015)；PLOS ONE 2016 — [doi:10.1371/journal.pone.0168217](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0168217)
-- Vinkers et al., BMJ 2015 — [doi:10.1136/bmj.h6467](https://doi.org/10.1136/bmj.h6467)
-- "Scientific publications that use promotional language…" *Communications Psychology* (2025) — [链接](https://www.nature.com/articles/s44271-025-00293-8)
-- Leidecker-Sandmann et al., PLOS ONE 2023 — [doi:10.1371/journal.pone.0280016](https://journals.plos.org/plosone/article/file?id=10.1371%2Fjournal.pone.0280016&type=printable)
-- "Strategic decoupling between grant and publication language"（2026） — [Frontiers FRMA](https://www.frontiersin.org/journals/research-metrics-and-analytics/articles/10.3389/frma.2026.1893522/full)
-- 中文材料：腾讯 CNS 榜（[西湖四天三篇](https://news.qq.com/rain/a/20250927A00HI500)）；「中文 AI 三大顶会」调查 — [unifuncs](https://unifuncs.com/s/gr2npwic)
-- 本站相关：[021 · Best Paper 的随机性](../021-best-paper-lottery/note.zh.md)（评审的供给侧）、[009 · Homologies](../009-homology-without-fractal/note.zh.md)（Bourdieu 场域）
+（全部引用已内联于上并附链接，均经 2026-09-07 核验。命名资源：mediatization / tabloidization / heteronomization / popcornization；Bourdieu 异治极接 [009 · Homologies](../009-homology-without-fractal/note.zh.md)；评审侧接 [021 · Best Paper 的随机性](../021-best-paper-lottery/note.zh.md)。）
+
+## 核验记录（2026-09-07）
+
+- 12/12 项实存且内容属实，0 编造。
+- 已修正 4 处：Väliverronen DOI 改为 10.4324/9781003039242-8-8（旧 DOI 未注册）并补书名编者；Moorhead 受访者原话按英文逐字更正（含 "— or maybe PNAS —"）；Sumner 团队单位 Cardiff（非 Exeter）；OR 6.5–56 归属 2014 BMJ 篇。
+- 补入：Weingart 1998（Research Policy 27(8):869–879）、JCOM DOI、Comms Psych 四作者全名+单位、Frontiers 作者与机构背景。
+- 访问注意：SAGE 对 curl 反爬（DOI 正常解析）；unifuncs 为 AI 聚合页（二手，原始锚为知乎问题）。

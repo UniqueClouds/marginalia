@@ -3,7 +3,7 @@ id:              marginalia-019
 title:           "TokenMaxxing：算力的炫耀性消费与一场三个月的道德运动"
 date:            2026-09-06
 published:       2026-09-06
-kind:            essay（随想）
+kind:            research memo（研究备忘）
 sources:
   - "Business Insider, ''Tokenmaxxing' Is the New Silicon Valley AI Debate,' 2026-04-08；The Pragmatic Engineer, 'Tokenmaxxing as a weird new trend,' 2026-04-23"
   - "Quartz, 'How AI's hottest trend turned into a costly hangover,' 2026-06-10；Forbes, 'Why Tokenmaxxing Is Out And Valuemaxxing Is In,' 2026-06-02"
@@ -19,61 +19,97 @@ issue:           48
 
 # TokenMaxxing：算力的炫耀性消费与一场三个月的道德运动
 
-> 2026 年上半年，「尽可能烧 token、不要有上限」从 Claude Code 社区的玩笑升级成大厂制度：Meta 的内部排行榜 Claudeonomics 给员工发「Token Legend」头衔，Salesforce 给工程师定最低消费指标。然后，大约三个月，运动崩塌：订阅被裁、按量计费回归、「valuemaxxing」取而代之。这不是趣闻——一场道德运动从出生到死亡全程留有公开档案，并不多见。它复演了按行数考核工程师的全部荒诞，只是度量单位换成了算力。本文梳理它的生命周期：支持话语的结构、被排名者的应对技术，以及补贴的三层买单错位。
+> 研究备忘：一场从出生到死亡全程留有公开档案的道德运动（2025-03 ～ 2026-06，约三个月崩塌），复演按行数考核工程师的全部荒诞，度量单位换成算力。本条 = 想法提纲 + 核验过的材料清单。带完整论证的旧版见 git 历史（dd13e09、68006ca）。引用已于 2026-09-07 全量搜索核验，记录见文末。
 
-## 一、一份完整的档案
+## 核心想法
 
-时间线几乎无缝可考。思想奠基在 2025 年 3 月：Steve Yegge 在《Revenge of the Junior Developer》里主张，每个开发者该有每天 80–100 美元的 token 预算。同年 6 月，Anthropic 官方博客报告多代理系统以约 15 倍的 token 消耗换取 90.2% 的性能提升——「性能随 token 规模」就此获得官方背书。社区装备随即成型：「ultrathink」关键词、Ralph Wiggum 循环、Gas Town 的二十路并行代理，以及 ccusage 截图排行榜。
+1. **完整档案（生命周期法）**：思想奠基（Yegge $80–100/天）→ 官方背书（Anthropic 15×/90.2%）→ 制度化（Claudeonomics、Salesforce 最低消费）→ 回撤（账单可见化）→ 死亡与转世（valuemaxxing）。
+2. **支持话语的四个来源**：采纳的道德化 / 官方证据的选择性引用 / 包月-API 价差套利（15–40×）/ 排行榜身份表演；反对阵营同用道德语言（Karp「色情成瘾」、Bosworth 备忘录）→ 道德运动标准形态。
+3. **被排名者的应对技术**：注水清单、互相校准到「略高于平均」；度量政治（Goodhart/Strathern）。
+4. **炫耀性生产与三层买单**：Veblen 的当代变体；员工烧公司、公司烧股东、大厂烧 IPO 前资产负债表；对账即终结。
+5. **认识论问题**：valuemaxxing 是范式转变还是预算约束下的重述？最值得研究的不是谁用得多，而是谁在被迫显得用得多。
 
-2026 年 4 月，The Information 曝出 Meta 的内部排行榜「Claudeonomics」：覆盖 8.5 万员工，只列前 250 名，头衔从「Session Immortal」到「Token Legend」；据报道，某个 30 天窗口消耗约 60 万亿 token，按 API 牌价合数亿美元。同期，Salesforce 被曝设定最低消费目标——Claude Code 每月 100 美元、Cursor 70 美元，桌面小组件每 15 分钟刷新一次——并允许同事互查支出。
+## 想法 × 材料
 
-然后是回撤。Uber 的 CTO 承认四个月烧完全年 AI 预算；Microsoft 大规模裁撤 Claude Code 订阅；GitHub Copilot 在 6 月 1 日转向按量计费，Reddit 上流传着月账单从 50 美元跳到 3000 美元的截图。6 月 2 日，Forbes 宣判：「Tokenmaxxing is out, valuemaxxing is in.」6 月 15 日，Anthropic 启用程序化 credit 上限，并把旗舰模型移出包月计划。
+### 想法 1 · 完整档案（时间线）
 
-## 二、支持话语的四个来源
+- **[Yegge: Revenge of the Junior Developer](https://sourcegraph.com/blog/revenge-of-the-junior-developer)**（2025-03-22，Sourcegraph 博客）——思想奠基：coding agent 每小时烧 $10–12，给每个开发者每天 $80–100 token 预算是 no-brainer。
+- **[Anthropic: How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system)**（2025-06-13）——官方背书：多代理（Opus 4 主导 + Sonnet 4 子代理）比单代理高 90.2%（相对提升，非绝对分），token 消耗约 15×；**原文同时警告**仅在高价值可并行任务上经济可行。引用时措辞注意「相对提升 90.2%」。
+- **[The Information: Meta Employees Vie for AI 'Token Legend' Status](https://www.theinformation.com/articles/meta-employees-vie-ai-token-legend-status)**（2026-04 上旬，Jyoti Mann；付费墙，archive.is/c4V8c 有镜像）——Claudeonomics 原始出处：85,000+ 员工、只列 top 250、头衔 Session Immortal→Token Legend、30 天 60.2 万亿 token（按 Opus 牌价约 $9 亿）、榜首单人月均 281B。
+- **[Business Insider: 'Tokenmaxxing' has techies debating…](https://www.businessinsider.com/tokenmaxxing-ai-token-leaderboards-debate-2026-4)**（2026-04-08，Henry Chandonnet）——出圈定调；含 Garry Tan「We've been tokenmaxxing longer than most people」、Jensen Huang、Khosla 合伙人 Jon Chu「absolutely stupid policy」。
+- **[The Pragmatic Engineer: The Pulse — 'Tokenmaxxing' as a weird new trend](https://blog.pragmaticengineer.com/the-pulse-tokenmaxxing-as-a-weird-new-trend/)**（2026-04-23，Gergely Orosz，前 Uber/Adyen）——微软工程师自白、Salesforce 最低消费（Claude Code $100/月、Cursor $70/月、小组件 15 分钟刷新）、同事互查支出、Shopify 2025 年首个 token 排行榜。
+- **[Fortune: Uber burned through its entire 2026 AI budget in four months](https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code/)**（2026-05-26）——Uber CTO Praveen Neppalli Naga 4 月对 The Information 承认烧穿年度预算（原话 "back to the drawing board because the budget I thought I would need is blown away already"）；COO Andrew Macdonald 质问性价比；后续 $1,500/月/人上限。续闻：[Fortune 2026-08-07「tokenmaxxing 时代终结」](https://fortune.com/2026/08/07/uber-ai-spending-tokenmaxxing-is-over-cto/)。
+- **[Forbes: Why 'Tokenmaxxing' Is Out And 'Valuemaxxing' Is In](https://www.forbes.com/sites/timkeary/2026/06/02/why-tokenmaxxing-is-out-and-valuemaxxing-is-in/)**（2026-06-02，Tim Keary）——死亡与转世的标志标题；另载 Microsoft 裁撤大部分 Claude Code 订阅、Axios 转述某客户单月烧 $5 亿。
+- **[Quartz: How AI's hottest trend turned into a costly hangover](https://qz.com/the-tokenmaxxing-hangover)**（2026-06-10，Jackie Snow）——Copilot 6-1 转按量计费、Reddit 月账单 $50→$3,000 截图。注意：此文说 Uber「三个月」，与主流「四个月」冲突，取四个月。
+- **[TokenJam: The problem with TokenMaxxing](https://tokenjam.dev/blog/2026-06-15-the-problem-with-tokenmaxxing)**（2026-06-15，Anil Murty）——三层买单算术：$100 计划跑出 $4,000 API 等值（40×）→ 补贴占比约 97.5%；6-15 程序化 credit 上限与旗舰移出包月是两件事（后者为 6-23 Fable 5，多次延期）。
+- **[Fortune: Tokenmaxxing is dead…](https://fortune.com/2026/05/28/tokenmaxxing-is-dead-companies-didnt-get-the-roi-from-ai-they-wanted-to-see/)**（2026-05-28）——谢幕叙事；另 AP 通讯特稿（Matt O'Brien, 2026-07-27）可作一手通讯源。
 
-运动能撑三个月，需要解释。把支持者的公开论证拆开，是四股彼此独立、相互加强的力量。
+### 想法 2 · 支持话语的四个来源 + 反对阵营
 
-第一股是采纳的道德化。在「AI-native」成为身份规范的行业里，低 token 消耗不再是节俭，而是落后性的暴露。一位微软工程师对 Pragmatic Engineer 的自白是整场运动的注脚：「我 tokenmaxxing 不是为了上排行榜，而是不想被看见用得太少。」
+- 微软工程师自白、注水清单：见上方 Pragmatic Engineer 条（一手来源）。
+- **[Business Insider: Alex Karp compares tokenmaxxing to a porn addiction](https://www.businessinsider.com/alex-karp-compares-tokenmaxxing-to-porn-addiction-2026-6)**（2026-06-06，Brent D. Griffiths）——原话："Sure, it's like people are just sitting there all day kind of like a porn addiction."（原始场合：TBPN 访谈，2026-06-04/05，AIPCon 10。）
+- **[The Decoder: Meta shifts from tokenmaxxing to token managing](https://the-decoder.com/meta-shifts-from-tokenmaxxing-to-token-managing-as-internal-ai-costs-reportedly-hit-billions/)**（2026-06-13）——Bosworth 备忘录转引（原始报道 The Information 2026-06-12，付费墙）："Nobody should be using AI tools just for the sake of using them. All motion is not progress and token usage alone is not a measure of impact of any kind."（发约 6,000 名员工；同期 Meta 披露 30 天 73.7 万亿 token、拟建 AI Gateway、2027 起设正式 token 预算。）
 
-第二股是官方证据。Anthropic 自己的多代理研究被反复引用为「花得越多越好」的科学依据，尽管原文同时警告了适用边界。
+### 想法 3 · 被排名的人 + 数据
 
-第三股是套利的理性计算。包月订阅与 API 牌价之间的价差一度达到 15–40 倍。在这个价差下，最大化消耗是财务理性，不是狂热。
+- **[Jellyfish: Is "tokenmaxxing" cost effective?](https://jellyfish.co/blog/is-tokenmaxxing-cost-effective-new-data-from-jellyfish-explains/)**（2026-04-15，Nicholas Arcolano, Head of AI & Research）——7,548 名可联接开发者（12,000 人样本、200 家公司）：token/PR 7M→69M（≈10×），PR 周吞吐 0.77→2.15（≈2×）。
+- **[TechCrunch: Tokenmaxxing is making developers less productive than they think](https://techcrunch.com/2026/04/17/tokenmaxxing-is-making-developers-less-productive-than-they-think/)**（2026-04-17，Tim Fernholz）——**861% 代码重修率（churn）出自 Faros AI 2026-03 报告**（非 Jellyfish），此篇为汇总出处。
+- **[NBER WP 35275: Writing Code vs. Shipping Code](https://www.nber.org/papers/w35275)**（2026-05，Demirer 等，MIT Sloan + Wharton；100,000+ 开发者 × Microsoft 遥测）——**741% 代码量增长 vs 20% 发布增长**的原始出处（sync agents 行 +741%、PR +65%、发布仅 +20%；"weak-link bottleneck"）。解读：[Quartz](https://qz.com/ai-coding-tools-code-volume-releases-gap-nber-study-061126)。
+- **[Stanford/Michigan/MSR: How Do AI Agents Spend Your Money?](https://arxiv.org/abs/2604.22750)**（2026-04，Bai, Huang, Wang, Sun, Mihalcea, Brynjolfsson, Pentland, Pei）——agentic 任务 token 消耗约 chat 的 1000×；同任务不同 run 差异达 30×；准确率常在中等成本见顶；模型系统性低估自身 token 成本（r≤0.39）。**注意：741%/20% 不在此文**，两篇别混。
+- **[Don't Tokenmax—Do This Instead](https://www.aiforswes.com/p/the-real-way-to-make-agentic-development)**（2026-05-07，Logan Thorneloe, AI for Software Engineering）——把 token 消耗称作与行数同类的 velocity 指标、引 Goodhart。注意原文无「还魂」字样，那是意译。
 
-第四股是身份表演：头衔与排行榜把消费变成可见的忠诚。
+### 想法 4 & 5 · 理论底座
 
-反对阵营用的也是道德语言。Palantir CEO 把它比作「色情成瘾」；Meta CTO 发备忘录，强调「token 用量不等于影响力」。两边都在道德化，这正是道德运动的标准形态。
+- 「硅谷最新形态的炫耀性消费」一语原始出处是 The Information（"Silicon Valley's newest form of conspicuous consumption"），经 Pragmatic Engineer 转引——引用时归属注意。
 
-## 三、被排名的人
+## 理论源卡片
 
-排行榜最有研究价值的地方不在发榜者，在被排名者。Pragmatic Engineer 采访到的工程师给出了一份注水技术清单：用 AI 去查本已写好文档的问题（慢十倍，但烧 token）；让 agent 原型化一个自己不打算做的功能，再丢弃；默认一切工作都走 agent——「哪怕手动更快，然后看它失败」。Salesforce 的工程师则报告，同事们互相校准到「略高于平均水平」的消耗点。
+### Veblen 1899 · The Theory of the Leisure Class
 
-这是度量政治的经典剧本：当指标成为目标，它就不再测量任何东西。数据也在。Jellyfish 对 7,548 名开发者的 2026 年一季度调查显示，最高用量组用 10 倍的成本换来 2 倍的产出，代码重修率上涨 861%；另一项覆盖 10 万开发者的研究给出 741% 的代码量增长对 20% 的发布增长。批评者甚至准备了史学对照：Don't Tokenmax 一文直接把排行榜称作「按行数考核的还魂」——lines-of-code 的 2026 年重演，只是这次，从出现到死亡只用了三个月。
+**引用**：Thorstein Veblen. 1899. *The Theory of the Leisure Class: An Economic Study of Institutions*. New York: Macmillan。（全文：[Project Gutenberg #833](https://www.gutenberg.org/files/833/833-h/833-h.htm)）
 
-## 四、炫耀性生产与三层买单
+**原文关键句**（Ch. IV "Pecuniary Canons of Taste"，逐字）：
+> "Conspicuous consumption of valuable goods is a means of reputability to the gentleman of leisure."
+> "The basis on which good repute in any highly organized industrial community ultimately rests is pecuniary strength; and the means of showing pecuniary strength, and so of gaining or retaining a good name, are leisure and a conspicuous consumption of goods."
 
-Pragmatic Engineer 把 tokenmaxxing 称为「硅谷最新形态的炫耀性消费」，这个词点对了理论坐标。Veblen 笔下的炫耀性有闲与炫耀性消费，到开发者这里变成了炫耀性生产：可见的算力消耗，成为忠诚与能力的展示。
+### Goodhart 定律 · 规范出处
 
-但 tokenmaxxing 与十九世纪消费社会有个关键差异：买单结构。它是一场三层错位的狂欢。员工烧的是公司的额度，公司烧的是股东的预算，大厂烧的是 IPO 之前的资产负债表。TokenJam 算过一笔账：一个 40 倍的 tokenmaxx，意味着 96% 的实际用量由补贴支付。只要三层互不知情，运动就能自转；任何一层开始对账——Copilot 账单、Uber 预算、Anthropic 的毛利——运动就终结。
+**引用**：Strathern, Marilyn（University of Cambridge）. 1997. "'Improving ratings': audit in the British University system." *European Review* 5(3): 305–321. doi:10.1017/S1062798700002660（[PDF 镜像](https://gwern.net/doc/statistics/decision/1997-strathern.pdf)）。定律本体出自 Charles Goodhart（1975）；Strathern 依 Hoskin（1996）重述（p. 308）：
 
-Palantir CEO 的「成瘾」比喻之所以值得记录，是因为它演示了收编的标准语法：把结构性补贴问题，重述为个体道德问题。
+> "When a measure becomes a target, it ceases to be a good measure."
 
-## 五、死亡与转世
+### Power 1997 · The Audit Society
 
-崩塌不需要丑闻，账单可见化就够了：GitHub Copilot 转按量计费的那一天，补贴第一次出现在使用者的屏幕上。此后的轨迹同样标准：媒体宣布死亡（hangover），从业者转向（valuemaxxing），幸存者修正记忆（「我们从来没鼓励过烧 token」）。
+**引用**：Michael Power（London School of Economics, 会计学教授）. 1997. *The Audit Society: Rituals of Verification*. Oxford: Oxford University Press. xiv+183 页. ISBN 0-19-828947-2.（[OUP 书页](https://academic.oup.com/book/26482)；[Internet Archive](https://archive.org/details/auditsocietyritu0000powe)）
 
-值得追问的是 valuemaxxing 的位置：它是范式转变，还是同一逻辑在预算约束下的重述？如果「度量活动而非产出」的冲动不变，下一场运动只需要一个新的计量单位。
+**一句话大纲**：1980 年代起审计活动爆发式扩张，根源是对问责的政治需求；审计制造「安心」的能力与其操作能力不匹配，并给被审计组织带来扭曲性副作用——三条与 token 排行榜逐点同构。
 
-对 HCI 与组织研究来说，这是个难得的标本：一场从出生到死亡全程留下公开档案的道德运动——支持话语、抵抗技术、收编修辞、转世叙事，全部可考。它也提醒我们，在「采纳 AI」成为美德的年代，最值得研究的不是谁用得多，而是谁在被迫显得用得多。
+## 参考资料（2026-09-07 全量搜索核验）
 
-## 参考资料
-
-- Business Insider（2026-04-08） — [链接](https://www.businessinsider.com/tokenmaxxing-ai-token-leaderboards-debate-2026-4)
-- The Pragmatic Engineer, "Tokenmaxxing as a weird new trend"（2026-04-23） — [链接](https://blog.pragmaticengineer.com/the-pulse-tokenmaxxing-as-a-weird-new-trend/)
-- Quartz, "How AI's hottest trend turned into a costly hangover"（2026-06-10） — [链接](https://qz.com/the-tokenmaxxing-hangover)
-- Forbes, "Why Tokenmaxxing Is Out And Valuemaxxing Is In"（2026-06-02） — [链接](https://www.forbes.com/sites/timkeary/2026/06/02/why-tokenmaxxing-is-out-and-valuemaxxing-is-in/)
-- TokenJam, "The Problem with TokenMaxxing"（2026-06-15） — [链接](https://tokenjam.dev/blog/2026-06-15-the-problem-with-tokenmaxxing)
-- WONJOON.LOG, "Does Token Usage Always Scale with Productivity?"（2026-07-17） — [链接](https://wnjoon.github.io/tokenmaxxing/)（含 Jellyfish 数据与 Stanford/MSR 论文综述）
-- ChatForest, "Tokenmaxxing: The Developer Cult That Explains AI's Cost Problem"（2026-05-25） — [链接](https://chatforest.com/reviews/tokenmaxxing-claude-code-ai-cost-crisis-developer-cult-2026/)
-- Anthropic, "How we built our multi-agent research system"（2025-06）；Yegge, "Revenge of the Junior Developer"（2025-03）
-- Veblen, *The Theory of the Leisure Class* (1899)；Power, *The Audit Society* (1997)
+- Chandonnet, Henry. 2026-04-08. "'Tokenmaxxing' has techies debating if leaderboards tracking AI token use are a good idea." *Business Insider*. https://www.businessinsider.com/tokenmaxxing-ai-token-leaderboards-debate-2026-4
+- Orosz, Gergely. 2026-04-23. "The Pulse: 'Tokenmaxxing' as a weird new trend." *The Pragmatic Engineer*. https://blog.pragmaticengineer.com/the-pulse-tokenmaxxing-as-a-weird-new-trend/
+- Snow, Jackie. 2026-06-10. "The tokenmaxxing hangover." *Quartz*. https://qz.com/the-tokenmaxxing-hangover
+- Keary, Tim. 2026-06-02. "Why 'Tokenmaxxing' Is Out And 'Valuemaxxing' Is In." *Forbes*. https://www.forbes.com/sites/timkeary/2026/06/02/why-tokenmaxxing-is-out-and-valuemaxxing-is-in/
+- Murty, Anil. 2026-06-15. "The problem with TokenMaxxing." *TokenJam*. https://tokenjam.dev/blog/2026-06-15-the-problem-with-tokenmaxxing
+- wonjoon. 2026-07-17. "Does Token Usage Always Scale with Productivity?" *WONJOON.LOG*. https://wnjoon.github.io/tokenmaxxing/
+- Mann, Jyoti. 2026-04. "Meta Employees Vie for AI 'Token Legend' Status." *The Information*. https://www.theinformation.com/articles/meta-employees-vie-ai-token-legend-status （镜像 archive.is/c4V8c）
+- Griffiths, Brent D. 2026-06-06. "Alex Karp compares tokenmaxxing to a porn addiction." *Business Insider*. https://www.businessinsider.com/alex-karp-compares-tokenmaxxing-to-porn-addiction-2026-6
+- The Information. 2026-06-12. "Tokenminimizing: Meta Moves to Curb Employee AI Usage as AI Costs Reach Billions."（付费墙；转引：The Decoder, 2026-06-13, https://the-decoder.com/meta-shifts-from-tokenmaxxing-to-token-managing-as-internal-ai-costs-reportedly-hit-billions/）
+- Fortune. 2026-05-26. "Uber burned through its entire 2026 AI budget in four months…" https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code/ ；2026-08-07 续闻 https://fortune.com/2026/08/07/uber-ai-spending-tokenmaxxing-is-over-cto/
+- Arcolano, Nicholas. 2026-04-15. "Is 'tokenmaxxing' cost effective? New data from Jellyfish explains." *Jellyfish Blog*. https://jellyfish.co/blog/is-tokenmaxxing-cost-effective-new-data-from-jellyfish-explains/
+- Fernholz, Tim. 2026-04-17. "Tokenmaxxing is making developers less productive than they think." *TechCrunch*. https://techcrunch.com/2026/04/17/tokenmaxxing-is-making-developers-less-productive-than-they-think/ （含 Faros AI 861% churn 数据）
+- Demirer, Mert（MIT Sloan）, et al. 2026-05. "Writing Code vs. Shipping Code: Productivity Effects Across Generations of AI Coding Tools." NBER Working Paper 35275. https://www.nber.org/papers/w35275
+- Bai, Longju（Univ. of Michigan）, Zhemin Huang（Stanford & Microsoft AI）, Xingyao Wang（All Hands AI）, Jiao Sun（Google DeepMind）, Rada Mihalcea（Michigan）, Erik Brynjolfsson（Stanford）, Alex Pentland（Stanford & MIT）& Jiaxin Pei（Stanford）. 2026-04. "How Do AI Agents Spend Your Money? Analyzing and Predicting Token Consumption in Agentic Coding Tasks." arXiv:2604.22750. https://arxiv.org/abs/2604.22750
+- Anthropic. 2025-06-13. "How we built our multi-agent research system." Anthropic Engineering Blog. https://www.anthropic.com/engineering/multi-agent-research-system
+- Yegge, Steve. 2025-03-22. "Revenge of the junior developer." Sourcegraph Blog. https://sourcegraph.com/blog/revenge-of-the-junior-developer
+- Thorneloe, Logan. 2026-05-07. "Don't Tokenmax—Do This Instead." *AI for Software Engineering*. https://www.aiforswes.com/p/the-real-way-to-make-agentic-development
+- Veblen, Thorstein. 1899. *The Theory of the Leisure Class: An Economic Study of Institutions*. New York: Macmillan.
+- Strathern, Marilyn. 1997. "'Improving ratings': audit in the British University system." *European Review* 5(3): 305–321. doi:10.1017/S1062798700002660
+- Power, Michael. 1997. *The Audit Society: Rituals of Verification*. Oxford: Oxford University Press. ISBN 0-19-828947-2.
 - 本站相关：[024 · 发布周期](../024-release-cycle-politics/note.zh.md)（配额与 reset 的制度分析）
+
+## 核验记录（2026-09-07）
+
+- 20 项中 19 项 VERIFIED（4 项付费墙/反爬 403，内容经多源交叉确认），1 项 LINK-DEAD：ChatForest 2026-05-25 文（404，无 Wayback 快照）——已从材料清单剔除，其内容改由 BI/Fortune 一手源覆盖。
+- 已修正 5 处归属：861% 重修率 = Faros AI（TechCrunch 报道），非 Jellyfish；741%/20% = NBER WP 35275（MIT/Wharton），非 Stanford/MSR 论文（后者贡献 1000×/30×）；TokenJam 补贴占比 96% → 约 97.5%；「炫耀性消费」短语原始出处 = The Information；Anthropic「6-15 启用上限并移出旗舰」拆开为 6-15 credit 上限 + 6-23 Fable 5 移出包月。
+- 补充的更强材料：Jellyfish 官方数据原文、NBER WP 35275、arXiv:2604.22750、Karp/BI、Bosworth/The Decoder、Yegge 原文 URL。

@@ -4,63 +4,85 @@
 🌐 语言 / Language：**中文** · [English](021-best-paper-lottery.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-021</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>重跑一遍，一半论文会换人——Best Paper 的随机性与「不丑」的底线</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>essay（随想）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>50</td></tr></table></details>
+<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-021</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>重跑一遍，一半论文会换人——Best Paper 的随机性与「不丑」的底线</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>research memo（研究备忘）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>50</td></tr></table></details>
 
 
 # 重跑一遍，一半论文会换人——Best Paper 的随机性与「不丑」的底线
 
-> NeurIPS 在 2014 和 2021 年两次做过同一个实验：把 10% 的投稿交给两个互不知情的委员会独立评审。结果是决策不一致 23–26%；更狠的是 accept precision——一篇已被接收的论文，在第二次评审中仍被接收的概率，只有约 50%。重跑一遍评审流程，约一半的接收名单会换人。七年后的回访又补上一刀：被接收论文的评分，与其最终引用量零相关。评审擅长识别差论文，不擅长识别好论文。这篇随想把两件事接起来：我们也许只能证明一篇工作「不丑」（满足可辩护的下限判据），而「好」是品味、政治与事后追认的产物——并把学生工作 NOTUGLY-S 的「学不丑而非美」框架迁移到论文评价上。
+> 研究备忘：核心问题是**「优秀/Best Paper 的定义能否形成共识」**。注意两个 construct 必须分开——NeurIPS 重复评审实验测的是「录用/拒稿边界」的随机性，不能直接当「奖项层随机」的证据；奖项层要用奖项层的数据（Wainer 0.72、MISQ 5/22、各会政策原文等，见想法 3）。旧版论证文见 git 历史；引用已于 2026-09-07 全量搜索核验，记录见文末。
 
-## 一、两次实验：随机性的官方数字
+## 核心想法
 
-2014 年，NeurIPS 程序主席 Cortes 与 Lawrence 把 166 篇投稿（约 10%）交给两个互不知情的委员会重复评审：43 篇决策不一致（25.9%）；第一个委员会接收的论文里，约 49.5% 被第二个委员会拒掉。这个数字在社区流传时被压成一句更狠的话：评审流程重跑一遍，约一半的接收论文会不存在。
+1. **构造 A（基线）：录用边界的随机性**——NeurIPS 2014/2021 重复评审：决策不一致 23–26%，accept precision ≈50%；回访：被接收论文评分与引用零相关。这是「及格线附近是噪声」，不是「奖项随机」。
+2. **构造 B（真问题）：奖项层「好」的定义与共识**——best paper 有信号但远非共识（P(best>随机)=0.72）；事后评奖显著更准（追认效应）；各会对 "Best" 的定义互相不可通约（ACL 明文争议条款 / CHI 自认无标准 / ACM MM 配额制）。
+3. **「不丑」是真实存在的一致带**——贝叶斯重分析：基本质量判据满足率 ≈56%（CI 0.34–0.83）；判据之下的论文被稳定拒绝——可辩护下限集合成立（NOTUGLY-P 的落点）。
+4. **争议作为常态**：获奖即争议（BERT、Bender & Koller、ICLR 2017 Dietterich 公开反对）；中英社区话语可按晒分偏差模板做。
+5. **ToT = 事后追认的制度**：经典论文当初被拒的一手案例（WFQ、GraphLab）+ 被拒经典系统研究（Gans & Shepherd、Campanario）；「ToT 名单 × 当初评分」对账仍无人做过 = gap。
 
-2021 年，程序主席们把实验复刻到 8,820 篇的规模：不一致率 23.0%，accept precision 50.6%。七年，五倍规模，噪声没有收敛。同年实验里还埋着一条少有人接的线索：越往精选层走，越接近随机——两个委员会对 oral/spotlight 的共识只有 3 篇。奖项层的随机性高于录用层，而后续研究几乎没人接着做。
+## 想法 × 材料
 
-回访研究（arXiv:2109.09774）用 2014 年的校准数据补上了机制：评分方差的约一半是主观成分；被接收论文的评分与七年后的引用量零相关，被拒论文的评分反而与未来发表影响相关。作者的原话就是本文的论题：那次评审「善于识别差论文，不善于识别好论文」。
+### 想法 1 · 构造 A：录用边界的随机性（基线数据）
 
-## 二、「不丑」的形式化：RFC 模型
+- **[NeurIPS 官方博客: The NeurIPS 2021 Consistency Experiment](https://blog.neurips.cc/2021/12/08/the-neurips-2021-consistency-experiment/)**（2021-12-08，程序主席 Beygelzimer (Yahoo Research)、Dauphin (Google Brain)、Liang (Stanford)、Wortman Vaughan (Microsoft Research)）——8,820 篇中 10% 双委员会独立评审：不一致 23.0%（203/882）；accept 翻转 50.6%（2014 为 49.5%）；oral+spotlight 阈值下两委员会分别录 29 与 25 篇、**共识仅 3 篇**（Results 节原文）。
+- **[arXiv:2306.03262](https://arxiv.org/abs/2306.03262)**（同四人，2023）——正式论文 "Has the Machine Learning Review Process Become More Arbitrary as the Field Has Grown? The NeurIPS 2021 Consistency Experiment"；Table 1 = 882 篇推荐矩阵；§4.3 有 oral/spotlight 共识数据与伦理 flag 平行数据（23 vs 22，交集仅 3）。
+- **[arXiv:2109.09774](https://arxiv.org/abs/2109.09774)**（Cortes (Google Research) & Lawrence (University of Cambridge)，2021）——"Inconsistency in Conference Peer Review: Revisiting the 2014 NeurIPS Experiment"：评分方差约 50% 是主观成分；被接收论文评分与引用量零相关；结论原话 "good for identifying poor papers, but poor for identifying good papers"。
+- **[arXiv:1507.06411](https://arxiv.org/abs/1507.06411)**（**Olivier François，单作者**，Université Grenoble-Alpes / CNRS, TIMC-IMAG，2015）——"Arbitrariness of peer review: A Bayesian analysis of the NIPS experiment"：隐藏参数（满足基本质量判据的概率）估计 **56%**，95% CI (0.34, 0.83)。**注意：**「reject-or-flip-a-coin / 拒绝或掷币」是本词条自拟的简称，原文没有这个词——原文只描述「质量关之后掷偏币，成功概率 π/x」。
+- **[Shah et al., JMLR 2018](https://jmlr.org/papers/v19/17-511.html)**——Nihar B. Shah (UC Berkeley，时任)、Behzad Tabibian (MPI Tübingen)、Krikamol Muandet (MPI)、Isabelle Guyon (ChaLearn)、Ulrike von Luxburg (Tübingen & MPI)。"Design and Analysis of the NIPS 2016 Review Process." *Journal of Machine Learning Research* 19(49): 1–34（preprint arXiv:1708.09794）。
 
-这句结论有一个漂亮的统计学形式。对 2014 年实验的贝叶斯重分析引入了一个隐藏参数：一篇投稿「满足基本质量判据」（新颖性、方法无致命伤、可复现、无不端）的概率，估计值约 56%。模型的含义是：基本判据以下的论文，两个委员会稳定拒绝；以上的，近乎抛硬币。作者们称之为「拒绝或掷币」（reject-or-flip-a-coin）。
+### 想法 2 · 构造 B：奖项层的信号与追认（本词条的主战场）
 
-「不丑」因此不是修辞，而是可辩护判据的下限集合：正确性、清晰性、诚实的 reporting。低于它的会被一致否决；高于它的，委员会其实无法区分「好」与「平庸」，只能区分「像我」与「不像我」。
+- **[Wainer, Eckmann & Rocha 2015, PLOS ONE](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118446)**——"Peer-Selected 'Best Papers'—Are They Really That 'Good'?"（Wainer & Rocha: Unicamp；Eckmann: UFRGS）。**迄今最直接的奖项 vs 随机检验**：P(best paper 引用数 > 同会随机论文) = 0.72（Scopus）/ 0.78（Google Scholar）；51% 的 best paper 落在本会前 10% 高引——奖项层有信号，但 0.72 ≠ 1，远非共识。
+- **[Wang 2024, Scientometrics](https://doi.org/10.1007/s11192-023-04881-5)**——"Comparison of citation impact between pre- and post-publication peer-selected best papers"（CS 会议 299 对配对）：看得到实际影响后选出的 best paper 显著更常胜出（P 最高 0.79）——**追认效应**的直接证据。
+- **[Dutchak, Tseng & Grover, CAIS](https://aisel.aisnet.org/cgi/viewcontent.cgi?article=4055&context=cais)**——"Winning Awards or Winning Citations"（MIS Quarterly 数据）：1993–2014 年 MISQ 年度最佳论文只有 **5/22** 同时是当年前五高引；获奖文偏「 revelatory（新）」、高引文偏「incremental（稳）」——奖项与共识系统性错位。
+- **Lemus（Northwestern，working paper）**：[Best paper awards and uncertainty of innovation](http://gradstudents.wcas.northwestern.edu/~jal941/BestPaperAward.pdf)——ex-ante best paper 平均位于引用分布 75 分位，ex-post classic paper 位于 95 分位。
+- **[mako hill 2018 博客综述](https://mako.cc/copyrighteous/awards-and-citations-at-computing-conferences)**（Univ. of Washington）——「best paper 与引用无关」这一社区流传说法的来源（Bartneck & Hu, CHI 2009 null result）及其后被 Wainer 2015 等推翻的过程——社区对奖项的直觉互相矛盾的现成梳理。
 
-## 三、官方自认品味
+### 想法 3 · 各会对「Best」的定义不可通约（政策原文）
 
-如果把「好」理解为一个客观量，评奖机构应该回避这一点。现实恰好相反。ACL 2025 年的奖项政策把 Best 定义为 "particularly **fascinating, controversial, surprising**, impressive, and/or potentially field-changing"——争议本身就是获奖理由，而且是明文条款。同一年，Hovy 的主旨报告把领域多数论文概括为「LLM popcorn」（采集蝴蝶式的不够观察）；会场的共识是「接收取决于抽到哪位 meta-reviewer」，甚至有人重提 Ed Hovy 的方案：全部接收，现场投票。评奖与评审的裂缝，机构自己已经承认。
+- **[ACL Awards Policy](https://www.aclweb.org/adminwiki/index.php/ACL_Conference_Awards_Policy)**（现行版；页面未标"2025 年"）——原句：'We define "Best" as work that is particularly **fascinating, controversial, surprising**, impressive, and/or potentially field-changing.' 另有量化条款：Best ≤ 录用数的 0.25%（录用 <2000 篇时上限 6 篇）。
+- **[CHI 2020 Awards 页](https://chi2020.acm.org/for-attendees/awards/)**——官方自认：'Given the diverse ways in which submissions can contribute to the field of HCI, **there is no formal selection criteria for Best Papers at CHI**.'（流程：AC 提名前 5% → Best Paper Committee 选前 1%。）
+- **[NeurIPS 2021 Award Recipients 公告](https://blog.neurips.cc/2021/11/30/announcing-the-neurips-2021-award-recipients/)**——标准 "excellent clarity, insight, creativity, and potential for lasting impact"；流程 62 篇初选池 → 三轮筛到 6 篇；原话 'While there is of course **no perfect process** for choosing award papers'。
+- **[ACM MM Award Policy](https://acmmm.org/files/ACMMMAwardPolicy_2025.pdf)**——配额制：5% Outstanding + 1% Best，按 topic 配额，Best 只能从 Outstanding 顶格中选。
 
-## 四、争议作为常态：中英文社区
+### 想法 4 · 争议作为常态（可核查的获奖争议案例）
 
-Best Paper 公布日是争议的节日。BERT 拿下 NAACL 2019 最佳论文时，社区普遍嘀咕「它只是把东西放大了」；ACL 2020 把最佳论文给了一篇哲学立场文（Bender & Koller），引发「该不该奖思辨」之争。中文圈更热闹：IJCAI 2019 放榜时，「审稿宇宙最烂」冲上知乎热榜；CVPR 2019 年网民自发评选「最差论文」——官方最佳与民间最差互为镜像，这个对称本身就值得研究；NeurIPS 2022 一篇均分 4.5 的论文被接收，作者的长文回应成了传播事件；IJCAI 2025 被称为「学术抽奖」；AAAI 期间流传过「3000 元买 strong accept」的截图。
+- **BERT × NAACL 2019**：抱怨原话见 **[Forbes: The PhD Metagame](https://www.maxwellforbes.com/phd-metagame)**（Maxwell Forbes，2025-03-15；"the postdocs I talked to universally grumbled about it... 'It just scaled some stuff up.'"）；HN [id 43398816](https://news.ycombinator.com/item?id=43398816) 是引述该文的一条评论（在 "The PhD Metagame" 讨论串内，2025-03-18），非独立争议帖。
+- **Bender & Koller 2020**：[ACL 2020 论文页](https://aclanthology.org/2020.acl-main.463/)——精确奖项名是 **Best Thematic Paper Award**（非「最佳论文」）；获奖争论综述：[Julian Michael, "To Dissect an Octopus"](https://julianmichael.org/blog/2020/07/23/to-dissect-an-octopus.html)（2020-07-23）与 [TeachingNLP 2024 "Occam's Razor and Bender and Koller's Octopus"](https://aclanthology.org/2024.teachingnlp-1.18/)。
+- **ICLR 2017**：[Understanding deep learning requires rethinking generalization](https://openreview.net/forum?id=Sy8gdB9xx) 获 Best Paper，Thomas Dietterich 在 OpenReview 公开评论："the results in this paper are completely unsurprising... I'm shocked that at least one reviewer thought this was ground breaking"（可经 [UBC MLRG 讲义](https://www.cs.ubc.ca/labs/lci/mlrg/slides/understanding_deep_learning.pdf)转引）。
+- 中文圈：[量子位 IJCAI 2019「审稿宇宙最烂」](https://www.qbitai.com/2019/05/2282.html)；[腾讯云社区 CVPR 2019「金酸莓奖」](https://cloud.tencent.com/developer/article/1460113)；[TrueSight IJCAI 2025「学术抽奖」](https://tsight.io/articles/16396475)（5,404 投稿、1,042 录取、19.3%）。
+- **晒分偏差的原始论文已找到**：[arXiv:2509.16831](https://arxiv.org/abs/2509.16831)——Zhu（Texas A&M）、Yin（Cornell）、Zhang（Texas A&M），"Survivors, Complainers, and Borderliners: Upward Bias in Online Discussions of Academic Conference Reviews"（五届会议、知乎+Reddit；ARR 均分样本比总体高 0.489，+18.6%，p<0.001）。「1,261 帖」数字出自 [yanfajia 报道](https://www.yanfajia.com/news/6470.html)（论文正文未直接定位到该数，引用时数字挂报道、结论挂论文）。
 
-方法学上也有现成模板。德克萨斯农工与康奈尔的团队从知乎与 Reddit 抓取了 1,261 个晒分帖，证明线上分数被三类选择性发声（幸存者、抱怨者、边缘者）系统性抬高。争议的话语结构，可以照这个模板做。
+### 想法 5 · ToT = 事后追认的制度
 
-## 五、Test of Time：好是追认出来的
+- **[SIGIR Forum 51(2) 2017 专刊](https://sigir.org/forum/issues/july-special-issue-2017/)**（Harman & Kelly 编；Overview PDF）——专刊 Awardees 栏为 **26 篇**回访（1978–2001 共评出 30 篇，59 提名池三人组评分取前 30；方法说明见 [SIGIR ToT 页](http://sigir.org/awards/test-of-time-awards/pre-2002-recipients/)）。**旧版写「21 篇」有误。**
+- **[Paxson, McKeown & Rexford 2009](https://doi.org/10.1145/1517480.1517488)**——"Selecting the 2008 SIGCOMM Test-of-Time Award Winner(s)." **ACM SIGCOMM Computer Communication Review 39(2): 40–41**（Paxson: ICSI；McKeown: Stanford；Rexford: Princeton）——两个 landmark 候选无法分出高下，三篇共享。**旧版误记为 SIGIR Forum。**
+- **[Keshav, CCR ToT 回顾](https://ccronline.sigcomm.org/wp-content/uploads/2019/10/acmdl19-331.pdf)**（Waterloo）——一手案例：WFQ 论文被 SIGMETRICS 1989 拒稿（评审原话逐字保留："I recommend that the paper be rejected"），转投 SIGCOMM 1989 后成经典并获 ToT。
+- **[Gonzalez 2023: How our Test-of-Time Paper Almost Wasn't](https://frontierai.substack.com/p/how-our-test-of-time-paper-almost-wasnt)**（UC Berkeley）——GraphLab（VLDB'12 ToT）此前被 NeurIPS、SOSP 拒稿的自述，含评审意见摘录。
+- **[Gans & Shepherd 1994, JEP](https://www.aeaweb.org/articles?id=10.1257%2Fjep.8.1.165)**——"How Are the Mighty Fallen: Rejected Classic Articles by Leading Economists." *Journal of Economic Perspectives* 8(1): 165–179——60+ 篇被拒经典（含 15 位诺奖得主）的系统自述集，「对账」式研究的最近邻模板。
+- **[Campanario 2009, Scientometrics](https://www.miketaylor.org.uk/tmp/PDF/art%3A10.1007%2Fs11192-008-2141-5.pdf)**——"Rejecting and resisting Nobel class discoveries"——诺奖级发现被拒/抵制的系统整理。**未发现任何把会议 ToT 名单与当初评分系统对账的研究 = gap 成立。**
 
-如果「好」在当下无法识别，它至少在十年后可以吗？Test of Time 奖的档案给出一个微妙的答案：它不是「当初识货」的证据，而是事后追认的制度。SIGIR 四十周年专刊回访 21 篇 ToT 论文，其中 2-Poisson 模型当年因「打不过简单方法」而令人失望，后来成了 BM25 的理论前身。SIGCOMM 2008 年的评奖委员会则公开自述：两个候选无法分出高下，最终三篇共享。评奖材料里全是「长期影响」「开新领域」这类只能回溯的判据。
+## 理论源卡片（品味不可通约的哲学底座）
 
-没有人系统地把 ToT 名单与当初的公开评审记录对过账：经典论文当初的分数是不是显著平庸？这个对账可以做，而且值得做。
+### Kant · 判断力批判（审美判断四契机）
 
-## 六、NOTUGLY-P：从代码到论文
+**引用**：Immanuel Kant. 1790/1987. *Critique of Judgment*（Kritik der Urteilskraft）. Trans. Werner S. Pluhar, foreword Mary J. Gregor. Indianapolis: Hackett Publishing. 686 页. ISBN 0872200256.（[出版社页](https://hackettpublishing.com/critique-of-judgment)）
 
-本站 003 号笔记记录过一个提案：与其教模型「什么是美」，不如教它「什么是不丑」——判据落在可辩护的下限集合上。把这个框架迁移到论文评价，就得到本文的落点：论文评价有两个模态。
+**落点**：「无概念的普遍判断」= 美的分析论第二契机（§6–9，§9 "美是无概念地普遍令人愉悦"）；四契机 = 质（无利害 §§1–5）/ 量（无概念的普遍性 §§6–9）/ 关系（无目的的合目的性 §§10–17）/ 模态（必然性 §§18–22）。
 
-「不丑」是可辩护的下限：正确、可复现、清晰、诚实地报告局限。这部分原则上可以编码成清单，也就是 RFC 模型里那个 56% 的基本质量带。「好」是不可通约的上限：重要性、优雅、共鸣。它依赖品味（Kant：无概念的普遍判断）、场域位置（Bourdieu：趣味作为区隔）与评审团的学科文化（Lamont，《How Professors Think》），并由引用、教学与 ToT 追授，在十年尺度上事后结算。
+### 配套书目
 
-当代评审焦虑的核心，是两个模态的混淆：我们用「好」的语言做「不丑」的决策，再用「不丑」的程序给「好」颁奖。承认这个错位不是犬儒。它把评审改革从「更准确地识别好」这个不可能目标，挪回「更公平地守住底线」这个可能目标。
+- Bourdieu, Pierre. 1984. *Distinction: A Social Critique of the Judgement of Taste*. Trans. Richard Nice. Cambridge, MA: Harvard University Press. 613 页. ISBN 0674212770.
+- Lamont, Michèle（Harvard University）. 2009. *How Professors Think: Inside the Curious World of Academic Judgment*. **Cambridge, MA: Harvard University Press**. ISBN 0674032667.（**旧版误记为 Princeton UP**）
 
 ## 参考资料
 
-- The NeurIPS 2021 Consistency Experiment — [官方博客](https://blog.neurips.cc/2021/12/08/the-neurips-2021-consistency-experiment/)；论文 — [arXiv:2306.03262](https://arxiv.org/pdf/2306.03262)
-- 2014 实验回访（"good for identifying poor papers, poor for identifying good papers"） — [arXiv:2109.09774](https://arxiv.org/pdf/2109.09774)
-- 贝叶斯重分析与 RFC 模型 — [arXiv:1507.06411](https://ar5iv.labs.arxiv.org/html/1507.06411)
-- ACL Conference Awards Policy — [aclweb.org](https://www.aclweb.org/adminwiki/index.php/ACL_Conference_Awards_Policy)；ACL 2017 PC 自述 — [链接](https://acl2017.wordpress.com/2017/08/03/outstanding-and-best-papers-and-the-decision-process/)
-- 晒分偏差（Survivors/Complainers/Borderliners） — [研发家报道](https://www.yanfajia.com/news/6470.html)
-- SIGCOMM 2008 ToT 委员会自述 — [doi:10.1145/1517480.1517488](https://doi.org/10.1145/1517480.1517488)；Jeff Huang 的 best paper 数据集 — [jeffhuang.com](https://jeffhuang.com/best_paper_awards/)
-- 现场材料：BERT 获奖争议（HN） — [链接](https://news.ycombinator.com/item?id=43398816)；IJCAI 2019 知乎热榜（[量子位](https://www.qbitai.com/2019/05/2282.html)）；CVPR 2019 民间最差论文（[腾讯云社区](https://cloud.tencent.com/developer/article/1460113)）；IJCAI 2025「学术抽奖」（[TrueSight](https://tsight.io/articles/16396475)）
-- 内部来源：NOTUGLY-S 提案（[003 · NOTUGLY-S](003-notugly-s.zh.md)）
-- Kant, *Critique of Judgment*；Bourdieu, *Distinction* (1984)；Lamont, *How Professors Think* (2009)
-- 本站相关：[023 · 顶刊的媒体化](023-journal-mediatization.zh.md)（taste 重定向的需求侧延伸）
+（本条引用已全部内联在「想法 × 材料」中并附链接；上述条目均经 2026-09-07 搜索核验。内部来源：NOTUGLY-S 提案见 [003 · NOTUGLY-S](003-notugly-s.zh.md)；本站相关：[023 · 顶刊的媒体化](023-journal-mediatization.zh.md)（taste 重定向的需求侧延伸）。）
+
+## 核验记录（2026-09-07）
+
+- 18/18 条现有引用全部实存，0 死链；aclweb 对脚本返回 418（反爬，内容可读，"fascinating, controversial, surprising" 原句确认在页）；dl.acm.org 对 curl 403（DOI 经 dblp+Exa 确认）。
+- 已修正 6 处：arXiv:1507.06411 作者为 Olivier François 单人（56% 与 CI 0.34–0.83 为真），「reject-or-flip-a-coin」系本词条自拟名；SIGCOMM ToT 出处为 CCR 39(2):40–41（2009），非 SIGIR Forum；SIGIR Forum 2017 专刊回访 26 篇（非 21）；HN id 是评论（转引 Forbes "The PhD Metagame"）；Lamont 出版社为 Harvard UP。
+- 新增 award 级材料 12 条（想法 2/3/5），其中 Wainer 2015（P=0.72）、CHI「无正式标准」自认、MISQ 5/22、Keshav WFQ 被拒案为最有力四件。
 
 
 ---
