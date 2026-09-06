@@ -17,7 +17,7 @@
 2. **谱系的社会组织**：三种繁殖方式模型全数在场 + 第四条「用彼此输出育种」；准入集中变本加厉又翻转——「过去开放、前沿封闭」漏斗 = 引力第二来源。
 3. **地基不稳 = 例行化（routinization）缺席**：模型过不了 Collins 的验收标准（现象无法随意复现、静默换模、黑盒不可改装）；纲领第一个可反驳命题：谱系速率 × 复现性反相关。
 4. **数学 = 唯一过验收的样板间**：LLM+Lean 是当代符号机器；实验室拿数学炫技是筛选效应；Collins 之刺——纯数学自转不代偿经验发现。
-5. **attention 同构 + 述行性**：「社会组织同构于模型机制」位置仍空；MacKenzie 述行性 + DiMaggio & Powell 模仿同构是推进引擎。
+5. **attention 同构 + 述行性**：「社会组织同构于模型机制」位置仍空；述行性（Callon 1998 纲领 → MacKenzie 2006 金融应用）+ DiMaggio & Powell 模仿同构是推进引擎。
 
 ## 想法 × 材料
 
@@ -69,7 +69,8 @@
 
 ### 述行性与同构（配套理论源）
 
-- MacKenzie, Donald（University of Edinburgh）. 2006. *An Engine, Not a Camera: How Financial Models Shape Markets*（Inside Technology）. Cambridge, MA: The MIT Press. ISBN 0-262-13460-8. doi:10.7551/mitpress/9780262134606.001.0001——经济学理论是让世界更像理论的引擎。
+- Callon, Michel（Centre de Sociologie de l'Innovation, École Nationale Supérieure des Mines de Paris, ed.）. 1998. *The Laws of the Markets*（The Sociological Review Monograph）. Oxford: Blackwell Publishers. ISBN 0-631-20608-6. 尤其导言："Introduction: The Embeddedness of Economic Markets in Economics," *The Sociological Review* 46(S1): 1–57. doi:10.1111/j.1467-954x.1998.tb03468.x——**述行性经济学社会学纲领的源头**（「performative」术语本身出自哲学家 J. L. Austin）。
+- MacKenzie, Donald（University of Edinburgh）. 2006. *An Engine, Not a Camera: How Financial Models Shape Markets*（Inside Technology）. Cambridge, MA: The MIT Press. ISBN 0-262-13460-8. doi:10.7551/mitpress/9780262134606.001.0001——把述行性系统用于金融并提出类型学（generic / effective / **Barnesian performativity** + counterperformativity,后两者为 MacKenzie 自创,第 1 章 pp. 12–19 明言接续 Callon）。经济学理论是让世界更像理论的引擎。
 - DiMaggio, Paul J. & Walter W. Powell（发表时均在 Yale）. 1983-04. "The Iron Cage Revisited: Institutional Isomorphism and Collective Rationality in Organizational Fields." *American Sociological Review* 48(2): 147–160. doi:10.2307/2095101——模仿性同构。
 - Rosa, Hartmut（Friedrich-Schiller-Universität Jena）. 2013. *Social Acceleration: A New Theory of Modernity*. Trans. Jonathan Trejo-Mathys. New York: **Columbia University Press**. ISBN 9780231148344. doi:10.7312/rosa14834.（**旧版误记 Polity**）
 - Dourish, Paul（UC Irvine）. 2017. *The Stuff of Bits: An Essay on the Materialities of Information*. Cambridge, MA: The MIT Press. ISBN 9780262036207.
@@ -79,7 +80,7 @@
 - Collins 1994（见源卡片）——24/24 项核验通过。
 - Sezgin, Emre（Nationwide Children's Hospital / Ohio State）. 2025. "Attention is all you need? When responsiveness short-circuits responsibility." *AI & SOCIETY* 41(4): 4107–4108. doi:10.1007/s00146-025-02700-4
 - Bruineberg, Jelle. 2025. "Rethinking the cognitive foundations of the attention economy." *Philosophical Psychology* 39(6): 2400–2422. doi:10.1080/09515089.2025.2502428
-- Simon, Herbert A. 1971. "Designing Organizations for an Information-Rich World." In *Computers, Communications, and the Public Interest*, ed. Martin Greenberger. Baltimore: Johns Hopkins Press, 37–72.
+- Simon, Herbert A. 1971. "Designing Organizations for an Information-Rich World." In *Computers, Communications, and the Public Interest*, ed. Martin Greenberger. Baltimore: Johns Hopkins Press, 37–72.——attention economy 概念起点；经典句（pp. 40–41）："What information consumes is rather obvious: it consumes the attention of its recipients. Hence a wealth of information creates a poverty of attention…"
 - Fawzi, A., M. Balog, A. Huang, T. Hubert, B. Romera-Paredes, et al. & P. Kohli. 2022. "Discovering faster matrix multiplication algorithms with reinforcement learning." *Nature* 610(7930): 47–53. doi:10.1038/s41586-022-05172-4
 - Romera-Paredes, B., M. Barekatain, A. Novikov, M. Balog, M. P. Kumar, et al. & A. Fawzi. 2024. "Mathematical discoveries from program search with large language models." *Nature* 625(7995): 468–475. doi:10.1038/s41586-023-06924-6
 - Google DeepMind. 2024-07-25. "AI achieves silver-medal standard solving International Mathematical Olympiad problems." https://deepmind.google/blog/ai-solves-imo-problems-at-silver-medal-level/
@@ -94,6 +95,7 @@
 - 24/24 项存在性确认，0 编造；笔记正文 9 个外链实测均 200。
 - 已修正 5 处：Rosa 出版社 Polity → **Columbia UP**；Collins 补 DOI 10.1007/BF01476360；FunSearch 标注刊期 2024（在线 2023-12）；Sezgin 为 2 页 commentary（41(4):4107–4108）；a16z 引用改原始链接 latent.space/p/a16z，「恒星吞噬」注明意译。
 - 链接迁移提示：DeepMind 旧路径 /discover/blog/… 已 301 至新路径（上文已用新链接）；MIT Press 产品页对脚本 403（浏览器可开）。
+- **概念归属核验（2026-09-07 第二轮）**：述行性纲领源头 = **Callon 1998**（MacKenzie 书内 pp. 12–19 明言接续；Barnesian performativity / counterperformativity 为 MacKenzie 自创）；attention economy 起点 = Simon 1971 经典句经原扫描 OCR 逐字坐实（pp. 40–41）。
 
 
 ---

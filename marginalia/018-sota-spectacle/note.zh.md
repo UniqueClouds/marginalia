@@ -46,6 +46,7 @@ issue:           47
 - **[Nagy & Neff 2024, New Media & Society](https://doi.org/10.1177/14614448241251789)**——科技行业 = 舞台魔术师：conceal / confuse / dazzle 三原则，眩惑把问责无限后置。OA 副本：[Cambridge repository](https://www.repository.cam.ac.uk/items/9d937074-34b0-4a7f-b73a-ac49792bee4d)。
 - **[Campolo 2025, Digital Society](https://doi.org/10.1007/s44206-025-00190-x)**——SOTA 基准 = 现在主义（Hartog）的制度化；两个机制：normalizing research、extrapolation（未来只是当下的接续，SOTA 不指向未来状态，只要求下一次排名存在）。
 - **[The Conversation: Where is AI headed?](https://theconversation.com/where-is-ai-headed-two-media-theorists-from-the-1960s-can-help-us-figure-it-out-290733)**（2026-08-31，Nick Kelly，QUT）——McLuhan+Debord 读 AI 的公共评论样本，逐字引 Ti.2。
+- **仪式剧场谱系的概念归属**（2026-09-07 核验）：技术戏剧（technological dramas）= Pfaffenberger, Bryan（University of Virginia）. 1992. "Technological Dramas." *Science, Technology, & Human Values* 17(3): 282–312. doi:10.1177/01622399201700302（同年的框架综述：*Annual Review of Anthropology* 21: 491–516. doi:10.1146/annurev.an.21.100192.002423）；证明的剧场（theatre of proofs）= **Latour 1984**《Les Microbes: guerre et paix des microbes》. Paris: Mételié（英译 *The Pasteurization of France*, trans. Alan Sheridan & John Law. Cambridge, MA: Harvard University Press, 1988）；英文逐字句见 Latour. 1990. "Visualization and Cognition: Drawing Things Together." In Lynch & Woolgar (eds.), *Representation in Scientific Practice*. Cambridge, MA: MIT Press, 19–68（p. 17："Pasteur's theater of proofs"）。**注意：不出自 Science in Action (1987)。**技术的崇高（technological sublime）定本研究 = Nye, David E. 1994. *American Technological Sublime*. Cambridge, MA: MIT Press. ISBN 0-262-14056-X。
 
 ### 想法 3 · 疲劳的话语化与代际结构
 
@@ -124,3 +125,4 @@ issue:           47
 
 - 18/18 项 VERIFIED，0 死链；`journals.sagepub.com` 对脚本反爬（HTTP 000），内容经 Exa 全文 + Cambridge/QMUL 机构库副本三重确认，DOI 对浏览器有效。
 - 已修正 5 处：Bareis 为单作者（Fribourg，非 "et al."）；「stuff that doesn't work yet」归属 Bran Ferren；Kotaku 正题与副题；Campolo 期刊名为 *Digital Society* 4(2)；「电子巫术」句出自 2008 AAUP 演讲（2009 场合为芝大 Alumni Weekend "Brunch with Books"，2009-06-06）。
+- **概念归属核验（2026-09-07 第二轮）**：technological dramas = Pfaffenberger 1992（ST&HV 17(3):282–312 概念文）；theatre of proofs = **Latour 1984《Les Microbes》**（非 Science in Action；英文逐字句在 Latour 1990, p. 17）；technological sublime 定本 = Nye 1994（MIT Press）。Debord「奇观」归属无误。

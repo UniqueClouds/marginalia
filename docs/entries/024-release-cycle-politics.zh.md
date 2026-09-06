@@ -23,7 +23,7 @@
 
 ## 核心想法
 
-1. **节奏 = 自我实现的预言**：摩尔定律是「把铁轨铺在火车前面」的意志行动——发布周期的承诺反过来规定技术必须抵达的速率。
+1. **节奏 = 自我实现的预言**（概念源头：Merton 1948；Mollick 把摩尔定律作为其技术史实例）：摩尔定律是「把铁轨铺在火车前面」的意志行动——发布周期的承诺反过来规定技术必须抵达的速率。
 2. **撞墙后定律靠两种会计操作存活**：改周期（tick-tock→P.A.O.）+ 改度量（node 命名与物理脱钩）；AI 侧平行结构（大版本分化 + 小版本加密）。
 3. **两种物质性**：具身产品（atoms，有状态、迁移贵、节奏被最慢层锁死）vs 信息表征（bits，stateless、替代近零成本、节奏由最快层决定）；Memory 功能把 bits 重新原子化 = 移植手机的留存经济学。
 4. **失败案例检验命题**：VR 有全部硬件条件但无可复利物质依赖，转不成节拍。
@@ -63,11 +63,14 @@
 - **[spacebar.news: Game consoles are now smartphones, and that's okay](https://www.spacebar.news/consoles-are-now-smartphones/)**（2024-09-12，Corbin Davenport）——mid-gen refresh（PS5 Pro）与手机逻辑融合。
 - VR 失败组：**[vr.org: Reality Labs Lost $4.62 Billion in Q2…](https://vr.org/articles/meta-reality-labs-q2-2026-earnings-loss-widens-88-billion)**（2026-07-31，Sam Whitfield）——累计亏损约 $88B（自 2020 分部披露起）；**[CNBC: Meta's Reality Labs cuts sparked fears of a 'VR winter'](https://www.cnbc.com/2026/01/24/metas-reality-labs-cuts-sparked-fears-of-a-vr-winter.html)**（2026-01-24，Jonathan Vanian）——裁员约 1000 人；IDC：XR 头显 2025 出货 −42.8% 至 390 万、AI 眼镜 +211.2% 至 1060 万（正文的「降四成/增两倍」即此）；**[stratrix: Was Vision Pro Ever Aimed at Consumers?](https://www.stratrix.com/decision-forks/apple-vision-pro-a-3-500)**（2026-07-17）——"The headset wasn't the product. It was the cover charge"（开发者平台注读法）。
 
-## 理论源（书目核验）
+## 理论源（书目核验 + 概念归属）
 
+- **Mann, Michael**（时在 London School of Economics）. 1984. "The Autonomous Power of the State: Its Origins, Mechanisms and Results." *European Journal of Sociology / Archives Européennes de Sociologie* 25(2): 185–213. doi:10.1017/S0003975600004239.——**「后勤性权力」的源头**：infrastructural power 的定义（p. 189）"the capacity of the state to actually penetrate civil society, and to implement **logistically** political decisions throughout the realm"。Cowen 2014 是物流谱系学的当代化研究；"logistical power" 是批判物流研究的领域通用词（Neilson 2013、Kanngieser & Labban 2018 等），并非 Cowen 专属概念。
+- **Merton, Robert K.**（Columbia University）. 1948. "The Self-Fulfilling Prophecy." *The Antioch Review* 8(2): 193–210. doi:10.2307/4609267.——「自我实现预言」概念的提出处。
+- **计划性报废概念链**：London, Bernard. 1932. *Ending the Depression Through Planned Obsolescence*. New York: 自出版小册子（[Gutenberg #72003](https://www.gutenberg.org/ebooks/72003)）→ Brooks Stevens 1954 年 Minneapolis 广告会议演讲使词流行，定义句："Instilling in the buyer the desire to own something a little newer, a little better, a little sooner than is necessary."（转引见 Adamson, Glen. 2003. *Industrial Strength Design: How Brooks Stevens Shaped Your World*. Cambridge, MA: The MIT Press）→ Packard 1960 大众化；完整谱系记载于 Slade 2006。
 - Slade, **Giles**. 2006. *Made to Break: Technology and Obsolescence in America*. Cambridge, MA: Harvard University Press.（注意名是 Giles 非 Gilles）
 - Packard, Vance. 1960. *The Waste Makers*. New York: David McKay Company.
-- Cowen, **Deborah**. 2014. *The Deadly Life of Logistics: Mapping the Violence of Global Trade*. Minneapolis: University of Minnesota Press.（注意是 Deborah Cowen，非 Tyler Cowen）
+- Cowen, **Deborah**. 2014. *The Deadly Life of Logistics: Mapping Violence in Global Trade*. Minneapolis: University of Minnesota Press.（注意是 Deborah Cowen，非 Tyler Cowen；副题按出版社官方页为 *Mapping Violence in Global Trade*）
 - Tsing, Anna Lowenhaupt（UC Santa Cruz）. 2009-04. "Supply Chains and the Human Condition." *Rethinking Marxism* 21(2): 148–176. doi:10.1080/08935690902743088.
 - Lipovetsky, Gilles. 1994. *The Empire of Fashion: Dressing Modern Democracy*. Trans. Catherine Porter. Princeton, NJ: Princeton University Press.（法文原著 1987）
 - Porter, Theodore M.（UCLA）. 1995. *Trust in Numbers: The Pursuit of Objectivity in Science and Public Life*. Princeton, NJ: Princeton University Press.
@@ -82,6 +85,7 @@
 - 29 项引用 + 3 条金句全部追到实体，零死链（19 个直链批检全 200；ScienceDirect/IEEE 对脚本 403/202 反爬软墙，浏览器可达）。
 - 已修正 3 处关键错误：①「我们让它成真，因为我们希望它成真」系 **Chris Mack** 的句子（2003/2011 三处皆其署名），非 Gordon Moore——Moore 实录为 "the industry made it a self-fulfilling prophesy"；②「act of will」金句不在 2003 SPIE PDF 内，正确出处是 Mack 2011（IEEE TSM 24(2):202–207）；③ Kretschmer & Claussen 旧挂 DOI 是 Cox 等 2023 的论文，正确 DOI 为 10.1287/stsc.2015.0009。
 - 补全要素：Mollick 发表时单位 MIT Sloan；Lécuyer 全题含副标题、刊期 23(1):133–163（2022）；Nieborg 期刊 Eludamos 8(1):47–63；Corrocher & Paganuzzi 全题+Article 103022；IMF WP 标题与作者；Spectrum 印刷版题名 "The Node is Nonsense"；「铁轨」金句一手出处锁定 Korczynski 1997。
+- **概念归属核验（2026-09-07 第二轮）**：「后勤性权力」源头 = **Michael Mann 1984**（infrastructural power,p.189 定义含 "implement logistically"）,Cowen 为当代化研究、副题更正为 *Mapping Violence in Global Trade*;自我实现预言 = **Merton 1948**（Antioch Review 8(2):193–210）;计划性报废 = **London 1932 → Stevens 1954**（Gutenberg #72003 与 Adamson 2003 已核）。ITRS「九百多家公司」不在 Mollick 2006(全文零命中),真实口径为 ITRS 2003 版 936 家参与公司（经 3D InCites 2015 访谈转引）,本中文矩阵未带该数字故不涉及。
 
 
 ---
