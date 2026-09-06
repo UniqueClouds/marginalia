@@ -1062,5 +1062,57 @@
    "note": "",
    "spotify_url": "https://open.spotify.com/episode/5183GpkZscT8gAdBMSnlJJ"
   }
+ ],
+ "tbc": [
+  {
+   "title": "7. Frankenstein: Horror, Humanity, and Hubris",
+   "date": "2026-03-30",
+   "note": "玛丽·雪莱《弗兰肯斯坦》",
+   "spotify_url": "https://open.spotify.com/episode/7JvbhkZuyNBnWDozeIv7H3"
+  },
+  {
+   "title": "10. East Of Eden: Steinbeck, Sin, and Redemption",
+   "date": "2026-04-20",
+   "note": "斯坦贝克《伊甸之东》",
+   "spotify_url": "https://open.spotify.com/episode/1WZJ9arxdwvLkgFXsnBcvi"
+  },
+  {
+   "title": "14. Beloved: Memory, Morrison, and Modern American Fiction",
+   "date": "2026-05-18",
+   "note": "莫里森《宠儿》",
+   "spotify_url": "https://open.spotify.com/episode/7F5jlv1UZhVllPCYORuNQR"
+  },
+  {
+   "title": "29. Rebecca: Daphne du Maurier’s Gothic Epic",
+   "date": "2026-08-24",
+   "note": "杜穆里埃《蝴蝶梦》",
+   "spotify_url": "https://open.spotify.com/episode/0awJvXMa5QR9uSW2nxY34L"
+  }
+ ],
+ "trisci": [
+  {
+   "title": "The Scale of the Universe",
+   "date": "2026-09-02",
+   "note": "宇宙的尺度",
+   "spotify_url": "https://open.spotify.com/episode/43Ok2F5FLKWUbkIxrDkolU"
+  },
+  {
+   "title": "Why Lithium Batteries SUCK",
+   "date": "2026-08-02",
+   "note": "锂电池为何糟糕",
+   "spotify_url": "https://open.spotify.com/episode/1egyqQz8RuXEXmpqAaElt4"
+  },
+  {
+   "title": "The Audio Illusion That Proves We Don't Experience Reality",
+   "date": "2026-06-28",
+   "note": "证明「知觉≠现实」的听错觉",
+   "spotify_url": "https://open.spotify.com/episode/5PcWD2pVOjnR4EFD3Jxgxz"
+  },
+  {
+   "title": "A Paleontology Of The Future: What We Will Leave Behind",
+   "date": "2026-06-21",
+   "note": "未来古生物学：我们会留下什么",
+   "spotify_url": "https://open.spotify.com/episode/1K3EN9henEQquXjZagpZiu"
+  }
  ]
 }

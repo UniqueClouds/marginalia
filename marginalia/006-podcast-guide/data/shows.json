@@ -858,6 +858,40 @@
    "desc_cn": "《社会学评论》基金会的播客：通过与研究者、作家、艺术家的对话，拓展'社会学的想象力'的边界。",
    "apple_url": "https://podcasts.apple.com/us/podcast/id1618747015?uo=4",
    "official_site": ""
+  },
+  {
+   "key": "tbc",
+   "name": "The Book Club",
+   "cn_name": "读书会",
+   "publisher": "Goalhanger",
+   "genre": "Books",
+   "track_count": 32,
+   "first_date": "2026-02-17",
+   "spotify_id": "1yQX55n13t1G8CcOhjfy61",
+   "status": "G",
+   "reason_cn": "《The Rest Is History》的文学支线：一周一书、史家讲书，作者论与历史语境并重——D 组口味的天然延伸。",
+   "desc_en": "The Book Club, hosted by Dominic Sandbrook and Tabitha Syrett, brings the historical context behind famous books to life. Each week, the hosts explore a classic or contemporary title, unpacking the world in which it was written and the story behind its author. This is not your typical literature podcast: The Book Club educates AND entertains, leaving you knowing some of the greatest stories ever told.",
+   "desc_cn": "Dominic Sandbrook 与制作人 Tabitha Syrett 把名著背后的历史语境讲活：每周精读一本经典或当代之作，拆解它诞生的世界与作者的故事。",
+   "desc_official": true,
+   "apple_url": "https://podcasts.apple.com/us/podcast/the-book-club/id1876049295?uo=4",
+   "official_site": "https://www.thebookclubhq.com/"
+  },
+  {
+   "key": "trisci",
+   "name": "The Rest Is Science",
+   "cn_name": "其余皆为科学",
+   "publisher": "Goalhanger",
+   "genre": "Science",
+   "track_count": 86,
+   "first_date": "2025-11-25",
+   "spotify_id": "5oLIbjbUqQmSMVSm0qNLge",
+   "status": "G",
+   "reason_cn": "The Rest Is… 家族 2025 年新支线：Hannah Fry × Vsauce 的顶配科普双主持，周二深挖一个大问题、周四 Field Notes 由小物件出发——补足 E 组的科学维度。",
+   "desc_en": "Launching in November 2025, The Rest Is Science explores the forces, patterns, and questions that define the world around us. Hosted by mathematician and broadcaster Professor Hannah Fry and educator Michael Stevens (Vsauce), it invites us to think deeper - to notice what we've overlooked, and to see the familiar through fresh eyes.",
+   "desc_cn": "数学家 Hannah Fry × Vsauce 主理人 Michael Stevens：每周两集，从「湖泊为何不结冰」到「你的大脑如何发明疼痛」，把世界的古怪与美妙一层层拆给你看。",
+   "desc_official": true,
+   "apple_url": "https://podcasts.apple.com/us/podcast/the-rest-is-science/id1853007888?uo=4",
+   "official_site": "https://therestis.com/science"
   }
  ]
 }
