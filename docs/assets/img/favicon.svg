@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- Marginalia favicon: same page, tuned for 16px tab strip (light & dark) -->
+  <rect x="3.5" y="2" width="17" height="20" rx="2.4" fill="#FFFFFF" stroke="#455A64" stroke-width="1.8"/>
+  <path d="M9.1 5.8V18.2" stroke="#FFB300" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M12 7.2H17.4" stroke="#78909C" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M12 11.4H17.4" stroke="#78909C" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M12 15.6H14.8" stroke="#90A4AE" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M6.4 9.6V12.4M5.25 10.35L7.55 11.65M7.55 10.35L5.25 11.65" stroke="#F59E0B" stroke-width="1.25" stroke-linecap="round" fill="none"/>
+</svg>

@@ -11,8 +11,10 @@ theme:
   name: material
   language: zh
   font: false          # 不加载 Google Fonts(国内渲染阻塞),走 extra.css 系统字体栈
+  favicon: assets/img/favicon.svg
+  favicon: assets/img/favicon.svg
+  logo: assets/img/logo.svg
   icon:
-    logo: material/book-open-variant
     repo: fontawesome/brands/github
   palette:
     - media: "(prefers-color-scheme: light)"
