@@ -20,7 +20,7 @@ issue:           47
 
 # SOTA 的奇观化：模型发布、审美疲劳与技术的时间政治
 
-> 研究备忘：把「SOTA 发布 = 奇观」整理成可研究的问题与材料清单。带完整论证的随想旧版见 git 历史（dd13e09、68006ca）。引用已于 2026-09-07 全量搜索核验，核验记录见文末。
+> 研究备忘：把「SOTA 发布 = 奇观」整理成可研究的问题与材料清单。
 
 ## 核心想法
 
@@ -42,22 +42,22 @@ issue:           47
 ### 想法 2 · 奇观作为仪式剧场
 
 - **Debord**（理论源卡片见下）——Ti.1 / Ti.4 / Ti.42。
-- **[Bareis 2026, IJoC](https://ijoc.org/index.php/ijoc/article/view/23922)**——四大叙事支柱（strategic ignorance / the weird and eerie / the battle / crossing the line of the normal）；已逐字确认其援引 Debord（含 Ti.4）。「空剧场里没有奇观」命题在其 PDF 内。
+- **[Bareis 2026, IJoC](https://ijoc.org/index.php/ijoc/article/view/23922)**——四大叙事支柱（strategic ignorance / the weird and eerie / the battle / crossing the line of the normal）；其援引 Debord（含 Ti.4）；「空剧场里没有奇观」命题在其 PDF 内。
 - **[Nagy & Neff 2024, New Media & Society](https://doi.org/10.1177/14614448241251789)**——科技行业 = 舞台魔术师：conceal / confuse / dazzle 三原则，眩惑把问责无限后置。OA 副本：[Cambridge repository](https://www.repository.cam.ac.uk/items/9d937074-34b0-4a7f-b73a-ac49792bee4d)。
 - **[Campolo 2025, Digital Society](https://doi.org/10.1007/s44206-025-00190-x)**——SOTA 基准 = 现在主义（Hartog）的制度化；两个机制：normalizing research、extrapolation（未来只是当下的接续，SOTA 不指向未来状态，只要求下一次排名存在）。
 - **[The Conversation: Where is AI headed?](https://theconversation.com/where-is-ai-headed-two-media-theorists-from-the-1960s-can-help-us-figure-it-out-290733)**（2026-08-31，Nick Kelly，QUT）——McLuhan+Debord 读 AI 的公共评论样本，逐字引 Ti.2。
-- **仪式剧场谱系的概念归属**（2026-09-07 核验）：技术戏剧（technological dramas）= Pfaffenberger, Bryan（University of Virginia）. 1992. "Technological Dramas." *Science, Technology, & Human Values* 17(3): 282–312. doi:10.1177/01622399201700302（同年的框架综述：*Annual Review of Anthropology* 21: 491–516. doi:10.1146/annurev.an.21.100192.002423）；证明的剧场（theatre of proofs）= **Latour 1984**《Les Microbes: guerre et paix des microbes》. Paris: Mételié（英译 *The Pasteurization of France*, trans. Alan Sheridan & John Law. Cambridge, MA: Harvard University Press, 1988）；英文逐字句见 Latour. 1990. "Visualization and Cognition: Drawing Things Together." In Lynch & Woolgar (eds.), *Representation in Scientific Practice*. Cambridge, MA: MIT Press, 19–68（p. 17："Pasteur's theater of proofs"）。**注意：不出自 Science in Action (1987)。**技术的崇高（technological sublime）定本研究 = Nye, David E. 1994. *American Technological Sublime*. Cambridge, MA: MIT Press. ISBN 0-262-14056-X。
+- **仪式剧场谱系的概念归属**：技术戏剧（technological dramas）= Pfaffenberger, Bryan（University of Virginia）. 1992. "Technological Dramas." *Science, Technology, & Human Values* 17(3): 282–312. doi:10.1177/01622399201700302（同年的框架综述：*Annual Review of Anthropology* 21: 491–516. doi:10.1146/annurev.an.21.100192.002423）；证明的剧场（theatre of proofs）= **Latour 1984**《Les Microbes: guerre et paix des microbes》. Paris: Mételié（英译 *The Pasteurization of France*, trans. Alan Sheridan & John Law. Cambridge, MA: Harvard University Press, 1988）；英文逐字句见 Latour. 1990. "Visualization and Cognition: Drawing Things Together." In Lynch & Woolgar (eds.), *Representation in Scientific Practice*. Cambridge, MA: MIT Press, 19–68（p. 17："Pasteur's theater of proofs"）。技术的崇高（technological sublime）定本研究 = Nye, David E. 1994. *American Technological Sublime*. Cambridge, MA: MIT Press. ISBN 0-262-14056-X。
 
 ### 想法 3 · 疲劳的话语化与代际结构
 
 - **[Douglas Adams 1999](https://douglasadams.com/dna/19990901-00-a.html)**（理论源卡片见下）——三定律 + 椅子隐喻。注意：「technology is stuff that doesn't work yet」是 Adams 引计算机科学家 **Bran Ferren** 的定义，非 Adams 原创。
-- **[Gubelmann: Looking back at ACL 2025](https://retogubelmann.net/2025/08/12/looking-back-at-acl-2025/)**（2025-08-12，苏黎世大学 DSI）——逐字："LLM exhaustion and nausea (67% of Papers have ``LLM'' in title)"。
+- **[Gubelmann: Looking back at ACL 2025](https://retogubelmann.net/2025/08/12/looking-back-at-acl-2025/)**（2025-08-12，苏黎世大学 DSI）——原话："LLM exhaustion and nausea (67% of Papers have ``LLM'' in title)"。
 - **[Sukhareva: On LLM Popcorn, Collecting Butterflies](https://msukhareva.substack.com/p/on-llm-popcorn-collecting-butterflies)**（2025-07-29）与 **[King: Butterfly Collecting in AI Research](https://generativeaiforcuriouspeople.substack.com/p/butterfly-collecting-in-ai-research)**（2025-08-01）——Hovy「LLM popcorn」的两份独立一手记录（"you feel satisfied for ten minutes, and then you feel empty again"）。
 - **[Friedrich: Conference Report ACL 2025](https://annefried.github.io/posts/2025-08-02)**（2025-08-02，奥格斯堡大学）——会场记录：接收取决于抽到哪位 meta-reviewer 等。
 
 ### 想法 4 · 双重时间性（乌托邦时钟 × 季度时钟）
 
-- **[Barkett 2026, arXiv:2602.23679](https://arxiv.org/abs/2602.23679)**——Altman×Amodei 四种共享修辞操作（摘要逐字）：the self-exemption move / teleological naturalization / qualified acknowledgment / implicit indispensability。
+- **[Barkett 2026, arXiv:2602.23679](https://arxiv.org/abs/2602.23679)**——Altman×Amodei 四种共享修辞操作（摘要原文）：the self-exemption move / teleological naturalization / qualified acknowledgment / implicit indispensability。
 - **[Belsunces Gonçalves 2025, arXiv:2508.19749](https://arxiv.org/abs/2508.19749)**——"deep hype is a long-term overpromissory dynamic…maintaining attention, investment, and belief"；压缩时间视界制造 FOMO。
 - **[Bourne 2024, AI and Ethics](https://doi.org/10.1007/s43681-024-00483-w)**——"the most intense, and the hardest to combat, is fear–fear of missing out on innovation, on profits–and most of all, fear of losing power and the AI 'space race'." OA 终稿：[Goldsmiths research](https://research.gold.ac.uk/id/eprint/37517/)。
 
@@ -95,7 +95,7 @@ issue:           47
 
 ### Adams 1999 · 三定律
 
-**引用**：Douglas Adams. 1999-08-29. "How to Stop Worrying and Learn to Love the Internet." *The Sunday Times*, News Review（页面自述日期逐字；URL 中 19990901 为站点归档编号）。https://douglasadams.com/dna/19990901-00-a.html
+**引用**：Douglas Adams. 1999-08-29. "How to Stop Worrying and Learn to Love the Internet." *The Sunday Times*, News Review（URL 中 19990901 为站点归档编号）。https://douglasadams.com/dna/19990901-00-a.html
 
 **原文关键句**：
 > "1) everything that's already in the world when you're born is just normal; 2) anything that gets invented between then and before you turn thirty is incredibly exciting and creative and with any luck you can make a career out of it; 3) anything that gets invented after you're thirty is against the natural order of things and the beginning of the end of civilisation as we know it **until it's been around for about ten years when it gradually turns out to be alright really.**"
@@ -103,10 +103,10 @@ issue:           47
 
 ### Abbott 2008 / 2009 · 两篇演讲稿
 
-- **2008**：Andrew Abbott（University of Chicago）. "Publication and the Future of Knowledge." Association of American University Presses（AAUP 年会），2008-06-27，未刊稿 31 页。https://home.uchicago.edu/~aabbott/Papers/aaup.pdf ——「电子巫术」句逐字在此版："I shall argue that our major problems antedate the current technological revolution. Electronic wizardry is the occasion of our disease, not its cause."
+- **2008**：Andrew Abbott（University of Chicago）. "Publication and the Future of Knowledge." Association of American University Presses（AAUP 年会），2008-06-27，未刊稿 31 页。https://home.uchicago.edu/~aabbott/Papers/aaup.pdf ——「电子巫术」句出自此版："I shall argue that our major problems antedate the current technological revolution. Electronic wizardry is the occasion of our disease, not its cause."
 - **2009**：Andrew Abbott. "The Future of Knowing." "Brunch with Books," University of Chicago Alumni Association & Library, Alumni Weekend, 2009-06-06，未刊稿。https://home.uchicago.edu/~aabbott/Papers/futurek.pdf ——核心句："Knowledge is not a thing; it is the result of an activity. That activity is knowing. The internet has changed nothing whatever about that activity." 另有从 Jowett 打油诗做穷尽逻辑解剖的方法示范。
 
-## 参考资料（2026-09-07 全量搜索核验）
+## 参考资料
 
 - Bareis, Jascha（University of Fribourg）. 2026-01-27. "Big Data Discourses | Ask Me Anything! ◕‿◕ – How ChatGPT Got Hyped Into Being." *International Journal of Communication* 20: 285–311. doi:10.65476/gm817j57. https://ijoc.org/index.php/ijoc/article/view/23922 （预印本：SocArXiv, 2024-10-29, https://osf.io/preprints/socarxiv/jzde2_v1）
 - Nagy, Péter（Corvinus University of Budapest）& Gina Neff（Minderoo Centre for Technology & Democracy, University of Cambridge）. 2024. "Conjuring algorithms: Understanding the tech industry as stage magicians." *New Media & Society* 26(9): 4938–4954. doi:10.1177/14614448241251789（OA：https://qmro.qmul.ac.uk/xmlui/handle/123456789/130592）
@@ -120,9 +120,3 @@ issue:           47
 - Zwiezen, Zack. 2026-06-15. "Exploring Steam Next Fest With An AI-Blocking Extension Is Very Depressing." *Kotaku*. https://kotaku.com/exploring-steam-next-fest-with-an-ai-blocking-extension-is-very-depressing-2000706695 ；Indiecator. 2026-06-16. "Steam Next Fest Has an AI Problem." https://indiecator.org/2026/06/16/steam-next-fest-has-an-ai-problem-and-players-cant-filter-it-out/
 - Kelly, Nick（Queensland University of Technology）. 2026-08-31. "Where is AI headed? Two media theorists from the 1960s can help us figure it out." *The Conversation*. https://theconversation.com/where-is-ai-headed-two-media-theorists-from-the-1960s-can-help-us-figure-it-out-290733 ；Class Struggle Ecology. 2026-05-30. "Debord and the AI Spectacle." https://worldecology.info/debord-and-the-ai-spectacle/
 - 本站相关：[020 · AI 停电](../020-ai-as-utility/note.zh.md)（奇观熄灭后的日常）、[024 · 发布周期](../024-release-cycle-politics/note.zh.md)（发布节奏的制度分析）
-
-## 核验记录（2026-09-07）
-
-- 18/18 项 VERIFIED，0 死链；`journals.sagepub.com` 对脚本反爬（HTTP 000），内容经 Exa 全文 + Cambridge/QMUL 机构库副本三重确认，DOI 对浏览器有效。
-- 已修正 5 处：Bareis 为单作者（Fribourg，非 "et al."）；「stuff that doesn't work yet」归属 Bran Ferren；Kotaku 正题与副题；Campolo 期刊名为 *Digital Society* 4(2)；「电子巫术」句出自 2008 AAUP 演讲（2009 场合为芝大 Alumni Weekend "Brunch with Books"，2009-06-06）。
-- **概念归属核验（2026-09-07 第二轮）**：technological dramas = Pfaffenberger 1992（ST&HV 17(3):282–312 概念文）；theatre of proofs = **Latour 1984《Les Microbes》**（非 Science in Action；英文逐字句在 Latour 1990, p. 17）；technological sublime 定本 = Nye 1994（MIT Press）。Debord「奇观」归属无误。

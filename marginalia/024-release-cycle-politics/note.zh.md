@@ -20,7 +20,7 @@ issue:           53
 
 # 铁轨铺在火车前面：发布周期的政治经济学——从 CPU 跑分到 SOTA
 
-> 研究备忘：发布周期不是技术属性而是制度——由物流链与后勤性权力、资金流与回报周期、对「进步」的期待共同决定的时间节奏。本条 = 五平台矩阵 + 想法提纲 + 核验材料。旧版论证文见 git 历史。引用已于 2026-09-07 全量搜索核验（29 项引用 + 3 条金句全部追到实体，零死链），记录见文末。
+> 研究备忘：发布周期不是技术属性而是制度——由物流链与后勤性权力、资金流与回报周期、对「进步」的期待共同决定的时间节奏。本条 = 五平台矩阵 + 想法提纲 + 材料清单。
 
 ## 五平台节奏矩阵
 
@@ -46,10 +46,10 @@ issue:           53
 
 - **[Mollick 2006, IEEE Annals of the History of Computing](https://doi.org/10.1109/mahc.2006.45)**——"Establishing Moore's Law." 28(3): 62–75。Ethan Mollick，**发表时单位 MIT Sloan**（Wharton 是 2016 年后现任，引用 2006 时勿写）。摘要即定性 "evolved into a self-fulfilling prophecy"。全文镜像：[gwern.net](https://gwern.net/doc/economics/experience-curve/2006-mollick.pdf)。
 - **[Lécuyer 2022, Enterprise & Society](https://www.cambridge.org/core/journals/enterprise-and-society/article/abs/driving-semiconductor-innovation-moores-law-at-fairchild-and-intel/58A6DBCC19D454A2BB20E1333A9D12C6)**——"Driving Semiconductor Innovation: Moore's Law at Fairchild and Intel." 23(1): 133–163（在线 2020-09-07，刊期 2022-03）。Christophe Lécuyer（Sorbonne Université）。「多用途工具：驱动工艺、卖芯片、压垮对手」与摘要逐点吻合。
-- **金句出处（已锁定）**：
+- **金句出处**：
   - 「把铁轨铺在火车前面」= Gordon Moore 1997 原话："It really becomes a question of putting the track ahead of the train to stay on plan." 一手出处：Ed Korczynski 对 Moore 的访谈，*Solid State Technology* 40(7), July 1997, p. 364（经 Misa 2019, doi:10.2478/host-2019-0005, 脚注 7 转引）。
   - 「摩尔定律不是定律，是意志的行动」= **Chris A. Mack**："Moore's Law is not a law, it is an act of will."（Mack 2011, "Fifty Years of Moore's Law," *IEEE Trans. Semiconductor Manufacturing* 24(2): 202–207, doi:10.1109/TSM.2010.2096437；2003 年 Solid State Technology 文为分号版本。**此句不在 2003 SPIE PDF 内**。）
-  - 「我们让它成真，因为我们希望它成真」= **旧版误挂 Gordon Moore**——该句是 **Mack 自己写的**（"We make Moore's Law happen because we want it to be true"，2003 SPIE 文内）。Moore 的实录近似语："the industry made it a self-fulfilling prophesy"（*A Conversation with Gordon Moore*, Intel 访谈实录，[Stanford 镜像 PDF](https://large.stanford.edu/courses/2012/ph250/lee1/docs/Excepts_A_Conversation_with_Gordon_Moore.pdf)）。
+  - 「我们让它成真，因为我们希望它成真」出自 **Chris Mack**（"We make Moore's Law happen because we want it to be true"，2003 SPIE 文内），常被误归于 Gordon Moore；Moore 的实录近似语是 "the industry made it a self-fulfilling prophesy"（*A Conversation with Gordon Moore*, Intel 访谈实录，[Stanford 镜像 PDF](https://large.stanford.edu/courses/2012/ph250/lee1/docs/Excepts_A_Conversation_with_Gordon_Moore.pdf)）。
 - **[Mack 2003: The End of the Semiconductor Industry as We Know It](https://lithoguru.com/scientist/litho_papers/2003_The_End_of_the_Semiconductor_Industry_as_We_Know_It.pdf)**——首发即 Proc. SPIE 5040（Optical Microlithography XVI, Plenary Address）, pp. xxi–xxxi；作者时任职 KLA-Tencor FINLE Division, Austin。
 
 ### 想法 2 · 两种会计操作（改周期 + 改度量）
@@ -64,24 +64,24 @@ issue:           53
 ### 想法 3 · 手机侧：节奏与消费
 
 - **[Corrocher & Paganuzzi 2025, Telecommunications Policy](https://doi.org/10.1016/j.telpol.2025.103022)**——"Planned obsolescence and smartphone replacement: Empirical evidence on the Italian market." 49(8): Article 103022（两人均 Bocconi University；在线 2025-07-08）。
-- **[Smart Analytics Global: Can Apple Upgrade Leasing Program Shorten the U.S. Smartphone Replacement Cycle?](https://smartanalyticsglobal.com/apple-upgrade-hardware-as-a-service-us-smartphone-replacement-cycle/)**（2026-07-28，Linda Sui）——95% 新 iPhone 走月付、>80% 以旧换新、实际替换周期约 34 个月（三点逐字核实）。
+- **[Smart Analytics Global: Can Apple Upgrade Leasing Program Shorten the U.S. Smartphone Replacement Cycle?](https://smartanalyticsglobal.com/apple-upgrade-hardware-as-a-service-us-smartphone-replacement-cycle/)**（2026-07-28，Linda Sui）——95% 新 iPhone 走月付、>80% 以旧换新、实际替换周期约 34 个月。
 - **[IMF WP/20/70](https://www.imf.org/en/publications/wp/issues/2020/05/29/global-smartphones-sales-may-have-peaked-49361)**——Mongardini, Joannes & Aneta Radzikinski. 2020-05. "Global Smartphone Sales May Have Peaked: What Next?" doi:10.5089/9781513545851.001.a001.
 
 ### 想法 4 · 主机对照与 VR 失败组
 
 - **[Nieborg 2014, Eludamos](https://doi.org/10.7557/23.6155)**——"Prolonging the Magic: The political economy of the 7th generation console game." *Eludamos. Journal for Computer Game Culture* 8(1): 47–63。David B. Nieborg，发表时 University of Amsterdam / MIT 博士后（Toronto 是现任）。
-- **[Kretschmer & Claussen 2016, Strategy Science](https://doi.org/10.1287/stsc.2015.0009)**——"Generational Transitions in Platform Markets—The Role of Backward Compatibility." 1(2): 90–104（LMU Munich）。**旧版挂的 DOI（stsc.2022.0177）是别人的论文**——那篇是 Cox, Crosby & McKenzie, "Don't Look Back? Backward Compatibility in the Video Gaming Industry," *Strategy Science* 8(3): 387–404 (2023)，可作补充文献单列。
+- **[Kretschmer & Claussen 2016, Strategy Science](https://doi.org/10.1287/stsc.2015.0009)**——"Generational Transitions in Platform Markets—The Role of Backward Compatibility." 1(2): 90–104（LMU Munich）。易混文献：Cox, Crosby & McKenzie, "Don't Look Back? Backward Compatibility in the Video Gaming Industry," *Strategy Science* 8(3): 387–404 (2023), doi:10.1287/stsc.2022.0177。
 - **[spacebar.news: Game consoles are now smartphones, and that's okay](https://www.spacebar.news/consoles-are-now-smartphones/)**（2024-09-12，Corbin Davenport）——mid-gen refresh（PS5 Pro）与手机逻辑融合。
 - VR 失败组：**[vr.org: Reality Labs Lost $4.62 Billion in Q2…](https://vr.org/articles/meta-reality-labs-q2-2026-earnings-loss-widens-88-billion)**（2026-07-31，Sam Whitfield）——累计亏损约 $88B（自 2020 分部披露起）；**[CNBC: Meta's Reality Labs cuts sparked fears of a 'VR winter'](https://www.cnbc.com/2026/01/24/metas-reality-labs-cuts-sparked-fears-of-a-vr-winter.html)**（2026-01-24，Jonathan Vanian）——裁员约 1000 人；IDC：XR 头显 2025 出货 −42.8% 至 390 万、AI 眼镜 +211.2% 至 1060 万（正文的「降四成/增两倍」即此）；**[stratrix: Was Vision Pro Ever Aimed at Consumers?](https://www.stratrix.com/decision-forks/apple-vision-pro-a-3-500)**（2026-07-17）——"The headset wasn't the product. It was the cover charge"（开发者平台注读法）。
 
-## 理论源（书目核验 + 概念归属）
+## 理论源（书目与概念归属）
 
 - **Mann, Michael**（时在 London School of Economics）. 1984. "The Autonomous Power of the State: Its Origins, Mechanisms and Results." *European Journal of Sociology / Archives Européennes de Sociologie* 25(2): 185–213. doi:10.1017/S0003975600004239.——**「后勤性权力」的源头**：infrastructural power 的定义（p. 189）"the capacity of the state to actually penetrate civil society, and to implement **logistically** political decisions throughout the realm"。Cowen 2014 是物流谱系学的当代化研究；"logistical power" 是批判物流研究的领域通用词（Neilson 2013、Kanngieser & Labban 2018 等），并非 Cowen 专属概念。
 - **Merton, Robert K.**（Columbia University）. 1948. "The Self-Fulfilling Prophecy." *The Antioch Review* 8(2): 193–210. doi:10.2307/4609267.——「自我实现预言」概念的提出处。
 - **计划性报废概念链**：London, Bernard. 1932. *Ending the Depression Through Planned Obsolescence*. New York: 自出版小册子（[Gutenberg #72003](https://www.gutenberg.org/ebooks/72003)）→ Brooks Stevens 1954 年 Minneapolis 广告会议演讲使词流行，定义句："Instilling in the buyer the desire to own something a little newer, a little better, a little sooner than is necessary."（转引见 Adamson, Glen. 2003. *Industrial Strength Design: How Brooks Stevens Shaped Your World*. Cambridge, MA: The MIT Press）→ Packard 1960 大众化；完整谱系记载于 Slade 2006。
-- Slade, **Giles**. 2006. *Made to Break: Technology and Obsolescence in America*. Cambridge, MA: Harvard University Press.（注意名是 Giles 非 Gilles）
+- Slade, **Giles**. 2006. *Made to Break: Technology and Obsolescence in America*. Cambridge, MA: Harvard University Press.（Giles Slade；非 Gilles）
 - Packard, Vance. 1960. *The Waste Makers*. New York: David McKay Company.
-- Cowen, **Deborah**. 2014. *The Deadly Life of Logistics: Mapping Violence in Global Trade*. Minneapolis: University of Minnesota Press.（注意是 Deborah Cowen，非 Tyler Cowen；副题按出版社官方页为 *Mapping Violence in Global Trade*）
+- Cowen, **Deborah**. 2014. *The Deadly Life of Logistics: Mapping Violence in Global Trade*. Minneapolis: University of Minnesota Press.（Deborah Cowen，非经济学家 Tyler Cowen；副题按出版社官方页为 *Mapping Violence in Global Trade*）
 - Tsing, Anna Lowenhaupt（UC Santa Cruz）. 2009-04. "Supply Chains and the Human Condition." *Rethinking Marxism* 21(2): 148–176. doi:10.1080/08935690902743088.
 - Lipovetsky, Gilles. 1994. *The Empire of Fashion: Dressing Modern Democracy*. Trans. Catherine Porter. Princeton, NJ: Princeton University Press.（法文原著 1987）
 - Porter, Theodore M.（UCLA）. 1995. *Trust in Numbers: The Pursuit of Objectivity in Science and Public Life*. Princeton, NJ: Princeton University Press.
@@ -89,11 +89,4 @@ issue:           53
 
 ## 参考资料
 
-（全部引用已内联于「想法 × 材料」并附链接，均经 2026-09-07 核验。本站相关：[018](../018-sota-spectacle/note.zh.md) / [019](../019-tokenmaxxing/note.zh.md) / [020](../020-ai-as-utility/note.zh.md) / [022](../022-gravity-of-models/note.zh.md)。）
-
-## 核验记录（2026-09-07）
-
-- 29 项引用 + 3 条金句全部追到实体，零死链（19 个直链批检全 200；ScienceDirect/IEEE 对脚本 403/202 反爬软墙，浏览器可达）。
-- 已修正 3 处关键错误：①「我们让它成真，因为我们希望它成真」系 **Chris Mack** 的句子（2003/2011 三处皆其署名），非 Gordon Moore——Moore 实录为 "the industry made it a self-fulfilling prophesy"；②「act of will」金句不在 2003 SPIE PDF 内，正确出处是 Mack 2011（IEEE TSM 24(2):202–207）；③ Kretschmer & Claussen 旧挂 DOI 是 Cox 等 2023 的论文，正确 DOI 为 10.1287/stsc.2015.0009。
-- 补全要素：Mollick 发表时单位 MIT Sloan；Lécuyer 全题含副标题、刊期 23(1):133–163（2022）；Nieborg 期刊 Eludamos 8(1):47–63；Corrocher & Paganuzzi 全题+Article 103022；IMF WP 标题与作者；Spectrum 印刷版题名 "The Node is Nonsense"；「铁轨」金句一手出处锁定 Korczynski 1997。
-- **概念归属核验（2026-09-07 第二轮）**：「后勤性权力」源头 = **Michael Mann 1984**（infrastructural power,p.189 定义含 "implement logistically"）,Cowen 为当代化研究、副题更正为 *Mapping Violence in Global Trade*;自我实现预言 = **Merton 1948**（Antioch Review 8(2):193–210）;计划性报废 = **London 1932 → Stevens 1954**（Gutenberg #72003 与 Adamson 2003 已核）。ITRS「九百多家公司」不在 Mollick 2006(全文零命中),真实口径为 ITRS 2003 版 936 家参与公司（经 3D InCites 2015 访谈转引）,本中文矩阵未带该数字故不涉及。
+（本站相关：[018](../018-sota-spectacle/note.zh.md) / [019](../019-tokenmaxxing/note.zh.md) / [020](../020-ai-as-utility/note.zh.md) / [022](../022-gravity-of-models/note.zh.md)。）

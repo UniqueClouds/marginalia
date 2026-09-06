@@ -20,7 +20,7 @@ issue:           51
 
 # 被模型拽着走：引力、移动的地基与「Attention is all you need」的社会同构
 
-> 研究备忘（研究纲领草案）：三个隐喻——引力 / 移动的地基 / attention 同构。Collins 1994 提供引力与地基两个隐喻的机制；本条 = 想法提纲 + 材料清单 + Collins 全文大纲卡片（含英文原文引文）。旧版论证文见 git 历史。引用已于 2026-09-07 全量搜索核验，记录见文末。
+> 研究备忘（研究纲领草案）：三个隐喻——引力 / 移动的地基 / attention 同构。Collins 1994 提供引力与地基两个隐喻的机制；本条 = 想法提纲 + 材料清单 + Collins 全文大纲卡片（含英文原文引文）。
 
 ## 核心想法
 
@@ -43,7 +43,7 @@ issue:           51
 
 - **[tianpan.co: The Model Deprecation Cliff](https://tianpan.co/blog/2026/04/13/the-model-deprecation-cliff)**（2026-04-13）——弃用跑步机；「多数团队发现自己依赖模型的方式，和发现承重墙的方式一样：试着移除它」。
 - **[tlcmentor: Many Are Building Cathedrals on Quicksand](https://tlcmentor.substack.com/p/many-are-building-cathedrals-on-quicksand)**（Substack）——「流沙上的大教堂」。
-- **[MIT NANDA: The GenAI Divide — State of AI in Business 2025](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf)**（2025-08，主笔 Aditya Challapally；150 次高管访谈+350 人问卷+300 部署分析）——约 95% 的生成式 AI 试点对损益无可测量影响（逐字坐实）；报道：[Fortune 2025-08-18](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/)。
+- **[MIT NANDA: The GenAI Divide — State of AI in Business 2025](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf)**（2025-08，主笔 Aditya Challapally；150 次高管访谈+350 人问卷+300 部署分析）——约 95% 的生成式 AI 试点对损益无可测量影响（报告原文）；报道：[Fortune 2025-08-18](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/)。
 - 反讽：foundation models 名为地基者，中位在产寿命 12–18 个月。
 
 ### 想法 3 · attention 同构与述行性
@@ -83,12 +83,12 @@ issue:           51
 - Callon, Michel（Centre de Sociologie de l'Innovation, École Nationale Supérieure des Mines de Paris, ed.）. 1998. *The Laws of the Markets*（The Sociological Review Monograph）. Oxford: Blackwell Publishers. ISBN 0-631-20608-6. 尤其导言："Introduction: The Embeddedness of Economic Markets in Economics," *The Sociological Review* 46(S1): 1–57. doi:10.1111/j.1467-954x.1998.tb03468.x——**述行性经济学社会学纲领的源头**（「performative」术语本身出自哲学家 J. L. Austin）。
 - MacKenzie, Donald（University of Edinburgh）. 2006. *An Engine, Not a Camera: How Financial Models Shape Markets*（Inside Technology）. Cambridge, MA: The MIT Press. ISBN 0-262-13460-8. doi:10.7551/mitpress/9780262134606.001.0001——把述行性系统用于金融并提出类型学（generic / effective / **Barnesian performativity** + counterperformativity,后两者为 MacKenzie 自创,第 1 章 pp. 12–19 明言接续 Callon）。经济学理论是让世界更像理论的引擎。
 - DiMaggio, Paul J. & Walter W. Powell（发表时均在 Yale）. 1983-04. "The Iron Cage Revisited: Institutional Isomorphism and Collective Rationality in Organizational Fields." *American Sociological Review* 48(2): 147–160. doi:10.2307/2095101——模仿性同构。
-- Rosa, Hartmut（Friedrich-Schiller-Universität Jena）. 2013. *Social Acceleration: A New Theory of Modernity*. Trans. Jonathan Trejo-Mathys. New York: **Columbia University Press**. ISBN 9780231148344. doi:10.7312/rosa14834.（**旧版误记 Polity**）
+- Rosa, Hartmut（Friedrich-Schiller-Universität Jena）. 2013. *Social Acceleration: A New Theory of Modernity*. Trans. Jonathan Trejo-Mathys. New York: **Columbia University Press**. ISBN 9780231148344. doi:10.7312/rosa14834.
 - Dourish, Paul（UC Irvine）. 2017. *The Stuff of Bits: An Essay on the Materialities of Information*. Cambridge, MA: The MIT Press. ISBN 9780262036207.
 
-## 参考资料（2026-09-07 全量搜索核验）
+## 参考资料
 
-- Collins 1994（见源卡片）——24/24 项核验通过。
+- Collins 1994（见源卡片）。
 - Sezgin, Emre（Nationwide Children's Hospital / Ohio State）. 2025. "Attention is all you need? When responsiveness short-circuits responsibility." *AI & SOCIETY* 41(4): 4107–4108. doi:10.1007/s00146-025-02700-4
 - Bruineberg, Jelle. 2025. "Rethinking the cognitive foundations of the attention economy." *Philosophical Psychology* 39(6): 2400–2422. doi:10.1080/09515089.2025.2502428
 - Simon, Herbert A. 1971. "Designing Organizations for an Information-Rich World." In *Computers, Communications, and the Public Interest*, ed. Martin Greenberger. Baltimore: Johns Hopkins Press, 37–72.——attention economy 概念起点；经典句（pp. 40–41）："What information consumes is rather obvious: it consumes the attention of its recipients. Hence a wealth of information creates a poverty of attention…"
@@ -98,12 +98,5 @@ issue:           51
 - Challapally, Aditya, et al.（Project NANDA, MIT）. 2025-08. *The GenAI Divide: State of AI in Business 2025*.（PDF 镜像见想法 2）
 - Vaswani, A., et al. 2017. "Attention Is All You Need." *NeurIPS 30*；Latour, Bruno. 1987. *Science in Action*. Cambridge, MA: Harvard University Press；Collins, Randall. 1992. "Can sociology create an artificial intelligence?" In *Sociological Insight*, 2nd ed. New York: Oxford University Press.
 - Weil, Simone. 1947. *Gravity and Grace*. London: Routledge. doi:10.4324/9780203168455_GRAVITY_AND_GRACE（注意：「最稀有、最纯粹的慷慨」一句学界常溯源至 Weil 1942 年致 Joë Bousquet 的信，Sezgin 论文将其挂在本书名下，独立引用 Weil 时留意。）
-- 其余博客类（Stefanus.AI / Latent Space / tianpan.co / tlcmentor / alisafari / sharedsapience / buildooor）见「想法 × 材料」，标题与 URL 均已逐字核验。
+- 其余博客类（Stefanus.AI / Latent Space / tianpan.co / tlcmentor / alisafari / sharedsapience / buildooor）见「想法 × 材料」。
 - 本站相关：[018](../018-sota-spectacle/note.zh.md) / [019](../019-tokenmaxxing/note.zh.md) / [020](../020-ai-as-utility/note.zh.md) / [021](../021-best-paper-lottery/note.zh.md) / [024](../024-release-cycle-politics/note.zh.md)
-
-## 核验记录（2026-09-07）
-
-- 24/24 项存在性确认，0 编造；笔记正文 9 个外链实测均 200。
-- 已修正 5 处：Rosa 出版社 Polity → **Columbia UP**；Collins 补 DOI 10.1007/BF01476360；FunSearch 标注刊期 2024（在线 2023-12）；Sezgin 为 2 页 commentary（41(4):4107–4108）；a16z 引用改原始链接 latent.space/p/a16z，「恒星吞噬」注明意译。
-- 链接迁移提示：DeepMind 旧路径 /discover/blog/… 已 301 至新路径（上文已用新链接）；MIT Press 产品页对脚本 403（浏览器可开）。
-- **概念归属核验（2026-09-07 第二轮）**：述行性纲领源头 = **Callon 1998**（MacKenzie 书内 pp. 12–19 明言接续；Barnesian performativity / counterperformativity 为 MacKenzie 自创）；attention economy 起点 = Simon 1971 经典句经原扫描 OCR 逐字坐实（pp. 40–41）。

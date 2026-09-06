@@ -19,7 +19,7 @@ issue:           48
 
 # TokenMaxxing：算力的炫耀性消费与一场三个月的道德运动
 
-> 研究备忘：一场从出生到死亡全程留有公开档案的道德运动（2025-03 ～ 2026-06，约三个月崩塌），复演按行数考核工程师的全部荒诞，度量单位换成算力。本条 = 想法提纲 + 核验过的材料清单。带完整论证的旧版见 git 历史（dd13e09、68006ca）。引用已于 2026-09-07 全量搜索核验，记录见文末。
+> 研究备忘：一场从出生到死亡全程留有公开档案的道德运动（2025-03 ～ 2026-06，约三个月崩塌），复演按行数考核工程师的全部荒诞，度量单位换成算力。本条 = 想法提纲 + 材料清单。
 
 ## 核心想法
 
@@ -68,7 +68,7 @@ issue:           48
 
 **引用**：Thorstein Veblen. 1899. *The Theory of the Leisure Class: An Economic Study of Institutions*. New York: Macmillan。（全文：[Project Gutenberg #833](https://www.gutenberg.org/files/833/833-h/833-h.htm)）
 
-**原文关键句**（Ch. IV "Pecuniary Canons of Taste"，逐字）：
+**原文关键句**（Ch. IV "Pecuniary Canons of Taste"）：
 > "Conspicuous consumption of valuable goods is a means of reputability to the gentleman of leisure."
 > "The basis on which good repute in any highly organized industrial community ultimately rests is pecuniary strength; and the means of showing pecuniary strength, and so of gaining or retaining a good name, are leisure and a conspicuous consumption of goods."
 
@@ -84,7 +84,7 @@ issue:           48
 
 **一句话大纲**：1980 年代起审计活动爆发式扩张，根源是对问责的政治需求；审计制造「安心」的能力与其操作能力不匹配，并给被审计组织带来扭曲性副作用——三条与 token 排行榜逐点同构。
 
-## 参考资料（2026-09-07 全量搜索核验）
+## 参考资料
 
 - Chandonnet, Henry. 2026-04-08. "'Tokenmaxxing' has techies debating if leaderboards tracking AI token use are a good idea." *Business Insider*. https://www.businessinsider.com/tokenmaxxing-ai-token-leaderboards-debate-2026-4
 - Orosz, Gergely. 2026-04-23. "The Pulse: 'Tokenmaxxing' as a weird new trend." *The Pragmatic Engineer*. https://blog.pragmaticengineer.com/the-pulse-tokenmaxxing-as-a-weird-new-trend/
@@ -107,9 +107,3 @@ issue:           48
 - Strathern, Marilyn. 1997. "'Improving ratings': audit in the British University system." *European Review* 5(3): 305–321. doi:10.1017/S1062798700002660
 - Power, Michael. 1997. *The Audit Society: Rituals of Verification*. Oxford: Oxford University Press. ISBN 0-19-828947-2.
 - 本站相关：[024 · 发布周期](../024-release-cycle-politics/note.zh.md)（配额与 reset 的制度分析）
-
-## 核验记录（2026-09-07）
-
-- 20 项中 19 项 VERIFIED（4 项付费墙/反爬 403，内容经多源交叉确认），1 项 LINK-DEAD：ChatForest 2026-05-25 文（404，无 Wayback 快照）——已从材料清单剔除，其内容改由 BI/Fortune 一手源覆盖。
-- 已修正 5 处归属：861% 重修率 = Faros AI（TechCrunch 报道），非 Jellyfish；741%/20% = NBER WP 35275（MIT/Wharton），非 Stanford/MSR 论文（后者贡献 1000×/30×）；TokenJam 补贴占比 96% → 约 97.5%；「炫耀性消费」短语原始出处 = The Information；Anthropic「6-15 启用上限并移出旗舰」拆开为 6-15 credit 上限 + 6-23 Fable 5 移出包月。
-- 补充的更强材料：Jellyfish 官方数据原文、NBER WP 35275、arXiv:2604.22750、Karp/BI、Bosworth/The Decoder、Yegge 原文 URL。
