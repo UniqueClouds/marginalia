@@ -4,10 +4,9 @@
 🌐 语言 / Language：**中文** · [English](013-ethnomethodology.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-013</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>常人方法学（Ethnomethodology）—— 调研：来源、与民族志的异同、发展脉络</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-21</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-21</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>survey(文献调研)</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>30</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-08-21</span><span>🏷️ survey(文献调研)</span><span>🐙 issue #30</span></div>
 
-
-# 常人方法学（Ethnomethodology）
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-013</td></tr><tr><td>title</td><td>常人方法学（Ethnomethodology）—— 调研：来源、与民族志的异同、发展脉络</td></tr><tr><td>date</td><td>2026-08-21</td></tr><tr><td>published</td><td>2026-08-21</td></tr><tr><td>kind</td><td>survey(文献调研)</td></tr><tr><td>issue</td><td>30</td></tr></table></details>
 
 > 调研笔记。问题：常人方法学从哪来？它和"民族志"到底是什么关系（同名前缀 ethno-，却长期互不买账）？后来又怎么发展？结论先放开头：**它不是一个"方法"，而是一种关于"社会成员如何就地造就社会秩序"的研究纲领；它的命名直接借自 ethnoscience（像民族植物学那样研究"外行"的分类与实践）；它和民族志共享解释学传统却因"方法 vs 现象""索引性 vs 耐久符号"等分歧长期对峙，近年才走向"常人方法学民族志"的折中。**
 

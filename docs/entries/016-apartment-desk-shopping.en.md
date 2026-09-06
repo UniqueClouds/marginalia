@@ -4,10 +4,9 @@
 🌐 Language / 语言：[中文](016-apartment-desk-shopping.zh.md) · **English**
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-016</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Amazon Desk Shopping for ZIP 92617 — survey: desktop depth and budget don''t combine in standing desks</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-09-05</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-09-05</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>shopping-survey(apartment procurement)</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>43</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-09-05</span><span>🏷️ shopping-survey(apartment procurement)</span><span>🐙 issue #43</span></div>
 
-
-# Amazon Desk Shopping for ZIP 92617
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-016</td></tr><tr><td>title</td><td>Amazon Desk Shopping for ZIP 92617 — survey: desktop depth and budget don''t combine in standing desks</td></tr><tr><td>date</td><td>2026-09-05</td></tr><tr><td>published</td><td>2026-09-05</td></tr><tr><td>kind</td><td>shopping-survey(apartment procurement)</td></tr><tr><td>issue</td><td>43</td></tr></table></details>
 
 > An apartment-procurement survey. The question: under the constraints "about 1.5 m long, about 80 cm deep, budget ≤$200, standing desk preferred", what in-stock options on Amazon ship free to 92617? **Bottom line: in the standing-desk market, an 80 cm desktop depth and a ~$100 budget are mutually exclusive — the cheapest 160×81 cm electric standing desk is $189.99, and at $150 you only get 71 cm of depth. If you want 160×80 and savings, the answer is a regular desk (Tribesigns, $152.99); every ~$100 standing desk shrinks to ~60 cm deep.**
 

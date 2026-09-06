@@ -4,10 +4,9 @@
 🌐 Language / 语言：[中文](011-auditable-agents-atlas.zh.md) · **English**
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-011</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Awesome Auditable AI — reading note: 188 entries / 9 sections / 132 arXiv papers; how a curated list turns AI agent auditability from a slogan into reliability engineering</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-17</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-17</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>analysis (research-map compilation note)</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>26</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-08-17</span><span>🏷️ analysis (research-map compilation note)</span><span>🐙 issue #26</span></div>
 
-
-# Awesome Auditable AI
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-011</td></tr><tr><td>title</td><td>Awesome Auditable AI — reading note: 188 entries / 9 sections / 132 arXiv papers; how a curated list turns AI agent auditability from a slogan into reliability engineering</td></tr><tr><td>date</td><td>2026-08-17</td></tr><tr><td>published</td><td>2026-08-17</td></tr><tr><td>kind</td><td>analysis (research-map compilation note)</td></tr><tr><td>issue</td><td>26</td></tr></table></details>
 
 > Working name **Auditable Agents Atlas**. A "systematic reading of one open-source repo" musing: clone Yue Zhao's `awesome-auditable-ai`, read through all 188 entries by nine sections, run the self-shipped `inventory.py` and `LINK-AUDIT.md` to cross-check the figures, then write down what it establishes, the gaps it leaves open, and how those gaps mate with my own research agenda. Up-front conclusion: **this list turns "AI agent auditability" from a slogan into a synthesis of "reliability engineering + decision accountability"**, and it demonstrates that synthesis on itself — entries can be recounted, links can be re-run, evidence-level can be inspected row by row.
 

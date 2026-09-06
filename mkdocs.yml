@@ -10,17 +10,20 @@ copyright: Copyright &copy; 2026 Yunqi Chen · <a href="https://creativecommons.
 theme:
   name: material
   language: zh
+  font: false          # 不加载 Google Fonts(国内渲染阻塞),走 extra.css 系统字体栈
   icon:
     logo: material/book-open-variant
     repo: fontawesome/brands/github
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: blue grey
       accent: amber
       toggle:
         icon: material/weather-night
         name: 切换到深色
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: blue grey
       accent: amber
       toggle:
@@ -28,6 +31,7 @@ theme:
         name: 切换到浅色
   features:
     - navigation.top
+    - navigation.footer
     - navigation.indexes
     - navigation.instant
     - navigation.instant.progress
@@ -37,6 +41,7 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+    - content.code.select
     - content.tooltips
     - toc.follow
 

@@ -4,10 +4,9 @@
 🌐 语言 / Language：**中文** · [English](020-ai-as-utility.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-020</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>AI 停电：故障、Reset 的补偿政治与灰色中转</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>research memo（研究备忘）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>49</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-09-06</span><span>🏷️ research memo（研究备忘）</span><span>🐙 issue #49</span></div>
 
-
-# AI 停电：故障、Reset 的补偿政治与灰色中转
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-020</td></tr><tr><td>title</td><td>AI 停电：故障、Reset 的补偿政治与灰色中转</td></tr><tr><td>date</td><td>2026-09-06</td></tr><tr><td>published</td><td>2026-09-06</td></tr><tr><td>kind</td><td>research memo（研究备忘）</td></tr><tr><td>issue</td><td>49</td></tr></table></details>
 
 > 研究备忘：把「模型连接 = 公用事业」整理成三个可研究的现象面（故障志 / reset 补偿政治 / 灰色中转）与材料清单。旧版论证文见 git 历史。引用已于 2026-09-07 全量搜索核验——注意：三处数字/引句被核验证伪或降级为孤证，已在正文与文末核验记录中如实标注。
 

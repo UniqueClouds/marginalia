@@ -4,10 +4,9 @@
 🌐 Language / 语言：[中文](019-tokenmaxxing.zh.md) · **English**
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-019</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>TokenMaxxing: conspicuous consumption of compute and a three-month moral crusade</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>essay（随想）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>48</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-09-06</span><span>🏷️ essay（随想）</span><span>🐙 issue #48</span></div>
 
-
-# TokenMaxxing: conspicuous consumption of compute and a three-month moral crusade
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-019</td></tr><tr><td>title</td><td>TokenMaxxing: conspicuous consumption of compute and a three-month moral crusade</td></tr><tr><td>date</td><td>2026-09-06</td></tr><tr><td>published</td><td>2026-09-06</td></tr><tr><td>kind</td><td>essay（随想）</td></tr><tr><td>issue</td><td>48</td></tr></table></details>
 
 > In the first half of 2026, "burn as many tokens as possible, no limits" escalated from a Claude Code community joke into corporate institution — Meta's internal leaderboard "Claudeonomics" crowned engineers "Token Legend," Salesforce set minimum-spend targets — and then collapsed in roughly three months: subscriptions cancelled, metered billing restored, "valuemaxxing" installed in its place. This is not an anecdote but a **complete institutional specimen observable from birth to death**: it replayed every absurdity of measuring engineers by lines of code, with the unit swapped for compute. This essay reconstructs its lifecycle and analyzes the structure of its advocacy, the coping techniques of the ranked, and the three-layer misalignment of who pays.
 

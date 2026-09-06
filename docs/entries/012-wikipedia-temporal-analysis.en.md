@@ -4,10 +4,9 @@
 🌐 Language / 语言：[中文](012-wikipedia-temporal-analysis.zh.md) · **English**
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-012</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Large-Scale Temporal Analysis of Wikipedia Edit History and Talk Pages — survey: the pieces are ready, the joint study is missing</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-18</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-18</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>survey (literature survey)</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>28</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-08-18</span><span>🏷️ survey (literature survey)</span><span>🐙 issue #28</span></div>
 
-
-# Large-Scale Temporal Analysis of Wikipedia Edit History and Talk Pages
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-012</td></tr><tr><td>title</td><td>Large-Scale Temporal Analysis of Wikipedia Edit History and Talk Pages — survey: the pieces are ready, the joint study is missing</td></tr><tr><td>date</td><td>2026-08-18</td></tr><tr><td>published</td><td>2026-08-18</td></tr><tr><td>kind</td><td>survey (literature survey)</td></tr><tr><td>issue</td><td>28</td></tr></table></details>
 
 > A survey note. The question: how do existing studies analyse, at scale, the temporal change of individual Wikipedia entries (edit history) and their long-term change — including Discussion/Talk pages? And are there scholars already doing it? The answer, up front: **yes — this is a mature field dating back to CHI 2004, and each of its three research lines has already reached "whole-site scale"**. What is genuinely scarce is not "has anyone done it", but joint modelling of three things — per-entry text evolution, talk-page interaction, and editor careers — in a **single multi-year, whole-site dataset**: **the pieces are ready; the joint study is missing.**
 

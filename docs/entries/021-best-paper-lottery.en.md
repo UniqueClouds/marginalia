@@ -4,10 +4,9 @@
 🌐 Language / 语言：[中文](021-best-paper-lottery.zh.md) · **English**
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-021</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Re-run the review and half the program changes — Best Paper randomness and the floor of 'not-ugly</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>essay（随想）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>50</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-09-06</span><span>🏷️ essay（随想）</span><span>🐙 issue #50</span></div>
 
-
-# Re-run the review and half the program changes — Best Paper randomness and the floor of 'not-ugly'
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-021</td></tr><tr><td>title</td><td>Re-run the review and half the program changes — Best Paper randomness and the floor of 'not-ugly</td></tr><tr><td>date</td><td>2026-09-06</td></tr><tr><td>published</td><td>2026-09-06</td></tr><tr><td>kind</td><td>essay（随想）</td></tr><tr><td>issue</td><td>50</td></tr></table></details>
 
 > Twice, NeurIPS handed 10% of its submissions to two independent committees: in 2014 and 2021. Decisions disagreed on 23–26% of papers, and **accept precision — the probability that an accepted paper survives a second review — was about 50%**. Re-run the review and roughly half the accepted list changes. A seven-year follow-up added the colder cut: for accepted papers, review scores correlate **zero** with eventual citations. Reviewing is good at identifying bad papers and poor at identifying good ones. This essay connects those facts to a thesis: we may only ever certify that a paper is "**not ugly**" — meeting a defensible floor of criteria — while "good" is a product of taste, politics, and retroactive canonization; and it migrates the student project NOTUGLY-S's framework ("learn not-ugly, not beauty") onto paper evaluation.
 

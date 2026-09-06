@@ -4,10 +4,9 @@
 🌐 语言 / Language：**中文** · [English](014-sandwich-ocr-books.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-014</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>扫描书高保真夹心 OCR——把普特南和罗蒂变成'原版一模一样+全文可检索'的 PDF</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-22</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-22</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>analysis(工程复盘)</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>37</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-08-22</span><span>🏷️ analysis(工程复盘)</span><span>🐙 issue #37</span></div>
 
-
-# 扫描书高保真夹心 OCR
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-014</td></tr><tr><td>title</td><td>扫描书高保真夹心 OCR——把普特南和罗蒂变成'原版一模一样+全文可检索'的 PDF</td></tr><tr><td>date</td><td>2026-08-22</td></tr><tr><td>published</td><td>2026-08-22</td></tr><tr><td>kind</td><td>analysis(工程复盘)</td></tr><tr><td>issue</td><td>37</td></tr></table></details>
 
 > 工程复盘。问题:扫描版学术书既不能检索也不能精准复制——怎么在**不动一个像素**的前提下给它装上文字层?结论先放开头:**用"夹心"架构——原 PDF 页上叠 `render_mode=3` 的逐字不可见文本层,图像流零重编码(MD5 级验收 0 差异);识别用 RapidOCR 打 DirectML 补丁(~1.0 页/秒,CPU 的 10 倍);防假空格的关键是让每个字符的 fontsize 恰好等于它的分配步进。两本书验收通过:普特南无损档 66MB + 压缩增强档 21.6MB,罗蒂无损档 23.9MB(CCITT G4 已是最优,不重压)。过程中踩了七个真实的坑,最贵的一个:`extract_image()` 不应用 PDF `/Decode` 数组,反相页直接变黑底白字。**
 

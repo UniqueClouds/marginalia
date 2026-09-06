@@ -4,10 +4,9 @@
 🌐 语言 / Language：**中文** · [English](007-nuance-rises-and-falls.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-007</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>科学写作里 nuance 的兴衰：识别、计量与本机语料的一次试测（314 篇 / 330 万词）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-17</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-17</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>analysis（分析笔记）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>14</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-08-17</span><span>🏷️ analysis（分析笔记）</span><span>🐙 issue #14</span></div>
 
-
-# 科学写作里 nuance 的兴衰
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-007</td></tr><tr><td>title</td><td>科学写作里 nuance 的兴衰：识别、计量与本机语料的一次试测（314 篇 / 330 万词）</td></tr><tr><td>date</td><td>2026-08-17</td></tr><tr><td>published</td><td>2026-08-17</td></tr><tr><td>kind</td><td>analysis（分析笔记）</td></tr><tr><td>issue</td><td>14</td></tr></table></details>
 
 > 一条 issue #14 的脚注补篇。起点是 Reihan Salam 那句"power struggle 里 nuance 是奢侈品"，终点是把同一类弱 hedge 词在 BDS / HCI / Sociology / SE 四学科 314 篇经典论文里数出来——不做论断，只报告数到的数和读到的来源。
 
@@ -176,7 +175,7 @@
 | 上游 | [002 Dourish 风格](002-writing-like-dourish.zh.md) · [004 故事会量化](004-storytelling-quantified.zh.md) · [005 四学科声音](005-discipline-style-voices.zh.md) |
 
 
-<div style='font-size:12.5px;color:#555;'>📎 附属材料：[README.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/007-nuance-rises-and-falls/data/README.md)</div>
+<div class='marg-attach'>📎 附属材料：[README.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/007-nuance-rises-and-falls/data/README.md)</div>
 
 
 ---

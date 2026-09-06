@@ -4,10 +4,9 @@
 🌐 语言 / Language：**中文** · [English](010-organizational-inertia.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-010</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>组织惰性:成功的副产品,抑或组织病症?——基于系统性审查方法的述评与展望 — 读记：被悬置的「成功 vs 病症」二分</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-18</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-18</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>note（论文读记 + idea 外推）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>22</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-08-18</span><span>🏷️ note（论文读记 + idea 外推）</span><span>🐙 issue #22</span></div>
 
-
-# 组织惰性:成功的副产品,抑或组织病症?——基于系统性审查方法的述评与展望 — 读记：被悬置的「成功 vs 病症」二分
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-010</td></tr><tr><td>title</td><td>组织惰性:成功的副产品,抑或组织病症?——基于系统性审查方法的述评与展望 — 读记：被悬置的「成功 vs 病症」二分</td></tr><tr><td>date</td><td>2026-08-18</td></tr><tr><td>published</td><td>2026-08-18</td></tr><tr><td>kind</td><td>note（论文读记 + idea 外推）</td></tr><tr><td>issue</td><td>22</td></tr></table></details>
 
 > 一篇把"组织惰性是成功的副产品还是组织的病症"立成一座山的中文系统性综述：它的贡献是把这座山有名字地标了出来，它的局限是把它留作了两座山。
 

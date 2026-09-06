@@ -4,10 +4,9 @@
 🌐 语言 / Language：**中文** · [English](015-uci-informatics-qualitative.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-015</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>UCI Informatics 系的质性 HCI 版图——调研:谁在做质性、STS 与健康信息</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-09-05</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-09-05</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>survey(院系调研)</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>39</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-09-05</span><span>🏷️ survey(院系调研)</span><span>🐙 issue #39</span></div>
 
-
-# UCI Informatics 系的质性 HCI 版图
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-015</td></tr><tr><td>title</td><td>UCI Informatics 系的质性 HCI 版图——调研:谁在做质性、STS 与健康信息</td></tr><tr><td>date</td><td>2026-09-05</td></tr><tr><td>published</td><td>2026-09-05</td></tr><tr><td>kind</td><td>survey(院系调研)</td></tr><tr><td>issue</td><td>39</td></tr></table></details>
 
 > 院系调研。问题:一个 informatics 系里,"非软件工程"的那半边到底由哪些学术共同体构成,其中做**质性研究、偏 STS、偏人类学**的学者都在做什么?本文用四条途径交叉验证——系官网名单结构化、系自维护的 CHI/CSCW 逐年论文列表、OpenAlex 逐作者作品拉取(2022–2026)、实验室与个人主页的自述原文。**结论先行:这个系的"质性半边"呈三块一线——批判/STS–人类学、质性健康+可及性、游戏/学习/青年文化;健康信息方向质性浓度很高,"健康 = 做系统 + user study"的刻板印象只对一半;2025–26 最大的新簇是 GenAI × 残障/健康。**
 

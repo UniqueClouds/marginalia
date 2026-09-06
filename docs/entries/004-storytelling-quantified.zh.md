@@ -4,10 +4,9 @@
 🌐 语言 / Language：**中文** · [English](004-storytelling-quantified.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-004</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>CHI/ACL 是故事会吗？从社区吐槽到可测量的构念</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-15</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-15</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>survey + proposal（调研+提案笔记）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>7</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-08-15</span><span>🏷️ survey + proposal（调研+提案笔记）</span><span>🐙 issue #7</span></div>
 
-
-# CHI/ACL 是故事会吗？
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-004</td></tr><tr><td>title</td><td>CHI/ACL 是故事会吗？从社区吐槽到可测量的构念</td></tr><tr><td>date</td><td>2026-08-15</td></tr><tr><td>published</td><td>2026-08-15</td></tr><tr><td>kind</td><td>survey + proposal（调研+提案笔记）</td></tr><tr><td>issue</td><td>7</td></tr></table></details>
 
 > 一句社区吐槽、一堆没人串起来的定量研究、一个把叙事主义拆成"文本说什么"与"图表做什么"的提案。
 
@@ -57,7 +56,7 @@ M1–M5：编码方案 + 500 图金标 → 25 万图普查 → 回报分解 → 
 | Issue | [#7](https://github.com/UniqueClouds/marginalia/issues/7) |
 
 
-<div style='font-size:12.5px;color:#555;'>📎 附属材料：[narrativism-proposal-v2.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/004-storytelling-quantified/docs/narrativism-proposal-v2.zh.md) · [storytelling-survey.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/004-storytelling-quantified/docs/storytelling-survey.zh.md)</div>
+<div class='marg-attach'>📎 附属材料：[narrativism-proposal-v2.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/004-storytelling-quantified/docs/narrativism-proposal-v2.zh.md) · [storytelling-survey.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/004-storytelling-quantified/docs/storytelling-survey.zh.md)</div>
 
 
 ---

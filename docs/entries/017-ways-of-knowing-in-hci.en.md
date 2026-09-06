@@ -4,10 +4,9 @@
 🌐 Language / 语言：[中文](017-ways-of-knowing-in-hci.zh.md) · **English**
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-017</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Ways of Knowing in HCI — reading note: eighteen ways of knowing and the accountabilities that govern them</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-09-05</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-09-05</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>note（书籍读记）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>45</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-09-05</span><span>🏷️ note（书籍读记）</span><span>🐙 issue #45</span></div>
 
-
-# Ways of Knowing in HCI — reading note: eighteen ways of knowing and the accountabilities that govern them
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-017</td></tr><tr><td>title</td><td>Ways of Knowing in HCI — reading note: eighteen ways of knowing and the accountabilities that govern them</td></tr><tr><td>date</td><td>2026-09-05</td></tr><tr><td>published</td><td>2026-09-05</td></tr><tr><td>kind</td><td>note（书籍读记）</td></tr><tr><td>issue</td><td>45</td></tr></table></details>
 
 > A reading note on the methods handbook. 18 chapters + prologue/epilogue, 34 leading authors, Springer 2014. This is not a book about *how to do research*; it is a book about *how to judge whether research is any good*. Every method is made to answer the same four questions (essence / intellectual history / what it can answer / what constitutes good work), and the book's real theoretical claim hides in Gaver's chapter: **science and design answer to different forms of accountability (epistemological vs. aesthetic); review a paper under the wrong accountability framework and you will miss the insight it actually contains.**
 

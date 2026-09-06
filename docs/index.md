@@ -18,7 +18,7 @@
 
 ## 📚 条目 Entries
 
-每条以 **issue → PR → squash commit** 仪式沉淀；中英双语，开头带完整溯源元数据。
+目前 24 条 · 每条以 **issue → PR → squash commit** 仪式沉淀；中英双语，开头带完整溯源元数据。
 
 <div class="grid cards" markdown>
 

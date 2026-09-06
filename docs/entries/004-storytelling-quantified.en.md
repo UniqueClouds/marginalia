@@ -4,10 +4,9 @@
 🌐 Language / 语言：[中文](004-storytelling-quantified.zh.md) · **English**
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-004</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Is CHI/ACL a storytelling festival? From community gripe to measurable construct</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-15</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-15</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>survey + proposal</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>7</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-08-15</span><span>🏷️ survey + proposal</span><span>🐙 issue #7</span></div>
 
-
-# Is CHI/ACL a storytelling festival?
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-004</td></tr><tr><td>title</td><td>Is CHI/ACL a storytelling festival? From community gripe to measurable construct</td></tr><tr><td>date</td><td>2026-08-15</td></tr><tr><td>published</td><td>2026-08-15</td></tr><tr><td>kind</td><td>survey + proposal</td></tr><tr><td>issue</td><td>7</td></tr></table></details>
 
 > A community gripe, a pile of quantitative studies nobody had connected, and a proposal that splits narrativism into what the *text* says and what the *figures* do.
 

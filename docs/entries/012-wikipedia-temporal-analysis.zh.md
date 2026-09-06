@@ -4,10 +4,9 @@
 🌐 语言 / Language：**中文** · [English](012-wikipedia-temporal-analysis.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-012</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Wikipedia 编辑史与讨论页的大规模时序分析 —— 调研：部件已齐，联合尚缺</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-18</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-18</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>survey(文献调研)</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>28</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-08-18</span><span>🏷️ survey(文献调研)</span><span>🐙 issue #28</span></div>
 
-
-# Wikipedia 编辑史与讨论页的大规模时序分析
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-012</td></tr><tr><td>title</td><td>Wikipedia 编辑史与讨论页的大规模时序分析 —— 调研：部件已齐，联合尚缺</td></tr><tr><td>date</td><td>2026-08-18</td></tr><tr><td>published</td><td>2026-08-18</td></tr><tr><td>kind</td><td>survey(文献调研)</td></tr><tr><td>issue</td><td>28</td></tr></table></details>
 
 > 调研笔记。问题：现有研究是怎么对 Wikipedia 上的编辑记录（单条目的时序变化 + 长时间跨度）、以及 Discussion/Talk 页做大规模分析的？有没有相关学者已经在研究了？答案先放在开头：**有——这是一个从 2004 年 CHI 做到现在的成熟领域，三条研究线各自都做到了"全站级"**。真正稀缺的不是"有没有人做"，而是把三样东西——单条目文本演化、讨论页交互、编者生涯——放进**同一个多年跨度的联合数据集**里建模：**部件已齐，联合尚缺**。
 

@@ -4,10 +4,9 @@
 🌐 Language / 语言：[中文](024-release-cycle-politics.zh.md) · **English**
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-024</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Laying the track ahead of the train: the political economy of release cycles, from CPU benchmarks to SOTA</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>essay（随想）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>53</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-09-06</span><span>🏷️ essay（随想）</span><span>🐙 issue #53</span></div>
 
-
-# Laying the track ahead of the train: the political economy of release cycles, from CPU benchmarks to SOTA
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-024</td></tr><tr><td>title</td><td>Laying the track ahead of the train: the political economy of release cycles, from CPU benchmarks to SOTA</td></tr><tr><td>date</td><td>2026-09-06</td></tr><tr><td>published</td><td>2026-09-06</td></tr><tr><td>kind</td><td>essay（随想）</td></tr><tr><td>issue</td><td>53</td></tr></table></details>
 
 > Smartphones announce CPU gains of a few dozen percent year after year; AI models refresh SOTA weekly; game consoles wait five to seven years for a new "generation"; and VR/AR never took off under the same spec discourse. **The release cycle is not a property of technology — it is an institution**, a temporal rhythm jointly determined by logistics and logistical power, capital flows and return horizons, and the public's expectations of "progress." This essay offers a five-platform comparison matrix and asks three questions: why does the process sustain itself? What does it actually provide materially? And where do its cultural and economic motivations come from?
 

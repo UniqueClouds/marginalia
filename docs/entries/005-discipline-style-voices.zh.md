@@ -4,10 +4,9 @@
 🌐 语言 / Language：**中文** · [English](005-discipline-style-voices.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-005</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>四种学科的声音：Big Data & Society / HCI / Sociology / Software Engineering 经典论文的语言风格测量（314 篇 / 330 万词）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-15</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-15</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>analysis（分析笔记）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>11</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-08-15</span><span>🏷️ analysis（分析笔记）</span><span>🐙 issue #11</span></div>
 
-
-# 四种学科的声音
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-005</td></tr><tr><td>title</td><td>四种学科的声音：Big Data & Society / HCI / Sociology / Software Engineering 经典论文的语言风格测量（314 篇 / 330 万词）</td></tr><tr><td>date</td><td>2026-08-15</td></tr><tr><td>published</td><td>2026-08-15</td></tr><tr><td>kind</td><td>analysis（分析笔记）</td></tr><tr><td>issue</td><td>11</td></tr></table></details>
 
 > 量完一个作者（[002：Dourish](002-writing-like-dourish.zh.md)），接下来量学科：同一家 Zotero、同一条管线、四个领域的经典论文——文体差异能否被数出来？答案是：能，而且每个学科都有一台自己的"概念机器"。
 
@@ -64,7 +63,7 @@ Zotero「各学科 Classic Papers」四个子库，共 347 条目、327 篇带 P
 **下一步可选**：把四份画像蒸馏成四个润色 skill（对标 002 的 dourish-style），或用 keyness 词表做一个"学科伪装检测器"——给一段文字，判断它最像哪个学科写的。
 
 
-<div style='font-size:12.5px;color:#555;'>📎 附属材料：[01-big-data-and-society.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/005-discipline-style-voices/reports/01-big-data-and-society.zh.md) · [02-hci.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/005-discipline-style-voices/reports/02-hci.zh.md) · [03-sociology.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/005-discipline-style-voices/reports/03-sociology.zh.md) · [04-software-engineering.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/005-discipline-style-voices/reports/04-software-engineering.zh.md) · [05-cross-discipline.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/005-discipline-style-voices/reports/05-cross-discipline.zh.md)</div>
+<div class='marg-attach'>📎 附属材料：[01-big-data-and-society.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/005-discipline-style-voices/reports/01-big-data-and-society.zh.md) · [02-hci.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/005-discipline-style-voices/reports/02-hci.zh.md) · [03-sociology.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/005-discipline-style-voices/reports/03-sociology.zh.md) · [04-software-engineering.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/005-discipline-style-voices/reports/04-software-engineering.zh.md) · [05-cross-discipline.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/005-discipline-style-voices/reports/05-cross-discipline.zh.md)</div>
 
 
 ---

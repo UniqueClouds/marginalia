@@ -16,6 +16,25 @@ def strip_front(text):
     m = FRONT.match(text)
     return m.group(0) if m else "", (text[m.end():] if m else text)
 
+def meta_strip(front):
+    """正文标题下的元数据徽章条：日期 · 类型 · issue（常显）。"""
+    def grab(k):
+        m = re.search(rf"^{k}:\s*[\"']?(.+?)[\"']?\s*$", front, re.M)
+        return m.group(1).strip() if m else None
+    date = grab("published") or grab("date")
+    kind = grab("kind")
+    issue = grab("issue")
+    parts = []
+    if date:
+        parts.append(f"<span>📅 {date}</span>")
+    if kind:
+        parts.append(f"<span>🏷️ {kind}</span>")
+    if issue:
+        parts.append(f"<span>🐙 issue #{issue}</span>")
+    if not parts:
+        return ""
+    return "<div class='marg-meta'>" + "".join(parts) + "</div>\n\n"
+
 def meta_table(front):
     rows = []
     for line in front.splitlines():
@@ -24,8 +43,8 @@ def meta_table(front):
             rows.append((k.strip(), v.strip().strip('"').strip("'")))
     if not rows:
         return ""
-    cells = "".join(f"<tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>{k}</td><td style='padding:3px 10px;'>{v}</td></tr>" for k, v in rows)
-    return f"<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'>{cells}</table></details>\n\n"
+    cells = "".join(f"<tr><td>{k}</td><td>{v}</td></tr>" for k, v in rows)
+    return f"<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table>{cells}</table></details>\n\n"
 
 BLOB = "https://github.com/UniqueClouds/marginalia/blob/main/marginalia"
 
@@ -40,6 +59,10 @@ def lang_en(zh_url):
     return (f'<div class="lang-switch" markdown>\n'
             f'🌐 Language / 语言：[中文]({zh_url}) · **English**\n'
             f'</div>\n\n')
+
+def strip_leading_h1(body):
+    """正文若以 H1 开头（允许前置空行）则剥掉（脚本已在页首渲染过标题，避免重复）。"""
+    return re.sub(r"\A\s*#[^\n]*\n+", "", body, count=1)
 
 def rewrite_links(text, num, slug):
     # 跨条目 note 链接 → 站内条目页
@@ -79,7 +102,7 @@ def build_entries():
         extra_html = ""
         if extras:
             links = " · ".join(f"[{os.path.basename(x)}]({BLOB}/{slug}/{x})" for x in extras[:8])
-            extra_html = f"\n\n<div style='font-size:12.5px;color:#555;'>📎 附属材料：{links}</div>\n"
+            extra_html = f"\n\n<div class='marg-attach'>📎 附属材料：{links}</div>\n"
         # 复制子目录文档（reports/ docs/）使条目内相对链接可用
         for sub in ("reports", "docs"):
             sp = os.path.join(d, sub)
@@ -121,14 +144,14 @@ def build_entries():
         s_tail = slug.split('-',1)[1]
         en_url = f"{num}-{s_tail}.en.md"
         zh_url = f"{num}-{s_tail}.zh.md"
-        body = rewrite_links(body, num, slug)
-        out = f"# {title}\n\n{lang_zh(en_url)}{meta_table(front)}{body}{extra_html}{en_link}\n"
+        body = rewrite_links(strip_leading_h1(body), num, slug)
+        out = f"# {title}\n\n{lang_zh(en_url)}{meta_strip(front)}{meta_table(front)}{body}{extra_html}{en_link}\n"
         open(os.path.join(DOCS, "entries", f"{num}-{s_tail}.zh.md"), "w", encoding="utf-8").write(out)
         # EN page
         if os.path.exists(en_p):
-            body2 = rewrite_links(body2, num, slug)
+            body2 = rewrite_links(strip_leading_h1(body2), num, slug)
             zh_link = f"\n\n---\n\n> 🌐 [阅读中文版]({num}-{s_tail}.zh.md)\n"
-            out2 = f"# {title_en}\n\n{lang_en(zh_url)}{meta_table(front2)}{body2}{zh_link}\n"
+            out2 = f"# {title_en}\n\n{lang_en(zh_url)}{meta_strip(front2)}{meta_table(front2)}{body2}{zh_link}\n"
             open(os.path.join(DOCS, "entries", f"{num}-{s_tail}.en.md"), "w", encoding="utf-8").write(out2)
         idx.append((num, title, title_en, slug, entry_date))
         print("entry:", num, title[:40])
@@ -213,7 +236,7 @@ def build_index(idx):
 
 ## 📚 条目 Entries
 
-每条以 **issue → PR → squash commit** 仪式沉淀；中英双语，开头带完整溯源元数据。
+目前 {len(idx)+1} 条 · 每条以 **issue → PR → squash commit** 仪式沉淀；中英双语，开头带完整溯源元数据。
 
 <div class="grid cards" markdown>
 
@@ -250,7 +273,7 @@ def build_index(idx):
 
 ## 📚 Entries
 
-Each one is distilled through **issue → PR → squash commit**; bilingual (English / 中文), opening with full provenance metadata.
+Currently {len(idx)+1} items · each distilled through **issue → PR → squash commit**; bilingual (English / 中文), opening with full provenance metadata.
 
 <div class="grid cards" markdown>
 

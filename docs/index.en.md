@@ -18,7 +18,7 @@
 
 ## 📚 Entries
 
-Each one is distilled through **issue → PR → squash commit**; bilingual (English / 中文), opening with full provenance metadata.
+Currently 24 items · each distilled through **issue → PR → squash commit**; bilingual (English / 中文), opening with full provenance metadata.
 
 <div class="grid cards" markdown>
 

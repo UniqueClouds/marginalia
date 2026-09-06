@@ -4,10 +4,9 @@
 🌐 语言 / Language：**中文** · [English](016-apartment-desk-shopping.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-016</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>92617 公寓办公桌选购——调研:升降桌的深度与预算不可兼得</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-09-05</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-09-05</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>shopping-survey(公寓采购调研)</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>43</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-09-05</span><span>🏷️ shopping-survey(公寓采购调研)</span><span>🐙 issue #43</span></div>
 
-
-# 92617 公寓办公桌选购
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-016</td></tr><tr><td>title</td><td>92617 公寓办公桌选购——调研:升降桌的深度与预算不可兼得</td></tr><tr><td>date</td><td>2026-09-05</td></tr><tr><td>published</td><td>2026-09-05</td></tr><tr><td>kind</td><td>shopping-survey(公寓采购调研)</td></tr><tr><td>issue</td><td>43</td></tr></table></details>
 
 > 公寓采购调研。问题:在"长 ~1.5 m、深 ~80 cm、预算 ≤$200、升降桌加分"的约束下,亚马逊上有哪些 free delivery 送到 92617 的现货选择?**结论先行:升降桌市场里"桌面深度 80 cm"与"预算 $100 出头"是一对互斥条件——160×81 cm 的电动升降桌最低就是 $189.99,预算压到 $150 只能买到 71 cm 深;既要 160×80 又想省钱,答案是普通桌(Tribesigns $152.99);$100 档升降桌全部缩水到 ~60 cm 深。**
 

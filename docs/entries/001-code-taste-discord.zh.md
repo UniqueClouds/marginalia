@@ -4,10 +4,9 @@
 🌐 语言 / Language：**中文** · [English](001-code-taste-discord.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-001</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>编码代理有品味吗？29,787 条 Discord 消息里的美/丑代码话语</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-15</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-15</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>analysis（分析笔记）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>1</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-08-15</span><span>🏷️ analysis（分析笔记）</span><span>🐙 issue #1</span></div>
 
-
-# 编码代理有品味吗？
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-001</td></tr><tr><td>title</td><td>编码代理有品味吗？29,787 条 Discord 消息里的美/丑代码话语</td></tr><tr><td>date</td><td>2026-08-15</td></tr><tr><td>published</td><td>2026-08-15</td></tr><tr><td>kind</td><td>analysis（分析笔记）</td></tr><tr><td>issue</td><td>1</td></tr></table></details>
 
 > 一次"语料优先"的调研：AI 编码时代里实践者究竟怎么谈论"美"与"丑"的代码——四个社区、550+ 命中，再与 Fedorova 的编码审美民族志对读。
 

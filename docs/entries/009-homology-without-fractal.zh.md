@@ -4,10 +4,9 @@
 🌐 语言 / Language：**中文** · [English](009-homology-without-fractal.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-009</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Homologies in Fields of Cultural Production. Evidence from the European Scientific Field — 读记：借了边界，没借分形</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-17</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-17</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>note（论文读记）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>17</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-08-17</span><span>🏷️ note（论文读记）</span><span>🐙 issue #17</span></div>
 
-
-# *Homologies in Fields of Cultural Production. Evidence from the European Scientific Field* — 读记：借了边界，没借分形
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-009</td></tr><tr><td>title</td><td>Homologies in Fields of Cultural Production. Evidence from the European Scientific Field — 读记：借了边界，没借分形</td></tr><tr><td>date</td><td>2026-08-17</td></tr><tr><td>published</td><td>2026-08-17</td></tr><tr><td>kind</td><td>note（论文读记）</td></tr><tr><td>issue</td><td>17</td></tr></table></details>
 
 > 把两个"场"放在一起比，绕到最后只剩一个问题：是相似、是同型，还是同构；它跑在哪一层尺度上。
 

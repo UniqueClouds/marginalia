@@ -4,10 +4,9 @@
 🌐 Language / 语言：[中文](009-homology-without-fractal.zh.md) · **English**
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-009-en</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Homologies in Fields of Cultural Production. Evidence from the European Scientific Field — a reading note: borrowed the boundary, not the fractal</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-17</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-17</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>note (paper reading note)</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>17</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-08-17</span><span>🏷️ note (paper reading note)</span><span>🐙 issue #17</span></div>
 
-
-# *Homologies in Fields of Cultural Production. Evidence from the European Scientific Field* — a reading note: borrowed the boundary, not the fractal
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-009-en</td></tr><tr><td>title</td><td>Homologies in Fields of Cultural Production. Evidence from the European Scientific Field — a reading note: borrowed the boundary, not the fractal</td></tr><tr><td>date</td><td>2026-08-17</td></tr><tr><td>published</td><td>2026-08-17</td></tr><tr><td>kind</td><td>note (paper reading note)</td></tr><tr><td>issue</td><td>17</td></tr></table></details>
 
 > Putting two "fields" side by side always brings you back to one question: is it resemblance, isomorphism, or homology; and at which scale does it run.
 

@@ -4,10 +4,9 @@
 🌐 Language / 语言：[中文](018-sota-spectacle.zh.md) · **English**
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-018</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>The Spectacularization of SOTA: model launches, aesthetic fatigue, and the politics of technological time</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>essay（随想）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>47</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-09-06</span><span>🏷️ essay（随想）</span><span>🐙 issue #47</span></div>
 
-
-# The Spectacularization of SOTA: model launches, aesthetic fatigue, and the politics of technological time
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-018</td></tr><tr><td>title</td><td>The Spectacularization of SOTA: model launches, aesthetic fatigue, and the politics of technological time</td></tr><tr><td>date</td><td>2026-09-06</td></tr><tr><td>published</td><td>2026-09-06</td></tr><tr><td>kind</td><td>essay（随想）</td></tr><tr><td>issue</td><td>47</td></tr></table></details>
 
 > Every flagship model launch summons the same ritual: a screen recording, one line of prompt, a caption reading "one-shotted." The half-life of this excitement has compressed to days, while launches themselves now arrive weekly — and the endless procession of spectacles produces its own opposite: **aesthetic fatigue**. This essay connects Debord's notion of the spectacle to AI launch culture and treats the launch as a measurable temporal object: how long a spectacle lives, how its production is organized, how "fatigue" gets verbalized, and the double temporality — AGI utopia versus earnings anxiety — behind the whole discourse. Two postscripts draw on Andrew Abbott and Douglas Adams.
 

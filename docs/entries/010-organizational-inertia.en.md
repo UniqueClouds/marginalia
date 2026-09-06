@@ -4,10 +4,9 @@
 🌐 Language / 语言：[中文](010-organizational-inertia.zh.md) · **English**
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-010-en</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>组织惰性:成功的副产品,抑或组织病症?——基于系统性审查方法的述评与展望 — the dichotomy, dissolved onto a relative-inertia index</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-18</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-18</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>note (paper reading note + idea extension)</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>22</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-08-18</span><span>🏷️ note (paper reading note + idea extension)</span><span>🐙 issue #22</span></div>
 
-
-# 组织惰性:成功的副产品,抑或组织病症?——基于系统性审查方法的述评与展望 — the dichotomy, dissolved onto a relative-inertia index
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-010-en</td></tr><tr><td>title</td><td>组织惰性:成功的副产品,抑或组织病症?——基于系统性审查方法的述评与展望 — the dichotomy, dissolved onto a relative-inertia index</td></tr><tr><td>date</td><td>2026-08-18</td></tr><tr><td>published</td><td>2026-08-18</td></tr><tr><td>kind</td><td>note (paper reading note + idea extension)</td></tr><tr><td>issue</td><td>22</td></tr></table></details>
 
 > A Chinese systematic review that stands the dichotomy "organizational inertia — byproduct of success or organizational symptom" on its own two feet. Its contribution is to *name* the mountain; its limitation is to leave it as two mountains. On revision, the note walks up the valley the review left standing — dissolving that dichotomy onto a *relative*-inertia index where **byproduct** and **symptom** become two asymptotes instead of two opponents.
 

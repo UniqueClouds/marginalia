@@ -1,38 +1,132 @@
-/* Marginalia 站点微调 — 书页边注气质（墨蓝 primary + 琥珀 accent） */
+/* Marginalia 站点样式 — 书页边注气质（墨蓝 primary + 琥珀 accent）
+   全部颜色走 Material 主题变量，浅色/深色自动适配 */
 
-@media (max-width: 1000px) {
-  .md-content table {
-    display: block;
-    overflow-x: auto;
-  }
+/* ===== 字体与排版（CJK 优先的系统字体栈，配合 font: false 不拉 Google Fonts） ===== */
+:root {
+  --md-text-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Noto Sans SC",
+    "Source Han Sans SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+  --md-code-font-family: "JetBrains Mono", "SF Mono", "Cascadia Code", Consolas,
+    "PingFang SC", "Microsoft YaHei", monospace;
 }
 
-.md-typeset img {
+.md-typeset {
+  line-height: 1.78;
+  font-size: .82rem;
+}
+
+.md-typeset ::selection {
+  background: rgba(255, 179, 0, .28);
+}
+
+/* ===== 正文分节：h2 加细线，视觉分章 ===== */
+.md-typeset h2 {
+  padding-bottom: .3em;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest, rgba(0,0,0,.08));
+}
+
+/* ===== 摘要/提示性引用块（每篇开头的 tl;dr 与文末语言跳转） ===== */
+.md-typeset blockquote {
+  border-left: .22rem solid var(--md-accent-fg-color, #ffb300);
+  background: var(--md-accent-fg-color--transparent, rgba(255, 179, 0, .07));
+  border-radius: 0 8px 8px 0;
+  padding: .55em 1.1em;
+  color: var(--md-default-fg-color--light, #54696d);
+}
+.md-typeset blockquote p {
+  margin: .45em 0;
+}
+
+/* ===== 表格（如 024 的五平台矩阵） ===== */
+.md-typeset table:not([class]) {
+  font-size: .74rem;
   border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .08);
+}
+.md-typeset table:not([class]) th {
+  background: var(--md-default-fg-color--lightest, rgba(0,0,0,.06));
+  border: none;
 }
 
-/* 页面顶部语言切换条 */
+/* ===== 页面顶部语言切换条 ===== */
 .lang-switch {
-  margin: .2rem 0 1.2rem;
+  margin: .2rem 0 1rem;
   padding: .4rem .85rem;
-  border: 1px solid var(--md-default-fg-color--lightest, #dfe3e7);
+  border: 1px solid var(--md-default-fg-color--lightest, rgba(0,0,0,.1));
   border-radius: 8px;
   background: var(--md-default-bg-color, #fff);
-  font-size: .82rem;
+  font-size: .8rem;
   color: var(--md-default-fg-color--light, #607076);
 }
 .lang-switch a { font-weight: 600; }
 
-/* 首页 hero 区 */
+/* ===== 元数据徽章条（日期 · 类型 · issue） ===== */
+.marg-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45em;
+  margin: .1rem 0 1rem;
+  font-size: .7rem;
+}
+.marg-meta span {
+  padding: .18em .75em;
+  border: 1px solid var(--md-default-fg-color--lightest, rgba(0,0,0,.12));
+  border-radius: 999px;
+  color: var(--md-default-fg-color--light, #607076);
+  background: var(--md-default-bg-color, #fff);
+  white-space: nowrap;
+}
+
+/* ===== Provenance 折叠块 ===== */
+.marg-prov {
+  font-size: .74rem;
+  margin: 0 0 1.3rem;
+}
+.marg-prov summary {
+  cursor: pointer;
+  color: var(--md-default-fg-color--light, #607076);
+  font-weight: 500;
+}
+.marg-prov table {
+  margin-top: .5em;
+  border: 1px solid var(--md-default-fg-color--lightest, rgba(0,0,0,.1));
+  border-radius: 8px;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  font-size: .72rem;
+}
+.marg-prov td {
+  padding: 3px 10px;
+  border: none;
+  vertical-align: top;
+}
+.marg-prov td:first-child {
+  color: var(--md-default-fg-color--light, #8a9a9e);
+  white-space: nowrap;
+}
+
+/* ===== 条目附属材料行 ===== */
+.marg-attach {
+  font-size: .76rem;
+  color: var(--md-default-fg-color--light, #607076);
+  margin-top: 1.2rem;
+  padding-top: .6rem;
+  border-top: 1px dashed var(--md-default-fg-color--lightest, rgba(0,0,0,.12));
+}
+.marg-attach a { font-weight: 500; }
+
+/* ===== 首页 hero 区 ===== */
 .marg-hero {
   padding: 1.6rem 1.8rem 1.3rem;
   margin: .2rem 0 1.6rem;
-  border: 1px solid var(--md-default-fg-color--lightest, #dfe3e7);
+  border: 1px solid var(--md-default-fg-color--lightest, rgba(0,0,0,.1));
   border-left: 5px solid var(--md-accent-fg-color, #ffb300);
   border-radius: 10px;
-  background:
-    linear-gradient(180deg, var(--md-default-bg-color, #fff) 0%,
-      rgba(96, 125, 139, 0.04) 100%);
+  background: linear-gradient(180deg,
+    var(--md-default-bg-color, #fff) 0%,
+    var(--md-accent-fg-color--transparent, rgba(255,179,0,.05)) 100%);
 }
 .marg-hero > p:first-of-type {
   font-size: 1.28rem;
@@ -53,7 +147,7 @@
 }
 .marg-hero sub a { font-weight: 500; }
 
-/* grid cards 让卡片更松一点、标题够显眼 */
+/* ===== 首页 grid cards ===== */
 .md-typeset .grid.cards > ul > li,
 .md-typeset .grid > .cards > ul > li {
   border-radius: 10px;
@@ -61,4 +155,32 @@
 .md-typeset .grid.cards > ul > li p:nth-child(3),
 .md-typeset .grid > .cards > ul > li p:nth-child(3) {
   font-weight: 600;
+}
+
+/* ===== 细节修饰 ===== */
+.md-typeset img { border-radius: 8px; }
+.md-typeset hr {
+  border-bottom: 1px dashed var(--md-default-fg-color--lightest, rgba(0,0,0,.15));
+}
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 8px;
+}
+
+/* 侧栏滚动条更含蓄 */
+.md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
+  background: var(--md-default-fg-color--lightest, rgba(0,0,0,.15));
+}
+
+/* 上下页导航（navigation.footer）卡片化 */
+.md-footer__link {
+  border-radius: 8px;
+}
+
+/* 移动端表格横向滚动 */
+@media (max-width: 1000px) {
+  .md-content table {
+    display: block;
+    overflow-x: auto;
+  }
 }

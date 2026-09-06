@@ -4,10 +4,9 @@
 🌐 语言 / Language：**中文** · [English](011-auditable-agents-atlas.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-011</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Awesome Auditable AI — 读记：188 条 / 9 节 / 132 arXiv，一份 curated list 把 AI agent 可审计性从口号变成可靠性工程</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-17</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-17</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>analysis（研究地图汇编笔记）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>26</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-08-17</span><span>🏷️ analysis（研究地图汇编笔记）</span><span>🐙 issue #26</span></div>
 
-
-# Awesome Auditable AI
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-011</td></tr><tr><td>title</td><td>Awesome Auditable AI — 读记：188 条 / 9 节 / 132 arXiv，一份 curated list 把 AI agent 可审计性从口号变成可靠性工程</td></tr><tr><td>date</td><td>2026-08-17</td></tr><tr><td>published</td><td>2026-08-17</td></tr><tr><td>kind</td><td>analysis（研究地图汇编笔记）</td></tr><tr><td>issue</td><td>26</td></tr></table></details>
 
 > 暂名 **Auditable Agents Atlas**（可审计智能体图谱）。这是一份"对一个开源仓库做系统阅读"的随想：克隆 Yue Zhao 维护的 `awesome-auditable-ai`，把它的 188 条按九节读一遍，跑一次自带的 `inventory.py` 与 `LINK-AUDIT.md` 复核数字，记下它奠定了什么、把哪些问题留作洞、这些洞与我手上的研究议程如何接缝。结论先放在开头：**这份 list 把"AI agent 的可审计性"从一句口号变成了一门"可靠性工程 + 决策问责"的合题**，并且它把自身作为可审计 artifact 来示范——条目可点数、链接可复跑、evidence level 可逐行核对。
 

@@ -4,10 +4,9 @@
 🌐 语言 / Language：**中文** · [English](022-gravity-of-models.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-022</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>被模型拽着走：引力、移动的地基与「Attention is all you need」的社会同构</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>research memo（研究备忘）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>51</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-09-06</span><span>🏷️ research memo（研究备忘）</span><span>🐙 issue #51</span></div>
 
-
-# 被模型拽着走：引力、移动的地基与「Attention is all you need」的社会同构
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-022</td></tr><tr><td>title</td><td>被模型拽着走：引力、移动的地基与「Attention is all you need」的社会同构</td></tr><tr><td>date</td><td>2026-09-06</td></tr><tr><td>published</td><td>2026-09-06</td></tr><tr><td>kind</td><td>research memo（研究备忘）</td></tr><tr><td>issue</td><td>51</td></tr></table></details>
 
 > 研究备忘（研究纲领草案）：三个隐喻——引力 / 移动的地基 / attention 同构。Collins 1994 提供引力与地基两个隐喻的机制；本条 = 想法提纲 + 材料清单 + Collins 全文大纲卡片（含英文原文引文）。旧版论证文见 git 历史。引用已于 2026-09-07 全量搜索核验，记录见文末。
 

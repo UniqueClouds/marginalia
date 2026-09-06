@@ -4,10 +4,9 @@
 🌐 Language / 语言：[中文](022-gravity-of-models.zh.md) · **English**
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-022</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Dragged by the models: gravity, shifting ground, and the social isomorphism of 'Attention is all you need</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>essay（随想 · 研究纲领草案）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>51</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-09-06</span><span>🏷️ essay（随想 · 研究纲领草案）</span><span>🐙 issue #51</span></div>
 
-
-# Dragged by the models: gravity, shifting ground, and the social isomorphism of 'Attention is all you need'
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-022</td></tr><tr><td>title</td><td>Dragged by the models: gravity, shifting ground, and the social isomorphism of 'Attention is all you need</td></tr><tr><td>date</td><td>2026-09-06</td></tr><tr><td>published</td><td>2026-09-06</td></tr><tr><td>kind</td><td>essay（随想 · 研究纲领草案）</td></tr><tr><td>issue</td><td>51</td></tr></table></details>
 
 > This is a **research-programme sketch**, not a finished argument. It tries to name something larger than the preceding essays: research depends on current model capabilities; startups and organizations reshape themselves at every SOTA release; individuals continually rewrite their workflows to track model upgrades — society has entered a highly **reactive** instability. Three metaphors compete to name it: AI as a massive object exerting gravity; the ground of the AI era as brittle; and an isomorphism between "Attention is all you need" and the structure of social attention. This essay juxtaposes the three, marks their academic neighbors and the open positions, and states honestly: the programme is not yet formed.
 

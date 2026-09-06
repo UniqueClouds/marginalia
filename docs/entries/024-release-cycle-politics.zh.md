@@ -4,10 +4,9 @@
 🌐 语言 / Language：**中文** · [English](024-release-cycle-politics.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-024</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>铁轨铺在火车前面：发布周期的政治经济学——从 CPU 跑分到 SOTA</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>research memo（研究备忘）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>53</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-09-06</span><span>🏷️ research memo（研究备忘）</span><span>🐙 issue #53</span></div>
 
-
-# 铁轨铺在火车前面：发布周期的政治经济学——从 CPU 跑分到 SOTA
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-024</td></tr><tr><td>title</td><td>铁轨铺在火车前面：发布周期的政治经济学——从 CPU 跑分到 SOTA</td></tr><tr><td>date</td><td>2026-09-06</td></tr><tr><td>published</td><td>2026-09-06</td></tr><tr><td>kind</td><td>research memo（研究备忘）</td></tr><tr><td>issue</td><td>53</td></tr></table></details>
 
 > 研究备忘：发布周期不是技术属性而是制度——由物流链与后勤性权力、资金流与回报周期、对「进步」的期待共同决定的时间节奏。本条 = 五平台矩阵 + 想法提纲 + 核验材料。旧版论证文见 git 历史。引用已于 2026-09-07 全量搜索核验（29 项引用 + 3 条金句全部追到实体，零死链），记录见文末。
 

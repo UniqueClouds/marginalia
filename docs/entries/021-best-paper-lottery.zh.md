@@ -4,10 +4,9 @@
 🌐 语言 / Language：**中文** · [English](021-best-paper-lottery.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-021</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>重跑一遍，一半论文会换人——Best Paper 的随机性与「不丑」的底线</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>research memo（研究备忘）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>50</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-09-06</span><span>🏷️ research memo（研究备忘）</span><span>🐙 issue #50</span></div>
 
-
-# 重跑一遍，一半论文会换人——Best Paper 的随机性与「不丑」的底线
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-021</td></tr><tr><td>title</td><td>重跑一遍，一半论文会换人——Best Paper 的随机性与「不丑」的底线</td></tr><tr><td>date</td><td>2026-09-06</td></tr><tr><td>published</td><td>2026-09-06</td></tr><tr><td>kind</td><td>research memo（研究备忘）</td></tr><tr><td>issue</td><td>50</td></tr></table></details>
 
 > 研究备忘：核心问题是**「优秀/Best Paper 的定义能否形成共识」**。注意两个 construct 必须分开——NeurIPS 重复评审实验测的是「录用/拒稿边界」的随机性，不能直接当「奖项层随机」的证据；奖项层要用奖项层的数据（Wainer 0.72、MISQ 5/22、各会政策原文等，见想法 3）。旧版论证文见 git 历史；引用已于 2026-09-07 全量搜索核验，记录见文末。
 

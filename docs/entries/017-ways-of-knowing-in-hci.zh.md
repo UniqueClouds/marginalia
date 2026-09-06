@@ -4,10 +4,9 @@
 🌐 语言 / Language：**中文** · [English](017-ways-of-knowing-in-hci.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-017</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Ways of Knowing in HCI — 读记:十八种认识法与各自的问责制</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-09-05</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-09-05</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>note（书籍读记）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>45</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-09-05</span><span>🏷️ note（书籍读记）</span><span>🐙 issue #45</span></div>
 
-
-# Ways of Knowing in HCI — 读记:十八种认识法与各自的问责制
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-017</td></tr><tr><td>title</td><td>Ways of Knowing in HCI — 读记:十八种认识法与各自的问责制</td></tr><tr><td>date</td><td>2026-09-05</td></tr><tr><td>published</td><td>2026-09-05</td></tr><tr><td>kind</td><td>note（书籍读记）</td></tr><tr><td>issue</td><td>45</td></tr></table></details>
 
 > 方法论手册读记。18 章 + 序/跋,34 位一线作者,Springer 2014。这不是一本「怎么做研究」的书,而是一本「怎么判断研究做得好不好」的书:每种方法都被迫回答同样四问(本质/思想史/能答什么/什么算好工作),而全书真正的理论论点藏在 Gaver 那章——**科学与设计受制于不同的问责制(epistemological vs aesthetic accountability);用错问责框架去审一篇论文,你会错过它真正包含的洞见。**
 

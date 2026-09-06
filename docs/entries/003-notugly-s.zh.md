@@ -4,10 +4,9 @@
 🌐 语言 / Language：**中文** · [English](003-notugly-s.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-003</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>NOTUGLY-S：学\"不丑\"而非\"美\"——NLP 与程序分析融合训练提案</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-15</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-15</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>proposal（提案笔记）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>2</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-08-15</span><span>🏷️ proposal（提案笔记）</span><span>🐙 issue #2</span></div>
 
-
-# NOTUGLY-S：学"不丑"，不学"美"
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-003</td></tr><tr><td>title</td><td>NOTUGLY-S：学\"不丑\"而非\"美\"——NLP 与程序分析融合训练提案</td></tr><tr><td>date</td><td>2026-08-15</td></tr><tr><td>published</td><td>2026-08-15</td></tr><tr><td>kind</td><td>proposal（提案笔记）</td></tr><tr><td>issue</td><td>2</td></tr></table></details>
 
 > 如果民族志说"美"多元且被悬置、"丑"具体且被制裁，为什么还坚持训练模型去给"美"打分？这个提案把目标倒过来——而它的架构本身就是对该理论的检验。
 

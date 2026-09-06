@@ -4,10 +4,9 @@
 🌐 语言 / Language：**中文** · [English](023-journal-mediatization.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-023</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>当 Nature 学会标题党：顶刊的媒体化与 taste 重定向</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>research memo（研究备忘）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>52</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-09-06</span><span>🏷️ research memo（研究备忘）</span><span>🐙 issue #52</span></div>
 
-
-# 当 Nature 学会标题党：顶刊的媒体化与 taste 重定向
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-023</td></tr><tr><td>title</td><td>当 Nature 学会标题党：顶刊的媒体化与 taste 重定向</td></tr><tr><td>date</td><td>2026-09-06</td></tr><tr><td>published</td><td>2026-09-06</td></tr><tr><td>kind</td><td>research memo（研究备忘）</td></tr><tr><td>issue</td><td>52</td></tr></table></details>
 
 > 研究备忘：核心命题——顶刊正在让收稿品味（taste）服从「快速迭代的技术节奏」与「想象中的受众」，topic 分布随之偏向（LLM 化），投稿重定向；与自媒体构成媒介化连续谱。本条 = 想法提纲 + 核验材料 + 媒介化理论源卡片。旧版论证文见 git 历史。引用已于 2026-09-07 全量搜索核验，记录见文末。
 

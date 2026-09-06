@@ -4,10 +4,9 @@
 🌐 语言 / Language：**中文** · [English](019-tokenmaxxing.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-019</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>TokenMaxxing：算力的炫耀性消费与一场三个月的道德运动</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>research memo（研究备忘）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>48</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-09-06</span><span>🏷️ research memo（研究备忘）</span><span>🐙 issue #48</span></div>
 
-
-# TokenMaxxing：算力的炫耀性消费与一场三个月的道德运动
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-019</td></tr><tr><td>title</td><td>TokenMaxxing：算力的炫耀性消费与一场三个月的道德运动</td></tr><tr><td>date</td><td>2026-09-06</td></tr><tr><td>published</td><td>2026-09-06</td></tr><tr><td>kind</td><td>research memo（研究备忘）</td></tr><tr><td>issue</td><td>48</td></tr></table></details>
 
 > 研究备忘：一场从出生到死亡全程留有公开档案的道德运动（2025-03 ～ 2026-06，约三个月崩塌），复演按行数考核工程师的全部荒诞，度量单位换成算力。本条 = 想法提纲 + 核验过的材料清单。带完整论证的旧版见 git 历史（dd13e09、68006ca）。引用已于 2026-09-07 全量搜索核验，记录见文末。
 

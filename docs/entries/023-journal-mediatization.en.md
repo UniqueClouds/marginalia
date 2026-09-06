@@ -4,10 +4,9 @@
 🌐 Language / 语言：[中文](023-journal-mediatization.zh.md) · **English**
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-023</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>When Nature learns clickbait: journal mediatization and the redirection of taste</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-09-06</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>essay（随想）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>52</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-09-06</span><span>🏷️ essay（随想）</span><span>🐙 issue #52</span></div>
 
-
-# When Nature learns clickbait: journal mediatization and the redirection of taste
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-023</td></tr><tr><td>title</td><td>When Nature learns clickbait: journal mediatization and the redirection of taste</td></tr><tr><td>date</td><td>2026-09-06</td></tr><tr><td>published</td><td>2026-09-06</td></tr><tr><td>kind</td><td>essay（随想）</td></tr><tr><td>issue</td><td>52</td></tr></table></details>
 
 > An unflattering but serious analogy: journals like Nature and Science, and Chinese top-tier AI WeChat accounts like QbitAI and Synced, are becoming the same institution at different purities. The basis is not form (the former has peer review, the latter does not) but logic: **top journals are letting their editorial taste serve two non-academic forces — the pace of iterating technology, and the preferences of their imagined audience.** This invisible taste orientation bends the topics journals accept, and submissions bend in turn; the redirection is non-technical, cultural and commercial-consumptive in kind. This essay maps its academic coordinates, its empirical base, and an operable research design.
 

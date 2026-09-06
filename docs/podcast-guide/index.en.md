@@ -4,7 +4,7 @@
 🌐 Language / 语言：[中文](index.md) · **English**
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-006-en</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Spotify Podcast Guide 2026 · English podcast curation (35 shows / 65 episodes, official links only)</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-16</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-17</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>artifact（英文版摘要）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>13</td></tr></table></details>
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-006-en</td></tr><tr><td>title</td><td>Spotify Podcast Guide 2026 · English podcast curation (35 shows / 65 episodes, official links only)</td></tr><tr><td>date</td><td>2026-08-16</td></tr><tr><td>published</td><td>2026-08-17</td></tr><tr><td>kind</td><td>artifact（英文版摘要）</td></tr><tr><td>issue</td><td>13</td></tr></table></details>
 
 
 # Spotify Podcast Guide 2026

@@ -4,10 +4,9 @@
 🌐 Language / 语言：[中文](013-ethnomethodology.zh.md) · **English**
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-013</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>Ethnomethodology — survey: origins, its relation to ethnography, and development</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-21</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-21</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>survey (literature survey)</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>30</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-08-21</span><span>🏷️ survey (literature survey)</span><span>🐙 issue #30</span></div>
 
-
-# Ethnomethodology
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-013</td></tr><tr><td>title</td><td>Ethnomethodology — survey: origins, its relation to ethnography, and development</td></tr><tr><td>date</td><td>2026-08-21</td></tr><tr><td>published</td><td>2026-08-21</td></tr><tr><td>kind</td><td>survey (literature survey)</td></tr><tr><td>issue</td><td>30</td></tr></table></details>
 
 > A survey note. The question: where did ethnomethodology come from? What exactly is its relationship to "ethnography" (same *ethno-* prefix, yet the two have long refused to get along)? And how did it develop afterwards? The answer, up front: **it is not a "method" but a research programme about how social members *locally produce* social order; its name is borrowed directly from ethnoscience (it studies "folk" classifications and practices, much like ethnobotany); it shares the interpretive tradition with ethnography but has long stood opposed to it over disputes such as "method vs. phenomenon" and "indexicality vs. durable symbols," only recently moving toward a compromise called "ethnomethodological ethnography."**
 

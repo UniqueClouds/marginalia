@@ -4,10 +4,9 @@
 🌐 Language / 语言：[中文](003-notugly-s.zh.md) · **English**
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-003</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>NOTUGLY-S: learning \"not ugly\" instead of \"beautiful\" — an NLP × program-analysis proposal</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-15</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-15</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>proposal</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>2</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-08-15</span><span>🏷️ proposal</span><span>🐙 issue #2</span></div>
 
-
-# NOTUGLY-S: learn "not ugly", not "beautiful"
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-003</td></tr><tr><td>title</td><td>NOTUGLY-S: learning \"not ugly\" instead of \"beautiful\" — an NLP × program-analysis proposal</td></tr><tr><td>date</td><td>2026-08-15</td></tr><tr><td>published</td><td>2026-08-15</td></tr><tr><td>kind</td><td>proposal</td></tr><tr><td>issue</td><td>2</td></tr></table></details>
 
 > If ethnography says beauty is plural and undefined while ugliness is concrete and sanctioned, why keep training models to score beauty? This proposal inverts the objective — and the architecture is itself a test of the theory.
 

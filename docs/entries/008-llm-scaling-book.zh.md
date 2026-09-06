@@ -4,10 +4,9 @@
 🌐 语言 / Language：**中文** · [English](008-llm-scaling-book.en.md)
 </div>
 
-<details><summary style='cursor:pointer;color:#888;'>Provenance（来源与元数据）</summary><table style='border:1px solid #eee;border-radius:8px;'><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>id</td><td style='padding:3px 10px;'>marginalia-008</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>title</td><td style='padding:3px 10px;'>「How to Scale Your Model」摘记：把 LLM 训练从玄学拆成 roofline 公算法（JAX-ML scaling book）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>date</td><td style='padding:3px 10px;'>2026-08-17</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>published</td><td style='padding:3px 10px;'>2026-08-17</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>kind</td><td style='padding:3px 10px;'>note（读书笔记）</td></tr><tr><td style='padding:3px 10px;color:#888;white-space:nowrap;'>issue</td><td style='padding:3px 10px;'>15</td></tr></table></details>
+<div class='marg-meta'><span>📅 2026-08-17</span><span>🏷️ note（读书笔记）</span><span>🐙 issue #15</span></div>
 
-
-# 「How to Scale Your Model」摘记
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-008</td></tr><tr><td>title</td><td>「How to Scale Your Model」摘记：把 LLM 训练从玄学拆成 roofline 公算法（JAX-ML scaling book）</td></tr><tr><td>date</td><td>2026-08-17</td></tr><tr><td>published</td><td>2026-08-17</td></tr><tr><td>kind</td><td>note（读书笔记）</td></tr><tr><td>issue</td><td>15</td></tr></table></details>
 
 > 训练 LLM 像炼金 —— 但读懂你模型的性能，不必。
 > —— *How to Scale Your Model*, Introduction
