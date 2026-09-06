@@ -1,10 +1,10 @@
 # 像 Dourish 那样写作：一位批判 HCI 学者 21 篇文本的语料分析（2004–2026）
 
 <div class="lang-switch" markdown>
-🌐 语言 / Language：**中文** · [English](002-writing-like-dourish.en.md)
+<svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 12h18M12 3c2.8 2.6 4.2 5.6 4.2 9s-1.4 6.4-4.2 9c-2.8-2.6-4.2-5.6-4.2-9S9.2 5.6 12 3Z" fill="none" stroke="currentColor" stroke-width="2"/></svg> 语言 / Language：**中文** · [English](002-writing-like-dourish.en.md)
 </div>
 
-<div class='marg-meta'><span>📅 2026-08-15</span><span>🏷️ analysis（分析笔记）</span><span>🐙 issue #3</span></div>
+<div class='marg-meta'><span><svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5.5" width="16" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 10h16" stroke="currentColor" stroke-width="2"/><path d="M8.5 3.5v4M15.5 3.5v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="14.7" r="1.7" class="acc-dot"/></svg> 2026-08-15</span><span><svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4h6.1c.4 0 .78.16 1.06.44l7 7a1.5 1.5 0 0 1 0 2.12l-6.1 6.1a1.5 1.5 0 0 1-2.12 0l-7-7A1.5 1.5 0 0 1 4 11.48V5.5Z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="8.7" cy="8.7" r="1.4" class="acc-dot"/></svg> analysis（分析笔记）</span><span><svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5.85 8.5l12.3 7M18.15 8.5l-12.3 7" class="acc" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg> issue #3</span></div>
 
 <details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-002</td></tr><tr><td>title</td><td>像 Dourish 那样写作：一位批判 HCI 学者 21 篇文本的语料分析（2004–2026）</td></tr><tr><td>date</td><td>2026-08-15</td></tr><tr><td>published</td><td>2026-08-15</td></tr><tr><td>kind</td><td>analysis（分析笔记）</td></tr><tr><td>issue</td><td>3</td></tr></table></details>
 
@@ -57,10 +57,10 @@ PyMuPDF 版面块提取 → 去参考文献 → 段落语料（`paras.json`）�
 | Issue | [#3](https://github.com/UniqueClouds/marginalia/issues/3) |
 
 
-<div class='marg-attach'>📎 附属材料：[SKILL.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/002-writing-like-dourish/skill/SKILL.md)</div>
+<div class='marg-attach'><svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l8.57-8.57A4 4 0 1 1 18 8.84l-8.59 8.57a2 2 0 0 1-2.83-2.83l8.49-8.48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> 附属材料：[SKILL.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/002-writing-like-dourish/skill/SKILL.md)</div>
 
 
 ---
 
-> 🌐 [Read this note in English](002-writing-like-dourish.en.md)
+> <svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 12h18M12 3c2.8 2.6 4.2 5.6 4.2 9s-1.4 6.4-4.2 9c-2.8-2.6-4.2-5.6-4.2-9S9.2 5.6 12 3Z" fill="none" stroke="currentColor" stroke-width="2"/></svg> [Read this note in English](002-writing-like-dourish.en.md)
 

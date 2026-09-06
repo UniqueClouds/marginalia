@@ -1,10 +1,10 @@
 # Re-run the review and half the program changes — Best Paper randomness and the floor of 'not-ugly'
 
 <div class="lang-switch" markdown>
-🌐 Language / 语言：[中文](021-best-paper-lottery.zh.md) · **English**
+<svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 12h18M12 3c2.8 2.6 4.2 5.6 4.2 9s-1.4 6.4-4.2 9c-2.8-2.6-4.2-5.6-4.2-9S9.2 5.6 12 3Z" fill="none" stroke="currentColor" stroke-width="2"/></svg> Language / 语言：[中文](021-best-paper-lottery.zh.md) · **English**
 </div>
 
-<div class='marg-meta'><span>📅 2026-09-06</span><span>🏷️ essay（随想）</span><span>🐙 issue #50</span></div>
+<div class='marg-meta'><span><svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5.5" width="16" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 10h16" stroke="currentColor" stroke-width="2"/><path d="M8.5 3.5v4M15.5 3.5v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="14.7" r="1.7" class="acc-dot"/></svg> 2026-09-06</span><span><svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4h6.1c.4 0 .78.16 1.06.44l7 7a1.5 1.5 0 0 1 0 2.12l-6.1 6.1a1.5 1.5 0 0 1-2.12 0l-7-7A1.5 1.5 0 0 1 4 11.48V5.5Z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="8.7" cy="8.7" r="1.4" class="acc-dot"/></svg> essay（随想）</span><span><svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5.85 8.5l12.3 7M18.15 8.5l-12.3 7" class="acc" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg> issue #50</span></div>
 
 <details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-021</td></tr><tr><td>title</td><td>Re-run the review and half the program changes — Best Paper randomness and the floor of 'not-ugly</td></tr><tr><td>date</td><td>2026-09-06</td></tr><tr><td>published</td><td>2026-09-06</td></tr><tr><td>kind</td><td>essay（随想）</td></tr><tr><td>issue</td><td>50</td></tr></table></details>
 
@@ -50,5 +50,5 @@ Note 003 on this site recorded a proposal: rather than teaching a model what bea
 
 ---
 
-> 🌐 [阅读中文版](021-best-paper-lottery.zh.md)
+> <svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 12h18M12 3c2.8 2.6 4.2 5.6 4.2 9s-1.4 6.4-4.2 9c-2.8-2.6-4.2-5.6-4.2-9S9.2 5.6 12 3Z" fill="none" stroke="currentColor" stroke-width="2"/></svg> [阅读中文版](021-best-paper-lottery.zh.md)
 

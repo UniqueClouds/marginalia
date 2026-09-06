@@ -191,3 +191,13 @@
     overflow-x: auto;
   }
 }
+
+/* ===== 内联图标（与 logo.svg 同风格：墨线 + 琥珀点缀） ===== */
+.marg-ic {
+  width: 1em;
+  height: 1em;
+  vertical-align: -.15em;
+  display: inline-block;
+}
+.marg-ic .acc { stroke: var(--md-accent-fg-color, #ffb300); }
+.marg-ic .acc-dot { fill: var(--md-accent-fg-color, #ffb300); stroke: none; }

@@ -1,7 +1,7 @@
 # Spotify Podcast Guide 2026 · English podcast curation (35 shows / 65 episodes, official links only)
 
 <div class="lang-switch" markdown>
-🌐 Language / 语言：[中文](index.md) · **English**
+<svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 12h18M12 3c2.8 2.6 4.2 5.6 4.2 9s-1.4 6.4-4.2 9c-2.8-2.6-4.2-5.6-4.2-9S9.2 5.6 12 3Z" fill="none" stroke="currentColor" stroke-width="2"/></svg> Language / 语言：[中文](index.md) · **English**
 </div>
 
 <details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-006-en</td></tr><tr><td>title</td><td>Spotify Podcast Guide 2026 · English podcast curation (35 shows / 65 episodes, official links only)</td></tr><tr><td>date</td><td>2026-08-16</td></tr><tr><td>published</td><td>2026-08-17</td></tr><tr><td>kind</td><td>artifact（英文版摘要）</td></tr><tr><td>issue</td><td>13</td></tr></table></details>
