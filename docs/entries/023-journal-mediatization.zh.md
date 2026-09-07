@@ -8,7 +8,7 @@
 
 <details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-023</td></tr><tr><td>title</td><td>当 Nature 学会标题党：顶刊的媒体化与 taste 重定向</td></tr><tr><td>date</td><td>2026-09-06</td></tr><tr><td>published</td><td>2026-09-06</td></tr><tr><td>kind</td><td>research memo（研究备忘）</td></tr><tr><td>issue</td><td>52</td></tr></table></details>
 
-> 研究备忘：核心命题——顶刊正在让收稿品味（taste）服从「快速迭代的技术节奏」与「想象中的受众」，topic 分布随之偏向（LLM 化），投稿重定向；与自媒体构成媒介化连续谱。本条 = 想法提纲 + 核验材料 + 媒介化理论源卡片。旧版论证文见 git 历史。引用已于 2026-09-07 全量搜索核验，记录见文末。
+> 研究备忘：核心命题——顶刊正在让收稿品味（taste）服从「快速迭代的技术节奏」与「想象中的受众」，topic 分布随之偏向（LLM 化），投稿重定向；与自媒体构成媒介化连续谱。本条 = 想法提纲 + 材料清单 + 媒介化理论源卡片。
 
 ## 核心想法
 
@@ -67,10 +67,10 @@
 
 ### Väliverronen 2021 · 推介文化
 
-**引用**：Esa Väliverronen（University of Helsinki）. 2021-02-28. "Mediatisation of science and the rise of promotional culture." Chapter 8 in *Routledge Handbook of Public Communication of Science and Technology*, 3rd ed., eds. Massimiano Bucchi & Brian Trench. Abingdon: Routledge. ISBN 9781003039242. **doi:10.4324/9781003039242-8-8**（旧版 DOI 末尾少「-8」，未注册）。OA：[Taylor & Francis](https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003039242-8/mediatisation-science-rise-promotional-culture-esa-v%C3%A4liverronen)、[OAPEN](https://library.oapen.org/handle/20.500.12657/49683)
+**引用**：Esa Väliverronen（University of Helsinki）. 2021-02-28. "Mediatisation of science and the rise of promotional culture." Chapter 8 in *Routledge Handbook of Public Communication of Science and Technology*, 3rd ed., eds. Massimiano Bucchi & Brian Trench. Abingdon: Routledge. ISBN 9781003039242. doi:10.4324/9781003039242-8-8. OA：[Taylor & Francis](https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003039242-8/mediatisation-science-rise-promotional-culture-esa-v%C3%A4liverronen)、[OAPEN](https://library.oapen.org/handle/20.500.12657/49683)
 - 核心论证："from 'publish or perish' to 'promote yourself or perish'"（引 Wernick 1991、Davis 2013）。
 
-### 概念归属补注（2026-09-07 第二轮核验）
+### 概念归属补注
 
 - **一般媒介化理论**（区别于 Weingart 的科学场分支）：Hjarvard, Stig（University of Copenhagen）. 2008. "The Mediatization of Society: A Theory of the Media as Agents of Social and Cultural Change." *Nordicom Review* 29(2): 105–134. doi:10.1515/nor-2017-0181（原刊页码；该文即引 Weingart 1998 的 medialization thesis,可作「一般 vs 分支」的桥）；Couldry, Nick（LSE）& Andreas Hepp（Universität Augsburg）. 2013. "Conceptualizing Mediatization: Contexts, Traditions, Arguments." *Communication Theory* 23(3): 191–202. doi:10.1111/comt.12019.
 - **promotional culture 首创**：Wernick, Andrew（Trent University）. 1991. *Promotional Culture: Advertising, Ideology and Symbolic Expression*（Theory, Culture & Society 丛书）. London: Sage. ISBN 978-0-8039-8390-8——Väliverronen 原文明写 "The term promotional culture was introduced by Andrew Wernick (1991)"（描述广告对文化的 "the semiotic colonisation"）。
@@ -78,15 +78,7 @@
 
 ## 参考资料
 
-（全部引用已内联于上并附链接，均经 2026-09-07 核验。命名资源：mediatization / tabloidization / heteronomization / popcornization；Bourdieu 异治极接 [009 · Homologies](009-homology-without-fractal.zh.md)；评审侧接 [021 · Best Paper 的随机性](021-best-paper-lottery.zh.md)。）
-
-## 核验记录（2026-09-07）
-
-- 12/12 项实存且内容属实，0 编造。
-- 已修正 4 处：Väliverronen DOI 改为 10.4324/9781003039242-8-8（旧 DOI 未注册）并补书名编者；Moorhead 受访者原话按英文逐字更正（含 "— or maybe PNAS —"）；Sumner 团队单位 Cardiff（非 Exeter）；OR 6.5–56 归属 2014 BMJ 篇。
-- 补入：Weingart 1998（Research Policy 27(8):869–879）、JCOM DOI、Comms Psych 四作者全名+单位、Frontiers 作者与机构背景。
-- 访问注意：SAGE 对 curl 反爬（DOI 正常解析）；unifuncs 为 AI 聚合页（二手，原始锚为知乎问题）。
-- **概念归属核验（2026-09-07 第二轮）**：补一般媒介化锚点（Hjarvard 2008/Couldry & Hepp 2013）、promotional culture 首创者 Wernick 1991（Sage）、异治极规范出处 Bourdieu 1993（Polity,pp. 29–73）。Simon 1971 注意力经济句与 Wernick 均经一手文本逐字核验。
+（命名资源：mediatization / tabloidization / heteronomization / popcornization；Bourdieu 异治极接 [009 · Homologies](009-homology-without-fractal.zh.md)；评审侧接 [021 · Best Paper 的随机性](021-best-paper-lottery.zh.md)。）
 
 
 ---
