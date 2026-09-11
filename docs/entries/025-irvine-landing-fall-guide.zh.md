@@ -119,7 +119,31 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 - **[Newport 市府签约校](https://www.newportbeachca.gov/government/departments/recreation-senior-services/surf-lessons)**(Newport Surf Camp / Endless Sun;🚗 8 mi / 16 min):1v1 $95/小时;
 - **自己玩**:板+湿衣约 $20-40 半天;新手去 Doheny State Beach(Dana Point,长板圣地;🚗 17 mi / 24 min · 🚲 16 mi / 85 min)或 HB Pier 南侧。
 
-校园里更便宜:[ARC 健身房](https://www.campusrec.uci.edu/membership/)注册学生免费(攀岩墙、泳池、球场,Gear Up 免费借球类);[团体操课](https://www.campusrec.uci.edu/groupx/)$40-85/季;[Outdoor Adventures](https://www.campusrec.uci.edu/outdoor/) 徒步团 **$8-24 含交通**(Quail Hill、El Moro、San Jacinto 登顶)。看校队也有校价——[官方票务页](https://app.ucirvinesports.com/Studenttickets)写明本科全免,"**Graduate students can purchase quarterly athletic passes for $33** granting them access to all regular season home events",还能 $5 带访客。徒步想搭伙,[Irvine Ranch Conservancy](https://letsgooutside.org/activities/) 常年有免费 guided hikes。
+校园里更便宜:[ARC 健身房](https://www.campusrec.uci.edu/membership/)注册学生免费(攀岩墙、泳池、球场,Gear Up 免费借球类);[团体操课](https://www.campusrec.uci.edu/groupx/)$40-85/季。
+
+**ARC 秋季活动课已开放报名**(9/8 起,[my.campusrec.uci.edu](https://my.campusrec.uci.edu/) 用 NetID 登录;课 9/28 前后开班、12 月初结课;仅限学生与 ARC 会员,下表为学生价):
+
+| 类别 | 课程 | 学生价 | 时间 |
+|---|---|---|---|
+| 游泳教学 | 初级 / 中级 / 高级(分班)| $50/期 | M/W 或 Tu/Th,9/28-11/5,傍晚 |
+| 武术格斗 | 巴西柔术(需道服)· 日式空手道 · 泰拳(需拳套)· 实战自卫(10 周)· 剑道居合 | $60-75/期 | 傍晚为主,9/28-12/3 |
+| 拳击系 | 拳击 · Kickboxing(自备拳套)| $50-60/期 | 周三晚 / 周二四清晨 |
+| 球类 | 网球初/中级 · 匹克球初/中级 | $80/期(非学生 $100)| 每周两次,9/28-11/19 |
+| 舞蹈 | 肚皮舞 · 街舞 Commercial · 萨尔萨 | $60-65/期 | Physical Forum,9/28-12/4 |
+| 证书 | CPR/AED + 急救(一日 5.5 小时)| $70 | 分期开课 |
+
+省钱彩蛋:Campus Rec 每季度有 [Well-being Fee Waiver](https://campusrec.uci.edu/fee-waiver.html)——任选一门课/操课通票/OA trip 申请费用减免,**每季限一次,需在活动开始前两周提交**。
+
+**OA 秋季 trips**([Outdoor Adventures](https://www.campusrec.uci.edu/outdoor/) 组织,全部含交通、ARC 集合出发;过夜行程有行前会):
+
+| 日期 | 行程 | 学生价 |
+|---|---|---|
+| 9/26-27(六日)| PCT 背包过夜 | $45 |
+| 10/4 · 10/11 · 10/18(周日)| 半日徒步:Oak Canyon / Bolsa Chica 湿地 / Red Rocks | $8 |
+| 10/10 · 10/17 · 11/13 | 全日登山:Tahquitz Peak / Sitton Peak / Veterans Day Hike | $18 |
+| 11/7-8(六日)| Joshua Tree 露营 | $45 |
+
+看校队也有校价——[官方票务页](https://app.ucirvinesports.com/Studenttickets)写明本科全免,"**Graduate students can purchase quarterly athletic passes for $33** granting them access to all regular season home events",还能 $5 带访客。徒步想搭伙,[Irvine Ranch Conservancy](https://letsgooutside.org/activities/) 常年有免费 guided hikes。
 
 ## 六、活动日历:把劲儿留给 10 月
 
