@@ -128,7 +128,31 @@ Wikipedia explains the "Surf City" nickname: swells from both hemispheres take t
 - **[Newport's city-contracted schools](https://www.newportbeachca.gov/government/departments/recreation-senior-services/surf-lessons)** (🚗 8 mi / 16 min): $95/h private;
 - **On your own**: board + wetsuit ~$20-40 per half day; beginners head to Doheny State Beach (🚗 17 mi / 24 min · 🚲 16 mi / 85 min) or the south side of the HB Pier.
 
-On campus it's cheaper still: the [ARC gym](https://www.campusrec.uci.edu/membership/) is free for registered students (climbing wall, pool, courts, free gear rental); [group fitness](https://www.campusrec.uci.edu/groupx/) $40-85/quarter; [Outdoor Adventures](https://www.campusrec.uci.edu/outdoor/) hikes **$8-24 with transport** (Quail Hill, El Moro, San Jacinto summit). Even varsity is discounted — per [UCI Athletics ticketing](https://app.ucirvinesports.com/Studenttickets), undergrads enter free and "**Graduate students can purchase quarterly athletic passes for $33** granting them access to all regular season home events", plus a $5 guest ticket. For hiking company, [Irvine Ranch Conservancy](https://letsgooutside.org/activities/) runs free guided hikes year-round.
+On campus it's cheaper still: the [ARC gym](https://www.campusrec.uci.edu/membership/) is free for registered students (climbing wall, pool, courts, free gear rental); [group fitness](https://www.campusrec.uci.edu/groupx/) $40-85/quarter.
+
+**ARC's fall activity classes are open for registration** (since 9/8 at [my.campusrec.uci.edu](https://my.campusrec.uci.edu/) with your NetID; classes run ~9/28 to early December; students & ARC members only, prices below are student rates):
+
+| Category | Classes | Student price | Schedule |
+|---|---|---|---|
+| Swim school | Beginning / Intermediate / Advanced | $50/session | M/W or Tu/Th, 9/28-11/5, evenings |
+| Martial arts | BJJ (gi required) · Japanese Karate · Muay Thai (gloves) · Real-World Self-Defense (10 wk) · Iaido | $60-75/session | mostly evenings, 9/28-12/3 |
+| Boxing | Boxing · Kickboxing (bring your own gloves) | $50-60/session | Wed evenings / Tu-Th early AM |
+| Racquet sports | Tennis Beg/Int · Pickleball Beg/Int | $80/session ($100 non-student) | twice weekly, 9/28-11/19 |
+| Dance | Belly Dance · Commercial · Salsa | $60-65/session | Physical Forum, 9/28-12/4 |
+| Certification | CPR/AED + First Aid (one-day, 5.5h) | $70 | per session |
+
+Money tip: Campus Rec runs a [Well-being Fee Waiver](https://campusrec.uci.edu/fee-waiver.html) — apply once per quarter for a discount on any class, fitness pass or OA trip; submit at least two weeks before the activity starts.
+
+**OA fall trips** (run by [Outdoor Adventures](https://www.campusrec.uci.edu/outdoor/), transport included, departing from the ARC; overnight trips have pre-trip meetings):
+
+| Date | Trip | Student price |
+|---|---|---|
+| 9/26-27 (Sat-Sun) | PCT backpack overnight | $45 |
+| 10/4 · 10/11 · 10/18 (Sun) | Half-day hikes: Oak Canyon / Bolsa Chica Wetlands / Red Rocks | $8 |
+| 10/10 · 10/17 · 11/13 | Full-day summits: Tahquitz Peak / Sitton Peak / Veterans Day Hike | $18 |
+| 11/7-8 (Sat-Sun) | Joshua Tree camping | $45 |
+
+Even varsity is discounted — per [UCI Athletics ticketing](https://app.ucirvinesports.com/Studenttickets), undergrads enter free and "**Graduate students can purchase quarterly athletic passes for $33** granting them access to all regular season home events", plus a $5 guest ticket. For hiking company, [Irvine Ranch Conservancy](https://letsgooutside.org/activities/) runs free guided hikes year-round.
 
 ## 6. The Calendar: Save Your Energy for October
 
