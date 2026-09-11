@@ -7,9 +7,9 @@ kind: landing-guide(落地与秋季生活调研)
 sources:
   - '官方核验:UCI 校历/Transportation/Campus Rec/Athletics、City of Irvine、CicLAvia、AFI、Universal、Six Flags-Knott''s、Sawdust、Disney、NHL-Ducks、USC、Lakers、各场馆票务页(DICE/Songkick/LiveNation/Teragram/Wayfarer/Lodge Room/The Frida)'
   - 'Wikipedia:Laguna Beach / Huntington Beach / Newport Beach / Santa Ana / Crystal Cove SP / House of Blues / Getty Center / Universal Studios Hollywood / Knott''s Berry Farm / Halloween Horror Nights'
-  - '车程:OSRM 公共路由引擎逐条计算(免费流),Google Maps 链接直达;Uber/Lyft 为费率模型估算区间(方法见文末)'
+  - '车程/骑行:OSRM 公共路由引擎逐条计算(routed-car / routed-bike,免费流),每日 06:00 自动重扫(route_watch.py);Uber/Lyft 为费率模型估算区间(方法见文末)'
   - '图片:Wikimedia Commons(CC0 / CC BY / CC BY-SA,图注逐一署名)'
-initial-prompt: '9/15 落地尔湾(Palo Verde,92617),9/22 开学:①落地必办事项(BOA/Chase 办卡等);②9-12 月 OC/LA 可去之处(重点后摇/数学摇滚 livehouse);③已排期活动日历(周末优先);④平价文娱(博物馆/片厂)、冲浪等户外、校内运动班;车程附 Google Maps 路径与打车估价。'
+initial-prompt: '9/15 落地尔湾(Palo Verde,92617),9/22 开学:①落地必办事项(BOA/Chase 办卡等);②9-12 月 OC/LA 可去之处(重点后摇/数学摇滚 livehouse);③已排期活动日历(周末优先);④平价文娱(博物馆/片厂)、冲浪等户外、校内运动班;每个地点旁直接标注开车与骑行距离/时间,并每日自动重扫。'
 agent: ZCode CLI
 model: GLM-5.3-Flash (智谱)
 issue: 55
@@ -17,7 +17,7 @@ issue: 55
 
 # 尔湾落地与秋季生活指南
 
-> 落地手账 + 秋季周末图鉴。9/15 落地、9/24 上课、12/11 期末结束——整整一个秋天,刚好够把"新手村"清完,再把 OC 和 LA 的现场音乐摸一遍。这篇的用法:**落地只做三件事(§一),周末按地图出去走(§二),演出按表抢票(§三),剩下的时间去逛免费的博物馆、学冲浪、看校队(§四、五),把劲儿留给 10 月(§六)**。所有票价、日期都带官方链接,可点开复核;车程是 OSRM 路由引擎逐条算的,打车费是估算区间,落地后用 App 校准一次即可。
+> 落地手账 + 秋季周末图鉴。9/15 落地、9/24 上课、12/11 期末结束——整整一个秋天,刚好够把"新手村"清完,再把 OC 和 LA 的现场音乐摸一遍。这篇的用法:**落地只做三件事(§一),周末按地图出去走(§二),演出按表抢票(§三),剩下的时间去逛免费的博物馆、学冲浪、看校队(§四、五),把劲儿留给 10 月(§六)**。所有票价、日期都带官方链接,可点开复核;每个地点旁直接标了 🚗 开车 / 🚲 骑行 的距离与时间(OSRM 路由引擎逐条计算,脚本每天早上 6 点自动重扫,§八),打车费是估算区间。
 
 ## 一、落地第一周:真正要办的事只有三件
 
@@ -44,13 +44,15 @@ BOA 的[国际学生开户页](https://info.bankofamerica.com/en/international/s
 
 ## 二、周末半径:从家门口的海滩到圣塔安娜的艺术区
 
-住 92617 的好处是,海在三个方向都是 20 分钟级的事:
+住 92617 的好处是,海在三个方向都是 20 分钟级的事(以下每处都标了 🚗 开车 / 🚲 骑行,从 Palo Verde 门口出发):
 
-- **[Huntington Beach](https://en.wikipedia.org/wiki/Huntington_Beach,_California)**(12 mi / 21 min):Wikipedia 的原话是,北太平洋冬季涌与南半球夏季涌轮流聚焦于此,"creating consistent surf all year long, hence the nickname 'Surf City'"——全年有浪的冲浪之城,也是学冲浪的主战场(§五);
-- **[Laguna Beach](https://en.wikipedia.org/wiki/Laguna_Beach,_California)**(12 mi / 20 min):"seaside resort city … mild year-round climate, scenic coves"——艺术镇,画廊群+月度 Art Walk,夏天的人潮退去之后,秋冬最舒服;
-- **[Crystal Cove](https://en.wikipedia.org/wiki/Crystal_Cove_State_Park)**(7 mi / 13 min):3.2 英里海岸线 + 2,400 英亩峡谷,海滩、潮池、水下保护区与徒步山脊线二合一;
-- **[Newport Beach](https://en.wikipedia.org/wiki/Newport_Beach,_California)**(8 mi / 16 min):港湾 + Balboa 岛渡轮;12 月的圣诞船巡游在这里(§六);
-- **[Downtown Santa Ana](https://en.wikipedia.org/wiki/Santa_Ana,_California)**(9 mi / 17 min):橙县县治,《纽约时报》称之为"新加州的脸面"。最大的惊喜是 [**DTSA Art Walk**](https://dtsaartwalk.org/):"free, all-ages … **5pm-10pm on every First Saturday** … **a program of The Frida Cinema**"——每月第一个周六,免费,主办方正是 Frida 影院,画廊、露天舞台、小吃车一晚上逛不完。
+- **[Huntington Beach](https://en.wikipedia.org/wiki/Huntington_Beach,_California)**(🚗 12 mi / 21 min · 🚲 11 mi / 73 min):Wikipedia 的原话是,北太平洋冬季涌与南半球夏季涌轮流聚焦于此,"creating consistent surf all year long, hence the nickname 'Surf City'"——全年有浪的冲浪之城,也是学冲浪的主战场(§五);
+- **[Laguna Beach](https://en.wikipedia.org/wiki/Laguna_Beach,_California)**(🚗 12 mi / 20 min · 🚲 14 mi / 75 min):"seaside resort city … mild year-round climate, scenic coves"——艺术镇,画廊群+月度 Art Walk,夏天的人潮退去之后,秋冬最舒服;
+- **[Crystal Cove](https://en.wikipedia.org/wiki/Crystal_Cove_State_Park)**(🚗 7 mi / 13 min · 🚲 6 mi / 42 min):3.2 英里海岸线 + 2,400 英亩峡谷,海滩、潮池、水下保护区与徒步山脊线二合一;
+- **[Newport Beach](https://en.wikipedia.org/wiki/Newport_Beach,_California)**(🚗 8 mi / 16 min · 🚲 7 mi / 52 min):港湾 + Balboa 岛渡轮;12 月的圣诞船巡游在这里(§六);
+- **[Downtown Santa Ana](https://en.wikipedia.org/wiki/Santa_Ana,_California)**(🚗 9 mi / 17 min · 🚲 8 mi / 59 min):橙县县治,《纽约时报》称之为"新加州的脸面"。最大的惊喜是 [**DTSA Art Walk**](https://dtsaartwalk.org/):"free, all-ages … **5pm-10pm on every First Saturday** … **a program of The Frida Cinema**"——每月第一个周六,免费,主办方正是 Frida 影院,画廊、露天舞台、小吃车一晚上逛不完。
+
+骑行的备注:OC 海岸线一带路面平、自行车道成网,电助力车实际用时比表里(普通自行车路网估计)更短;Crystal Cove 和 Newport 在 San Diego Creek 沿线的骑行体验尤其好。
 
 ![Huntington Beach surfer](../assets/entries/025-irvine-landing-fall-guide/hb-pier.jpg)
 *Huntington Beach,Pier 底下的日常。Photo: Jeremy Bishop (Unsplash), CC0, via Wikimedia Commons*
@@ -86,18 +88,18 @@ BOA 的[国际学生开户页](https://info.bankofamerica.com/en/international/s
 
 **想看 Covet 选周日 10/4;想看 Sunny Day Real Estate 选周六 10/3**——Neverender 是 Coheed and Cambria 主办的户外双日节,单日票分开卖,场地就在 Observatory 停车场,离校 7 mi。
 
-**场馆地图**(按离校远近):
+**场馆地图**(按离校远近,🚗 开车 · 🚲 骑行 · $ 打车估算):
 
-| 场馆 | 位置 | 定位 | 车程 / UberX |
+| 场馆 | 位置 | 定位 | 🚗 · 🚲 · $ |
 |---|---|---|---|
-| [The Observatory OC](https://www.observatoryoc.com/shows) | Santa Ana | OC 摇滚主阵地,1,000 人 + 两个小厅 | 7 mi / $14–20 |
-| [The Wayfarer](https://www.wayfarercm.com/calendar) | Costa Mesa | 酒吧现场,21+,均价新 $20 | 7 mi / $14–20 |
-| [House of Blues Anaheim](https://anaheim.houseofblues.com/shows) | Anaheim | 中大型巡演 | 15 mi / $22–34 |
-| [Chain Reaction](https://allages.com/) | Anaheim | 全年龄 DIY 圣地;场馆自述"shows reasonably priced, (usually **$8.00 to $20.00 dollars**)" | 17 mi / $26–38 |
-| [The Echo / Echoplex](https://www.theecho.com/shows) | Echo Park,LA | 独立/朋克双厅 | 45 mi / $60–90 |
-| [Zebulon](https://zebulon.la/) | Atwater,LA | "Music venue, café concert, restaurant, screenings"(DoLA)——实验/数学/爵士重镇 | 46 mi / $60–90 |
-| [Teragram Ballroom](https://teragramballroom.com/) | DTLA | 约 600 人,排期偏 indie / shoegaze | 43 mi / $55–85 |
-| [Lodge Room](https://www.lodgeroomhlp.com/) | Highland Park | 约 500 人,排期最"嘴刁" | 46 mi / $60–90 |
+| [The Observatory OC](https://www.observatoryoc.com/shows) | Santa Ana | OC 摇滚主阵地,1,000 人 + 两个小厅 | 🚗 7 mi/12 min · 🚲 6 mi/44 min · $14–20 |
+| [The Wayfarer](https://www.wayfarercm.com/calendar) | Costa Mesa | 酒吧现场,21+,~$20 | 🚗 7 mi/13 min · 🚲 7 mi/47 min · $14–20 |
+| [House of Blues Anaheim](https://anaheim.houseofblues.com/shows) | Anaheim | 中大型巡演 | 🚗 15 mi/23 min · 🚲 13 mi/92 min · $22–34 |
+| [Chain Reaction](https://allages.com/) | Anaheim | 全年龄 DIY 圣地;场馆自述"shows reasonably priced, (usually **$8.00 to $20.00 dollars**)" | 🚗 17 mi/24 min · 🚲 15 mi/109 min · $26–38 |
+| [The Echo / Echoplex](https://www.theecho.com/shows) | Echo Park,LA | 独立/朋克双厅 | 🚗 44 mi/56 min · 🚲 56 mi/276 min · $60–90 |
+| [Zebulon](https://zebulon.la/) | Atwater,LA | "Music venue, café concert, restaurant, screenings"(DoLA)——实验/数学/爵士重镇 | 🚗 46 mi/59 min · 🚲 58 mi/279 min · $60–90 |
+| [Teragram Ballroom](https://teragramballroom.com/) | DTLA | 约 600 人,排期偏 indie / shoegaze | 🚗 43 mi/56 min · 🚲 57 mi/267 min · $55–85 |
+| [Lodge Room](https://www.lodgeroomhlp.com/) | Highland Park | 约 500 人,排期最"嘴刁" | 🚗 47 mi/63 min · 🚲 57 mi/272 min · $60–90 |
 
 **追踪方法**(每周五分钟):[Oh My Rockness](https://losangeles.ohmyrockness.com/)(LA 独立/朋克聚合)、[DICE](https://dice.fm/los-angeles)(Zebulon / Lodge Room 系)、Songkick / Bandsintown(关注艺人,出票推送)、各场馆 Instagram——Chain Reaction 这类小馆不进 Ticketmaster,放票晚、量少,只能盯社媒。
 
@@ -105,14 +107,14 @@ BOA 的[国际学生开户页](https://info.bankofamerica.com/en/international/s
 
 洛杉矶对学生友好,因为最好的几家全部**免费**:
 
-- **[Getty Center](https://www.getty.edu/visit/center/)**:免费(订定时票)——13 亿美元建成的园区,"well known for its architecture, gardens, and views overlooking Los Angeles"([Wikipedia](https://en.wikipedia.org/wiki/Getty_Center));停车 $25,周二闭馆;
-- **免费阵营**:[The Broad](https://www.thebroad.org/visit)、[MOCA Grand Ave](https://www.moca.org/)、[Hammer Museum](https://hammer.ucla.edu/)、[Griffith Observatory](https://griffithobservatory.org/visit/)(周二至五 12:00-22:00,周一闭馆,免费看夜景+望远镜);
-- **[LACMA](https://www.lacma.org/visit)**:每月第二个周二免费;**4–10 月周五傍晚的 Jazz at LACMA 是免费现场乐**;地铁 D 线已直通门口;
-- **付费里性价比之王**:[Academy Museum](https://www.academymuseum.org/en/visit) 奥斯卡电影博物馆——**学生 $15**,16:30 后 $10,馆内放映场 $10 常有主创 Q&A。
+- **[Getty Center](https://www.getty.edu/visit/center/)**:免费(订定时票)——13 亿美元建成的园区,"well known for its architecture, gardens, and views overlooking Los Angeles"([Wikipedia](https://en.wikipedia.org/wiki/Getty_Center));停车 $25,周二闭馆。🚗 55 mi / 67 min(骑行距离不现实,建议火车+公交或放弃);
+- **免费阵营**:[The Broad](https://www.thebroad.org/visit)(🚗 43 mi / 55 min)、[MOCA Grand Ave](https://www.moca.org/)(同区)、[Hammer Museum](https://hammer.ucla.edu/)、[Griffith Observatory](https://griffithobservatory.org/visit/)(周二至五 12:00-22:00,周一闭馆,免费看夜景+望远镜;🚗 50 mi / 67 min);
+- **[LACMA](https://www.lacma.org/visit)**:每月第二个周二免费;**4–10 月周五傍晚的 Jazz at LACMA 是免费现场乐**;地铁 D 线已直通门口。🚗 49 mi / 65 min;
+- **付费里性价比之王**:[Academy Museum](https://www.academymuseum.org/en/visit) 奥斯卡电影博物馆——**学生 $15**,16:30 后 $10,馆内放映场 $10 常有主创 Q&A。🚗 49 mi / 64 min。
 
-**片厂**(全官方价,由低到高):[Sony](https://www.sonypicturesstudiostours.com/) $55(周一至五,两小时徒步导览)→ [Paramount](https://www.paramountstudiotour.com/studio-tours.html) $71 → [Warner Bros.](https://www.wbstudiotour.com/tickets/) $79 起(片场真在拍戏,周二三闭馆,提前 2–4 周订)→ [Universal](https://www.universalstudioshollywood.com/web/en/us/theme-park-ticket-deals) $109 起(乐园+影城电车,常态"买一天送一天")。第一次去选 WB。
+**片厂**(全官方价,由低到高):[Sony](https://www.sonypicturesstudiostours.com/) $55(周一至五,两小时徒步导览;🚗 44 mi / 54 min)→ [Paramount](https://www.paramountstudiotour.com/studio-tours.html) $71(🚗 48 mi / 62 min)→ [Warner Bros.](https://www.wbstudiotour.com/tickets/) $79 起(片场真在拍戏,周二三闭馆,提前 2–4 周订;🚗 53 mi / 66 min)→ [Universal](https://www.universalstudioshollywood.com/web/en/us/theme-park-ticket-deals) $109 起(乐园+影城电车,常态"买一天送一天";🚗 52 mi / 68 min)。第一次去选 WB。
 
-**影院**——两家平价神店:[New Beverly](https://thenewbev.com/)(Tarantino 自家:"Repertory **double feature programming since 1978** … All movies are projected on film",**$14 一张票连看双片 35mm**);以及你点名的 [The Frida Cinema](https://thefridacinema.org/about/):
+**影院**——两家平价神店:[New Beverly](https://thenewbev.com/)(Tarantino 自家:"Repertory **double feature programming since 1978** … All movies are projected on film",**$14 一张票连看双片 35mm**;🚗 49 mi / 65 min);以及你点名的 [The Frida Cinema](https://thefridacinema.org/about/)(🚗 9 mi / 17 min · 🚲 8 mi / 59 min):
 
 > "**The Frida Cinema opened on February 21st, 2014 … Screening more than 500 unique films and welcoming more than 100,000 guests each year** … **The Frida Cinema is the only nonprofit independent cinema in Orange County, California.**"
 
@@ -122,76 +124,50 @@ BOA 的[国际学生开户页](https://info.bankofamerica.com/en/international/s
 
 Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚焦于此,"creating consistent surf all year long"。对新手,关键窗口是 **9-10 月:水温全年最高(约 19-21°C,3/2 湿衣足够),南半球涌的尾巴稳定**。
 
-- **[Banzai Surf School](https://huntingtonbeachsurfinglessons.com/)**(HB,PCH & Brookhurst):**每日 11:00 拼团课 $99**,"All lessons include surfboards and good full wetsuits",一名教练带四人,独自报名反而自动升级 1v1;私教两小时 $169;
-- **[Newport 市府签约校](https://www.newportbeachca.gov/government/departments/recreation-senior-services/surf-lessons)**(Newport Surf Camp / Endless Sun):1v1 $95/小时;
-- **自己玩**:板+湿衣约 $20-40 半天;新手去 Doheny State Beach(Dana Point,长板圣地)或 HB Pier 南侧。
+- **[Banzai Surf School](https://huntingtonbeachsurfinglessons.com/)**(HB,PCH & Brookhurst;🚗 12 mi / 21 min · 🚲 11 mi / 74 min):**每日 11:00 拼团课 $99**,"All lessons include surfboards and good full wetsuits",一名教练带四人,独自报名反而自动升级 1v1;私教两小时 $169;
+- **[Newport 市府签约校](https://www.newportbeachca.gov/government/departments/recreation-senior-services/surf-lessons)**(Newport Surf Camp / Endless Sun;🚗 8 mi / 16 min):1v1 $95/小时;
+- **自己玩**:板+湿衣约 $20-40 半天;新手去 Doheny State Beach(Dana Point,长板圣地;🚗 17 mi / 24 min · 🚲 16 mi / 85 min)或 HB Pier 南侧。
 
 校园里更便宜:[ARC 健身房](https://www.campusrec.uci.edu/membership/)注册学生免费(攀岩墙、泳池、球场,Gear Up 免费借球类);[团体操课](https://www.campusrec.uci.edu/groupx/)$40-85/季;[Outdoor Adventures](https://www.campusrec.uci.edu/outdoor/) 徒步团 **$8-24 含交通**(Quail Hill、El Moro、San Jacinto 登顶)。看校队也有校价——[官方票务页](https://app.ucirvinesports.com/Studenttickets)写明本科全免,"**Graduate students can purchase quarterly athletic passes for $33** granting them access to all regular season home events",还能 $5 带访客。徒步想搭伙,[Irvine Ranch Conservancy](https://letsgooutside.org/activities/) 常年有免费 guided hikes。
 
 ## 六、活动日历:把劲儿留给 10 月
 
-**9 月(落地月)**:Old World Oktoberfest(9/12-11/8,HB,周三/四免费票)、[Tanaka Farms 南瓜园](https://www.tanakafarms.com/pages/the-tanaka-pumpkin)(9/12-11/1,离校最近)、[Knott's Scary Farm](https://www.sixflags.com/knotts/scary-farm-tickets)(9/17 起,$65 起)、[Halloween Horror Nights](https://www.universalstudioshollywood.com/halloween/)(9/3-11/1 共 42 晚,单晚 $77-107)、9/18 downy、9/22 AIF 百团。
+**9 月(落地月)**:Old World Oktoberfest(9/12-11/8,HB,周三/四免费票)、[Tanaka Farms 南瓜园](https://www.tanakafarms.com/pages/the-tanaka-pumpkin)(9/12-11/1,离校最近)、[Knott's Scary Farm](https://www.sixflags.com/knotts/scary-farm-tickets)(9/17 起,$65 起;🚗 19 mi / 30 min)、[Halloween Horror Nights](https://www.universalstudioshollywood.com/halloween/)(9/3-11/1 共 42 晚,单晚 $77-107;🚗 52 mi / 68 min)、9/18 downy、9/22 AIF 百团。
 
 **10 月**:每个月都该有主题,10 月的主题是"别宅":
 
 ![Pacific Airshow](../assets/entries/025-irvine-landing-fall-guide/airshow.jpg)
 *Pacific Airshow @ Huntington Beach——海滩上免费看。Photo: PacificAirshow2024, CC BY 4.0, via Wikimedia Commons*
 
-- **10/2-4 [Pacific Airshow](https://pacificairshowusa.com/faq)**(HB):雷鸟/蓝天使级飞行表演,"Approximately 10:30AM - 4:30PM Daily",海滩沿线免费,Pier 观礼需票;
-- **10/3-4 Neverender 音乐节**(Santa Ana,§三);
-- **10/10 [Irvine Global Village Festival](https://www.cityofirvine.gov/irvine-global-village-festival-communications-engagement/about-festival)**:"Orange County's premier multicultural event",25 周年,Great Park,10:00-18:00,免费;
-- **10/11 [CicLAvia: Heart of LA](https://ciclavia.org/events/heart-of-la-2026-10/)**:市中心 6.5 英里封街(9:00-16:00),步行骑行皆可,免费——与 Global Village 同周末,可以两天都过;
+- **10/2-4 [Pacific Airshow](https://pacificairshowusa.com/faq)**(HB;🚗 12 mi / 21 min):雷鸟/蓝天使级飞行表演,"Approximately 10:30AM - 4:30PM Daily",海滩沿线免费,Pier 观礼需票;
+- **10/3-4 Neverender 音乐节**(Santa Ana;🚗 7 mi / 12 min,§三);
+- **10/10 [Irvine Global Village Festival](https://www.cityofirvine.gov/irvine-global-village-festival-communications-engagement/about-festival)**:"Orange County's premier multicultural event",25 周年,Great Park,10:00-18:00,免费;🚗 8 mi / 16 min · 🚲 9 mi / 46 min;
+- **10/11 [CicLAvia: Heart of LA](https://ciclavia.org/events/heart-of-la-2026-10/)**:市中心 6.5 英里封街(9:00-16:00),步行骑行皆可,免费——与 Global Village 同周末,可以两天都过;🚗 43 mi / 54 min(建议 Amtrak 到 Union Station 后骑车加入);
 
 ![CicLAvia](../assets/entries/025-irvine-landing-fall-guide/ciclavia.jpg)
 *CicLAvia:洛杉矶的马路变成一天的公园。Photo: Eric Garcetti, CC BY 2.0, via Wikimedia Commons*
 
-- **10/15-22 [Newport Beach Film Festival](https://newportbeachfilmfest.com/)**:50 国 300+ 部影片;
-- **10/16-18 Stones Throw 30;10/21 [Lakers 揭幕战](https://lakers.com/news/lakers-announce-26-27-schedule) vs Warriors;10/21-25 [AFI FEST](https://www.afi.com/press/american-film-institute-announces-40th-afi-fest-presented-by-canva-to-take-place-october-21-25-2026/)**(TCL Chinese:"40th edition … Red Carpet Premiere screenings, World Cinema, Documentaries and Short Films");
-- **10/24 [Día de los Muertos @ Hollywood Forever](https://www.ladayofthedead.com/event-info/)**:"NOON – MIDNIGHT",全美最有名的亡灵节——墓园里的祭坛、Catrina 妆容与歌舞;
-- **10/31**:[WeHo 万圣节 Carnaval](https://www.visitwesthollywood.com/halloween-carnaval/frequently-asked-questions-halloween-carnaval/)("free and no tickets are required",Santa Monica Blvd 封街一英里)或 [USC vs Ohio State](https://usctrojans.com/sports/football/schedule/text)(Coliseum)。
+- **10/15-22 [Newport Beach Film Festival](https://newportbeachfilmfest.com/)**:50 国 300+ 部影片(🚗 8 mi / 16 min);
+- **10/16-18 Stones Throw 30;10/21 [Lakers 揭幕战](https://lakers.com/news/lakers-announce-26-27-schedule) vs Warriors;10/21-25 [AFI FEST](https://www.afi.com/press/american-film-institute-announces-40th-afi-fest-presented-by-canva-to-take-place-october-21-25-2026/)**(TCL Chinese:"40th edition … Red Carpet Premiere screenings, World Cinema, Documentaries and Short Films";🚗 50 mi / 65 min);
+- **10/24 [Día de los Muertos @ Hollywood Forever](https://www.ladayofthedead.com/event-info/)**:"NOON – MIDNIGHT",全美最有名的亡灵节——墓园里的祭坛、Catrina 妆容与歌舞(🚗 48 mi / 61 min);
+- **10/31**:[WeHo 万圣节 Carnaval](https://www.visitwesthollywood.com/halloween-carnaval/frequently-asked-questions-halloween-carnaval/)("free and no tickets are required",Santa Monica Blvd 封街一英里)或 [USC vs Ohio State](https://usctrojans.com/sports/football/schedule/text)(Coliseum;🚗 43 mi / 55 min)。
 
 ![Día de los Muertos Catrina](../assets/entries/025-irvine-landing-fall-guide/diademuertos.jpg)
 *亡灵节的 Catrina 雕像——10/24 的 Hollywood Forever 是全美最有名的版本。Photo: joey zanotti, CC BY 2.0, via Wikimedia Commons*
 
-**11 月**:11/1 Ducks 亡灵节主题夜([官方赛程](https://www.nhl.com/ducks/fans/promotional-schedule)原文即 "Celebración del Día de Muertos");11/13 起 [Disneyland 假日季](https://disneyexperiences.com/disneyland-press/release/holidays-at-the-disneyland-resort-returns-with-festival-favorites-and-classic-traditions-nov-13-2026-jan-6-2027/)(至 1/6);11 月中 [LA Zoo Lights](https://lazoo.org/2025/11/l-a-zoo-lights-animals-aglow/)(约 $29);**11/22-1/9 [Descanso 灯展](https://www.descansogardens.org/enchanted-faqs/)**(成人 $29-52,热门夜售罄);11/20 起 [Sawdust Winter Fantasy](https://sawdustartfestival.org/festivals/)(Laguna 手工艺圣诞村,仅周五六日,$5-10,"transforms Laguna Canyon into a festive, handcrafted holiday village");11/26-27 感恩节(商店关门,提前囤粮);11 月中 UCI 篮球开季($33 季票,§五)。
+**11 月**:11/1 Ducks 亡灵节主题夜([官方赛程](https://www.nhl.com/ducks/fans/promotional-schedule)原文即 "Celebración del Día de Muertos";🚗 15 mi / 22 min · 🚲 14 mi / 96 min);11/13 起 [Disneyland 假日季](https://disneyexperiences.com/disneyland-press/release/holidays-at-the-disneyland-resort-returns-with-festival-favorites-and-classic-traditions-nov-13-2026-jan-6-2027/)(至 1/6;🚗 17 mi / 25 min);11 月中 [LA Zoo Lights](https://lazoo.org/2025/11/l-a-zoo-lights-animals-aglow/)(约 $29);**11/22-1/9 [Descanso 灯展](https://www.descansogardens.org/enchanted-faqs/)**(成人 $29-52,热门夜售罄);11/20 起 [Sawdust Winter Fantasy](https://sawdustartfestival.org/festivals/)(Laguna 手工艺圣诞村,仅周五六日,$5-10,"transforms Laguna Canyon into a festive, handcrafted holiday village";🚗 12 mi / 20 min · 🚲 14 mi / 76 min);11/26-27 感恩节(商店关门,提前囤粮);11 月中 UCI 篮球开季($33 季票,§五)。
 
 **12 月**:12/4 停课、12/5-11 期末、12/11 结束——之后就是灯展与船巡游的季节。压轴是 **12/16-20 [Newport Beach Christmas Boat Parade](https://visitnewportbeach.com/newport-beach-christmas-boat-parade/)(第 118 届)**:
 
 > "a fleet of wonderfully decorated yachts, boats, kayaks, and canoes motoring along **a 14-mile course** … **December 16-20, 2026** … a special opening fireworks display will take place off the Newport Pier … **This event is open to the public and admission is free.**"
 
-每晚 18:30 出发,12/16 开幕夜有烟花,**Marina Park 免费观赏**;12/12 Swervedriver(Teragram,§三);12/31 [Grand Park NYELA](https://grandparkla.org/nyela/) 跨年(免费,20:00-次日 1:00,市政厅投影倒数)。
+每晚 18:30 出发,12/16 开幕夜有烟花,**Marina Park 免费观赏**(🚗 8 mi / 18 min · 🚲 7 mi / 53 min);12/12 Swervedriver(Teragram,§三);12/31 [Grand Park NYELA](https://grandparkla.org/nyela/) 跨年(免费,20:00-次日 1:00,市政厅投影倒数;🚗 43 mi / 54 min)。
 
-## 七、车程与打车估算表
+## 七、方法与局限
 
-车程由 OSRM 路由引擎逐条计算(免费流);UberX/Lyft 为平峰单人估算区间(方法见 §八),高峰与活动日 ×1.3-2,拼车约省 25-35%。点目的地名可打开 Google Maps 路径。
-
-| 目的地 | 里程 | 无交通 | UberX 估 |
-|---|---|---|---|
-| [Observatory OC](https://www.google.com/maps/dir/?api=1&origin=7000+Palo+Verde+Rd%2C+Irvine%2C+CA+92697&destination=3503+S+Harbor+Blvd%2C+Santa+Ana%2C+CA+92704&travelmode=driving) | 7.0 mi | 12 min | $14–20 |
-| [Crystal Cove](https://www.google.com/maps/dir/?api=1&origin=7000+Palo+Verde+Rd%2C+Irvine%2C+CA+92697&destination=Crystal+Cove+State+Park%2C+CA&travelmode=driving) | 7.0 mi | 13 min | $14–20 |
-| [The Wayfarer(Costa Mesa)](https://www.google.com/maps/dir/?api=1&origin=7000+Palo+Verde+Rd%2C+Irvine%2C+CA+92697&destination=843+W+19th+St%2C+Costa+Mesa%2C+CA+92627&travelmode=driving) | 7.1 mi | 13 min | $14–20 |
-| [SNA 机场](https://www.google.com/maps/dir/?api=1&origin=7000+Palo+Verde+Rd%2C+Irvine%2C+CA+92697&destination=John+Wayne+Airport%2C+CA&travelmode=driving) | 4.7 mi | 10 min | $12–18 |
-| [Great Park](https://www.google.com/maps/dir/?api=1&origin=7000+Palo+Verde+Rd%2C+Irvine%2C+CA+92697&destination=8000+Great+Park+Blvd%2C+Irvine%2C+CA+92618&travelmode=driving) | 8.1 mi | 16 min | $15–22 |
-| [The Frida Cinema(DTSA)](https://www.google.com/maps/dir/?api=1&origin=7000+Palo+Verde+Rd%2C+Irvine%2C+CA+92697&destination=305+E+4th+St%2C+Santa+Ana%2C+CA+92701&travelmode=driving) | 9.3 mi | 17 min | $16–24 |
-| [Newport Pier](https://www.google.com/maps/dir/?api=1&origin=7000+Palo+Verde+Rd%2C+Irvine%2C+CA+92697&destination=Newport+Pier%2C+Newport+Beach%2C+CA&travelmode=driving) | 8.1 mi | 16 min | $15–23 |
-| [Huntington Beach Pier](https://www.google.com/maps/dir/?api=1&origin=7000+Palo+Verde+Rd%2C+Irvine%2C+CA+92697&destination=Huntington+Beach+Pier%2C+CA&travelmode=driving) | 12.0 mi | 21 min | $20–30 |
-| [Laguna Beach](https://www.google.com/maps/dir/?api=1&origin=7000+Palo+Verde+Rd%2C+Irvine%2C+CA+92697&destination=Main+Beach%2C+Laguna+Beach%2C+CA&travelmode=driving) | 12.2 mi | 20 min | $20–30 |
-| [Honda Center(Ducks)](https://www.google.com/maps/dir/?api=1&origin=7000+Palo+Verde+Rd%2C+Irvine%2C+CA+92697&destination=2695+Katella+Ave%2C+Anaheim%2C+CA+92806&travelmode=driving) | 15.1 mi | 22 min | $23–34 |
-| [Chain Reaction(Anaheim)](https://www.google.com/maps/dir/?api=1&origin=7000+Palo+Verde+Rd%2C+Irvine%2C+CA+92697&destination=1652+W+Lincoln+Ave%2C+Anaheim%2C+CA+92801&travelmode=driving) | 16.7 mi | 24 min | $26–38 |
-| [Disneyland](https://www.google.com/maps/dir/?api=1&origin=7000+Palo+Verde+Rd%2C+Irvine%2C+CA+92697&destination=Disneyland%2C+Anaheim%2C+CA&travelmode=driving) | 16.8 mi | 25 min | $26–40 |
-| [San Clemente](https://www.google.com/maps/dir/?api=1&origin=7000+Palo+Verde+Rd%2C+Irvine%2C+CA+92697&destination=San+Clemente+Pier%2C+CA&travelmode=driving) | 25.3 mi | 35 min | $38–55 |
-| [LA Union Station(Amtrak)](https://www.google.com/maps/dir/?api=1&origin=7000+Palo+Verde+Rd%2C+Irvine%2C+CA+92697&destination=Union+Station%2C+Los+Angeles%2C+CA&travelmode=driving) | 42.2 mi | 54 min | $55–85 |
-| [Teragram(DTLA)](https://www.google.com/maps/dir/?api=1&origin=7000+Palo+Verde+Rd%2C+Irvine%2C+CA+92697&destination=1234+W+7th+St%2C+Los+Angeles%2C+CA+90017&travelmode=driving) | 42.8 mi | 56 min | $55–85 |
-| [Zebulon(Atwater)](https://www.google.com/maps/dir/?api=1&origin=7000+Palo+Verde+Rd%2C+Irvine%2C+CA+92697&destination=2478+Fletcher+Dr%2C+Los+Angeles%2C+CA+90039&travelmode=driving) | 46.1 mi | 59 min | $60–90 |
-| [Getty Center](https://www.google.com/maps/dir/?api=1&origin=7000+Palo+Verde+Rd%2C+Irvine%2C+CA+92697&destination=1200+Getty+Center+Dr%2C+Los+Angeles%2C+CA+90049&travelmode=driving) | 54.9 mi | 67 min | $70–105 |
-
-一句话结论:**OC 侧一趟 $14-24,LA 侧一趟 $55-90**——LA 行程优先 Amtrak($19 起)+ Metro 接驳,或者找人拼车过夜。
-
-## 八、方法与局限
-
+- **距离与时间**:🚗/🚲 全部由 OSRM 公共路由引擎(`routing.openstreetmap.de`,routed-car / routed-bike)从 Palo Verde 出发逐条计算,为免费流估计;Google 实时路况通常 +20-40%,LA 侧高峰可翻倍。由 [route_watch.py](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/025-irvine-landing-fall-guide/)(工作区脚本)**每天早上 6:00 自动重扫**,数据快照存工作区,与 Google Maps 有明显偏差时再人工修版;点击各目的地可打开 Google Maps 路径核对实时值;
+- **打车估算**:UberX/Lyft 为平峰单人估算区间(按 OC/LA 常见费率模型推算并对照公开行情),**非实时报价**;高峰与大型活动日 ×1.3-2,拼车约省 25-35%;落地后用 App 实测校准一次最稳。一句话结论:**OC 侧一趟 $14-24,LA 侧一趟 $55-90**——LA 行程优先 Amtrak($19 起)+ Metro 接驳,或拼车过夜;
 - **核验窗口**:2026-09-10/11 两轮检索;所有票价、日期均来自官方或一级票务页(链接内联)。仍会变动的:LA Zoo Lights 2026 具体日期、LACMA / Huntington / Griffith 票价、Neverender 官方面价——购票前点开链接再确认;
-- **车程**:OSRM 公共路由(`router.project-osrm.org`)免费流计算;Google 常态估 +20-40%,LA 侧高峰可翻倍;
-- **打车估价**:按 OC/LA 常见 UberX 费率模型推算并对照公开行情,**非实时报价**;落地后用 App 实测校准一次最稳;
 - **图片**:Wikimedia Commons(CC0 / CC BY / CC BY-SA),图注逐一署名,感谢各位拍摄者。
 
 ---
