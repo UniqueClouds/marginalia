@@ -204,6 +204,23 @@ OTC 款均 **HSA/FSA eligible**;处方 CGM(Libre 3 Plus ~$160/月、G7 ~$350/月
 - **脊柱侧弯(成人)**:**Sports Medicine/Primary Care**($5)→ SHC X 光量化角度 → 视情况转专科;日常姿势与肌肉失衡管理交给 Chiropractic + Hinge Health。
 - **足底筋膜炎/扁平足(顺带鞋垫)**:**Sports Medicine 或 Chiropractic** 诊断 → 整脊诊所直接取模配 **custom orthotics**(鞋垫费 95%,记得让医生开处方 + 走 pre-cert)。
 
+### 补充:针灸与理疗的精确算法
+
+**针灸 acupuncture**:计划定价两档——preferred **$20 copay/次**、in-network $30,**每年 30 次**上限,限 "Medically **Necessary Treatment only**"(医疗必需),免赔额豁免。注意 SHC **没有**针灸服务(科室清单里无此项),只能走社区网内:流程 = Chart 给保险部发消息办**转诊** → Blue Shield PPO 目录挑针灸师(可让 SHC Insurance Services 协助选点) → 每次付 $20。Certificate 对 "Physician" 的定义是"在执照范围内执业的持照专业人员",加州执照针灸师(L.Ac.)符合。
+
+**理疗**(电疗、热敷、超声波、牵引、手法这些"物理因子治疗"):保险文件里全部归入 **Physical Therapy** 的定义——Certificate 原文:"**Physical Therapy** means any form of the following: 1. Physical or mechanical therapy; 2. **Diathermy**(透热电疗); 3. **Ultra-sonic therapy**(超声波理疗); 4. **Heat Treatment in any form**(任何形式热疗); or 5. **Manipulation or massage**(手法/推拿)。"→ 因此理疗计入 PT 福利:preferred 档 **95% 报销、PT/OT/ST 合计 30 次/年**,社区 PT 需转诊;**单独的 massage/Rolfing 不在福利内**,手法只有包在医嘱 PT 里才计。
+
+| 手法/理疗类服务的四个入口 | 实付 | 次数 | 转诊 |
+|---|---|---|---|
+| SHC 整脊(手法/软组织/肌贴) | $10/次 | 30 次/年 | 免 |
+| 社区 PT(全套理疗+康复训练) | 95% 报销 | 30 次/年(PT/OT/ST 共享) | 要 |
+| 社区针灸师(针刺/电针) | $20/次 | 30 次/年 | 要 |
+| Hinge Health(虚拟 PT) | $0 | 不占额度 | 免 |
+
+话术:"I'd like to explore **acupuncture** — could I get a referral to an **in-network acupuncturist**?" / "Could you refer me to an in-network **physical therapy clinic**? I'd like a program including **manual therapy and modalities** (ultrasound, e-stim, heat)."
+
+术语:acupuncture 针灸;acupuncturist (L.Ac.) 针灸师;electro-acupuncture 电针;dry needling 干针(多由 PT 在 PT 访视内操作、按 PT 计);modalities 理疗手段;therapeutic ultrasound 超声波理疗;e-stim/TENS 电刺激;diathermy 透热电疗;traction 牵引;manual therapy 手法治疗。
+
 ## 六、挂号与术语速查:到了怎么讲
 
 ### 6.1 三种挂号渠道
