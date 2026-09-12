@@ -204,6 +204,23 @@ Two traps: ① **massage itself is not a standalone benefit** — the Certificat
 - **Adult scoliosis**: **Sports Medicine/Primary Care** ($5) → on-site X-ray to quantify → specialist referral as needed; day-to-day posture and muscle-balance work with Chiropractic + Hinge Health.
 - **Plantar fasciitis / flat feet (orthotics)**: diagnosis at **Sports Medicine or Chiropractic** → casting and fitting at the chiropractic clinic (device at 95%; get the prescription and pre-cert sorted).
 
+### Deep dive: acupuncture and PT modalities
+
+**Acupuncture** is priced at "$20 Copay per visit" (preferred) / $30 (in-network), capped at **30 visits per policy year**, for "Medically **Necessary Treatment only**", with the deductible waived. The SHC itself offers no acupuncture, so it's community-only: request a referral via a My Student Chart message to the insurance department, pick an acupuncturist (L.Ac.) from the Blue Shield PPO directory (SHC Insurance Services will help you choose), pay $20 per visit. The Certificate defines "Physician" broadly — "a health care professional practicing within the scope of his or her license" — which covers California-licensed acupuncturists.
+
+**Physical modalities** ("理疗": e-stim, heat packs, therapeutic ultrasound, traction, manual work) all live inside the plan's **Physical Therapy** definition: "**Physical Therapy** means any form of the following: 1. Physical or mechanical therapy; 2. **Diathermy**; 3. **Ultra-sonic therapy**; 4. **Heat Treatment in any form**; or 5. **Manipulation or massage**." They therefore bill under the rehabilitation benefit: **95% on the preferred tier, 30 combined PT/OT/ST visits per policy year**, referral required for community PT. Standalone massage and Rolfing remain excluded — manual work counts only inside a prescribed PT plan.
+
+| Entry points for hands-on / modality care | Your cost | Visits | Referral |
+|---|---|---|---|
+| SHC chiropractic (manual/soft-tissue/taping) | $10/visit | 30/year | No |
+| Community PT (full modalities + exercise rehab) | 95% covered | 30/year (PT/OT/ST shared) | Yes |
+| Community acupuncturist (needling/e-stim) | $20/visit | 30/year | Yes |
+| Hinge Health (virtual PT) | $0 | Not counted | No |
+
+Scripts: "I'd like to explore **acupuncture** — could I get a referral to an **in-network acupuncturist**?" / "Could you refer me to an in-network **physical therapy clinic**? I'd like a program including **manual therapy and modalities** (ultrasound, e-stim, heat)."
+
+Terminology: acupuncture; acupuncturist (L.Ac.); electro-acupuncture; dry needling (typically performed by a PT inside a PT visit, billed as PT); modalities; therapeutic ultrasound; e-stim/TENS; diathermy; traction; manual therapy.
+
 ## 6. Terminology & booking scripts
 
 ### 6.1 Three ways to book
