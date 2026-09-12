@@ -56,7 +56,7 @@ Not at SHC: in-person physical therapy, optometry/glasses, MRI-class imaging (al
 | Glasses allowance | ✅ it's $120 | Eye exam **fully covered after $10 copay**, yearly; frames **$120 allowance + $25 copay** (+$25 at select providers); standard lenses fully covered after $25; contacts $120 allowance ([Superior Vision summary](https://studenthealth.uci.edu/files/2025/08/UC-Irvine-Superior-Vision-Plan-Summary-exp0426.pdf)) |
 | $5/$10 "massage" | ⚠️ not quite | **$10 = chiropractic copay per visit** (30/year), whose care includes "deep tissue work, soft-tissue therapy"; **$5 = office-visit copay**; standalone massage is not a benefit — the Certificate defines "Manipulation or massage" as a form of **Physical Therapy**, covered only inside a prescribed PT plan |
 | Custom orthotics | ✅ fitted on campus | SHC chiropractic officially offers "**custom orthotics**"; the plan pays them under Prosthetic & Orthotic Devices (prescription + medical necessity + pre-certification) at **95%**; purely protective sports braces are excluded |
-| Cheap prescriptions | ✅ fully online flow | Generics **$5/30-day**; [Wellfleet Rx list](http://wellfleetrx.com/students/formularies/) 40+ generics **$0**; ACA preventive drugs $0; **no referral needed** for pharmacy; SHC pharmacy mails via FedEx |
+| Cheap prescriptions | ✅ fully online flow | Generics **$5/30-day**; [Wellfleet Rx list](http://wellfleetrx.com/students/formularies/) 40+ generics **$0**; ACA preventive drugs $0; **no referral needed** for pharmacy; SHC pharmacy mails via FedEx. For OTC vs prescription insurance rules and the full fill flow, see §4.2 |
 
 ![What you actually pay](../assets/entries/026-uci-gship-clinic-guide/fig2-copay-cards.svg)
 *Fig 1 · What you actually pay at the SHC — the six most-used services, plus other common prices. Data: Wellfleet Benefits at a Glance 2025-26 and official pages; self-drawn.*
@@ -74,9 +74,62 @@ Three hard rules:
 2. **Exceptions (no referral needed)**: emergency room, urgent care, pharmacy, dental, optometric/vision, OB-GYN, care during Winter Break. Off-campus mental health needs a referral but is exempt from the 50-mile rule.
 3. **The penalty**: "if an Insured Student does not obtain a Referral … **We will not pay** for Covered Medical Expenses" — no referral, no payment; retroactive requests use the [Retroactive Referral Request Form](https://studenthealth.uci.edu/files/2025/09/Retroactive-Referral-Appeal-Request-Form-2025.pdf).
 
-**Billing flow**: SHC bills the plan for you → plan pays (~2–3 weeks) → your copay/coinsurance posts to ZOT. In-network community providers bill the plan directly. Only if you paid out of pocket do you claim reimbursement: Wellfleet (claims processed at Cigna, PO Box 188061, Chattanooga, TN); [notice and proof-of-loss windows are 90 days](https://studenthealth.uci.edu/files/2025/10/FINAL-2526-UC-Irvine-Grad-Undergrads-SHIP-Cert-combined-w-notices-rev-10.15.25-JR.pdf); itemized statements print from Chart.
+### 4.1 How visit billing works
 
-Reference copays (2025-26, [Benefits at a Glance](https://studenthealth.uci.edu/files/2025/10/WEB-2526-UC-Irvine-BGlance-rev-9.17.25-JR.pdf)): SHC/in-network office visits **$5**; urgent care $25; ER $200 (waived if admitted); hospital $500/admission; in-network deductible $300 (**always waived at SHC**); in-network out-of-pocket max $4,500; non-emergency care abroad 50% after deductible (max $10,000, plus medevac $50,000 / repatriation $25,000 and 24-hour Travel Guard assistance).
+SHC bills the plan for you → plan pays (~2–3 weeks) → your copay/coinsurance posts to ZOT. In-network community providers bill the plan directly. Only if you paid out of pocket do you claim reimbursement: Wellfleet (claims processed at Cigna, PO Box 188061, Chattanooga, TN); [notice and proof-of-loss windows are 90 days](https://studenthealth.uci.edu/files/2025/10/FINAL-2526-UC-Irvine-Grad-Undergrads-SHIP-Cert-combined-w-notices-rev-10.15.25-JR.pdf); itemized statements print from Chart.
+
+### 4.2 Medications: OTC is always cash, prescriptions go through the plan
+
+The Certificate is blunt about non-prescription drugs: "Any drug or medicine which does not, by federal or state law, require a prescription order, i.e., **over-the-counter drugs, even if a prescription is written**, except as specifically provided under Preventive Services …", and "Drugs with **over-the-counter equivalents** except as specifically provided under Preventive Services." So the $2.64 Zyrtec **cannot and need not** run through insurance — the cash price already beats the $5 copay. What insurance actually pays for is **prescription medication**, in four steps:
+
+1. **Visit & prescribe**: SHC office visit ($5); the provider e-prescribes — ask upfront, "**Is this covered on my plan's formulary?**"
+2. **Pick a fill channel** (any of three):
+   - **SHC pharmacy on site**: have the prescription sent here; pick up when My Student Chart notifies you — **no payment at pickup**, the copay posts to Zot 2–3 weeks later;
+   - **Community network pharmacy** (Wellfleet Rx = Express Scripts network; CVS/Walgreens etc.): give your name + date of birth, show your Wellfleet Rx insurance info, pay the copay at pickup; network lookup at [wellfleetrx.com/students](https://www.wellfleetrx.com/students);
+   - **Mail delivery**: SHC pharmacy ships via FedEx in 2–3 business days (request form in Chart; no controlled substances, take-immediately meds, or out-of-state addresses);
+3. **Pay the copay**: Tier 1 generics **$5 per 30-day fill**, Tier 2 **$25** (preferred pharmacy); **40+ generics at $0** on the [Wellfleet Rx list](http://wellfleetrx.com/students/formularies/); ACA preventive drugs $0 (insulin and ACA-required OTC preventive medications are explicitly exempt from the exclusion);
+4. **Out-of-network / paid out of pocket**: keep receipts and claim reimbursement from Wellfleet within 90 days.
+
+Three questions for the pharmacy counter: "**Is this covered on my plan's formulary?**" / "**What will my copay be?**" / "**Is there a generic at a lower tier?**"
+
+Two worked examples (from §3's symptom scenarios): **rhinitis** — ask the provider to prescribe a prescription nasal spray or antihistamine and it follows the flow above (Tier 1 $5, possibly $0 on the list); buying Zyrtec yourself at $2.64 cash is cheaper and equally legitimate. **Dry mouth** — if a prescription drug is the suspected cause, the replacement prescription after a dose change goes through the same Tier copays.
+
+### 4.3 Key prices from the plan documents
+
+Source: [Benefits at a Glance 2025-26](https://studenthealth.uci.edu/files/2025/10/WEB-2526-UC-Irvine-BGlance-rev-9.17.25-JR.pdf). Columns = Preferred (Blue Shield PPO top tier) / In-Network (other participating) / Out-of-Network; care inside the SHC always has the deductible waived.
+
+| Item | Preferred | In-Network | Out-of-Network |
+|---|---|---|---|
+| **Deductible (individual)** | **$0** | $300 | $500 |
+| Office visits (PCP/specialist) | **$5 copay**, then 100% | $20 copay, then 100% | 50% U&C after deductible |
+| Preventive services | $0 (100%) | $0 | Not covered |
+| Telehealth | $5 | $20 | — |
+| Urgent care | $25 | $25 | $25 |
+| Emergency room | $200 copay (waived if admitted) | same | same (No Surprises Act protections) |
+| Hospitalization | $500/admission after deductible + 10% | same | 50% U&C |
+| PT/OT/speech therapy | **95%** (30 visits/year) | 90% after deductible | 50% after deductible |
+| Acupuncture (medically necessary) | $20 (30/year) | $30 | 50% after deductible |
+| Chiropractic | **$10** (30/year) | $30 | 50% after deductible |
+| Allergy testing & treatment (incl. injections) | 95% | 90% after deductible | 50% after deductible |
+| DME (pre-cert if >$500/item) | 95% | 90% after deductible | 50% after deductible |
+| Prosthetic & orthotic devices (pre-cert + prescription) | 95% | 90% after deductible | 50% after deductible |
+| **Everything inside the SHC** | **100% of billed charge, deductible waived** | — | — |
+| Prescriptions (30-day fill) | **Tier 1 $5 / Tier 2 $25**; 40+ list $0; ACA preventive $0 | Tier 1 $15 / Tier 2 $40 | reimbursement basis |
+| **Out-of-pocket maximum (individual)** | **$4,500** | $9,000 | $9,000 |
+| Non-emergency care abroad | 50% after deductible ($10,000/year cap; medevac $50,000 / repatriation $25,000) | | |
+
+### 4.4 SHC standard billed prices, selected
+
+The [fee schedule PDF](https://studenthealth.uci.edu/files/2025/10/AY-2025-2026-UC-Irvine-SHC-Fees-for-Common-Services-v4.pdf) (dated 2025-10-23) lists **what SHC bills the plan** — with SHIP you settle per §4.1 and usually pay far less; the numbers are here so Zot bills and EOBs make sense:
+
+| Category | Items (standard billed price) |
+|---|---|
+| Office visits | Primary Care/Specialties $45–$489 · psychotherapy $126–$305 · women's health PAP package $467–$493 · nutrition initial (15 min) $83 |
+| Labs | CBC $41 · HbA1c $8 · glucose $26 · lipid $84 · HIV from $17 · chlamydia/gonorrhea from $41 · venipuncture $36 |
+| X-rays | chest $77–$93 · foot $91 · hand $97 · ankle $100 |
+| Vaccines ($0 for SHIP) | HPV-9 $498 (3 doses) · varicella $296 · MMR $215 · Hep B $117 · Tdap $101 · flu $36; administration $55 first / $29 additional |
+| OTC pharmacy (cash) | Zyrtec 30 tabs $2.64 · Claritin 30 tabs $2.52 · Benadryl 24 tabs $1.44 · Flonase $12.43 · Allegra-D $22.88 · ibuprofen 50 tabs $1.69 · emergency contraception $21.79 |
+| Administrative | missed appointment $50 medical / $60 mental health · administrative clearance exam $60 (**not covered by SHIP**, self-paid) |
 
 ## 5. Rehab, in detail: every option and exactly how it's paid
 
