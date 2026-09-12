@@ -63,7 +63,7 @@ SHC 没有的:线下 PT、验光配镜、MRI 等复杂影像(转诊出去,见 §
 | 眼镜有免费额度 | ✅ 但额度是 $120 | 验光 **$10 copay 全包**/年;镜框 **$120 额度 + $25 copay**(指定店 +$25);标准镜片 $25 后全包;隐形 $120 额度([Superior Vision 摘要](https://studenthealth.uci.edu/files/2025/08/UC-Irvine-Superior-Vision-Plan-Summary-exp0426.pdf)) |
 | $5/$10 的"推拿" | ⚠️ 真实对应物不同 | **$10 = 整脊 chiropractic copay/次**(30 次/年),其诊疗含 "deep tissue work, soft-tissue therapy";**$5 = 门诊 copay**;独立 massage 不在福利内——Certificate 把 "Manipulation or massage" 定义为 **Physical Therapy 的一种**,只有作为医嘱 PT 的一部分才保 |
 | 配定制鞋垫 | ✅ 校内就能配 | SHC 整脊诊所官方服务含 "**custom orthotics**";保险按 Prosthetic & Orthotic Devices 走(处方 + 医疗必需 + pre-cert),网内 **95%**;纯运动防护型不保 |
-| 开药便宜 | ✅ 且流程全线上 | 仿制药 **$5/30 天**、[Wellfleet Rx 名单](http://wellfleetrx.com/students/formularies/) 40+ 种 **$0**、ACA 预防药 $0;处方**不需要转诊**;SHC 药房可寄到家(FedEx 2–3 天) |
+| 开药便宜 | ✅ 且流程全线上 | 仿制药 **$5/30 天**、[Wellfleet Rx 名单](http://wellfleetrx.com/students/formularies/) 40+ 种 **$0**、ACA 预防药 $0;处方**不需要转诊**;SHC 药房可寄到家(FedEx 2–3 天)。OTC 与处方的保险差别、完整取药流程见 §4.2 |
 
 ![SHC 热门服务实付价](../assets/entries/026-uci-gship-clinic-guide/fig2-copay-cards.svg)
 *图 1 · SHC 热门服务实付价速查——六张卡片是学生最常用的六项,底部是其他常用价格。数据源:Wellfleet Benefits at a Glance 2025-26 与各官方页面,自绘。*
@@ -81,9 +81,62 @@ SHC 没有的:线下 PT、验光配镜、MRI 等复杂影像(转诊出去,见 §
 2. **豁免清单**:急诊、Urgent Care、药房、牙科、验光配镜、OB-GYN、Winter Break 期间就医,**不需要转诊**;心理健康校外就医需转诊但不受 50 英里约束。
 3. **罚则**:Certificate 原文 "if an Insured Student does not obtain a Referral … **We will not pay** for Covered Medical Expenses"——无转诊=整单拒赔;事后补救走 [Retroactive Referral Request Form](https://studenthealth.uci.edu/files/2025/09/Retroactive-Referral-Appeal-Request-Form-2025.pdf)。
 
+### 4.1 就诊的钱
+
 **结算流**:SHC 就诊 → SHC 自动向保险理赔 → 保险付款(约 2–3 周)→ 你的 copay/coinsurance 进 ZOT 账户,当天不掏钱。校外网内就医由 provider 直接向保险收账;垫付了才需要自己报销:向 Wellfleet 报账(claims 处理地址 Cigna, PO Box 188061, Chattanooga, TN;[Incurred/Notice/Proof 三条期限都是 90 天](https://studenthealth.uci.edu/files/2025/10/FINAL-2526-UC-Irvine-Grad-Undergrads-SHIP-Cert-combined-w-notices-rev-10.15.25-JR.pdf)),收据与 itemized statement 从 Chart 打印。
 
-主要自付价目(2025-26 计划,详见 [Benefits at a Glance](https://studenthealth.uci.edu/files/2025/10/WEB-2526-UC-Irvine-BGlance-rev-9.17.25-JR.pdf)):SHC/网内门诊 **$5**;Urgent Care $25;急诊 $200(收住院免);住院 $500/次;网内免赔额 $300(**SHC 内一律豁免**);年度自付上限网内 $4,500;境外非急诊 50% 报销(上限 $10,000,另含 medevac $50,000/repatriation $25,000 与 Travel Guard 24 小时援助)。
+### 4.2 药的钱:OTC 永远自费,处方才走保险
+
+Certificate 对非处方药的排除写得很硬:"Any drug or medicine which does not, by federal or state law, require a prescription order, i.e., **over-the-counter drugs, even if a prescription is written**, except as specifically provided under Preventive Services …",以及 "Drugs with **over-the-counter equivalents** except as specifically provided under Preventive Services"。所以 Zyrtec $2.64 这类 OTC **不能也不必走保险**——现金价本来就比 $5 copay 便宜;真正"走保险"的对象是**处方药**,流程四步:
+
+1. **就诊开药**:SHC 门诊($5),医生直接电子处方,可先问一句 "**Is this covered on my plan's formulary?**";
+2. **选取药渠道**(三选一):
+   - **SHC 校内药房**:处方默认可发到这里,Chart 收到通知后到店取——**取药零现金**,copay 约 2–3 周后进 Zot;
+   - **社区网内药房**(Wellfleet Rx = Express Scripts 网,CVS/Walgreens 均可):报姓名+生日、出示 Wellfleet Rx 保险信息,pickup 时付 copay;查网 [wellfleetrx.com/students](https://www.wellfleetrx.com/students);
+   - **寄到家**:SHC 药房 FedEx 2–3 个工作日(Chart 填邮寄表;管控药品、需立即服用、加州外地址不寄);
+3. **付 copay**:Tier 1 仿制药 **$5/30 天**、Tier 2 **$25**(preferred 药房);[Wellfleet Rx 名单](http://wellfleetrx.com/students/formularies/)里 **40+ 种仿制药 $0**;ACA 预防性药物 $0(胰岛素与 ACA 要求的 OTC 预防药是排除条款的明示豁免);
+4. **网外/垫付**:保留收据,90 天内向 Wellfleet 报销(reimbursement basis)。
+
+药房柜台三连问:"**Is this covered on my plan's formulary?**" / "**What will my copay be?**" / "**Is there a generic at a lower tier?**"
+
+两个实例(接 §三的症状场景):**鼻炎**——请医生开处方鼻喷/抗组胺,走上面流程(Tier 1 $5,名单内可能 $0);自己买 Zyrtec 则 OTC 现金 $2.64 更划算,两种都合规。**口干**——若病因是某处方药的副作用,医生换药/调量后,新处方同样按 Tier copay 走。
+
+### 4.3 关键计费价目总表(计划侧)
+
+数据源:[Benefits at a Glance 2025-26](https://studenthealth.uci.edu/files/2025/10/WEB-2526-UC-Irvine-BGlance-rev-9.17.25-JR.pdf)。三档列 = Preferred(蓝盾 PPO 首选档)/ In-Network(网内其他)/ Out-of-Network;SHC 内就诊一律免赔额豁免。
+
+| 项目 | Preferred | In-Network | Out-of-Network |
+|---|---|---|---|
+| **免赔额(个人)** | **$0** | $300 | $500 |
+| 门诊(PCP/专科) | **$5 copay** 后 100% | $20 copay 后 100% | 免赔后 50% U&C |
+| 预防性服务 | $0(100%) | $0 | 不保 |
+| Telehealth | $5 | $20 | — |
+| Urgent Care | $25 | $25 | $25 |
+| 急诊室 | $200 copay(收住院免) | 同 | 同(No Surprises 法保护) |
+| 住院 | 免赔后 $500/次 + 10% | 同 | 50% U&C |
+| PT/OT/言语康复 | **95%**(30 次/年) | 免赔后 90% | 免赔后 50% |
+| 针灸(医疗必需) | $20(30 次/年) | $30 | 免赔后 50% |
+| 整脊 | **$10**(30 次/年) | $30 | 免赔后 50% |
+| 过敏原检测与治疗(含注射) | 95% | 免赔后 90% | 免赔后 50% |
+| DME(单件 >$500 需 pre-cert) | 95% | 免赔后 90% | 免赔后 50% |
+| 矫形/假体(须 pre-cert + 处方) | 95% | 免赔后 90% | 免赔后 50% |
+| **SHC 内一切服务** | **100% of billed charge + 免赔额豁免** | — | — |
+| 处方药(30 天量) | **Tier 1 $5 / Tier 2 $25**;40+ 名单 $0;ACA 预防药 $0 | Tier 1 $15 / Tier 2 $40 | 垫付报销制 |
+| **年度自付上限(个人)** | **$4,500** | $9,000 | $9,000 |
+| 境外非急诊 | 免赔后 50%(年限 $10,000;medevac $50,000 / repatriation $25,000) | | |
+
+### 4.4 SHC 标准计费价精选
+
+[价目表 PDF](https://studenthealth.uci.edu/files/2025/10/AY-2025-2026-UC-Irvine-SHC-Fees-for-Common-Services-v4.pdf)(2025-10-23 版)里的数字是 **SHC 向保险计费的标价**——SHIP 学生校内就医按 §4.1 结算,多数实际自付远低于此;列出来是为了看懂 Zot 账单与保险 EOB:
+
+| 类别 | 项目(标准计费价) |
+|---|---|
+| 门诊 | Primary Care/Specialties $45–$489 · 心理治疗 $126–$305 · 妇科 PAP 套餐 $467–$493 · 营养初诊(15 min)$83 |
+| 化验 | CBC $41 · HbA1c $8 · 血糖 $26 · 血脂 $84 · HIV $17 起 · 衣原体/淋病 $41 起 · 静脉采血 $36 |
+| X 光 | 胸片 $77–$93 · 足 $91 · 手 $97 · 踝 $100 |
+| 疫苗(SHIP 学生 $0) | HPV-9 $498(3 剂) · 水痘 $296 · MMR $215 · 乙肝 $117 · Tdap $101 · 流感 $36;给药费 $55 首剂 / $29 追加 |
+| OTC 药房(现金价) | Zyrtec 30 片 $2.64 · Claritin 30 片 $2.52 · Benadryl 24 片 $1.44 · Flonase $12.43 · Allegra-D $22.88 · 布洛芬 50 片 $1.69 · 紧急避孕 $21.79 |
+| 行政 | 爽约 Medical $50 / 心理 $60 · 行政查体(clearance)$60(**保险不覆盖**,自费) |
 
 ## 五、运动康复专项:有哪些项目,保险分别怎么算
 
