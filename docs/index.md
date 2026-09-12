@@ -18,7 +18,7 @@
 
 ## 📚 条目 Entries
 
-目前 25 条 · 每条以 **issue → PR → squash commit** 仪式沉淀；中英双语，开头带完整溯源元数据。
+目前 26 条 · 每条以 **issue → PR → squash commit** 仪式沉淀；中英双语，开头带完整溯源元数据。
 
 <div class="grid cards" markdown>
 
@@ -213,6 +213,14 @@
     尔湾落地与秋季生活指南——从借记卡、冲浪到 Swervedriver
 
     [中文版](entries/025-irvine-landing-fall-guide.zh.md) · [English](entries/025-irvine-landing-fall-guide.en.md)
+
+- <svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9.5 7v10" class="acc" stroke-width="2" stroke-linecap="round" fill="none"/><path d="M12.5 8.5H16M12.5 12H16M12.5 15.5H15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> **ENTRY 026** · 2026-09-12
+
+    ---
+
+    UCI 校医院使用指南——把 7700 刀的 GSHIP 花在校内
+
+    [中文版](entries/026-uci-gship-clinic-guide.zh.md) · [English](entries/026-uci-gship-clinic-guide.en.md)
 
 - <svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9.5 7v10" class="acc" stroke-width="2" stroke-linecap="round" fill="none"/><path d="M12.5 8.5H16M12.5 12H16M12.5 15.5H15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> **ENTRY 006 · ARTIFACT** · 2026-08-17
 

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="620" viewBox="0 0 940 620">
+  <rect x="0" y="0" width="940" height="620" fill="#F7F8FB"/>
+  <rect x="0" y="0" width="940" height="56" fill="#002F6C"/>
+  <text x="470" y="36" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">SHC 热门服务实付价 · What you actually pay at the Student Health Center</text>
+
+  <!-- card 1 office visit -->
+  <rect x="30" y="84" width="286" height="160" rx="12" fill="#FFFFFF" stroke="#D5DBE6"/>
+  <rect x="30" y="84" width="286" height="8" rx="4" fill="#002F6C"/>
+  <text x="173" y="120" text-anchor="middle" font-size="16" font-weight="bold" fill="#26323F" font-family="Segoe UI, Microsoft YaHei, sans-serif">门诊（PCP/专科）</text>
+  <text x="173" y="146" text-anchor="middle" font-size="11" fill="#7A8699" font-family="Segoe UI, Microsoft YaHei, sans-serif">Office visit</text>
+  <text x="173" y="182" text-anchor="middle" font-size="34" font-weight="bold" fill="#002F6C" font-family="Segoe UI, Microsoft YaHei, sans-serif">$5</text>
+  <text x="173" y="216" text-anchor="middle" font-size="12.5" fill="#4A5568" font-family="Segoe UI, Microsoft YaHei, sans-serif">SHC/网内每次 · 免赔额豁免</text>
+
+  <!-- card 2 vaccines -->
+  <rect x="327" y="84" width="286" height="160" rx="12" fill="#FFFFFF" stroke="#D5DBE6"/>
+  <rect x="327" y="84" width="286" height="8" rx="4" fill="#2E7D32"/>
+  <text x="470" y="120" text-anchor="middle" font-size="16" font-weight="bold" fill="#26323F" font-family="Segoe UI, Microsoft YaHei, sans-serif">疫苗 &amp; TB 检测</text>
+  <text x="470" y="146" text-anchor="middle" font-size="11" fill="#7A8699" font-family="Segoe UI, Microsoft YaHei, sans-serif">Vaccines &amp; TB testing</text>
+  <text x="470" y="182" text-anchor="middle" font-size="34" font-weight="bold" fill="#2E7D32" font-family="Segoe UI, Microsoft YaHei, sans-serif">$0</text>
+  <text x="470" y="216" text-anchor="middle" font-size="12.5" fill="#4A5568" font-family="Segoe UI, Microsoft YaHei, sans-serif">官方：100% 覆盖 · 无 copay · 免转诊</text>
+
+  <!-- card 3 dental -->
+  <rect x="624" y="84" width="286" height="160" rx="12" fill="#FFFFFF" stroke="#D5DBE6"/>
+  <rect x="624" y="84" width="286" height="8" rx="4" fill="#2E7D32"/>
+  <text x="767" y="120" text-anchor="middle" font-size="16" font-weight="bold" fill="#26323F" font-family="Segoe UI, Microsoft YaHei, sans-serif">洗牙/检查/涂氟</text>
+  <text x="767" y="146" text-anchor="middle" font-size="11" fill="#7A8699" font-family="Segoe UI, Microsoft YaHei, sans-serif">Dental preventive care</text>
+  <text x="767" y="182" text-anchor="middle" font-size="34" font-weight="bold" fill="#2E7D32" font-family="Segoe UI, Microsoft YaHei, sans-serif">$0</text>
+  <text x="767" y="216" text-anchor="middle" font-size="12.5" fill="#4A5568" font-family="Segoe UI, Microsoft YaHei, sans-serif">2 次/年 · SHC 牙科诊所 · 补牙 80%</text>
+
+  <!-- card 4 vision -->
+  <rect x="30" y="268" width="286" height="160" rx="12" fill="#FFFFFF" stroke="#D5DBE6"/>
+  <rect x="30" y="268" width="286" height="8" rx="4" fill="#B8860B"/>
+  <text x="173" y="304" text-anchor="middle" font-size="16" font-weight="bold" fill="#26323F" font-family="Segoe UI, Microsoft YaHei, sans-serif">验光 + 配镜</text>
+  <text x="173" y="330" text-anchor="middle" font-size="11" fill="#7A8699" font-family="Segoe UI, Microsoft YaHei, sans-serif">Vision (Superior Vision 网)</text>
+  <text x="173" y="366" text-anchor="middle" font-size="34" font-weight="bold" fill="#B8860B" font-family="Segoe UI, Microsoft YaHei, sans-serif">$10+$25</text>
+  <text x="173" y="400" text-anchor="middle" font-size="12.5" fill="#4A5568" font-family="Segoe UI, Microsoft YaHei, sans-serif">验光 $10 全包 · 镜框 $120 额度+$25</text>
+
+  <!-- card 5 chiro -->
+  <rect x="327" y="268" width="286" height="160" rx="12" fill="#FFFFFF" stroke="#D5DBE6"/>
+  <rect x="327" y="268" width="286" height="8" rx="4" fill="#002F6C"/>
+  <text x="470" y="304" text-anchor="middle" font-size="16" font-weight="bold" fill="#26323F" font-family="Segoe UI, Microsoft YaHei, sans-serif">整脊/推拿（含定制鞋垫）</text>
+  <text x="470" y="330" text-anchor="middle" font-size="11" fill="#7A8699" font-family="Segoe UI, Microsoft YaHei, sans-serif">Chiropractic &amp; orthotics</text>
+  <text x="470" y="366" text-anchor="middle" font-size="34" font-weight="bold" fill="#002F6C" font-family="Segoe UI, Microsoft YaHei, sans-serif">$10</text>
+  <text x="470" y="400" text-anchor="middle" font-size="12.5" fill="#4A5568" font-family="Segoe UI, Microsoft YaHei, sans-serif">每次 · 30 次/年 · 校内整脊诊所直配鞋垫</text>
+
+  <!-- card 6 PT -->
+  <rect x="624" y="268" width="286" height="160" rx="12" fill="#FFFFFF" stroke="#D5DBE6"/>
+  <rect x="624" y="268" width="286" height="8" rx="4" fill="#002F6C"/>
+  <text x="767" y="304" text-anchor="middle" font-size="16" font-weight="bold" fill="#26323F" font-family="Segoe UI, Microsoft YaHei, sans-serif">物理治疗康复</text>
+  <text x="767" y="330" text-anchor="middle" font-size="11" fill="#7A8699" font-family="Segoe UI, Microsoft YaHei, sans-serif">Physical therapy</text>
+  <text x="767" y="366" text-anchor="middle" font-size="34" font-weight="bold" fill="#002F6C" font-family="Segoe UI, Microsoft YaHei, sans-serif">5%</text>
+  <text x="767" y="400" text-anchor="middle" font-size="12.5" fill="#4A5568" font-family="Segoe UI, Microsoft YaHei, sans-serif">网内自付 · 30 次/年 · 另送虚拟 PT $0</text>
+
+  <!-- footer strip -->
+  <rect x="30" y="460" width="880" height="128" rx="12" fill="#E8ECF5"/>
+  <text x="470" y="492" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#002F6C" font-family="Segoe UI, Microsoft YaHei, sans-serif">其他常用项 · Also handy</text>
+  <text x="470" y="524" text-anchor="middle" font-size="13.5" fill="#26323F" font-family="Segoe UI, Microsoft YaHei, sans-serif">仿制药 $5/30 天（40+ 种 $0）· Urgent Care $25 · 急诊室 $200 · Telehealth $5 · 针灸 $20/次（30 次/年）</text>
+  <text x="470" y="560" text-anchor="middle" font-size="13.5" fill="#26323F" font-family="Segoe UI, Microsoft YaHei, sans-serif">年度自付上限 $4,500（网内个人）· 预防性服务一律 $0</text>
+</svg>

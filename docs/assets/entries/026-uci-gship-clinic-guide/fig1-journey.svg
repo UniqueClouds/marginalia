@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="640" viewBox="0 0 940 640">
+  <rect x="0" y="0" width="940" height="640" fill="#F7F8FB"/>
+  <rect x="0" y="0" width="940" height="56" fill="#002F6C"/>
+  <text x="470" y="36" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">GSHIP 就诊动线 · How care works under GSHIP</text>
+
+  <!-- START box -->
+  <rect x="30" y="120" width="250" height="220" rx="12" fill="#002F6C"/>
+  <text x="155" y="152" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFC72C" font-family="Segoe UI, Microsoft YaHei, sans-serif">一切从这里开始 · START HERE</text>
+  <text x="155" y="186" text-anchor="middle" font-size="15" fill="#FFFFFF" font-family="Segoe UI, Microsoft YaHei, sans-serif">Student Health Center (SHC)</text>
+  <text x="155" y="212" text-anchor="middle" font-size="13" fill="#DCE4F2" font-family="Segoe UI, Microsoft YaHei, sans-serif">501 Student Health, Irvine</text>
+  <text x="155" y="246" text-anchor="middle" font-size="13" fill="#FFFFFF" font-family="Segoe UI, Microsoft YaHei, sans-serif">My Student Chart 预约 · 免转诊</text>
+  <text x="155" y="276" text-anchor="middle" font-size="14" fill="#FFC72C" font-weight="bold" font-family="Segoe UI, Microsoft YaHei, sans-serif">门诊 copay $5 · 免赔额 $0</text>
+  <text x="155" y="304" text-anchor="middle" font-size="13" fill="#DCE4F2" font-family="Segoe UI, Microsoft YaHei, sans-serif">(949) 824-5301</text>
+
+  <!-- arrows -->
+  <line x1="280" y1="185" x2="340" y2="150" stroke="#002F6C" stroke-width="2.5"/>
+  <polygon points="340,150 328,146 331,157" fill="#002F6C"/>
+  <line x1="280" y1="230" x2="340" y2="270" stroke="#002F6C" stroke-width="2.5"/>
+  <polygon points="340,270 328,273 331,262" fill="#002F6C"/>
+  <line x1="280" y1="310" x2="340" y2="395" stroke="#002F6C" stroke-width="2.5"/>
+  <polygon points="340,395 329,388 327,399" fill="#002F6C"/>
+
+  <!-- B: on-site -->
+  <rect x="345" y="80" width="565" height="130" rx="12" fill="#FFFFFF" stroke="#2E7D32" stroke-width="2"/>
+  <text x="627" y="108" text-anchor="middle" font-size="16" font-weight="bold" fill="#2E7D32" font-family="Segoe UI, Microsoft YaHei, sans-serif">① 校内就能解决 · Solved on-site (无需转诊)</text>
+  <text x="365" y="138" font-size="13.5" fill="#26323F" font-family="Segoe UI, Microsoft YaHei, sans-serif">· 疫苗 &amp; TB 检测 <tspan font-weight="bold" fill="#B8860B">100% 免费</tspan>，Immunization 门诊直接约</text>
+  <text x="365" y="162" font-size="13.5" fill="#26323F" font-family="Segoe UI, Microsoft YaHei, sans-serif">· 牙科诊所：洗牙 <tspan font-weight="bold" fill="#B8860B">2 次/年 $0</tspan>（MetLife 网内）· 整脊/推拿 <tspan font-weight="bold" fill="#B8860B">$10/次</tspan> · Sports Med <tspan font-weight="bold" fill="#B8860B">$5</tspan></text>
+  <text x="365" y="186" font-size="13.5" fill="#26323F" font-family="Segoe UI, Microsoft YaHei, sans-serif">· 校内药房取药（仿制药 $5、40+ 种 $0）· 化验 / X 光（SHIP 内近乎全免）</text>
+
+  <!-- C: referral -->
+  <rect x="345" y="228" width="565" height="130" rx="12" fill="#FFFFFF" stroke="#002F6C" stroke-width="2"/>
+  <text x="627" y="256" text-anchor="middle" font-size="16" font-weight="bold" fill="#002F6C" font-family="Segoe UI, Microsoft YaHei, sans-serif">② 校外专科 · Community care（必须 SHC 转诊）</text>
+  <text x="365" y="286" font-size="13.5" fill="#26323F" font-family="Segoe UI, Microsoft YaHei, sans-serif">· 专科医生、MRI/CT 影像、社区 PT 康复（95% 报销 · 30 次/年）· 眼科医生</text>
+  <text x="365" y="310" font-size="13.5" fill="#26323F" font-family="Segoe UI, Microsoft YaHei, sans-serif">· 转诊走 My Student Chart →「SHC - Insurance: Referral Request」</text>
+  <text x="365" y="334" font-size="13.5" fill="#26323F" font-family="Segoe UI, Microsoft YaHei, sans-serif">· 网络内选点：加州内 Blue Shield of CA PPO；州外 Cigna PPO</text>
+
+  <!-- D: exceptions -->
+  <rect x="345" y="376" width="565" height="118" rx="12" fill="#FFFFFF" stroke="#B8860B" stroke-width="2"/>
+  <text x="627" y="404" text-anchor="middle" font-size="16" font-weight="bold" fill="#B8860B" font-family="Segoe UI, Microsoft YaHei, sans-serif">③ 转诊豁免 · No referral needed</text>
+  <text x="365" y="434" font-size="13.5" fill="#26323F" font-family="Segoe UI, Microsoft YaHei, sans-serif">· 急诊（$200 copay）· Urgent Care（$25）· 药房 · 牙科 · 验光配镜 · OB-GYN</text>
+  <text x="365" y="458" font-size="13.5" fill="#26323F" font-family="Segoe UI, Microsoft YaHei, sans-serif">· 离校 50 英里以外就医：仍需转诊，但不必先跑 SHC，线上办授权即可</text>
+  <text x="365" y="482" font-size="13.5" fill="#26323F" font-family="Segoe UI, Microsoft YaHei, sans-serif">· Winter Break 期间就医豁免转诊</text>
+
+  <!-- billing flow -->
+  <rect x="30" y="524" width="880" height="88" rx="12" fill="#E8ECF5"/>
+  <text x="470" y="554" text-anchor="middle" font-size="15" font-weight="bold" fill="#002F6C" font-family="Segoe UI, Microsoft YaHei, sans-serif">钱怎么走 · Billing：SHC 自动替你向保险理赔 → 保险付款 → 你的 copay 约 2–3 周后进 Zot 账户</text>
+  <text x="470" y="588" text-anchor="middle" font-size="14" font-weight="bold" fill="#A03030" font-family="Segoe UI, Microsoft YaHei, sans-serif">就诊当天不用付钱 · No payment at time of visit —— 但校外就医没有转诊 = 整单拒赔！</text>
+</svg>
