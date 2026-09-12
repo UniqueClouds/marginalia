@@ -99,7 +99,7 @@ Certificate 对非处方药的排除写得很硬:"Any drug or medicine which doe
 
 药房柜台三连问:"**Is this covered on my plan's formulary?**" / "**What will my copay be?**" / "**Is there a generic at a lower tier?**"
 
-两个实例(接 §三的症状场景):**鼻炎**——请医生开处方鼻喷/抗组胺,走上面流程(Tier 1 $5,名单内可能 $0);自己买 Zyrtec 则 OTC 现金 $2.64 更划算,两种都合规。**口干**——若病因是某处方药的副作用,医生换药/调量后,新处方同样按 Tier copay 走。
+两条通用对照:医生开的**处方药**——不管治什么——都走上面流程,Tier 1 $5、名单内可能 $0;货架上的 **OTC 药**(如 Zyrtec $2.64)直接现金买更划算,而且条款本来就禁止 OTC 走保险。两个渠道各自合规,并不冲突。
 
 ### 4.3 关键计费价目总表(计划侧)
 
@@ -137,6 +137,48 @@ Certificate 对非处方药的排除写得很硬:"Any drug or medicine which doe
 | 疫苗(SHIP 学生 $0) | HPV-9 $498(3 剂) · 水痘 $296 · MMR $215 · 乙肝 $117 · Tdap $101 · 流感 $36;给药费 $55 首剂 / $29 追加 |
 | OTC 药房(现金价) | Zyrtec 30 片 $2.64 · Claritin 30 片 $2.52 · Benadryl 24 片 $1.44 · Flonase $12.43 · Allegra-D $22.88 · 布洛芬 50 片 $1.69 · 紧急避孕 $21.79 |
 | 行政 | 爽约 Medical $50 / 心理 $60 · 行政查体(clearance)$60(**保险不覆盖**,自费) |
+
+### 4.5 体检:预防 $0,行政体检 $60 自费
+
+年度体检走**预防通道**:At-a-Glance 福利表 "Preventive Services — **100%** … **Deductible Waived**"——含问诊、体格检查与 ACA 筛查(血压/血脂/血糖/STI/抑郁筛查),该补的疫苗顺带 $0;女生的 well-woman exam(含常规 PAP)同为预防类 $0。SHC 价目表里 "Physical Exams – Preventive Office Visits" 的 $157–$293 是向保险的计费标价,SHIP 学生实付 **$0**。
+
+对照组是**行政查体**(administrative clearance)——选课/Club Sports/实习/旅行要交的表格体检,价目表原文:"Administrative clearance services such as exams and related testing are **not covered benefits of UC Irvine SHIP**. Students, regardless of insurance coverage, will be billed directly." 固定 $60,人人自费。
+
+约诊话术:"I'd like to schedule my **annual physical** — this is a **routine preventive visit**, not a sick visit."(进门主要聊病痛会被编码成 problem visit、收 $5 copay;纯体检明确说 routine。)空腹抽血 = fasting blood test。
+
+### 4.6 配镜进阶:墨镜与镜片升级的 MOOP 价
+
+墨镜有两条路:**①** 年度材料福利直接用在处方墨镜上——镜框 $120 额度 + $25 eyewear copay 的规则不变,染色(tint)/偏光(polarized)/变色(photochromic)算镜片升级项、按议定 MOOP 另收;**②** 年度那副之外的第二副享折扣:"**20% savings on additional pairs of prescription glasses and nonprescription sunglasses**, including lens enhancements"(非处方太阳镜也在内)。
+
+MOOP 是 MetLife 与各计划议定的封顶价(确切数字登录 [metlife.com/mybenefits](https://www.metlife.com/mybenefits/) 可见);多份 Superior Vision 集团计划流出的价目高度一致,可作参考区间:
+
+| 镜片升级项 | MOOP 参考价 |
+|---|---|
+| **高折射率 1.67 / 1.74** | **$80 / $120**(另一份价目 1.67 为 $50) |
+| 防反射 AR(标准/优质档) | $50 / $70(至 $120) |
+| 染色(单色/渐变) | $15 / $18 |
+| 偏光 | $75 |
+| 变色(塑料片) | $80 |
+| 聚碳酸酯 PC 片 | $40(±6.00D 及以上免费,条款脚注明示) |
+| 防蓝光 / 划痕膜 / UV 膜 | $15 / $15 / $12 |
+| 渐进多焦点(标准→顶级) | $55 / $110 / $150 / $225 |
+
+来源:[Superior Vision 集团价目 2026](https://ffbenefits.ffga.com/springisd/wp-content/uploads/sites/194/2026/06/MetLife-Superior-Vision-Discount-2026.pdf)、[EHP 2024](https://www.ehp.org/wp-content/uploads/2024/10/Superior-Vision-Plan-Benefits-2024.pdf)、[Lens Options Guide](https://cvw1.davisvision.com/forms/StaticFiles/English/Superior_Vision_Lens_Options_Guide.pdf)。注意:**折扣与 MOOP 功能在 Walmart/Costco/Sam's Club 不参与**,Visionworks/LensCrafters/Target Optical 及私人诊所才全须全尾;到店先让店家按你的保险报 MOOP 价再下单。算两笔账(标准单光、$120 内镜框):1.67 + AR ≈ $25+$80+$50 = **$155 起**;染色处方墨镜 ≈ $25+$80+$15 = **$120 起**。
+
+### 4.7 动态血糖仪 CGM:保险边界与自购价
+
+**覆盖侧**:Certificate 的 DME 清单列明 "…including, but not limited to: … **Glucose monitors, infusion pumps, and related supplies**";At-a-Glance 有专门行 "Diabetic Services and Supplies (**including equipment and training**)"——preferred 档 95%,DME 单件 >$500 需 pre-cert。**前提是确诊糖尿病的医疗必需**(处方级 CGM 的 FDA 适应证也是糖尿病);糖尿病筛查抽血本身属 ACA 预防服务 = $0。
+
+**非医疗目的的健康监测**保险不保(不是医疗必需 + OTC 定位),自购价(2026 年核实):
+
+| 产品 | 价格 | 备注 |
+|---|---|---|
+| [Dexcom Stelo](https://www.stelo.com/en-us/buy-stelo-one-time) | $99/月(2 片×15 天);订阅 $89/月;3 个月 $252 ≈ $84/月 | 18+ 非胰岛素人群;Amazon/CVS/Walmart 有售 |
+| Abbott Lingo(Libre 平台) | 单片 14 天 $49 试水;2 片 $89;12 周 $249 | Walgreens/Walmart 有售 |
+| Abbott Libre Rio | $89–99/月 | OTC 最便宜档 |
+| 传统血糖仪+试纸 | 试纸 ~$0.18/条,每天 2 次 ≈ $11/月 | 非动态但最省 |
+
+OTC 款均 **HSA/FSA eligible**;处方 CGM(Libre 3 Plus ~$160/月、G7 ~$350/月)现金价高得多,有诊断需求先走 SHC 门诊由医生开方。
 
 ## 五、运动康复专项:有哪些项目,保险分别怎么算
 

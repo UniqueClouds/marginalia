@@ -99,7 +99,7 @@ The Certificate is blunt about non-prescription drugs: "Any drug or medicine whi
 
 Three questions for the pharmacy counter: "**Is this covered on my plan's formulary?**" / "**What will my copay be?**" / "**Is there a generic at a lower tier?**"
 
-Two worked examples (from §3's symptom scenarios): **rhinitis** — ask the provider to prescribe a prescription nasal spray or antihistamine and it follows the flow above (Tier 1 $5, possibly $0 on the list); buying Zyrtec yourself at $2.64 cash is cheaper and equally legitimate. **Dry mouth** — if a prescription drug is the suspected cause, the replacement prescription after a dose change goes through the same Tier copays.
+Two generic contrasts: any **prescription drug** your provider writes — whatever it treats — follows the flow above, Tier 1 $5 and possibly $0 on the list; anything on the **OTC shelf** (e.g., Zyrtec at $2.64) is cheapest bought with cash, and the plan indeed forbids running OTC through insurance. The two channels are both legitimate and don't conflict.
 
 ### 4.3 Key prices from the plan documents
 
@@ -137,6 +137,48 @@ The [fee schedule PDF](https://studenthealth.uci.edu/files/2025/10/AY-2025-2026-
 | Vaccines ($0 for SHIP) | HPV-9 $498 (3 doses) · varicella $296 · MMR $215 · Hep B $117 · Tdap $101 · flu $36; administration $55 first / $29 additional |
 | OTC pharmacy (cash) | Zyrtec 30 tabs $2.64 · Claritin 30 tabs $2.52 · Benadryl 24 tabs $1.44 · Flonase $12.43 · Allegra-D $22.88 · ibuprofen 50 tabs $1.69 · emergency contraception $21.79 |
 | Administrative | missed appointment $50 medical / $60 mental health · administrative clearance exam $60 (**not covered by SHIP**, self-paid) |
+
+### 4.5 Physicals: preventive $0, administrative clearance $60 self-paid
+
+The annual physical rides the **preventive** lane: "Preventive Services — **100%** … **Deductible Waived**" — history, exam, and ACA screenings (blood pressure, lipids, glucose, STI, depression), with any due vaccines at $0; the well-woman exam (routine PAP included) is preventive too. The fee schedule's "Physical Exams – Preventive Office Visits $157–$293" is what SHC bills the plan — **$0** for SHIP students.
+
+The contrast is the **administrative clearance exam** — the form-filling physical for classes, club sports, internships or travel: "Administrative clearance services such as exams and related testing are **not covered benefits of UC Irvine SHIP**. Students, regardless of insurance coverage, will be billed directly." Flat $60 for everyone.
+
+Booking script: "I'd like to schedule my **annual physical** — this is a **routine preventive visit**, not a sick visit." (Walk in talking mainly about a specific complaint and it gets coded as a problem visit with a $5 copay.) Fasting blood draw = fasting blood test.
+
+### 4.6 Glasses, upgraded: sunglasses and the lens-enhancement MOOP table
+
+Sunglasses, two routes: **①** spend the annual materials benefit on prescription sunglasses — the $120 frame allowance + $25 eyewear copay rules apply unchanged, with tints/polarized/photochromic paid as lens enhancements at the negotiated MOOP; **②** beyond the yearly pair, take the discount lane: "**20% savings on additional pairs of prescription glasses and nonprescription sunglasses**, including lens enhancements."
+
+MOOP is negotiated per plan (exact numbers at [metlife.com/mybenefits](https://www.metlife.com/mybenefits/) once enrolled); published Superior Vision group-plan schedules agree closely and make good reference ranges:
+
+| Lens enhancement | Reference MOOP |
+|---|---|
+| **High index 1.67 / 1.74** | **$80 / $120** (one schedule lists 1.67 at $50) |
+| Anti-reflective (standard/premium) | $50 / $70 (up to $120) |
+| Tints (solid/gradient) | $15 / $18 |
+| Polarized | $75 |
+| Photochromic (plastic) | $80 |
+| Polycarbonate | $40 (free at ±6.00D or greater, per plan footnote) |
+| Blue light / scratch / UV | $15 / $15 / $12 |
+| Progressives (standard→ultimate) | $55 / $110 / $150 / $225 |
+
+Sources: [Superior Vision group schedule 2026](https://ffbenefits.ffga.com/springisd/wp-content/uploads/sites/194/2026/06/MetLife-Superior-Vision-Discount-2026.pdf), [EHP 2024](https://www.ehp.org/wp-content/uploads/2024/10/Superior-Vision-Plan-Benefits-2024.pdf), [Lens Options Guide](https://cvw1.davisvision.com/forms/StaticFiles/English/Superior_Vision_Lens_Options_Guide.pdf). Caveats: **discounts and MOOP features are not available at Walmart, Costco and Sam's Club** — Visionworks, LensCrafters, Target Optical and private practices carry the full features; ask the store to quote your MOOP before ordering. Two worked totals (single vision, frame within $120): 1.67 + AR ≈ $25+$80+$50 = **$155 up**; tinted prescription sunglasses ≈ $25+$80+$15 = **$120 up**.
+
+### 4.7 Continuous glucose monitors: where insurance stops, what OTC costs
+
+**Covered side**: the Certificate's DME list names "…including, but not limited to: … **Glucose monitors, infusion pumps, and related supplies**"; the At-a-Glance has a dedicated "Diabetic Services and Supplies (**including equipment and training**)" row — 95% on the preferred tier, pre-cert for DME items over $500. The gate is **medical necessity for diagnosed diabetes** (prescription CGMs are FDA-indicated for diabetes); diabetes screening bloodwork itself is an ACA preventive service at $0.
+
+**For non-medical health tracking** insurance doesn't pay (not medically necessary + OTC wellness positioning); self-purchase prices (verified 2026):
+
+| Product | Price | Notes |
+|---|---|---|
+| [Dexcom Stelo](https://www.stelo.com/en-us/buy-stelo-one-time) | $99/mo (2×15-day sensors); $89/mo subscription; $252/3 mo ≈ $84/mo | 18+, not on insulin; Amazon/CVS/Walmart |
+| Abbott Lingo (Libre platform) | $49 single 14-day sensor; 2 for $89; 12 weeks $249 | Walgreens/Walmart |
+| Abbott Libre Rio | $89–99/mo | cheapest OTC tier |
+| Traditional meter + strips | strips ~$0.18 each, twice daily ≈ $11/mo | not continuous, cheapest |
+
+OTC models are **HSA/FSA eligible**; prescription CGMs (Libre 3 Plus ~$160/mo, G7 ~$350/mo) cost far more at cash price — with a diagnosis, start at the SHC and let the provider prescribe.
 
 ## 5. Rehab, in detail: every option and exactly how it's paid
 
