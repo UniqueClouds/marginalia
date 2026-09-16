@@ -111,6 +111,28 @@ LA is kind to broke students because the best institutions are **free**:
 
 OC's only nonprofit cinema (305 E 4th St, Santa Ana): $12 regular, **$9 students**, $9 matinees, promo code `OCTA` takes another $3 off ([tickets](https://thefridacinema.org/tickets/)). October is the month-long "Art House of Horrors" series, with the 12-hour Camp Frida 9 marathon on 10/18 (from $30). It sits on the same block as the DTSA Art Walk (§2).
 
+**IMAX 70mm alert — *The Odyssey* keeps extending**: per the Hollywood Reporter (9/3), 70mm screenings run **through the end of September**, one of the longest IMAX runs ever. The closest 70mm house to campus is **AMC Orange 30** (🚗 8 mi, reserved seating — check the seat map before heading out): [tickets & seats](https://www.amctheatres.com/movie-theatres/orange/amc-orange-30). Daily showtimes are tracked automatically by a workspace script.
+
+**Recommended shops near Irvine** (each row links to Google Maps):
+
+| Shop | Category | Why |
+|---|---|---|
+| [Design Within Reach](https://www.google.com/maps/search/?api=1&query=Design+Within+Reach+3303+Hyland+Ave+Costa+Mesa) (3303 Hyland Ave C-1, Costa Mesa) | Design furniture | The one you asked about: modern-design flagship with a Dining Test Lab and free design services — inside the SOCO design district |
+| [South Coast Collection (SOCO)](https://www.google.com/maps/search/?api=1&query=South+Coast+Collection+Costa+Mesa) | Design district | H.D. Buttercup warehouse-style home emporium + coffee roasters; thrift your furniture setup here first |
+| [IKEA Costa Mesa](https://www.google.com/maps/search/?api=1&query=IKEA+Costa+Mesa) | Furniture | First-stop furniture (see entry 016's desk survey) |
+| [South Coast Plaza](https://www.google.com/maps/search/?api=1&query=South+Coast+Plaza+Costa+Mesa) | Mall | OC's flagship mall: West Elm, Crate & Barrel, Muji under one roof |
+| [Fashion Island](https://www.google.com/maps/search/?api=1&query=Fashion+Island+Newport+Beach) | Open-air mall | Newport sea-breeze shopping; the RH gallery is worth a stop |
+| [The Camp & The Lab](https://www.google.com/maps/search/?api=1&query=The+Camp+Costa+Mesa) | Anti-mall | Costa Mesa's indie courtyard: coffee, camping gear, small shops |
+| [Irvine Spectrum Center](https://www.google.com/maps/search/?api=1&query=Irvine+Spectrum+Center) | Complex | Closest to campus; Ferris wheel + night lights |
+| [Kinokuniya Book Store](https://www.google.com/maps/search/?api=1&query=Kinokuniya+Book+Store+Costa+Mesa) | Books | Japanese art books, magazines, stationery (Costa Mesa) |
+| [Fingerprints Music](https://www.google.com/maps/search/?api=1&query=Fingerprints+Music+Long+Beach) | Records | Long Beach vinyl institution; pairs with an LB day trip |
+| [Amoeba Music](https://www.google.com/maps/search/?api=1&query=Amoeba+Music+Hollywood) | Records | America's biggest used-record store; on the LA route |
+| [Mitsuwa Marketplace](https://www.google.com/maps/search/?api=1&query=Mitsuwa+Marketplace+Irvine) | Japanese grocery | Japanese food + food court (Irvine) |
+| [H Mart](https://www.google.com/maps/search/?api=1&query=H+Mart+Irvine) | Korean grocery | Asian staples resupply (Irvine) |
+| [Daiso](https://www.google.com/maps/search/?api=1&query=Daiso+Tustin) | Variety store | $1.5-ish Japanese everything, storage/kitchen hacks (Tustin) |
+| [Micro Center](https://www.google.com/maps/search/?api=1&query=Micro+Center+Tustin) | Electronics | Brick-and-mortar computer gear, ~15 min away (Tustin) |
+| [REI](https://www.google.com/maps/search/?api=1&query=REI+Tustin) | Outdoors | Surf/camping gear; occasional Garage Sales (Tustin) |
+
 ## 5. Surfing and Campus Sports: Sept-Oct Has the Warmest Water
 
 Wikipedia explains the "Surf City" nickname: swells from both hemispheres take turns, "creating consistent surf all year long." For beginners the window is **Sept-Oct: warmest water (~19-21°C, a 3/2 wetsuit is enough) and stable southern-hemisphere swell tails**.

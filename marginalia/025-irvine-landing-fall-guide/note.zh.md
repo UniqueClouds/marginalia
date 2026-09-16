@@ -63,6 +63,26 @@ BOA 的[国际学生开户页](https://info.bankofamerica.com/en/international/s
 ![Crystal Cove Historic District](../assets/entries/025-irvine-landing-fall-guide/crystal-cove.jpg)
 *Crystal Cove 历史小屋区:1930 年代的海滩度假屋群。Photo: Coolcaesar, CC BY-SA 4.0, via Wikimedia Commons*
 
+**顺路好店**(按用途分类,每行附 Google Maps,点开即导航):
+
+| 店 | 类别 | 一句话理由 |
+|---|---|---|
+| [Design Within Reach](https://www.google.com/maps/search/?api=1&query=Design+Within+Reach+3303+Hyland+Ave+Costa+Mesa)(3303 Hyland Ave C-1, Costa Mesa)| 设计家具 | 你点名的:现代设计正价店,带 Dining Test Lab 与免费设计咨询——在 SOCO 设计区 |
+| [South Coast Collection(SOCO)](https://www.google.com/maps/search/?api=1&query=South+Coast+Collection+Costa+Mesa)| 设计街区 | DWR 所在的整体设计区:H.D. Buttercup 仓库型家居集合店+咖啡烘焙,置办家具前先来淘 |
+| [IKEA Costa Mesa](https://www.google.com/maps/search/?api=1&query=IKEA+Costa+Mesa)| 家具大卖场 | 第一批家具主渠道(见条目 016 的桌椅调研)|
+| [South Coast Plaza](https://www.google.com/maps/search/?api=1&query=South+Coast+Plaza+Costa+Mesa)| 综合商场 | 南加旗舰 Mall:West Elm、Crate & Barrel、Muji 一栋楼里 |
+| [Fashion Island](https://www.google.com/maps/search/?api=1&query=Fashion+Island+Newport+Beach)| 露天商场 | Newport 海风购物,RH 家居廊值得单独逛 |
+| [The Camp & The Lab](https://www.google.com/maps/search/?api=1&query=The+Camp+Costa+Mesa)| 反商场 | Costa Mesa 文艺小院:咖啡、露营具、独立小店 |
+| [Irvine Spectrum Center](https://www.google.com/maps/search/?api=1&query=Irvine+Spectrum+Center)| 综合体 | 离校最近,摩天轮+夜灯 |
+| [纪伊国书店 Kinokuniya](https://www.google.com/maps/search/?api=1&query=Kinokuniya+Book+Store+Costa+Mesa)| 书店 | 日文艺术书/杂志/文具(Costa Mesa)|
+| [Fingerprints Music](https://www.google.com/maps/search/?api=1&query=Fingerprints+Music+Long+Beach)| 唱片店 | 长滩黑胶圣地,可与 Long Beach 行程连线 |
+| [Amoeba Music](https://www.google.com/maps/search/?api=1&query=Amoeba+Music+Hollywood)| 唱片店 | 全美最大二手唱片行,LA 行程顺路 |
+| [Mitsuwa Marketplace](https://www.google.com/maps/search/?api=1&query=Mitsuwa+Marketplace+Irvine)| 日超 | 日式食材+food court(Irvine)|
+| [H Mart](https://www.google.com/maps/search/?api=1&query=H+Mart+Irvine)| 韩超 | 亚洲食材补给站(Irvine)|
+| [Daiso](https://www.google.com/maps/search/?api=1&query=Daiso+Tustin)| 杂货 | 日式百元店,收纳/厨房神器(Tustin)|
+| [Micro Center](https://www.google.com/maps/search/?api=1&query=Micro+Center+Tustin)| 电子 | 电脑器材实体店,离校 ~15 min(Tustin)|
+| [REI](https://www.google.com/maps/search/?api=1&query=REI+Tustin)| 户外 | 冲浪/露营装备,偶尔有 Garage Sale 二手(Tustin)|
+
 ## 三、演出指南:落地第 4 天就有日本后摇
 
 先说好消息:**9/18(周五),落地第 4 天,[downy](https://dice.fm/event/pynbxl-downy-quiet-fear-band-argument-18th-sep-zebulon-los-angeles-tickets) 在 LA 的 Zebulon 演出**——"widely regarded as **the pioneers of Japanese post-rock** … renowned for dense, explosive live performances"(DICE 官方语),$26.78,21+,购票走 DICE。遗憾留给落地前:Polyphia 9/10 刚在好莱坞 Palladium 演完;Mogwai 整个秋天都在欧洲。
@@ -119,6 +139,8 @@ BOA 的[国际学生开户页](https://info.bankofamerica.com/en/international/s
 > "**The Frida Cinema opened on February 21st, 2014 … Screening more than 500 unique films and welcoming more than 100,000 guests each year** … **The Frida Cinema is the only nonprofit independent cinema in Orange County, California.**"
 
 橙县唯一的非营利影院(305 E 4th St, Santa Ana):普通场 $12、**学生 $9**、早场 $9,输优惠码 `OCTA` 再减 $3([官方票价页](https://thefridacinema.org/tickets/));10 月整月 "Art House of Horrors" 恐怖专题,**10/18 有 12 小时通宵马拉松**(Camp Frida 9,$30 起)。散场正好像同一条街的 DTSA Art Walk(§二)。
+
+**IMAX 70mm 警报:《奥德赛》仍在加场**——Hollywood Reporter(9/3):70mm 场次已延至 **9 月底**,IMAX 史上最长轮换之一;离校最近的 70mm 影厅是 **AMC Orange 30**(🚗 8 mi,对号入座),出发前看一眼选座页:[购票/余座](https://www.amctheatres.com/movie-theatres/orange/amc-orange-30)。每日场次由本站的工作区脚本自动扫描。
 
 ## 五、冲浪与校园运动:9-10 月是海最暖的时候
 
