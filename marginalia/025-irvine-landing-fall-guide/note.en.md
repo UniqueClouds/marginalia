@@ -3,12 +3,14 @@ id: marginalia-025
 title: 'Landing in Irvine: A Fall Field Guide——from debit cards and surf lessons to Swervedriver'
 date: 2026-09-11
 published: 2026-09-11
+updated: 2026-09-16
 kind: landing-guide(落地与秋季生活调研)
 sources:
   - 'Official pages verified: UCI registrar/Transportation/Campus Rec/Athletics, City of Irvine, CicLAvia, AFI, Universal, Six Flags-Knott''s, Sawdust, Disney, NHL-Ducks, USC, Lakers, venue & ticketing pages (DICE/Songkick/LiveNation/Teragram/Wayfarer/Lodge Room/The Frida)'
   - 'Wikipedia: Laguna Beach / Huntington Beach / Newport Beach / Santa Ana / Crystal Cove SP / House of Blues / Getty Center / Universal Studios Hollywood / Knott''s Berry Farm / Halloween Horror Nights'
   - 'Driving/biking: OSRM public routing engine per-route (routed-car / routed-bike, free-flow), rescanned daily at 6am by route_watch.py; Uber/Lyft are model-based estimate ranges (method at the end)'
   - 'Images: Wikimedia Commons (CC0 / CC BY / CC BY-SA, credited per caption)'
+  - 'Shopping addendum 2026-09-16 (Temu cabinets / e-scooter / e-bike): live Amazon scan (ZIP 92617, 8 product pages repriced + coupon sweep); Temu web is behind a login wall + slider CAPTCHA so prices come from search-engine indexes — re-verify in the app; California law verified (SB 1271 UL certification mandate effective 2026-01-01; CVC 22411/21235 scooter provisions); Lectric/FlexiSpot/FEZIBO official sites and coupon sites checked'
 initial-prompt: 'Landing in Irvine (Palo Verde, 92617) on 9/15, classes start 9/22: (1) onboarding checklist incl. BOA/Chase debit card; (2) places to go in OC/LA Sept-Dec, esp. post-rock/math-rock venues; (3) scheduled events calendar, weekends first; (4) budget culture (museums/studio tours), surfing & outdoors, campus sports; show driving AND biking distance/time inline next to every place, rescanned daily.'
 agent: ZCode CLI
 model: GLM-5.3-Flash (智谱)
@@ -209,7 +211,58 @@ Even varsity is discounted — per [UCI Athletics ticketing](https://app.ucirvin
 
 Departing 6:30pm nightly; fireworks on opening night; **Marina Park is the best free spot** (🚗 8 mi / 18 min · 🚲 7 mi / 53 min). Plus Swervedriver on 12/12 (§3) and the free [Grand Park NYELA](https://grandparkla.org/nyela/) countdown on 12/31 (🚗 43 mi / 54 min).
 
-## 7. Method & Limits
+## 7. Shopping Addendum (2026-09-16): Cabinets, E-Scooter and E-Bike
+
+> The desk-buying survey lives on its own page: [Amazon Desk Shopping for ZIP 92617](../016-apartment-desk-shopping/note.en.md) (the full 13-model list plus the one-piece audit). This section is the second procurement batch. All prices are 9/16 snapshots: Amazon scanned live (ZIP 92617); Temu's web storefront sits behind a login wall + slider CAPTCHA, so its prices are search-engine index snapshots — **re-verify in the Temu app before ordering**.
+
+### 7.1 Storage: Temu cabinets under $20-30
+
+The workhorses at this price are plastic drawer carts; lockable metal file cabinets start around $39 and bust the budget. Temu ships free at $30 — pad the cart if you're just short.
+
+| Item | Indexed price | Notes |
+|---|---|---|
+| [3-tier multi-function cart with drawer](https://www.temu.com/rolling-cart-with-drawers-for-kitchen-5060226822043-s.html) (lockable wheels, cup holder + hooks) | **$12.43** | Floor price |
+| [3-tier plastic cart · removable drawer + 2 lockable wheels](https://www.temu.com/3--tier-plastic-rolling-utility-cart-organizer-versatile-storage-solution-and-plant-stand-with-removable-drawer-and-2-lockable-wheels-for--supplies-crafting-art-and--g-606981872046114.html) | $19.39 ($39.99 struck) | |
+| [Slim gap cart, 3-6 drawers · waterproof](https://www.temu.com/rolling-storage-5020181354294-s.html) | $19.42 | ~30cm wide, fits between desk legs |
+| 5-drawer slim cabinet (plastic, wheels) | **$26** | Most capacity inside budget |
+
+Benchmark: the brand-name [Sterilite 3-drawer cart](https://www.target.com/p/sterilite-ultra-3-drawer-storage-cart-black/-/A-14465820) at Target is $29.74 (no assembly, local returns) — Temu's white labels run about half that, at the cost of drawer-slide luck and panel tolerances.
+
+### 7.2 E-scooter: maximum range under $150
+
+| Model | Price | Battery | Claimed / actual range |
+|---|---|---|---|
+| [YHR 500W](https://www.amazon.com/dp/B0GLFSY6B7) (pick) | $169.99 | 36V 8/12/20Ah tiers | 30mi / **real ~13-17mi**; 4.4★(510), UL2272 stated |
+| [No-name 36V 5.2Ah](https://www.amazon.com/dp/B0FRRYB288) | $92.99 | 36V 5.2Ah | 12/21mi / real ~10-12mi; only 15 reviews, too new |
+| $139 tier with 2Ah pack | $139.99 | 36V **2Ah** (72Wh) | claims 15/30mi — physically impossible at 72Wh, **avoid** |
+
+Claimed ranges at this price run about double reality; the honest anchor is watt-hours. The legacy brands (Gotrax $225+ / Hiboy $300) have left the $150 tier. **California law (CVC §22411/§21235): e-scooters are capped at 15mph, riders must be 16+ with a license or permit, helmets under 18, no sidewalk riding, no passengers** — the advertised "19/22MPH" was never legal on California streets anyway, and cruising at 15mph stretches the range nicely.
+
+### 7.3 E-bike: clear the SB 1271 compliance bar first
+
+**SB 1271 (effective 2026-01-01)**: new e-bike batteries sold in California must carry UL 2849 (system) / UL 2271 (battery) / EN 15194 certification — which disqualifies the $500-800 white-label drop-shippers on Amazon/Temu outright, and matches UCI housing's UL-only rule for lithium battery charging. The compliant mainstays all ship free direct (48 states):
+
+| Model | Price | Motor / real range | Notes |
+|---|---|---|---|
+| [Lectric XP4 500W](https://lectricebikes.com/collections/xp4-ebikes) (pick) | **$999** | 500W / real ~35-45mi | Folding fat tire; UL 2271+2849; OutdoorGearLab's 2026 best value |
+| Lectric XP4 750W long-range | ~$1,299 | 750W / real ~50mi (17.5Ah) | The tier to stretch for |
+| Velotric Tempo / Aventon Level 4 | from $1,399 | 60mi class (claimed) | CNET/Bicycling/OGL 2026 lists, UL 2849 across the line |
+
+Road rights: the three-class e-bike system (Class 1 pedal-assist 20mph / Class 2 throttle 20mph / Class 3 pedal-assist 28mph, 16+ with helmet); check UCI's current campus-path policy after arrival.
+
+### 7.4 Coupon snapshot (2026-09-16)
+
+- **Amazon**: no active coupons on any desk or scooter listing surveyed — the discounts are already baked into struck-through prices (SANODESK 63×32 $269.99→$189.98; FLEXISPOT commercial $249.99→$199.99; Marsail $259.99→$219.99);
+- **FlexiSpot's own store**: fall sale up to 50% off, stackable code `FAFSL1` (extra 12% on $300+) — the commercial desk or an E7 combo can come in under Amazon's price;
+- **FEZIBO**: affiliate codes ~6-15% (e.g. `WatsonsReviews`, re-verified daily on coupon aggregators; they are referral commissions in disguise) — but ask support whether the 63×37/71×37 top is one-piece before spending them;
+- **Lectric**: officially "never on sale" — the coupon sites' "10-25% off" claims are noise; the only real discount is a **referral link (~$100 off)**;
+- **Temu**: coupons live in the app (new-user and threshold bundles); the web storefront exposes none.
+
+### 7.5 How much more does a one-piece top actually cost?
+
+**About $40-100 more at equal size (+30-60%), and past ~76cm of depth no mainstream channel sells one at all.** Evidence: a 60×24 one-piece (FLEXISPOT One-Piece) runs $199.49 against $99-130 spliced 63×24s; Marsail's 63×30 one-piece at $219.99 sits just $30 over the spliced SANODESK 63×32 at $189.98 (4cm less depth). The root cause is not the panel — it's **logistics**: a 1.6m×0.8m slab busts standard parcel dimensions and must move LTL freight, roughly doubling shipping cost, damage rates and warp risk, which is why the whole industry splices at depth ([Vvenace comparison](https://vvenace.com/blogs/products-guides/split-top-vs-one-piece-standing-desks), [BTOD buying mistakes](https://www.btod.com/blog/standing-desk-mistakes/)).
+
+## 8. Method & Limits
 
 - **Distances & times**: 🚗/🚲 values are computed per-route from Palo Verde with the OSRM public routing engine (`routing.openstreetmap.de`, routed-car / routed-bike), free-flow estimates; Google live traffic typically adds 20-40%, worse in LA peaks. A workspace script (`route_watch.py`) **rescans everything daily at 6:00am** and snapshots the data; if a value drifts materially from Google Maps, this note gets a manual revision. Click any destination above for a live Google Maps route;
 - **Rideshare estimates**: UberX/Lyft off-peak single-rider ranges modeled from typical OC/LA rates against public fare references — **not live quotes**; peak and event nights run 1.3-2×, shared rides save ~25-35%; calibrate with the app after landing. One-line takeaway: **OC trips run $14-24; LA trips $55-90** — take Amtrak ($19+) plus Metro for LA, or find carpool companions and stay overnight;
