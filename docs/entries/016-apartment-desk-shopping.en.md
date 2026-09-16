@@ -111,8 +111,8 @@ Eleven days later the hard constraints changed from "about 1.5×0.8 m" to **lowe
 
 | Model | Price | Stock | Notes | Link |
 |---|---|---|---|---|
-| SANODESK 63×32 | **$189.98** | In stock | Seamless top, still the cheapest qualifier | [B0GY4D6SZ5](https://www.amazon.com/dp/B0GY4D6SZ5) |
-| FLEXISPOT 63×32 commercial | $199.99 (↑$10) | In stock | Brand + commercial line | [B0FPCZ3C31](https://www.amazon.com/dp/B0FPCZ3C31) |
+| SANODESK 63×32 | **$189.98** | In stock | Spliced top (§8 erratum); still the cheapest qualifier | [B0GY4D6SZ5](https://www.amazon.com/dp/B0GY4D6SZ5) |
+| FLEXISPOT 63×32 commercial | $199.99 (↑$10) | In stock | Brand + commercial line, construction unstated | [B0FPCZ3C31](https://www.amazon.com/dp/B0FPCZ3C31) |
 | FLEXISPOT 63×32 white wood grain | $209.99 | In stock | 4.4★ | [B0GRY4DNR7](https://www.amazon.com/dp/B0GRY4DNR7) |
 | VIVO 63×32 dark gray | $267.74 (↓) | In stock | 4.6★, DESK-KIT-1B1G | [B0C9FQD68D](https://www.amazon.com/dp/B0C9FQD68D) |
 | Grandder 63×32 curved | $249.99 | ⚠️18 left | Two-drawer version same price | [B0H5C8GWT2](https://www.amazon.com/dp/B0H5C8GWT2) |
@@ -140,11 +140,39 @@ Eleven days later the hard constraints changed from "about 1.5×0.8 m" to **lowe
 
 ### Addendum takeaways
 
-- **Under $200, just qualify**: the SANODESK 63×32 ($189.98, seamless top) keeps its crown; +$10 for the 71×32 ($199.98) is worth considering if a spliced top is acceptable;
+- **Under $200, just qualify**: the SANODESK 63×32 ($189.98, spliced top) keeps its crown; +$10 for the 71×32 ($199.98) is worth considering — also spliced;
 - **Length first**: SANODESK 71×32 $199.98 → FLEXISPOT 71×32 $219.99 → SANODESK 79×32 $219.98 (200 cm);
 - **Depth first**: FEZIBO 63×37 at $329.99 is the only mainstream brand reaching 94 cm deep, $130 over the $200 tier;
 - **Maximum savings**: Temu 71×36 at $151.99 undercuts the cheapest Amazon qualifier by $38 — quality control and after-sales are the price;
 - **Re-checked and disqualified**: SHW 62″ ($199.87) is only 61 cm deep; the FLEXISPOT EN1 seamless ($159.99) is 122×61 cm; the OffiGo 71″ Executive is 70 cm deep — none qualify. Near-misses 1–2 cm short (the 71×31 tier, $159–175) are not counted as qualifying.
+
+## 8. Second addendum (same day): the one-piece sweep — no seamless tops found
+
+One more requirement landed: the desktop must be a **whole piece (one-piece, no splice seam)**. So every candidate in the addendum got a construction audit — evidence chain: the seller's own bullet wording, magnified inspection of the main product image, and brand-site copy. The verdict is bleaker than expected, starting with an erratum:
+
+> **Erratum (to the 9/5 body text and §7)**: the 9/5 note claimed "within $200 there are exactly two seamless large tops (SANODESK 63×32 and the FLEXISPOT commercial)". The current SANODESK 63×32 bullets say "The wide **splice** desktop" verbatim, and 71×32/79×32 use the same wording — the "seamless" judgment was wrong. The FLEXISPOT commercial's copy does not state its construction at all, so that model is downgraded from "seamless" to "unverified".
+
+| Model | Evidence | Verdict |
+|---|---|---|
+| SANODESK 63×32 / 71×32 / 79×32 | bullets say "The wide splice desktop" verbatim | Spliced |
+| FLEXISPOT 63×32 white grain / 71×32 white grain | two front-to-back seams visible in the magnified main image | Spliced (~3 boards) |
+| VIVO 63×32 (DESK-KIT-1B1G) | two seams in the main image + curved front edge | Spliced |
+| Grandder 63×32 curved | two seams in the main image | Spliced |
+| FEZIBO 63×37 / 71×37 (1-inch series) | main image shows no seam, but the sibling "dual-beam + cable management" listing says "3-Piece Tabletop" verbatim, and this listing promises nothing | Unverified — ask support before ordering |
+| FLEXISPOT 63×32 commercial | bullets / A+ state no construction at all | Unverified |
+| VIVO standalone top DESK-TOP1P ($119.99) | bullets say "3-piece table surface, all 3 sections must be used" | Spliced (the buy-a-top DIY route is dead too) |
+| Temu 71×36 | no construction information | Unknown |
+
+**Structural conclusion: in the "depth ≥80 cm × width ≥1.5 m" class, no confirmed one-piece top exists on mainstream US e-commerce.** Seamless tops only exist in the small-desktop world — the confirmed one-piece models (FLEXISPOT EN1 One-Piece / EN2 Whole-Piece, HUANUO Whole-Piece, FEZIBO One-Piece 63×28, CubiCubi 48×24) top out at ≤71 cm of depth. The closest confirmed one-piece to qualifying is the **Marsail 63×30 (160×76 cm, $219.99, titled "One-Piece Desktop")** — 4 cm short on depth. The vendor logic is not hard to guess: an 80 cm-deep large panel doubles shipping damage, warping risk and freight, so splicing is the industry-standard answer at depth.
+
+"One-piece preferred" therefore lands on four practical options:
+
+1. **Accept 76 cm of depth** → Marsail 63×30 ($219.99), the only explicitly one-piece near-miss;
+2. **Ask FEZIBO support** whether the 63×37 ($329.99) / 71×37 ($369.99) tops are one-piece — no seams in the main images; if confirmed, that is the only "one-piece + 94 cm deep" solution;
+3. **Accept spliced** → SANODESK 63×32 ($189.98) remains the price floor and 71×32 ($199.98) the $10 length upgrade — every price conclusion from 9/5 and §7 stands unaffected;
+4. **Go first-party** → FlexiSpot's own E7 starts at $299.99, but its whole-piece combos (Staples' E7 Pro 55×28 / 72×30, ~$660+) are also only 76 cm deep — no deep seamless top there either.
+
+In one sentence: the 9/5 thesis was "depth excludes budget"; today it gains a second clause — **depth also excludes one-piece tops**. Of depth, width, one-piece and cheap, this market will give you at most three.
 
 ## Appendix: inch–centimeter cheat sheet
 
