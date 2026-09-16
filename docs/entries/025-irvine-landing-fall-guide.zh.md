@@ -200,7 +200,58 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 每晚 18:30 出发,12/16 开幕夜有烟花,**Marina Park 免费观赏**(🚗 8 mi / 18 min · 🚲 7 mi / 53 min);12/12 Swervedriver(Teragram,§三);12/31 [Grand Park NYELA](https://grandparkla.org/nyela/) 跨年(免费,20:00-次日 1:00,市政厅投影倒数;🚗 43 mi / 54 min)。
 
-## 七、方法与局限
+## 七、采购增补(2026-09-16):柜子、滑板车与电助力自行车
+
+> 桌子的选购专题独立成篇:[92617 公寓办公桌选购](016-apartment-desk-shopping.zh.md)(13 款全清单 + 整板专项核验)。本节是桌子之外的第二批采购调研。快照价均为 9/16 实价:亚马逊 zip 92617 实逛;Temu 网页端有登录墙+滑块验证,所标价格为搜索引擎索引价,**App 内复价为准**。
+
+### 1. 收纳:Temu 的 $20-30 柜子
+
+这个价位的主力是塑料抽屉小推车;带锁金属文件柜普遍 $39+,超预算。Temu 满 $30 包邮,差一点记得凑单。
+
+| 品类 | 索引价 | 说明 |
+|---|---|---|
+| [3 层多功能推车带抽屉](https://www.temu.com/rolling-cart-with-drawers-for-kitchen-5060226822043-s.html)(锁轮+杯架挂钩) | **$12.43** | 全场最低 |
+| [3 层塑料推车·可拆抽屉+2 锁轮](https://www.temu.com/3--tier-plastic-rolling-utility-cart-organizer-versatile-storage-solution-and-plant-stand-with-removable-drawer-and-2-lockable-wheels-for--supplies-crafting-art-and--g-606981872046114.html) | $19.39(划线 $39.99) | |
+| [窄缝小推车 3-6 抽屉·防水](https://www.temu.com/rolling-storage-5020181354294-s.html) | $19.42 | 宽度 ~30cm,塞桌腿之间 |
+| 5 层抽屉窄柜(塑料滚轮) | **$26** | 预算内容量最大 |
+
+对比锚:Target 同类品牌款 [Sterilite 3 层抽屉车](https://www.target.com/p/sterilite-ultra-3-drawer-storage-cart-black/-/A-14465820) $29.74(免组装、本地可退)——Temu 白牌价差约一半,代价是滑轨顺滑度和塑料公差看运气。
+
+### 2. 滑板车:$150 内续航优先
+
+| 款 | 价 | 电池 | 宣传/实际续航 |
+|---|---|---|---|
+| [YHR 500W](https://www.amazon.com/dp/B0GLFSY6B7)(推荐) | $169.99 | 36V 8/12/20Ah 三档 | 30mi / **实约 13-17mi**;4.4★(510),UL2272 明写 |
+| [无牌 36V 5.2Ah](https://www.amazon.com/dp/B0FRRYB288) | $92.99 | 36V 5.2Ah | 12/21mi / 实约 10-12mi;仅 15 评价,太新 |
+| $139 档 2Ah 款 | $139.99 | 36V **2Ah**(72Wh) | 吹 15/30mi——72Wh 物理上不可能,**避雷** |
+
+这个价位宣传续航普遍虚标一半,真实锚是电池瓦时数;老牌(Gotrax $225+ / Hiboy $300)已退出 $150 档。**加州法规(CVC §22411/§21235):滑板车限速 15mph、16 岁以上且需驾照/学习许可、18 岁以下戴盔、禁人行道、禁载人**——商品页吹的 "19/22MPH" 在加州路上本来就用不上,反而按 15mph 巡航续航更好看。
+
+### 3. 电助力自行车:先过 SB 1271 合规关,再谈性价比
+
+**SB 1271(2026-01-01 生效)**:在加州销售的新 e-bike 电池必须持 UL 2849(整车电系统)/ UL 2271(电池)/ EN 15194 认证——亚马逊/Temu 上 $500-800 的白牌直邮车基本无认证,**不合规直接排除**;UCI 住房的锂电池充电规定同样只认 UL。合规主力全部直营免运费(48 州):
+
+| 车型 | 价 | 电机/实际续航 | 备注 |
+|---|---|---|---|
+| [Lectric XP4 500W](https://lectricebikes.com/collections/xp4-ebikes)(首选) | **$999** | 500W / 实约 35-45mi | 折叠胖胎;UL 2271+2849;OutdoorGearLab 2026 最佳价值 |
+| Lectric XP4 750W 长续航 | ~$1,299 | 750W / 实约 50mi(17.5Ah) | 预算能加就加这档 |
+| Velotric Tempo / Aventon Level 4 | $1,399 起 | 60mi 档(宣传) | CNET/Bicycling/OGL 2026 榜,全系 UL 2849 |
+
+路权:e-bike 三类制(Class 1 脚踏助力 20mph / Class 2 油门 20mph / Class 3 脚踏 28mph,16+ 戴盔);UCI 校园步道政策入学后查最新版。
+
+### 4. 优惠快照(2026-09-16)
+
+- **亚马逊**:桌面与滑板车 listing 均**无 active coupon**,优惠已折进划线价(SANODESK 63×32 $269.99→$189.98;FLEXISPOT 商用款 $249.99→$199.99;Marsail $259.99→$219.99);
+- **FlexiSpot 官网**:秋季促销至 50% off,叠加码 `FAFSL1`(满 $300 再 12%)——官网购商用款/E7 组合可能低于亚马逊同款;
+- **FEZIBO**:联盟码约 6-15%(如 `WatsonsReviews`,券站每日核验,本质是返佣码)——用于 63×37/71×37 之前,先向客服确认面板是否整板;
+- **Lectric**:官方口径 never on sale,券站的 "10-25% off" 全是虚标;真实优惠只有 **referral 链接(约 $100 off)**;
+- **Temu**:券只在 App 内(新人券/满减券包),网页端拿不到。
+
+### 5. 整板到底贵多少?
+
+**同级贵约 $40-100(+30-60%),且深度超过 ~76cm 后整板在主流渠道直接买不到**。例证:60×24 整板(FLEXISPOT One-Piece)$199.49 vs 拼接 63×24 $99-130;Marsail 63×30 整板 $219.99 vs SANODESK 63×32 拼接 $189.98——只差 $30(浅 4cm)。根本原因不是板材而是**物流**:1.6m×0.8m 的整板超出普通包裹尺寸上限,必须走 LTL 货运,运费、破损率与翘曲风险全翻倍,这就是全行业在大深度上改用拼板的原因([Vvenace 对比文](https://vvenace.com/blogs/products-guides/split-top-vs-one-piece-standing-desks)、[BTOD 选购误区](https://www.btod.com/blog/standing-desk-mistakes/))。
+
+## 八、方法与局限
 
 - **距离与时间**:🚗/🚲 全部由 OSRM 公共路由引擎(`routing.openstreetmap.de`,routed-car / routed-bike)从 Palo Verde 出发逐条计算,为免费流估计;Google 实时路况通常 +20-40%,LA 侧高峰可翻倍。由 [route_watch.py](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/025-irvine-landing-fall-guide/)(工作区脚本)**每天早上 6:00 自动重扫**,数据快照存工作区,与 Google Maps 有明显偏差时再人工修版;点击各目的地可打开 Google Maps 路径核对实时值;
 - **打车估算**:UberX/Lyft 为平峰单人估算区间(按 OC/LA 常见费率模型推算并对照公开行情),**非实时报价**;高峰与大型活动日 ×1.3-2,拼车约省 25-35%;落地后用 App 实测校准一次最稳。一句话结论:**OC 侧一趟 $14-24,LA 侧一趟 $55-90**——LA 行程优先 Amtrak($19 起)+ Metro 接驳,或拼车过夜;
