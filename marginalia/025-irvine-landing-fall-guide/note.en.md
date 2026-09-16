@@ -240,13 +240,30 @@ Claimed ranges at this price run about double reality; the honest anchor is watt
 
 ### 7.3 E-bike: clear the SB 1271 compliance bar first
 
-**SB 1271 (effective 2026-01-01)**: new e-bike batteries sold in California must carry UL 2849 (system) / UL 2271 (battery) / EN 15194 certification — which disqualifies the $500-800 white-label drop-shippers on Amazon/Temu outright, and matches UCI housing's UL-only rule for lithium battery charging. The compliant mainstays all ship free direct (48 states):
+**SB 1271 (effective 2026-01-01)**: new e-bike batteries sold in California must carry UL 2849 (system) / UL 2271 (battery) / EN 15194 certification, and UCI housing's lithium-charging rule likewise recognizes UL only. **The statewide CARB e-bike incentive ran out of funding in December 2025** — no official subsidy remains. For a $500 budget (mountain style, pedal-assist first, ≥60mi), exactly two roads exist:
+
+**Route A — the only 60-mile-class answer inside $500: Jasion EB5 Ultra ($349), accepting the no-UL risk**
+
+| Item | Detail |
+|---|---|
+| Battery | **52V 20Ah = 1,040Wh** (largest in class; 70mi claimed) |
+| Actual range | eco assist genuinely 60-70mi; **mixed assist 45-60mi** (1,040Wh ÷ ~13Wh/mi) |
+| Form / modes | 26" mountain; 5-level pedal assist + throttle (Class 2, 20mph legal; the "2500W peak" is marketing peak) |
+| Reviews | 4.4★ (73 reviews, new model; the EB5 base line is well-reviewed and stable) |
+| Link | [$349 listing](https://www.amazon.com/dp/B0GT74LKCB) · $399 twin listing |
+| Risk | No UL certification on the page → not SB 1271-compliant (no buyer-side enforcement yet, but) **housing charging may violate policy**; mitigation: charge in garage/outdoors with a fireproof bag, never unattended overnight |
+
+Same-tier comparison: the YR20Pro ($389, "90mi / 3000W / 32MPH") is even more inflated; the 60V 30Ah F6PRO ($469) leans moped, not pedal-assist.
+
+**Route B — if UL compliance is a hard requirement (especially for indoor apartment charging), the budget must stretch to ~$1,000**
 
 | Model | Price | Motor / real range | Notes |
 |---|---|---|---|
-| [Lectric XP4 500W](https://lectricebikes.com/collections/xp4-ebikes) (pick) | **$999** | 500W / real ~35-45mi | Folding fat tire; UL 2271+2849; OutdoorGearLab's 2026 best value |
+| [Lectric XP4 500W](https://lectricebikes.com/collections/xp4-ebikes) | **$999** | 500W / real ~35-45mi | Folding fat tire; UL 2271+2849; OutdoorGearLab's 2026 best value |
 | Lectric XP4 750W long-range | ~$1,299 | 750W / real ~50mi (17.5Ah) | The tier to stretch for |
 | Velotric Tempo / Aventon Level 4 | from $1,399 | 60mi class (claimed) | CNET/Bicycling/OGL 2026 lists, UL 2849 across the line |
+
+A true UL-certified mountain bike (Lectric XPeak, ~$1,200) costs more still. **Conclusion: "$500 + mountain + 60mi" is satisfiable only via Route A; if UL is a hard gate, the 60mi target has to give — pick one.**
 
 Road rights: the three-class e-bike system (Class 1 pedal-assist 20mph / Class 2 throttle 20mph / Class 3 pedal-assist 28mph, 16+ with helmet); check UCI's current campus-path policy after arrival.
 
