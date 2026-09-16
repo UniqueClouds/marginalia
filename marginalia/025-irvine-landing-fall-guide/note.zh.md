@@ -11,6 +11,7 @@ sources:
   - '车程/骑行:OSRM 公共路由引擎逐条计算(routed-car / routed-bike,免费流),每日 06:00 自动重扫(route_watch.py);Uber/Lyft 为费率模型估算区间(方法见文末)'
   - '图片:Wikimedia Commons(CC0 / CC BY / CC BY-SA,图注逐一署名)'
   - '采购增补 2026-09-16(Temu 柜子/滑板车/电助力自行车):Amazon 实逛(zip 92617,8 个商品页核价+coupon 扫描);Temu 网页端登录墙+滑块验证,改走搜索引擎索引价;加州法规核验(SB 1271 UL 认证令 2026-01-01 生效、CVC 22411/21235 滑板车条款);Lectric/FlexiSpot/FEZIBO 官网与券站核验'
+  - '采购增补之二 2026-09-16(≤$50 queen 床架):Amazon 实逛(zip 92617,≤$50 价格筛选按相关性与评分排序两轮 ~60 条,头部 6 款商品页核价/评分/免邮,2 款次日复价);Temu 首页与搜索页均真人滑块验证(bgn_verification),未取数'
 initial-prompt: '9/15 落地尔湾(Palo Verde,92617),9/22 开学:①落地必办事项(BOA/Chase 办卡等);②9-12 月 OC/LA 可去之处(重点后摇/数学摇滚 livehouse);③已排期活动日历(周末优先);④平价文娱(博物馆/片厂)、冲浪等户外、校内运动班;每个地点旁直接标注开车与骑行距离/时间,并每日自动重扫。'
 agent: ZCode CLI
 model: GLM-5.3-Flash (智谱)
@@ -211,7 +212,7 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 每晚 18:30 出发,12/16 开幕夜有烟花,**Marina Park 免费观赏**(🚗 8 mi / 18 min · 🚲 7 mi / 53 min);12/12 Swervedriver(Teragram,§三);12/31 [Grand Park NYELA](https://grandparkla.org/nyela/) 跨年(免费,20:00-次日 1:00,市政厅投影倒数;🚗 43 mi / 54 min)。
 
-## 七、采购增补(2026-09-16):柜子、滑板车与电助力自行车
+## 七、采购增补(2026-09-16):柜子、滑板车、电助力自行车与床架
 
 > 桌子的选购专题独立成篇:[92617 公寓办公桌选购](../016-apartment-desk-shopping/note.zh.md)(13 款全清单 + 整板专项核验)。本节是桌子之外的第二批采购调研。快照价均为 9/16 实价:亚马逊 zip 92617 实逛;Temu 网页端有登录墙+滑块验证,所标价格为搜索引擎索引价,**App 内复价为准**。
 
@@ -279,11 +280,30 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 **同级贵约 $40-100(+30-60%),且深度超过 ~76cm 后整板在主流渠道直接买不到**。例证:60×24 整板(FLEXISPOT One-Piece)$199.49 vs 拼接 63×24 $99-130;Marsail 63×30 整板 $219.99 vs SANODESK 63×32 拼接 $189.98——只差 $30(浅 4cm)。根本原因不是板材而是**物流**:1.6m×0.8m 的整板超出普通包裹尺寸上限,必须走 LTL 货运,运费、破损率与翘曲风险全翻倍,这就是全行业在大深度上改用拼板的原因([Vvenace 对比文](https://vvenace.com/blogs/products-guides/split-top-vs-one-piece-standing-desks)、[BTOD 选购误区](https://www.btod.com/blog/standing-desk-mistakes/))。
 
+### 6. 床架:$50 封顶的 queen 金属平台架
+
+床垫已定 Queen(60×80),床架预算线 $50 **全包含运费**。亚马逊 zip 92617 实逛两轮(≤$50 价格筛选,按相关性与评分排序各一遍,共 ~60 条;头部候选逐页核价/评分/免邮):
+
+**50 刀以内的货架上只有一种商品:无床头板的黑色金属平台架**——钢板条直接承托床垫,免 box spring,免工具或近免工具。带床头板/软包/LED 的款在这个价位全是「商品 $39-49 + 运费 $20-90」的套路,all-in 必超预算;ZINUS 入门线(Joseph 6″/Lorrick/Luis QuickLock)全在 $55+,本轮出局。
+
+| 款 | 价 | 评分/评论 | 要点 |
+|---|---|---|---|
+| [DUMOS 16″](https://www.amazon.com/dp/B0GXJD5D9N)(**默认推荐**)| **$43.19** | 4.6★/951 | 唯一「最高评分档+最便宜」双满足;16″ 高床下储物空间最大;Prime 9/18 到 |
+| [UNIPEAK 11 腿](https://www.amazon.com/dp/B0H71B2Q6S)(要稳选它)| $49.99 | 4.6★/1,485 | 11 支撑腿分摊重量,防松螺母+卡槽防吱呀;单人 20 分钟装完 |
+| [Sweetcrispy 14″](https://www.amazon.com/dp/B0H7W7KJNX) | $49.97 | 4.5★/2,495 | 承重 700 lbs,4.5★ 档评论基数最大 |
+| [ZIYOO 14″](https://www.amazon.com/dp/B08CN878RW) | $49.99 | 4.5★/446 | 宣称 3,500 lbs 钢板条,防滑设计 |
+| [Yaheetech 14″](https://www.amazon.com/dp/B0CJR1B2K1) | $49.99 | 4.3★/3.1K | 出海老牌,评论最多、评分略低 |
+| [VASAGLE(SONGMICS)14″](https://www.amazon.com/dp/B0G1M5VCSX) | $44.94 | 4.0★/12K | 评论基数最大,4.0 分是硬伤 |
+
+两个推荐只差 $7:**默认 DUMOS 16″**($43.19);更看重结构强度/怕吱呀响选 UNIPEAK。表内全部为免邮到 92617 的 all-in 价,商品页均无 active coupon;DUMOS 家族价格常在 $40-55 间跳,下单时以页面实价为准。
+
+**Temu 二试仍被墙**:与柜子那轮的「仅搜索页被挡」不同,这次连首页都 302 到真人滑块验证(`bgn_verification.html`),自动化完全进不去。按行情判断同规格白牌架 $40-55——即便人工滑进去,大概率也只能和 DUMOS 的 $43.19 打平,不太可能更便宜。
+
 ## 八、方法与局限
 
 - **距离与时间**:🚗/🚲 全部由 OSRM 公共路由引擎(`routing.openstreetmap.de`,routed-car / routed-bike)从 Palo Verde 出发逐条计算,为免费流估计;Google 实时路况通常 +20-40%,LA 侧高峰可翻倍。由 [route_watch.py](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/025-irvine-landing-fall-guide/)(工作区脚本)**每天早上 6:00 自动重扫**,数据快照存工作区,与 Google Maps 有明显偏差时再人工修版;点击各目的地可打开 Google Maps 路径核对实时值;
 - **打车估算**:UberX/Lyft 为平峰单人估算区间(按 OC/LA 常见费率模型推算并对照公开行情),**非实时报价**;高峰与大型活动日 ×1.3-2,拼车约省 25-35%;落地后用 App 实测校准一次最稳。一句话结论:**OC 侧一趟 $14-24,LA 侧一趟 $55-90**——LA 行程优先 Amtrak($19 起)+ Metro 接驳,或拼车过夜;
-- **核验窗口**:2026-09-10/11 两轮检索;所有票价、日期均来自官方或一级票务页(链接内联)。仍会变动的:LA Zoo Lights 2026 具体日期、LACMA / Huntington / Griffith 票价、Neverender 官方面价——购票前点开链接再确认;
+- **核验窗口**:2026-09-10/11 两轮检索;§七采购增补为 2026-09-16 实价快照(床架小节含当日两轮扫描与次日复价);所有票价、日期均来自官方或一级票务页(链接内联)。仍会变动的:LA Zoo Lights 2026 具体日期、LACMA / Huntington / Griffith 票价、Neverender 官方面价——购票前点开链接再确认;
 - **图片**:Wikimedia Commons(CC0 / CC BY / CC BY-SA),图注逐一署名,感谢各位拍摄者。
 
 ---

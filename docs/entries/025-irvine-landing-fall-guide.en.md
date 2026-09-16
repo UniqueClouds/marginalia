@@ -200,7 +200,7 @@ Even varsity is discounted — per [UCI Athletics ticketing](https://app.ucirvin
 
 Departing 6:30pm nightly; fireworks on opening night; **Marina Park is the best free spot** (🚗 8 mi / 18 min · 🚲 7 mi / 53 min). Plus Swervedriver on 12/12 (§3) and the free [Grand Park NYELA](https://grandparkla.org/nyela/) countdown on 12/31 (🚗 43 mi / 54 min).
 
-## 7. Shopping Addendum (2026-09-16): Cabinets, E-Scooter and E-Bike
+## 7. Shopping Addendum (2026-09-16): Cabinets, E-Scooter, E-Bike and a Bed Frame
 
 > The desk-buying survey lives on its own page: [Amazon Desk Shopping for ZIP 92617](016-apartment-desk-shopping.en.md) (the full 13-model list plus the one-piece audit). This section is the second procurement batch. All prices are 9/16 snapshots: Amazon scanned live (ZIP 92617); Temu's web storefront sits behind a login wall + slider CAPTCHA, so its prices are search-engine index snapshots — **re-verify in the Temu app before ordering**.
 
@@ -268,11 +268,30 @@ Road rights: the three-class e-bike system (Class 1 pedal-assist 20mph / Class 2
 
 **About $40-100 more at equal size (+30-60%), and past ~76cm of depth no mainstream channel sells one at all.** Evidence: a 60×24 one-piece (FLEXISPOT One-Piece) runs $199.49 against $99-130 spliced 63×24s; Marsail's 63×30 one-piece at $219.99 sits just $30 over the spliced SANODESK 63×32 at $189.98 (4cm less depth). The root cause is not the panel — it's **logistics**: a 1.6m×0.8m slab busts standard parcel dimensions and must move LTL freight, roughly doubling shipping cost, damage rates and warp risk, which is why the whole industry splices at depth ([Vvenace comparison](https://vvenace.com/blogs/products-guides/split-top-vs-one-piece-standing-desks), [BTOD buying mistakes](https://www.btod.com/blog/standing-desk-mistakes/)).
 
+### 7.6 A queen bed frame, all-in under $50
+
+The mattress is settled at Queen (60×80); the frame budget is $50 **all-in, shipping included**. Two live Amazon passes at ZIP 92617 (≤$50 price filter, sorted once by relevance and once by rating, ~60 results; the top candidates re-verified page-by-page for price/rating/free delivery):
+
+**Below $50 the entire shelf is one product: a headboard-less black metal platform frame** — steel slats hold the mattress directly, no box spring, tool-free or nearly so. Anything with a headboard, upholstery or LEDs at this price is a "cheap item + $20-90 shipping" play that busts the budget all-in; ZINUS's entry line (Joseph 6″ / Lorrick / Luis QuickLock) starts above $55 and sits this round out.
+
+| Model | Price | Rating/reviews | Notes |
+|---|---|---|---|
+| [DUMOS 16″](https://www.amazon.com/dp/B0GXJD5D9N) (**default pick**) | **$43.19** | 4.6★/951 | The only listing that is both top-rated and cheapest; 16″ height maximizes under-bed storage; Prime delivery 9/18 |
+| [UNIPEAK 11-leg](https://www.amazon.com/dp/B0H71B2Q6S) (sturdiness pick) | $49.99 | 4.6★/1,485 | 11 support legs spread the load; anti-loosening nuts + slotted joints against squeaks; one-person 20-min assembly |
+| [Sweetcrispy 14″](https://www.amazon.com/dp/B0H7W7KJNX) | $49.97 | 4.5★/2,495 | 700-lb rating; the biggest review base at 4.5★ |
+| [ZIYOO 14″](https://www.amazon.com/dp/B08CN878RW) | $49.99 | 4.5★/446 | Claimed 3,500-lb steel slats, non-slip design |
+| [Yaheetech 14″](https://www.amazon.com/dp/B0CJR1B2K1) | $49.99 | 4.3★/3.1K | Established exporter brand; most reviews, slightly lower score |
+| [VASAGLE (SONGMICS) 14″](https://www.amazon.com/dp/B0G1M5VCSX) | $44.94 | 4.0★/12K | Largest review base, but 4.0 is the weak score |
+
+The two picks are $7 apart: **DUMOS 16″ by default** ($43.19); UNIPEAK if structural stiffness and a squeak-free night matter more. Every price in the table is all-in with free delivery to 92617; neither pick's page carries an active coupon. The DUMOS family's price drifts between $40-55, so trust the live page at checkout.
+
+**Temu, attempt two, still walled**: unlike the cabinet round (search page blocked only), this time even the homepage 302s to a human slider CAPTCHA (`bgn_verification.html`) that automation cannot pass. Index prices for comparable white-label frames run $40-55 — past the wall, it would most likely only tie DUMOS's $43.19, not beat it.
+
 ## 8. Method & Limits
 
 - **Distances & times**: 🚗/🚲 values are computed per-route from Palo Verde with the OSRM public routing engine (`routing.openstreetmap.de`, routed-car / routed-bike), free-flow estimates; Google live traffic typically adds 20-40%, worse in LA peaks. A workspace script (`route_watch.py`) **rescans everything daily at 6:00am** and snapshots the data; if a value drifts materially from Google Maps, this note gets a manual revision. Click any destination above for a live Google Maps route;
 - **Rideshare estimates**: UberX/Lyft off-peak single-rider ranges modeled from typical OC/LA rates against public fare references — **not live quotes**; peak and event nights run 1.3-2×, shared rides save ~25-35%; calibrate with the app after landing. One-line takeaway: **OC trips run $14-24; LA trips $55-90** — take Amtrak ($19+) plus Metro for LA, or find carpool companions and stay overnight;
-- **Verification window**: two research rounds, 2026-09-10/11; all prices/dates come from official or primary ticketing pages (linked inline). Still moving: LA Zoo Lights 2026 dates, LACMA/Huntington/Griffith ticket prices, Neverender face value — re-open the links before buying;
+- **Verification window**: two research rounds, 2026-09-10/11; the §7 shopping addendum is a 2026-09-16 live-price snapshot (the bed-frame subsection includes a two-pass scan plus next-day reprice); all prices/dates come from official or primary ticketing pages (linked inline). Still moving: LA Zoo Lights 2026 dates, LACMA/Huntington/Griffith ticket prices, Neverender face value — re-open the links before buying;
 - **Images**: Wikimedia Commons (CC0 / CC BY / CC BY-SA), credited per caption — thanks to the photographers.
 
 ---
