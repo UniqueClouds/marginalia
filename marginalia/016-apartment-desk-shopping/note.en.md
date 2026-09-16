@@ -3,11 +3,13 @@ id: marginalia-016
 title: 'Amazon Desk Shopping for ZIP 92617 — survey: desktop depth and budget don''t combine in standing desks'
 date: 2026-09-05
 published: 2026-09-05
+updated: 2026-09-16
 kind: shopping-survey(apartment procurement)
 sources:
   - 'Live browsing of Amazon.com (browser automation; delivery address set to Irvine 92617 first, so all prices / free-shipping flags / arrival windows are real-time for that ZIP; snapshot 2026-09-05)'
   - 'Four search passes: 63×32-inch deep-top standing desks / 59–60-inch standing desks / 63×31.5 regular office desks / 55–63-inch electric standing desks'
   - '13 candidate product pages verified one by one: spec-table Product Dimensions, price, stock, FREE delivery window'
+  - 'Supplementary scan 2026-09-16: constraints relaxed to depth ≥80 cm / width ≥150 cm; three Amazon search passes (63×32, 71×32, 79×32, 63×37) plus 12 product pages re-verified (dimensions, top construction, current price, stock); Temu behind a login wall and slider CAPTCHA, so surveyed via search-engine indexes — 71×36 in (180×91 cm) at $151.99 and the 63×24 mainstream tier'
 initial-prompt: 'Pick a desk for the UCI Palo Verde apartment (ZIP 92617): length about 1.5 m, depth about 80 cm (not too far off), budget around $100 with a $200 ceiling, standing desk preferred; must ship free to the apartment door; find in-stock models and characterize the trade-offs.'
 agent: ZCode CLI
 model: GLM-5.3-Flash (Zhipu)
@@ -103,6 +105,56 @@ In other words, in this budget band "electric lift" is a $40–90 feature premiu
 - **Same product, many listings**: brands like Tribesigns/ErGear split one product line into several ASINs by color, sharing rating and review counts (matching numbers in the tables are the same pool); stock and promotions are per-listing;
 - **Other channels not verified in depth**: Walmart's same-spec search page hit a bot check and was abandoned; Wayfair/Target carry largely the same white-label standing desks at similar prices; FlexiSpot's own store runs frequent promos; the IKEA BEKANT 63" sit/stand desk historically starts around $349+, over budget;
 - **Price freshness**: everything is a 2026-09-05 snapshot; Amazon furniture discounts move fast (several listings show struck-through list prices), and stock counts (15 / 2 units) move faster.
+
+## 7. Addendum (2026-09-16): a re-scan with relaxed bounds — depth ≥80 cm, width ≥150 cm
+
+Eleven days later the hard constraints changed from "about 1.5×0.8 m" to **lower bounds** (depth ≥80 cm, width ≥150 cm, no ceiling), and the scan widened from Amazon to Temu. Four new facts:
+
+1. **A 1.8 m desktop now exists at the $200 price point.** The SANODESK 71×32 (180×81 cm) at $199.98 buys 20 cm of extra length over its own 63×32 for $10 — but the top switches from the 63×32's seamless board to a two-piece splice (the bullets say "splice desktop"); the SANODESK 79×32 (200×81 cm, $219.98) is spliced too, and the FLEXISPOT 71×32 white wood grain ($219.99) does not state its top construction, so confirm before ordering;
+2. **The depth ceiling opened as well**: FEZIBO 63×37 (160×94 cm, 1-inch-thick top) at $329.99 and 71×37 (180×94 cm) at $369.99 — 94 cm of depth is rare among mainstream brands, at the cost of entering $330+ territory;
+3. **The 9/5 "hard floor" conclusion holds verbatim, but the market is diverging**: the SANODESK 63×32 sits unmoved at $189.98 while the mid-tier rose across the board — HUANUO 63×28 $149.99→$169.99, ErGear 63×28 $199.99→$229.99, Marsail 63×30 $197.80→$219.99, FLEXISPOT commercial $189.99→$199.99; VIVO 63×32 ticked down to $249.89–267.74. "80 cm deep under $200" still has exactly one qualifying brand;
+4. **Temu's ticket in is 71×36 inches**: its web storefront has a login wall plus a slider CAPTCHA, so the survey went through search-engine indexes; the biggest find is a **71×36 (180×91 cm) electric standing desk at $151.99** (struck-through $448.30; 5 outlets, 3 memory presets, cable management, monitor stand) — the cheapest qualifying desk anywhere in this survey, with white-label quality control, after-sales and shipping risk taken as-is, and the price to be re-verified in the Temu app. Temu's mainstream electric desks are actually 63×24 (61 cm deep, disqualifying); 71×36 is the exception.
+
+### Addendum candidate list (2026-09-16 live prices, free shipping to 92617)
+
+**A. 63×32 in (160×81 cm) — width just clears the bar**
+
+| Model | Price | Stock | Notes | Link |
+|---|---|---|---|---|
+| SANODESK 63×32 | **$189.98** | In stock | Seamless top, still the cheapest qualifier | [B0GY4D6SZ5](https://www.amazon.com/dp/B0GY4D6SZ5) |
+| FLEXISPOT 63×32 commercial | $199.99 (↑$10) | In stock | Brand + commercial line | [B0FPCZ3C31](https://www.amazon.com/dp/B0FPCZ3C31) |
+| FLEXISPOT 63×32 white wood grain | $209.99 | In stock | 4.4★ | [B0GRY4DNR7](https://www.amazon.com/dp/B0GRY4DNR7) |
+| VIVO 63×32 dark gray | $267.74 (↓) | In stock | 4.6★, DESK-KIT-1B1G | [B0C9FQD68D](https://www.amazon.com/dp/B0C9FQD68D) |
+| Grandder 63×32 curved | $249.99 | ⚠️18 left | Two-drawer version same price | [B0H5C8GWT2](https://www.amazon.com/dp/B0H5C8GWT2) |
+
+**B. 71×32 in (180×81 cm) — 20 cm more length for $10**
+
+| Model | Price | Stock | Notes | Link |
+|---|---|---|---|---|
+| SANODESK 71×32 | **$199.98** | In stock | ⚠️Spliced top (not seamless); 4 memory presets + cable tray, ships in 2 boxes | [B0GY4P31B2](https://www.amazon.com/dp/B0GY4P31B2) |
+| FLEXISPOT 71×32 white wood grain | $219.99 | In stock | Top construction unstated, confirm before ordering | [B0FXGSM2SD](https://www.amazon.com/dp/B0FXGSM2SD) |
+
+**C. Wider / deeper (180–200 cm wide, 94 cm deep)**
+
+| Model | Desktop (cm) | Price | Stock | Notes | Link |
+|---|---|---|---|---|---|
+| SANODESK 79×32 | 200×81 | $219.98 | In stock | ⚠️Spliced top | [B0HDXMNT5Y](https://www.amazon.com/dp/B0HDXMNT5Y) |
+| FEZIBO 63×37 | 160×94 | $329.99 | In stock | 1-inch top, 4.6★ | [B0GD7F92BH](https://www.amazon.com/dp/B0GD7F92BH) |
+| FEZIBO 71×37 | 180×94 | $369.99 | ⚠️11 left | The deepest at 94 cm | [B0GD75PNR2](https://www.amazon.com/dp/B0GD75PNR2) |
+
+**D. Temu**
+
+| Model | Desktop (cm) | Indexed price | Notes | Link |
+|---|---|---|---|---|
+| Temu 71×36 electric standing desk | 180×91 | $151.99 ($448.30 struck through) | 5 outlets + 3 memory presets + monitor stand; ⚠️re-verify price in app | [Temu product page](https://www.temu.com/7136-standing-desk-electric-adjustable-height-desks-home-office-desks-with-cable-management-monitor-stand--5-power-outlets-3-memory-adjustable-height-computer-desk-g-601100639375584.html) |
+
+### Addendum takeaways
+
+- **Under $200, just qualify**: the SANODESK 63×32 ($189.98, seamless top) keeps its crown; +$10 for the 71×32 ($199.98) is worth considering if a spliced top is acceptable;
+- **Length first**: SANODESK 71×32 $199.98 → FLEXISPOT 71×32 $219.99 → SANODESK 79×32 $219.98 (200 cm);
+- **Depth first**: FEZIBO 63×37 at $329.99 is the only mainstream brand reaching 94 cm deep, $130 over the $200 tier;
+- **Maximum savings**: Temu 71×36 at $151.99 undercuts the cheapest Amazon qualifier by $38 — quality control and after-sales are the price;
+- **Re-checked and disqualified**: SHW 62″ ($199.87) is only 61 cm deep; the FLEXISPOT EN1 seamless ($159.99) is 122×61 cm; the OffiGo 71″ Executive is 70 cm deep — none qualify. Near-misses 1–2 cm short (the 71×31 tier, $159–175) are not counted as qualifying.
 
 ## Appendix: inch–centimeter cheat sheet
 
