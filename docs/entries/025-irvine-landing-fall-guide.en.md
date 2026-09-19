@@ -287,11 +287,73 @@ The two picks are $7 apart: **DUMOS 16″ by default** ($43.19); UNIPEAK if stru
 
 **Temu, attempt two, still walled**: unlike the cabinet round (search page blocked only), this time even the homepage 302s to a human slider CAPTCHA (`bgn_verification.html`) that automation cannot pass. Index prices for comparable white-label frames run $40-55 — past the wall, it would most likely only tie DUMOS's $43.19, not beat it.
 
+### 7.7 Monitors: the 32″ 4K Mini LED / OLED ladder (2026-09-19)
+
+> Requirements: 32″ + 4K + the panel must be Mini LED or OLED + refresh ≥100Hz — every pick here is in fact ≥120Hz. Snapshot prices as of 2026-09-19: **live Amazon pages walked one by one in a real browser** (ZIP 92617), cross-checked against TCL/MSI/Dell/INNOCN official pages and Walmart; promos move fast, so **trust the live page at checkout**. Review opinions come from RTINGS, TechPowerUp, Tom's Hardware, WIRED, DisplayNinja and Reddit hands-on threads (linked inline, reachability verified).
+
+**The verdict in three lines**:
+
+- **Cheapest**: INNOCN 32M2V ($499.99 direct, promos to ~$400) — a 1,152-zone Mini LED, the only true HDR1000 4K under $500, at the cost of a small-brand warranty and dark-scene halos;
+- **Easiest to live with**: Dell S3225QC (Amazon $641.99 / Walmart ~$572 / refurb $519.99) — the cheapest name-brand 32″ 4K QD-OLED, with a genuinely good speaker pair thrown in; the cost is 120Hz;
+- **For gaming**: LG 32GX850A-B ($749.99) and MSI MPG 321URX (from $799.99) — the former a 2026 dual-mode OLED (4K165 / FHD330), the latter the 4K 240Hz QD-OLED baseline; if burn-in worry rules OLED out but you want HDR brightness, take the TCL 32R84 ($650, zone-count disputed, see below).
+
+**The Mini LED ladder** (dimming zones flagged on every row):
+
+| Model | Snapshot price | Zones | Panel / refresh | One-line role |
+|---|---|---|---|---|
+| [INNOCN 32M2V](https://innocn.com/en-us/products/innocn-32-inch-4k-miniled-gaming-monitor-32m2v-2026) (144Hz original / 160Hz 2026 rev) | **$499.99 direct** (Aug 2026 promo $399.98; OOS on Amazon) | **1,152** | QD-IPS · 144/160Hz · HDR1000 | Cheapest of the field, strongest HDR at the price |
+| [TCL 32R84](https://us.tcl.com/products/monitor-32r84) (2025) | $649.99 (TCL direct; OOS on Amazon) | **2,304 official / 1,400 Reddit-measured (disputed)** | Fast HVA · 165Hz · HDR1400 | Brightness-per-dollar ceiling + 90W USB-C |
+| [Samsung Odyssey Neo G7 G70NC](https://www.amazon.com/s?k=Samsung+Odyssey+Neo+G7+32) | ~$699 (3rd party; Amazon OOS) | 1,196 | VA 1000R curve · 165Hz · HDR600 | EOL clearance — only interesting under $600 |
+
+![INNOCN 32M2V](../assets/entries/025-irvine-landing-fall-guide/monitor-innocn-32m2v.jpg)
+*INNOCN 32M2V press image (144Hz version; the 160Hz rev shares the chassis). Image: INNOCN*
+
+![TCL 32R84](../assets/entries/025-irvine-landing-fall-guide/monitor-tcl-32r84.png)
+*TCL 32R84 press image — note the "2,304 DIMMING ZONES" badge, which a Reddit flicker-count teardown disputes (below). Image: TCL US*
+
+**INNOCN 32M2V**: [TechPowerUp's headline](https://www.techpowerup.com/review/innocn-32m2v/) is the pitch — "Aggressive Pricing, Excellent HDR": 1,152 zones make it the only true HDR1000 4K anywhere near $500, with 99% DCI-P3, HDMI 2.1 and a height/pivot stand. Against it (DisplayNinja): halos in some scenes, occasional flicker when VRR runs with local dimming on, and the usual small-brand warranty lottery. The 2026 160Hz rev is $499.99 direct (from $799.99 list); it hit $399.98 on Amazon in August but is currently OOS there — buy from INNOCN's store. **The answer to "cheapest way onto 4K Mini LED" — accept the after-sales dice roll.**
+
+**TCL 32R84**: flag the zone count first — the press render says **2,304 zones**, a Reddit flicker-count teardown measured 50×28 = **1,400** ([teardown thread](https://www.reddit.com/r/Monitors/comments/1p81t3g/)), and TCL support insists "1,400 is the peak-brightness nits; it really has 2,304 zones" ([support thread](https://www.reddit.com/r/Monitors/comments/1p7k8cq/tcl_32r84_actually_has_2304_dimming_zones)). Either way it's the most zones per dollar in the tier. Specs: HDR1400 (~1,400-1,500 nits peak), 96% DCI-P3, 90W USB-C single-cable. The [r/OLED_Gaming long-term review](https://www.reddit.com/r/OLED_Gaming/comments/1nruxpb/tcl_r84_32_miniled_review_my_oled_alternative) calls it "the best LCD monitor I've owned, trading blows with a 240Hz OLED"; Best Buy's family sits at 4.6-4.7★. The cons are textbook Mini LED: cursor halos on dark scenes, a counter-blooming algorithm that clamps highlights, VA dark smear (fixable), and a matte coating that some find grainy on text.
+
+**Neo G7 (G70NC)**: the 2022 benchmark for this class (1,196 zones, 1000R curve), RTINGS-approved in its day; now Amazon-direct OOS with third parties at $699 — EOL clearance. **Unless it dips under $600, either pick above is the better buy.** Stepping up, the BenQ EX321UX (~$1,100) and ASUS PG32UQX (~$1,700+) cost more without changing the story — skipped.
+
+**The OLED ladder** (all Samsung QD-OLED panels):
+
+| Model | Snapshot price (9/19, measured) | Refresh | One-line role |
+|---|---|---|---|
+| [Dell S3225QC](https://www.amazon.com/dp/B0FB46P6F6) | Amazon **$641.99** · Walmart ~$572 · refurb $519.99 (MSRP $849.99) | 120Hz | Cheapest name-brand 32″ 4K QD-OLED + good speakers |
+| [MSI MAG 321UP](https://www.amazon.com/dp/B0D9HY3JH2) | **$671.14** | 165Hz | Same panel as 321URX, cost-trimmed |
+| [LG 32GX850A-B](https://www.amazon.com/dp/B0FLQLPNNH) (2026) | **$749.99** (list $1,299.99) | 4K165 / FHD330 dual mode | Glossy WOLED, the dual-mode gaming value king |
+| [MSI MPG 321URX](https://www.amazon.com/dp/B0DPXYZYPT) | **$799.99-859** | 240Hz | The 4K 240Hz QD-OLED baseline |
+| [Alienware AW3225QF](https://www.dell.com/en-us/shop/alienware-32-curved-qd-oled-gaming-monitor-aw3225qf/apd/210-bmqq/monitors) | Dell direct $999.99 (Amazon 3rd-party $1,139 inflated; promos $780-900, ATL $699.99) | 240Hz | 1800R curve, Dell 3-yr burn-in warranty |
+
+![Dell S3225QC](../assets/entries/025-irvine-landing-fall-guide/monitor-dell-s3225qc.png)
+*Dell S3225QC: white stand, speaker grille below the panel; 32″ 4K QD-OLED at 120Hz. Image: WIRED*
+
+![MSI MAG 32″ QD-OLED](../assets/entries/025-irvine-landing-fall-guide/monitor-msi-mag-qd-oled.jpg)
+*MSI MAG 32″ QD-OLED family render (shown: the 2026 321UPX with Tandem OLED panel; the 321UP/321URX use the previous-gen QD-OLED). Image: Walmart listing*
+
+![Alienware AW3225QF](../assets/entries/025-irvine-landing-fall-guide/monitor-aw3225qf.jpg)
+*AW3225QF: 1800R curve on the Legend-ID stand; 4K 240Hz QD-OLED. Image: Tom's Guide*
+
+![LG 32GX850A](../assets/entries/025-irvine-landing-fall-guide/monitor-lg-32gx850a.jpg)
+*LG 32GX850A UltraGear (2026): glossy WOLED with Dual Mode 4K165/FHD330. Official render (rear). Image: NotebookCheck*
+
+**Dell S3225QC**: [RTINGS' comparison](https://www.rtings.com/monitor/reviews/dell/s3225qc) against its IPS-Black sibling (S3225QS) ends in a clean picture-quality sweep — deep blacks, bright highlights, wide gamut; [WIRED scored it 9/10](https://www.wired.com/review/dell-32-plus-qd-oled/), with speakers "better than almost every other monitor I've tested". Tom's Hardware's deductions: 120Hz only, no gamma presets; the triangular-subpixel text fringe and ABL dimming in bright rooms are QD-OLED-wide traits. **$519 (refurb) to $642 (Amazon) depending on channel — still the floor for "name brand + OLED + 4K", and the productivity-plus-media pick; hunt Walmart (~$572) or refurb for the bottom price.**
+
+**MSI MAG 321UP / MPG 321URX**: one 31.5″ 4K QD-OLED panel, two trims — the 321UP is the MAG line's **165Hz cost-down** (basic stand, fewer ports; measured $671.14 on Amazon), the 321URX the **240Hz full trim** (90W USB-C + KVM, from $799.99). TFTCentral confirms the family shares OLED Care 2.0 and a **3-year warranty that covers burn-in** (2026 adds a 321UPX with the new Tandem OLED panel, ~$780+). [RTINGS calls the 321URX](https://www.rtings.com/monitor/reviews/msi/mpg-321urx-qd-oled) a "superb gaming monitor"; PCGuide's 2025 pick for "the best 4K OLED". **165Hz is enough → 321UP saves ~$130; want 240Hz → 321URX.**
+
+**LG 32GX850A-B (2026 dark horse)**: LG's 2026 32″ **glossy WOLED** UltraGear built around Dual Mode — one-key switching between **4K @165Hz and FHD @330Hz** — with 0.03ms, G-SYNC Compatible and 1.5M:1 contrast. Measured **$749.99** on Amazon (list $1,299.99), $50 under the 321URX with an extra 330Hz gear. Too new for professional reviews yet; early Best Buy feedback centers on the "RPG vs competitive in one toggle" flexibility. Mind the ~275-nit full-field brightness (typical WOLED — brightness-first buyers should look at Mini LED). **The default answer at $750 for an OLED gaming panel.**
+
+**Alienware AW3225QF**: 1800R-curved 4K 240Hz QD-OLED, an RTINGS premium pick, 4.7★ at Best Buy, Dell 3-year burn-in coverage. Promos run $780-900 with an all-time low of $699.99 (Feb 2026); right now Dell direct asks $999.99 and Amazon third parties $1,139 — **wait for a sale**. If the curve works for you it's the flavor pick; otherwise the 321URX. Above this sits the PG32UCDM ($900-1,050) and the dual-mode LG 32GS95UE (4K240/FHD480, ~$1,000-1,300) — only if the budget is uncapped.
+
+**How to choose, cheapest first**: ~$500 and no compromises left → INNOCN 32M2V ($499.99 direct, ~$400 on promo); ~$600 for work-first with peace of mind → Dell S3225QC (Walmart ~$572 or refurb $519.99 is the deal); ~$650 if burn-in anxiety rules and HDR brightness matters → TCL 32R84 (no burn-in to fear, and the zone dispute doesn't change the picture-quality verdict); ~$671 for 165Hz gaming → MSI MAG 321UP; ~$750 for serious gaming → LG 32GX850A-B (dual mode) or MSI MPG 321URX (from $799.99); the curved AW3225QF is the flavor pick on a promo. Housekeeping either way: on OLED set a burn-in screensaver and auto-hiding taskbar; on Mini LED, dark-scene halos are physics, and VRR + local dimming together can flicker occasionally.
+
 ## 8. Method & Limits
 
 - **Distances & times**: 🚗/🚲 values are computed per-route from Palo Verde with the OSRM public routing engine (`routing.openstreetmap.de`, routed-car / routed-bike), free-flow estimates; Google live traffic typically adds 20-40%, worse in LA peaks. A workspace script (`route_watch.py`) **rescans everything daily at 6:00am** and snapshots the data; if a value drifts materially from Google Maps, this note gets a manual revision. Click any destination above for a live Google Maps route;
 - **Rideshare estimates**: UberX/Lyft off-peak single-rider ranges modeled from typical OC/LA rates against public fare references — **not live quotes**; peak and event nights run 1.3-2×, shared rides save ~25-35%; calibrate with the app after landing. One-line takeaway: **OC trips run $14-24; LA trips $55-90** — take Amtrak ($19+) plus Metro for LA, or find carpool companions and stay overnight;
-- **Verification window**: two research rounds, 2026-09-10/11; the §7 shopping addendum is a 2026-09-16 live-price snapshot (the bed-frame subsection includes a two-pass scan plus next-day reprice); all prices/dates come from official or primary ticketing pages (linked inline). Still moving: LA Zoo Lights 2026 dates, LACMA/Huntington/Griffith ticket prices, Neverender face value — re-open the links before buying;
+- **Verification window**: two research rounds, 2026-09-10/11; the §7 shopping addendum is a 2026-09-16 live-price snapshot (the bed-frame subsection includes a two-pass scan plus next-day reprice); §7.7 monitors are a 2026-09-19 street-price snapshot; all prices/dates come from official or primary ticketing pages (linked inline). Still moving: LA Zoo Lights 2026 dates, LACMA/Huntington/Griffith ticket prices, Neverender face value, and every monitor promo in §7.7 — re-open the links before buying;
 - **Images**: Wikimedia Commons (CC0 / CC BY / CC BY-SA), credited per caption — thanks to the photographers.
 
 ---

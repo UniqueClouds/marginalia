@@ -3,7 +3,7 @@ id: marginalia-025
 title: '尔湾落地与秋季生活指南——从借记卡、冲浪到 Swervedriver'
 date: 2026-09-11
 published: 2026-09-11
-updated: 2026-09-16
+updated: 2026-09-19
 kind: landing-guide(落地与秋季生活调研)
 sources:
   - '官方核验:UCI 校历/Transportation/Campus Rec/Athletics、City of Irvine、CicLAvia、AFI、Universal、Six Flags-Knott''s、Sawdust、Disney、NHL-Ducks、USC、Lakers、各场馆票务页(DICE/Songkick/LiveNation/Teragram/Wayfarer/Lodge Room/The Frida)'
@@ -12,6 +12,7 @@ sources:
   - '图片:Wikimedia Commons(CC0 / CC BY / CC BY-SA,图注逐一署名)'
   - '采购增补 2026-09-16(Temu 柜子/滑板车/电助力自行车):Amazon 实逛(zip 92617,8 个商品页核价+coupon 扫描);Temu 网页端登录墙+滑块验证,改走搜索引擎索引价;加州法规核验(SB 1271 UL 认证令 2026-01-01 生效、CVC 22411/21235 滑板车条款);Lectric/FlexiSpot/FEZIBO 官网与券站核验'
   - '采购增补之二 2026-09-16(≤$50 queen 床架):Amazon 实逛(zip 92617,≤$50 价格筛选按相关性与评分排序两轮 ~60 条,头部 6 款商品页核价/评分/免邮,2 款次日复价);Temu 首页与搜索页均真人滑块验证(bgn_verification),未取数'
+  - '采购增补之三 2026-09-19(32″ 4K 显示器):浏览器逐款实测 Amazon 商品/搜索页实价(zip 92617,Kimi bridge)+ Walmart/官方页(TCL/MSI/Dell/INNOCN)交叉核验;测评意见:RTINGS / TechPowerUp / Tom''s Hardware / WIRED / DisplayNinja / TFTCentral / Reddit 实测帖(链接内联);RTINGS 与 TechPowerUp 引用链接已逐条验证可达;产品图:厂商官方素材与媒体图(版权归原权利人,调研引用)'
 initial-prompt: '9/15 落地尔湾(Palo Verde,92617),9/22 开学:①落地必办事项(BOA/Chase 办卡等);②9-12 月 OC/LA 可去之处(重点后摇/数学摇滚 livehouse);③已排期活动日历(周末优先);④平价文娱(博物馆/片厂)、冲浪等户外、校内运动班;每个地点旁直接标注开车与骑行距离/时间,并每日自动重扫。'
 agent: ZCode CLI
 model: GLM-5.3-Flash (智谱)
@@ -299,11 +300,73 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 **Temu 二试仍被墙**:与柜子那轮的「仅搜索页被挡」不同,这次连首页都 302 到真人滑块验证(`bgn_verification.html`),自动化完全进不去。按行情判断同规格白牌架 $40-55——即便人工滑进去,大概率也只能和 DUMOS 的 $43.19 打平,不太可能更便宜。
 
+### 7. 显示器:32″ 4K Mini LED / OLED 梯队(2026-09-19)
+
+> 需求线:32 寸 + 4K + 面板必须是 Mini LED 或 OLED + 刷新率 ≥100Hz——入选款实际全部 ≥120Hz。快照价 2026-09-19:**用浏览器逐款实测 Amazon 页面实价**(zip 92617),并与 TCL/MSI/Dell/INNOCN 官方页及 Walmart 行情交叉核验;促销波动大,**下单以页面实价为准**。测评意见来自 RTINGS、TechPowerUp、Tom's Hardware、WIRED、DisplayNinja 与 Reddit 实测帖(链接内联,可达性已验证)。
+
+**三句话结论**:
+
+- **预算最低**:INNOCN 32M2V(官网 $499.99,促销可到 ~$400)——1,152 分区 Mini LED,$500 内唯一真 HDR1000 的 4K,代价是小厂售后与暗场光晕;
+- **综合最省心**:Dell S3225QC(Amazon $641.99 / Walmart ~$572 / 官翻 $519.99)——最便宜的名牌 32″ 4K QD-OLED,还送一对评测交口称赞的扬声器,代价是 120Hz;
+- **游戏向**:LG 32GX850A-B($749.99)与 MSI MPG 321URX($799.99 起)——前者是 2026 新款双模 OLED(4K165 / FHD330),后者是 4K 240Hz QD-OLED 基准线;怕烧屏又要 HDR 亮度选 TCL 32R84($650,分区数有争议,见下)。
+
+**Mini LED 梯队**(分区数全部标注):
+
+| 款 | 快照价 | 分区数 | 面板 / 刷新 | 一句话定位 |
+|---|---|---|---|---|
+| [INNOCN 32M2V](https://innocn.com/en-us/products/innocn-32-inch-4k-miniled-gaming-monitor-32m2v-2026)(144Hz 老款 / 160Hz 2026 新款)| **官网 $499.99**(2026-08 促销 $399.98;Amazon 当前无货)| **1,152** | QD-IPS · 144/160Hz · HDR1000 | 全场最低,同价位最强 HDR |
+| [TCL 32R84](https://us.tcl.com/products/monitor-32r84)(2025)| $649.99(TCL 官方;Amazon 现无货)| **官方 2,304 / Reddit 实测 1,400(有争议)** | Fast HVA · 165Hz · HDR1400 | 同价亮度天花板 + 90W USB-C |
+| [Samsung Odyssey Neo G7 G70NC](https://www.amazon.com/s?k=Samsung+Odyssey+Neo+G7+32) | ~$699(第三方;Amazon 自营缺货)| 1,196 | VA 曲面 1000R · 165Hz · HDR600 | EOL 清仓,< $600 才值得捡 |
+
+![INNOCN 32M2V](../assets/entries/025-irvine-landing-fall-guide/monitor-innocn-32m2v.jpg)
+*INNOCN 32M2V 官方产品图(144Hz 版,160Hz 新款同模具)。图:INNOCN*
+
+![TCL 32R84](../assets/entries/025-irvine-landing-fall-guide/monitor-tcl-32r84.png)
+*TCL 32R84 官方产品图——注意官方图标称「2,304 DIMMING ZONES」,与实拆计数存在争议(见下)。图:TCL US*
+
+**INNOCN 32M2V**:[TechPowerUp 的标题](https://www.techpowerup.com/review/innocn-32m2v/)就是卖点——"Aggressive Pricing, Excellent HDR":1,152 分区让它成为 $500 档唯一真 HDR1000 的 4K,99% DCI-P3、HDMI 2.1、带升降旋转支架。扣分项(DisplayNinja):部分场景光晕/光斑;VRR 与分区调光同开偶发闪烁;小厂保修与售后口碑一般。2026 新款 160Hz 官网现价 $499.99(划线 $799.99),8 月在 Amazon 促到过 $399.98,现 Amazon 无货、以官网为主。**「花最少钱上 4K Mini LED」的答案,但要接受售后与品控抽奖。**
+
+**TCL 32R84**:先给分区数打问号——官方渲染图标 **2,304 分区**,Reddit 用户闪烁计数实测 50×28=**1,400**([实测帖](https://www.reddit.com/r/Monitors/comments/1p81t3g/)),TCL 客服则坚称"1400 是峰值亮度 nits,实际 2,304 分区"([客服口径帖](https://www.reddit.com/r/Monitors/comments/1p7k8cq/tcl_32r84_actually_has_2304_dimming_zones))。无论采信哪个数,它都是这个价位分区最多的 Mini LED。规格:HDR1400(峰值 ~1,400-1,500 nits)、96% DCI-P3、90W USB-C 一线连。[r/OLED_Gaming 长测](https://www.reddit.com/r/OLED_Gaming/comments/1nruxpb/tcl_r84_32_miniled_review_my_oled_alternative)的结论是"我拥有过的最好的 LCD 显示器,能和 240Hz OLED 掰手腕";Best Buy 同系列 4.6-4.7★。缺点同样典型:暗场光标光晕、反光晕算法压高光细节、VA 暗场拖影(可调好)、磨砂涂层文字发灰。
+
+**Neo G7(G70NC)**:2022 年的 32″ 4K Mini LED 标杆(1,196 分区、1000R 曲面),当年 RTINGS 好评;如今 Amazon 自营缺货、第三方 $699,属 EOL 清仓——**除非 <$600,否则上排两款任一都更值**。更高端的 BenQ EX321UX(~$1,100)与 ASUS PG32UQX(~$1,700+)属于"贵但没贵到点子上",跳过。
+
+**OLED 梯队**(全部为三星 QD-OLED 面板):
+
+| 款 | 快照价(9/19 实测) | 刷新 | 一句话定位 |
+|---|---|---|---|
+| [Dell S3225QC](https://www.amazon.com/dp/B0FB46P6F6) | Amazon **$641.99** · Walmart ~$572 · 官翻 $519.99(MSRP $849.99)| 120Hz | 最便宜名牌 32″ 4K QD-OLED + 好扬声器 |
+| [MSI MAG 321UP](https://www.amazon.com/dp/B0D9HY3JH2) | **$671.14** | 165Hz | 321URX 同面板减配版,游戏性价比 |
+| [LG 32GX850A-B](https://www.amazon.com/dp/B0FLQLPNNH)(2026 新款)| **$749.99**(划线 $1,299.99)| 4K165 / FHD330 双模 | 镜面 WOLED,双模游戏性价比之王 |
+| [MSI MPG 321URX](https://www.amazon.com/dp/B0DPXYZYPT) | **$799.99-859** | 240Hz | 4K 240Hz QD-OLED 基准线 |
+| [Alienware AW3225QF](https://www.dell.com/en-us/shop/alienware-32-curved-qd-oled-gaming-monitor-aw3225qf/apd/210-bmqq/monitors) | Dell 官网 $999.99(Amazon 第三方 $1,139 虚高;促销常见 $780-900,ATL $699.99)| 240Hz | 1800R 曲面,Dell 三年烧屏保修 |
+
+![Dell S3225QC](../assets/entries/025-irvine-landing-fall-guide/monitor-dell-s3225qc.png)
+*Dell S3225QC:白色支架 + 下置音响网,32″ 4K QD-OLED 120Hz。图:WIRED*
+
+![MSI MAG 32″ QD-OLED](../assets/entries/025-irvine-landing-fall-guide/monitor-msi-mag-qd-oled.jpg)
+*MSI MAG 32″ QD-OLED 家族渲染图(图为 2026 款 321UPX,Tandem OLED 面板;321UP/321URX 为上代 QD-OLED)。图:Walmart listing*
+
+![Alienware AW3225QF](../assets/entries/025-irvine-landing-fall-guide/monitor-aw3225qf.jpg)
+*AW3225QF:1800R 曲面 + Legend-ID 支架,4K 240Hz QD-OLED。图:Tom's Guide*
+
+![LG 32GX850A](../assets/entries/025-irvine-landing-fall-guide/monitor-lg-32gx850a.jpg)
+*LG 32GX850A UltraGear(2026):镜面 WOLED,Dual Mode 4K165/FHD330。图为官方渲染(背面)。图:NotebookCheck*
+
+**Dell S3225QC**:[RTINGS 对比同门 IPS-Black 的 S3225QS](https://www.rtings.com/monitor/reviews/dell/s3225qc),结论是画质全面胜出——QD-OLED 深黑、亮部、广色域;[WIRED 给了 9/10](https://www.wired.com/review/dell-32-plus-qd-oled/),扬声器 "better than almost every other monitor I've tested"。Tom's Hardware 的扣分项:只有 120Hz、无 gamma 预设;三角子像素的细字彩边与 ABL 亮房间偏暗是所有 QD-OLED 的通病。**$519(官翻)-$642(Amazon)视渠道而定,它仍是「名牌 + OLED + 4K」的最低门槛,办公 + 影音首选;求最低价蹲 Walmart(~$572)/官翻。**
+
+**MSI MAG 321UP / MPG 321URX**:同一块 31.5″ 4K QD-OLED——321UP 是 MAG 主流线的 **165Hz 减配版**(支架/接口缩水,Amazon 实测 $671.14),321URX 是 **240Hz 全配版**(90W USB-C + KVM,$799.99 起)。TFTCentral 确认该家族共享 OLED Care 2.0 与 **3 年保修含烧屏**(2026 年还有换装 Tandem OLED 新面板的 321UPX,约 $780 起)。[RTINGS 称 321URX](https://www.rtings.com/monitor/reviews/msi/mpg-321urx-qd-oled) "superb gaming monitor",PCGuide 2025 年度评它 "the best 4K OLED"。**165Hz 够用买 321UP 省 $130;要 240Hz 买 321URX。**
+
+**LG 32GX850A-B(2026 黑马)**:LG 2026 年的 32″ **镜面 WOLED** UltraGear,主打 Dual Mode——**4K @165Hz 与 FHD @330Hz 一键切换**,0.03ms、G-SYNC Compatible、1.5M:1 对比度。Amazon 实测 **$749.99**(划线 $1,299.99),比 321URX 便宜 $50 还多一档 330Hz。上市太新,专业测评未出;Best Buy 早期口碑集中在"RPG 与竞技游戏一键切换很爽"。注意全屏亮度 ~275 nits(WOLED 典型水准,亮度党看 Mini LED)。**$750 档 OLED 游戏屏的默认答案。**
+
+**Alienware AW3225QF**:1800R 曲面 4K 240Hz QD-OLED,RTINGS premium pick,Best Buy 4.7★,Dell 三年保修含烧屏。促销常见 $780-900,历史低点 $699.99(2026-02);现 Dell 官网 $999.99、Amazon 第三方 $1,139 虚高,**等促销再上车**。接受曲面看它,不接受看 321URX。再往上(ASUS PG32UCDM $900-1,050、LG 32GS95UE 双模 4K240/FHD480 ~$1,000-1,300)属预算无上限选项。
+
+**怎么选(按预算从低到高)**:~$500 什么都不要 → INNOCN 32M2V(官网 $499.99,蹲促销 ~$400);~$600 办公 + 偶尔游戏、要省心 → Dell S3225QC(Walmart ~$572 / 官翻 $519.99 最划算);~$650 怕烧屏要 HDR 亮度 → TCL 32R84(Mini LED 无烧屏焦虑,分区争议不影响画质结论);~$671 游戏 165Hz → MSI MAG 321UP;~$750 主游戏 → LG 32GX850A-B(双模)或 MSI MPG 321URX($799.99 起);曲面爱好者 AW3225QF 等促销。共同注意事项:QD-OLED/WOLED 记得开防烧屏屏保/自动隐藏任务栏;Mini LED 暗场光晕是物理特性,VRR + 分区调光同开偶发闪烁。
+
 ## 八、方法与局限
 
 - **距离与时间**:🚗/🚲 全部由 OSRM 公共路由引擎(`routing.openstreetmap.de`,routed-car / routed-bike)从 Palo Verde 出发逐条计算,为免费流估计;Google 实时路况通常 +20-40%,LA 侧高峰可翻倍。由 [route_watch.py](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/025-irvine-landing-fall-guide/)(工作区脚本)**每天早上 6:00 自动重扫**,数据快照存工作区,与 Google Maps 有明显偏差时再人工修版;点击各目的地可打开 Google Maps 路径核对实时值;
 - **打车估算**:UberX/Lyft 为平峰单人估算区间(按 OC/LA 常见费率模型推算并对照公开行情),**非实时报价**;高峰与大型活动日 ×1.3-2,拼车约省 25-35%;落地后用 App 实测校准一次最稳。一句话结论:**OC 侧一趟 $14-24,LA 侧一趟 $55-90**——LA 行程优先 Amtrak($19 起)+ Metro 接驳,或拼车过夜;
-- **核验窗口**:2026-09-10/11 两轮检索;§七采购增补为 2026-09-16 实价快照(床架小节含当日两轮扫描与次日复价);所有票价、日期均来自官方或一级票务页(链接内联)。仍会变动的:LA Zoo Lights 2026 具体日期、LACMA / Huntington / Griffith 票价、Neverender 官方面价——购票前点开链接再确认;
+- **核验窗口**:2026-09-10/11 两轮检索;§七采购增补为 2026-09-16 实价快照(床架小节含当日两轮扫描与次日复价);§7.7 显示器为 2026-09-19 行情快照;所有票价、日期均来自官方或一级票务页(链接内联)。仍会变动的:LA Zoo Lights 2026 具体日期、LACMA / Huntington / Griffith 票价、Neverender 官方面价、以及本节全部显示器促销价——购票/下单前点开链接再确认;
 - **图片**:Wikimedia Commons(CC0 / CC BY / CC BY-SA),图注逐一署名,感谢各位拍摄者。
 
 ---
