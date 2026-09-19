@@ -244,6 +244,8 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 同档对比:YR20Pro($389,吹 90mi/3000W/32MPH)更虚;60V 30Ah 的 F6PRO($469)偏电摩不偏助力。
 
+**2026-09-19 复查**:EB5 Ultra 已从 Jasion 官网下架(官网在售只剩 EB5 Roamer ST $699 等),Amazon 现货在 $199(基础 EB5 促销价)到 ~$500(Ultra)间剧烈波动——上表 $349 快照已不可复现,白牌价格随库存情绪乱跳;全系横向调研见 §7.9。
+
 **路线 B:UL 合规是硬门槛(尤其要在公寓室内充电)——预算必须上浮到 ~$1,000**
 
 | 车型 | 价 | 电机/实际续航 | 备注 |
@@ -389,11 +391,113 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 **和 32 寸怎么取舍**:OLED 预算优先 → **买 32 寸**(Dell $641.99 / LG $749.99,比 27 寸 OLED 的 $799 便宜且更大);Mini LED 预算优先 → 27 寸 XV275K($349.99)全场最低;桌面深度 <70cm 或偏好小屏高密度(166 PPI 文字更细)→ 27 寸 OLED 值得;要大屏影音 → 32 寸。
 
+### 9. 电助力自行车:美国主流平把 e-bike 横向调研(2026-09-19)
+
+> 需求线:身高 **179cm(5'10.5″)**、平把(山地/平把公路形制)、**真续航 60mi+**、电机要强、**电池可拆**/带 USB 输出、**尽量轻**、有像样的缓震,且必须有公认的专业评测与社区口碑。价格为 **2026-09-19 各品牌官网实时快照**(Shopify 价格接口逐店核验;Trek/Specialized/Giant/Priority 为官网当日标价)。专业意见来自 Electric Bike Report(EBR,统一标准续航实测)、Bicycling、WIRED、OutdoorGearLab、Tom's Guide、CNET、Ebike Escape、ElectricBikeReview.com 与 r/ebikes 社区(链接内联)。SB 1271 合规背景见 §7.3,本节不重复。
+
+**先对齐四件事,整张表才读得懂**:
+
+1. **「60mi 真续航」= 720Wh 以上的电池 + eco 档**。EBR 的实测口径是[骑到电池彻底耗尽](https://electricbikereport.com/how-we-test-electric-bikes/),最高/最低助力档各跑一轮——厂商的 "up to 60mi" 基本对应最低档。经验能耗 10-25 Wh/mi,**保守公式:Wh ÷ 20 = 可保证里程**。下表「续航」一律优先给 EBR/媒体的 Eco↔Turbo 实测区间。
+2. **轻量与大电池物理互斥**:370Wh 级轻量车 36-39lb 但真续航 <40mi;能跑 60mi 的车全部 55-77lb。本节按「续航优先」选型,轻量位单列并标注续航代价。
+3. **UL 认证已是硬门槛**(SB 1271,2026-01-01 生效):本节车型里只有 Jasion EB5 系无认证;Lectric/Velotric/Aventon/Ride1Up/Radster 全系 UL 2849(电池 2271)。
+4. **2025 关税把价格抬上去后没有回落**(峰值 55-70%,2025-11 缓和后仍约 56%,[PeopleForBikes 跟踪](https://www.peopleforbikes.org)):2026 的「原价」就是新常态。Lectric 公开不打折(只有免费配件包和 referral),其余品牌常年「促销价」即为真实价。**下单以页面实价为准。**
+
+**总表(价格 = 2026-09-19 官网快照;★ = 本节推荐)**:
+
+| 车型 | 价 | 电池(均可拆) | 电机·传感 | 续航(实测优先) | 重量 | 缓震 | 179cm 适配 |
+|---|---|---|---|---|---|---|---|
+| ★[Lectric XP4 750 LR](https://lectricebikes.com/products/xp-black-long-range) | **$1,299** | 840Wh · UL 2849/2271 · 显示器 USB-C 输出 | 750W(峰值1,310W)/85Nm · 扭矩 | **Eco 63.4 / Turbo 36.9mi(EBR)** | ~72lb 带电池 | 50mm 弹簧叉 + 簧座管 | 单码 4'10"-6'3" ✓ |
+| [Lectric XP4 500](https://lectricebikes.com/products/xp-black) | $999 | 499Wh · UL 双认证 · USB-C | 500W/55Nm · 扭矩 | 55.1 / 30.2mi(EBR) | ~70lb | 50mm 叉 | 单码 ✓ |
+| [Lectric XPress 2](https://lectricebikes.com/products/xpress-750-high-step-black-ebike) | $1,399 | 672Wh · UL 2271 | 750W(峰值1,310W)/85Nm · 扭矩/踏频双模 | 无独立实测 | ~64lb | 硬叉(通勤定位) | 单码 ST/HS ✓ |
+| [Lectric XPeak 2.0](https://lectricebikes.com/products/xpeak-high-step-ebike) | $1,399(LR $1,599) | 720Wh / 960Wh LR · UL · USB-C | 750W(峰值1,310W)/85Nm · PWR+ 混合 | 46.1mi 纯油门(960Wh 版,EBR);官方 60/80 | ~75lb | 80mm RST 叉 | ST 5'2"-6'3" / HS 5'4"-6'5" ✓ |
+| ★[Ride1Up Portola 02](https://ride1up.com/product/portola/) | **$895 起** | 480Wh / 720Wh 双档 · **UL 2849** | 750W/90Nm · **扭矩/踏频双模** | 25-45mi(10Ah)/ 30-60mi(15Ah) | — | 硬叉(折叠胖胎) | 单码,高步/中折两架 |
+| [Ride1Up TrailRush](https://ride1up.com/product/trailrush/) | $1,995 | 504Wh Samsung | **Brose 中置 90Nm · 扭矩** | 官方 30-50mi | — | **120mm RockShox + 150mm 升降座管** | M/L 两码 ✓ |
+| ★[Velotric Discover 2](https://www.velotricbike.com/products/velotric-discover-2) | **$1,499**(促)/$1,999 | 705.6Wh · UL 2271 · **USB-C 输出** | 750W(峰值1,100W)/75Nm · SensorSwap | **Eco 86.7 / Turbo 37.4mi(EBR)** | 63lb | 80mm 液压叉 | R 4'11"-5'9" / L 5'6"-6'4" ✓L |
+| [Velotric Nomad 2](https://www.velotricbike.com/products/velotric-nomad-2) | $1,999(**送 $550 长续航电池**) | 705.6Wh · UL 2271 · USB-C | 750W(峰值1,300W)/90Nm | 官方 65/45mi | 75lb(载重 505lb) | 100mm RST 叉 | R 5'2"-5'11" / L 5'10"-6'5" ✓L |
+| [Velotric Summit 1](https://www.velotricbike.com/products/velotric-summit-1) | $1,699 | 705.6Wh · UL 2271 | 750W(峰值1,300W)/90Nm | 官方 70/60mi | 62lb | 120mm 液压叉 | R 5'1"-5'10" / L 5'8"-6'6" ✓L |
+| ★[Aventon Level 4 REC](https://www.aventon.com/products/level-4-rec) | $1,999 | 733Wh · UL · 能量回收 | 750W(Boost 1,440W)/80Nm · 扭矩 | **Eco 97 / Turbo 43.8mi(EBR)** | 68.5lb | 80mm 叉 + 50mm 簧座管 | R 5'3"-5'10" / L 5'10"-6'4" ✓L |
+| [Aventon Aventure 3](https://www.aventon.com/products/aventure-3) | $1,999 | 733Wh · UL 2271 | 750W(Boost 1,440W)/80Nm · 扭矩 | 官方 65mi(未独立实测) | 76lb(载重 400lb) | 80mm 叉 + 簧座管 + 26×4.0 | R / L ✓L |
+| [Aventon Ramblas ADV](https://www.aventon.com/products/ramblas-adv) | $2,899 | 708Wh · TÜV/UL 2271 | **A100 中置 250W(峰值750W)/100Nm · 扭矩** | EBR 续航总榜前 5(官方 90mi) | **54lb** | **130mm RockShox + 150mm dropper + SRAM 4 活塞** | M 165-176 / L 177-188 ✓L |
+| [Mokwheel Basalt ST 2.0](https://mokwheel.com/products/basalt-st-2-0-s) | $1,800 | **940Wh** IPX7 · UL 2849 | 750W(峰值1,100W)/85-90Nm · 扭矩+踏频 | 官方 60-80;经销商实测 ~48mi 混合 | 未标(载重 450lb) | 前叉 + 26×4.0 | 同门 5'5"-6'7" ✓ |
+| [Rad Radster Road](https://www.radpowerbikes.com) ⚠️ | $1,999 | 720Wh SafeShield · UL 双认证 · USB-C | 750W/**100Nm** · 扭矩 | 官方 25-65mi | 74.5lb | 80mm 液压叉 | L 5'7"-6'4" ✓ |
+| [Trek Marlin+ 6](https://www.trekbikes.com/us/en_US/bikes/mountain-bikes/electric-mountain-bikes/marlin/marlin-6-plus/p/41180/) | $2,499 | 400Wh Bosch(可 +250Wh 增程) | Bosch Active Line Plus 中置 50Nm | 57 Eco / 29 Turbo(EBR,同系统 Marlin+ 8) | ~50lb | 120mm 弹簧叉 | S-XXL,179→L |
+| [Giant Talon E+](https://www.giant-bicycles.com/us/talon-eplus)(2026) | $2,950 | 430Wh(可 +250Wh) | SyncDrive Sport 2(Yamaha)75Nm · 6 传感 | 官方三档 71/54/35mi | **47.8lb(最轻硬尾)** | 100mm 叉 | 官方表 179→**M/L 交界** |
+| [Specialized Tero 3.0](https://www.specialized.com/us/en/turbo-tero-30/p/275157)(清仓) | $2,749(EOL 尾货) | 530Wh · **页面明示 UL 2849/2271** | 2.0E 中置 50Nm | 官方最高 68mi | 51lb | 110mm 叉 | S-XL,179→L |
+| [Ride1Up Prodigy V2](https://ride1up.com/product/prodigy-v2/) | $2,395(促) | 504Wh Samsung | Brose 中置 90Nm · 扭矩 | 73 Tour / 32 Boost(ElectricBikeReview) | 58-61lb | 100mm 气簧叉 | ST 5'0"-6'0" / XR 5'5"-6'1" ✓XR |
+| [Priority Current Plus](https://www.prioritybicycles.com/products/currentplus) | $3,299 | 720Wh · 页面标 UL | 500W 中置(峰值140Nm)· 扭矩 | 官方 20-75mi(车主 40-50 混合) | 55lb | **无避震**(皮带+内变速) | S/M/L,179→L |
+| [Aventon Soltera 3 ADV](https://www.aventon.com/products/soltera-3-adv)(轻量位) | $1,499(暂缺货;上代 2.5 款 $1,199 现货) | 366.8Wh | 250W(峰值500W)/40Nm · 扭矩 | ~40mi 级 | **37lb** | 硬叉 | L 5'9"-6'1" ✓ |
+| [Velotric Tempo](https://www.velotricbike.com/products/velotric-tempo-city-ebike)(轻量位) | $1,499 | 374Wh · UL 双认证 · USB-C | 350W(峰值650W)/45Nm | 官方 60mi(以 374Wh 存疑) | 39lb | 硬叉 | HS L 5'6"-6'4" ✓ |
+| [Jasion EB5 Ultra](https://www.jasionbike.com)(白牌) | 官网已下架;Amazon ~$349-500 波动 | 1040Wh · **无 UL** | "2500W peak"(营销数字)· 踏频 | 无实测 | — | 双肩软叉 | 单码 |
+
+![Lectric XP4 750](../assets/entries/025-irvine-landing-fall-guide/ebike-lectric-xp4-750.png)
+*Lectric XP4 750 Long-Range(高步版):840Wh + 85Nm + USB-C 输出,$1,299 全场续航/价格比最高。图:Lectric*
+
+![Velotric Discover 2](../assets/entries/025-irvine-landing-fall-guide/ebike-velotric-discover-2.png)
+*Velotric Discover 2:705.6Wh + USB-C 输出 + UL 双认证,促销价 $1,499。图:Velotric*
+
+![Aventon Level 4 REC](../assets/entries/025-irvine-landing-fall-guide/ebike-aventon-level-4-rec.jpg)
+*Aventon Level 4 REC:Bicycling 称"我们的基准电助力车",EBR 实测 Eco 97mi。图:Aventon*
+
+**预算档(≤$1,000)**:[XP4 500](https://lectricebikes.com/products/xp-black)($999)是 [OutdoorGearLab 2026 "spectacular value"](https://www.outdoorgearlab.com/topics/biking/best-electric-bike)——扭矩传感、油碟、UL 全家桶齐全,55.1mi 低助实测;要更省:[Ride1Up Portola 02](https://ride1up.com/product/portola/)(**$895 起**)拿下了 EBR 2026「最佳预算」,750W/90Nm + 扭矩/踏频双模 + **UL 2849**,是 $1,000 内唯一带认证的扭矩传感折叠胖胎(15Ah 档官方 30-60mi)。Heybike Cityscape 2.0(官网 $899、Deal 档 $799)是白牌里少见的 UL 2849 口径选项,但「in accordance with」≠「UL Listed」,宿舍充电前先查认证文件。XP Lite 2.0($899,49lb)是本节最轻的可信折叠车,但踏频传感 + 375Wh 标准电池,只适合短途。
+
+**$1,000-2,000 主力档(60mi 主战场)**:
+
+- **XP4 750 LR($1,299)——预算内的续航答案**。[WIRED 2025-11](https://www.wired.com/review/lectric-xp4-750-electric-bike/) 的评语:"The best affordable ebike on the market. Astounding range for the price";[OutdoorGearLab 给 86/100、19 台横评第 2](https://www.outdoorgearlab.com/reviews/biking/electric-bike/lectric-xp4-750),EBR 实测 Eco 63.4mi。比 500 版多花 $300 买到 840Wh + 85Nm + 簧座管,**是全表最低的「真 60mi」门槛价**。缺点:折叠结构重(带电池 ~72lb)、50mm 弹簧叉只是基础缓震。
+- **Discover 2($1,499 促)——单配置性价比最高**:705.6Wh + USB-C 输出 + UL 双认证 + 440lb 载重,EBR 实测 Eco 86.7mi(RiderGuide 转引);Ebike Escape 称其座椅舒适度与整合度出色。r/ebikes 常见抱怨:63lb 偏重、DTC 售后无本地店、官方扭矩标称打架(75 vs 90Nm)。179cm 取 L。
+- **Level 4 REC($1,999)——媒体共识的「基准车」**:[Bicycling 2026-08](https://www.bicycling.com/bikes-gear/a20048026/best-electric-bikes/)(“our baseline e-bike”)、[OutdoorGearLab 85 分最佳日常](https://www.outdoorgearlab.com/topics/biking/best-electric-bike)、EBR「最佳通勤」三家同选;扭矩传感 + 动能回收 + 733Wh,EBR 实测 Eco 97mi 为全表第一。短板:Aventon 售后响应慢是 Reddit 长期吐槽点。
+- **Aventure 3($1,999)**:fat 胎全能位,400lb 载重 + 80mm 叉 + 簧座管,Boost 模式 30 秒超频;EBR 好评但 76lb 是全表最重之一。
+- **Nomad 2($1,999 + 送 $550 长续航电池)**:等于**双电池出厂**,续航上限翻倍;载重 505lb 全表第一,EBR 4.7/5「最佳舒适」;要全避震看新出的 Nomad 2X($2,299,后避震版本)。
+- **Summit 1($1,699)**:Velotric 的入门山地——120mm 叉 + 27.5×2.6 + Shimano 油碟;[Ebike Escape](https://ebikeescape.com/velotric-summit-1-review) 评 "most affordable trail-worthy ebike",但轮毂电机爬陡坡上限低于中置。
+- **Mokwheel Basalt ST 2.0($1,800)**:940Wh 全表第二大电池,独家卖点是**电池可外接逆变器当移动电源**(另购配件),露营/停电神器;[ElectricBikeReview 实测口径](https://electricbikereview.com/mokwheel/basalt-2-review)好,但小厂 QC 抽奖(有控制器雨后故障个案)。
+- **Radster Road($1,999)⚠️**:硬件是 Rad 史上最强(100Nm 扭矩 + UL 双认证 + 720Wh),但 **Rad Power 2025-12 申请 Chapter 11**、资产 $13.2M 卖给 Life EV(2026-03 交割),**2025-12-15 前售出车辆的保修不再兑现**——按「买硬件不买保修」评估,不推荐新手买。
+
+![Ride1Up TrailRush](../assets/entries/025-irvine-landing-fall-guide/ebike-ride1up-trailrush.webp)
+*Ride1Up TrailRush:Brose 中置 + 120mm RockShox + 150mm 升降座管,$1,995 是 WIRED 与 Bicycling 双料「最佳廉价 eMTB」。图:Ride1Up*
+
+![Aventon Ramblas ADV](../assets/entries/025-irvine-landing-fall-guide/ebike-aventon-ramblas-adv.jpg)
+*Aventon Ramblas ADV:A100 中置 100Nm + 130mm RockShox Psylo,54lb;EBR 4.8/5、Ebike Escape 9.3/10。图:Aventon*
+
+**山地/进阶档($2,000+)**:
+
+- **TrailRush($1,995)——$2,000 内真山地独苗**:Brose(德产)中置 90Nm + 120mm RockShox Judy + **150mm 升降座管** + Shimano Deore 10 速 + 4 活塞油碟,这套配置在中置电山地里没有对手;[WIRED 与 Bicycling 双料 2026「最佳廉价 eMTB」](https://www.bicycling.com/bikes-gear/a20048026/best-electric-bikes/)。504Wh 官方 30-50mi,60mi 出局——山地位与续航位二选一。
+- **Ramblas ADV($2,899)——预算 eMTB 基准**:自研 A100 中置 100Nm + 708Wh,54lb 是中置山地里最轻;[EBR 4.8/5](https://electricbikereport.com/aventon-ramblas-review)、Ebike Escape 9.3/10、OGL 4.5/5,EBR 续航总榜前 5。**「真避震 + 够轻 + 60mi(eco)」三项同时满足的唯一一款**。179cm 取 L(177-188)。
+- **Marlin+ 6($2,499)**:最便宜的正经 Bosch 车——Active Line Plus 中置 + 400Wh,经销商网络是 DTC 给不了的;短板是 400Wh(Eco 实测 57mi)与 50Nm。要气簧叉与 12 速上 Marlin+ 8($3,999)。
+- **Talon E+(2026,$2,950)**:三者中最轻(47.8lb)、唯一给官方身高表(179cm 落 M 171-184 与 L 176-192 交界,按跨高选),Yamaha 方案 75Nm + 6 传感器;代价 430Wh 最小。Cycling Electric 给上代 4.5/5「最佳性价比硬尾 eMTB」。
+- **Tero 3.0($2,749,清仓)**:530Wh + Class 3 + 页面明示 UL 双认证,原 $3,250 已停产扫尾;BikeRadar 3.5/5,动力温和(50Nm),**手慢无**。
+- **Prodigy V2($2,395 促)**:Brose 中置通勤位,ElectricBikeReview 实测 Tour 73mi(平路 eco 场景);100mm 气簧叉,缺点是 504Wh 偏小且 XR 码 5'5"-6'1" 对 179cm 已到上沿。
+- **Current Plus($3,299)——十年免维护旗舰**:Gates 皮带 + Shimano 内变速 + 扭矩中置 + 720Wh,媒体评「premium 骑行体验」;**无避震、55lb**,对标的是省心通勤而非山地。
+
+**轻量位(60mi 出局,自知选项)**:[Soltera 3 ADV](https://www.aventon.com/products/soltera-3-adv)($1,499,**暂缺货**;上代 Soltera 2.5 $1,199 现货,且是 [CNET 2026「最佳整车」](https://www.cnet.com/roadshow/personal-mobility/best-electric-bike/))37lb/扭矩传感,WIRED 2026 最佳通勤;Velotric Tempo($1,499)39lb + USB-C;T1($2,199)36lb 最轻但电池 352.8Wh。**这一档真续航全部 <45mi**,适合「能充电、骑不远」的校园场景,与 60mi 需求互斥。
+
+**避雷与品牌风险(2026-09 排序)**:经销商体系(Cannondale/Marin/Trek/Giant/Specialized)> 大体量 DTC(Lectric/Aventon/Velotric/Ride1Up)> 中型 DTC(Heybike/Mokwheel)> Amazon 白牌(Jasion/Engwe/Totem)> 破产重组(Rad)> 已死(Juiced)。两个教案:**Juiced 2024 末破产,Lectric 2025-03 收购 IP 重建——电池与保修随公司死亡蒸发**;Rad Power 见上。白牌通病:虚标功率("2500W peak" 是峰值营销)、无 UL(SB 1271 后已在加州禁售)、售后即店铺寿命。
+
+**六家媒体的 2026 榜单共识**(获奖位与上表交叉验证一致):
+
+| 媒体(更新时间) | 预算/价值位 | 通勤基准 | 最佳廉价 eMTB | 轻量位 |
+|---|---|---|---|---|
+| [WIRED](https://www.wired.com/story/best-electric-bikes/)(2026-04) | Lectric XP4 750(最热销/最佳价值) | Soltera 3(最佳通勤) | TrailRush | Soltera 3(37lb) |
+| [Bicycling](https://www.bicycling.com/bikes-gear/a20048026/best-electric-bikes/)(2026-08) | Soltera 2.5(最佳廉价) | **Level 4 REC(基准)** | TrailRush | — |
+| [EBR](https://electricbikereport.com/best-electric-bikes/)(2026) | Portola(最佳预算)/ XP4(最佳价值)/ XPress 2(预算通勤) | Level 4 REC(Eco 实测 97mi) | Ramblas ADV(预算 eMTB) | — |
+| [OutdoorGearLab](https://www.outdoorgearlab.com/topics/biking/best-electric-bike)(2026-07) | XP4(spectacular value)/ XP4 750 最佳折叠(86 分,#2/19) | Level 4 REC(85 分,最佳日常) | — | — |
+| [Tom's Guide](https://www.tomsguide.com/best-picks/best-electric-bikes)(2026-09) | Roadster V3(最佳整车/预算) | Segway Myon | — | — |
+| [CNET](https://www.cnet.com/roadshow/personal-mobility/best-electric-bike)(2025-11) | Soltera 2.5(最佳整车) | — | — | — |
+| r/ebikes 社区 | Lectric(预算默认答案) | Aventon/Ride1Up(进阶) | — | — |
+
+**结论:179cm + 60mi 的五个选法**:
+
+1. **预算极限 $1,299:Lectric XP4 750 LR** —— 840Wh/85Nm/USB-C,Eco 实测 63.4mi,全表最低的「真 60mi」价;接受折叠重车与基础叉。
+2. **单配置最值 $1,499:Velotric Discover 2** —— EBR 实测 Eco 86.7mi 全表第二,USB-C 输出 + UL + 440lb 载重;要轻就别看它。
+3. **媒体共识基准 $1,999:Aventon Level 4 REC** —— 三家同选的通勤基准,Eco 实测 97mi;售后慢是已知税。
+4. **真缓震:先 TrailRush $1,995(硬尾 + 升降管,60mi 出局);要 60mi + 避震兼得,唯一解是 Ramblas ADV $2,899(54lb + 130mm + 708Wh)**;再往上 Talon E+ $2,950(最轻 47.8lb)与 Marlin+ 6 $2,499(Bosch 经销商体系)。
+5. **省心十年旗舰:Priority Current Plus $3,299** —— 皮带 + 内变速 + 720Wh;无避震,纯通勤位。
+
+**179cm 尺码速查**:DTC 两码制(Regular/Large)一律取 **L**(179cm 踩 R 会顶膝;Pace 5 REC ST-L 5'9"-6'3" 这类例外看内缝高);Lectric 单码通吃 4'10"-6'3";Giant 官方表 179cm 落 **M/L 交界**(M 171-184 / L 176-192),躯干长选 L;Trek S-XXL 取 L;Specialized S-XL 取 L;Priority S/M/L 取 L(5'10"-6'3")。可拆电池是本节全表标配;USB 输出在 XP4/XPeak/Discover 2/Nomad 2/Radster 与 Tempo/T1 上有,Mokwheel 的逆变器方案最彻底(可输出 AC 带动电饭煲)。**下单前逐款点开链接核价——本表价格是 2026-09-19 快照,促销随时变。**
+
 ## 八、方法与局限
 
 - **距离与时间**:🚗/🚲 全部由 OSRM 公共路由引擎(`routing.openstreetmap.de`,routed-car / routed-bike)从 Palo Verde 出发逐条计算,为免费流估计;Google 实时路况通常 +20-40%,LA 侧高峰可翻倍。由 [route_watch.py](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/025-irvine-landing-fall-guide/)(工作区脚本)**每天早上 6:00 自动重扫**,数据快照存工作区,与 Google Maps 有明显偏差时再人工修版;点击各目的地可打开 Google Maps 路径核对实时值;
 - **打车估算**:UberX/Lyft 为平峰单人估算区间(按 OC/LA 常见费率模型推算并对照公开行情),**非实时报价**;高峰与大型活动日 ×1.3-2,拼车约省 25-35%;落地后用 App 实测校准一次最稳。一句话结论:**OC 侧一趟 $14-24,LA 侧一趟 $55-90**——LA 行程优先 Amtrak($19 起)+ Metro 接驳,或拼车过夜;
-- **核验窗口**:2026-09-10/11 两轮检索;§七采购增补为 2026-09-16 实价快照(床架小节含当日两轮扫描与次日复价);§7.7 显示器为 2026-09-19 行情快照、§8 27 寸档为当日增补;所有票价、日期均来自官方或一级票务页(链接内联)。仍会变动的:LA Zoo Lights 2026 具体日期、LACMA / Huntington / Griffith 票价、Neverender 官方面价、以及 §7.7/§8 全部显示器促销价——购票/下单前点开链接再确认;
+- **核验窗口**:2026-09-10/11 两轮检索;§七采购增补为 2026-09-16 实价快照(床架小节含当日两轮扫描与次日复价);§7.7 显示器为 2026-09-19 行情快照、§8 27 寸档为当日增补、§7.9 e-bike 为当日官网价格核验;所有票价、日期均来自官方或一级票务页(链接内联)。仍会变动的:LA Zoo Lights 2026 具体日期、LACMA / Huntington / Griffith 票价、Neverender 官方面价、§7.7/§8 全部显示器促销价与 §7.9 全部车价——购票/下单前点开链接再确认;
 - **图片**:Wikimedia Commons(CC0 / CC BY / CC BY-SA),图注逐一署名,感谢各位拍摄者。
 
 ---

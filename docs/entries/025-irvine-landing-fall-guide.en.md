@@ -244,6 +244,8 @@ Claimed ranges at this price run about double reality; the honest anchor is watt
 
 Same-tier comparison: the YR20Pro ($389, "90mi / 3000W / 32MPH") is even more inflated; the 60V 30Ah F6PRO ($469) leans moped, not pedal-assist.
 
+**Recheck, 2026-09-19**: the EB5 Ultra has been delisted from Jasion's own site (the store now carries the EB5 Roamer ST at $699 etc.), and Amazon stock swings between $199 (base EB5 promo) and ~$500 (Ultra) — the $349 snapshot above is no longer reproducible; white-label prices move with the seller's inventory mood. Full-market survey in §7.9.
+
 **Route B — if UL compliance is a hard requirement (especially for indoor apartment charging), the budget must stretch to ~$1,000**
 
 | Model | Price | Motor / real range | Notes |
@@ -389,11 +391,113 @@ The two picks are $7 apart: **DUMOS 16″ by default** ($43.19); UNIPEAK if stru
 
 **27″ vs 32″**: OLED on a budget → **buy 32″** (Dell $641.99 / LG $749.99 — cheaper and bigger than 27″ OLED at $799); Mini LED on a budget → the 27″ XV275K at $349.99 is the floor of the whole market; shallow desk (<70cm) or a preference for 166-PPI text sharpness → 27″ OLED earns its keep; big-screen media → 32″.
 
+### 7.9 E-bikes: a survey of mainstream US flat-bar models (2026-09-19)
+
+> Requirements: rider height **179cm (5'10.5″)**, flat bar (mountain / flat-bar-road form factor), **60+ honest miles of range**, a strong motor, **removable battery** / USB output, **as light as possible**, decent suspension — and it must carry recognized professional reviews and community consensus. Prices are **live manufacturer-site snapshots taken 2026-09-19** (Shopify price feeds checked store by store; Trek/Specialized/Giant/Priority at their site prices that day). Professional opinions come from Electric Bike Report (EBR, standardized drain-the-battery range tests), Bicycling, WIRED, OutdoorGearLab, Tom's Guide, CNET, Ebike Escape, ElectricBikeReview.com and the r/ebikes community (linked inline). For the SB 1271 compliance background see §7.3 — not repeated here.
+
+**Four things to align on before reading the table**:
+
+1. **"60 honest miles" = a 720Wh-class battery + eco mode.** EBR's methodology is [riding each bike until the battery dies](https://electricbikereport.com/how-we-test-electric-bikes/), once at max assist and once at minimum — vendor "up to 60mi" claims map to the minimum-assist run. Rule of thumb 10-25 Wh/mi; **conservative formula: Wh ÷ 20 = guaranteed miles**. The "range" column below gives the EBR/press-tested Eco↔Turbo interval wherever it exists.
+2. **Light weight and big batteries are physically exclusive**: 370Wh-class light bikes weigh 36-39lb but deliver <40 honest miles; anything that can truly do 60mi weighs 55-77lb. This survey prioritizes range; a separate light-weight tier flags the range cost.
+3. **UL certification is now a hard gate** (SB 1271, effective 2026-01-01): of the models below only the Jasion EB5 line lacks certification; Lectric/Velotric/Aventon/Ride1Up/Radster are UL 2849 across the line (batteries UL 2271).
+4. **The 2025 tariffs raised prices and they are not coming back** (peak 55-70%, still ~56% after the Nov-2025 de-escalation, [PeopleForBikes tracker](https://www.peopleforbikes.org)): 2026 "list price" is the new normal. Lectric publicly never discounts (only free-accessory bundles and referrals); everyone else's permanent "sale price" is the real price. **Trust the live page at checkout.**
+
+**Main table (prices = 2026-09-19 site snapshots; ★ = this survey's picks)**:
+
+| Model | Price | Battery (all removable) | Motor · sensor | Range (tested first) | Weight | Suspension | 179cm fit |
+|---|---|---|---|---|---|---|---|
+| ★[Lectric XP4 750 LR](https://lectricebikes.com/products/xp-black-long-range) | **$1,299** | 840Wh · UL 2849/2271 · USB-C out on display | 750W (1,310W peak)/85Nm · torque | **63.4 Eco / 36.9 Turbo mi (EBR)** | ~72lb w/ battery | 50mm coil fork + suspension seatpost | one size 4'10"-6'3" ✓ |
+| [Lectric XP4 500](https://lectricebikes.com/products/xp-black) | $999 | 499Wh · UL dual · USB-C | 500W/55Nm · torque | 55.1 / 30.2mi (EBR) | ~70lb | 50mm fork | one size ✓ |
+| [Lectric XPress 2](https://lectricebikes.com/products/xpress-750-high-step-black-ebike) | $1,399 | 672Wh · UL 2271 | 750W (1,310W peak)/85Nm · torque/cadence dual | no independent test | ~64lb | rigid (commuter) | one size ST/HS ✓ |
+| [Lectric XPeak 2.0](https://lectricebikes.com/products/xpeak-high-step-ebike) | $1,399 (LR $1,599) | 720Wh / 960Wh LR · UL · USB-C | 750W (1,310W peak)/85Nm · PWR+ hybrid | 46.1mi throttle-only (960Wh bike, EBR); claimed 60/80 | ~75lb | 80mm RST fork | ST 5'2"-6'3" / HS 5'4"-6'5" ✓ |
+| ★[Ride1Up Portola 02](https://ride1up.com/product/portola/) | **from $895** | 480Wh / 720Wh dual · **UL 2849** | 750W/90Nm · **torque-or-cadence switch** | 25-45mi (10Ah) / 30-60mi (15Ah) | — | rigid (folding fat) | one size, high-step/mid-fold |
+| [Ride1Up TrailRush](https://ride1up.com/product/trailrush/) | $1,995 | 504Wh Samsung | **Brose mid-drive 90Nm · torque** | claimed 30-50mi | — | **120mm RockShox + 150mm dropper** | M/L ✓ |
+| ★[Velotric Discover 2](https://www.velotricbike.com/products/velotric-discover-2) | **$1,499** (sale) / $1,999 | 705.6Wh · UL 2271 · **USB-C out** | 750W (1,100W peak)/75Nm · SensorSwap | **86.7 Eco / 37.4 Turbo mi (EBR)** | 63lb | 80mm hydraulic fork | R 4'11"-5'9" / L 5'6"-6'4" ✓L |
+| [Velotric Nomad 2](https://www.velotricbike.com/products/velotric-nomad-2) | $1,999 (**+$550 battery free**) | 705.6Wh · UL 2271 · USB-C | 750W (1,300W peak)/90Nm | claimed 65/45mi | 75lb (505lb payload) | 100mm RST fork | R 5'2"-5'11" / L 5'10"-6'5" ✓L |
+| [Velotric Summit 1](https://www.velotricbike.com/products/velotric-summit-1) | $1,699 | 705.6Wh · UL 2271 | 750W (1,300W peak)/90Nm | claimed 70/60mi | 62lb | 120mm hydraulic fork | R 5'1"-5'10" / L 5'8"-6'6" ✓L |
+| ★[Aventon Level 4 REC](https://www.aventon.com/products/level-4-rec) | $1,999 | 733Wh · UL · regen braking | 750W (1,440W Boost)/80Nm · torque | **97 Eco / 43.8 Turbo mi (EBR)** | 68.5lb | 80mm fork + 50mm suspension seatpost | R 5'3"-5'10" / L 5'10"-6'4" ✓L |
+| [Aventon Aventure 3](https://www.aventon.com/products/aventure-3) | $1,999 | 733Wh · UL 2271 | 750W (1,440W Boost)/80Nm · torque | claimed 65mi (no independent test) | 76lb (400lb payload) | 80mm fork + sus seatpost + 26×4.0 | R / L ✓L |
+| [Aventon Ramblas ADV](https://www.aventon.com/products/ramblas-adv) | $2,899 | 708Wh · TÜV/UL 2271 | **A100 mid-drive 250W (750W peak)/100Nm · torque** | top-5 EBR range chart (claimed 90mi) | **54lb** | **130mm RockShox + 150mm dropper + SRAM 4-piston** | M 165-176 / L 177-188 ✓L |
+| [Mokwheel Basalt ST 2.0](https://mokwheel.com/products/basalt-st-2-0-s) | $1,800 | **940Wh** IPX7 · UL 2849 | 750W (1,100W peak)/85-90Nm · torque+cadence | claimed 60-80; dealer-measured ~48mi mixed | n/a (450lb payload) | fork + 26×4.0 | sibling line 5'5"-6'7" ✓ |
+| [Rad Radster Road](https://www.radpowerbikes.com) ⚠️ | $1,999 | 720Wh SafeShield · UL dual · USB-C | 750W/**100Nm** · torque | claimed 25-65mi | 74.5lb | 80mm hydraulic fork | L 5'7"-6'4" ✓ |
+| [Trek Marlin+ 6](https://www.trekbikes.com/us/en_US/bikes/mountain-bikes/electric-mountain-bikes/marlin/marlin-6-plus/p/41180/) | $2,499 | 400Wh Bosch (+250Wh range extender opt.) | Bosch Active Line Plus mid-drive 50Nm | 57 Eco / 29 Turbo (EBR, same system as Marlin+ 8) | ~50lb | 120mm coil fork | S-XXL, 179→L |
+| [Giant Talon E+](https://www.giant-bicycles.com/us/talon-eplus) (2026) | $2,950 | 430Wh (+250Wh opt.) | SyncDrive Sport 2 (Yamaha) 75Nm · 6-sensor | official tiers 71/54/35mi | **47.8lb (lightest hardtail)** | 100mm fork | official chart 179→**M/L boundary** |
+| [Specialized Tero 3.0](https://www.specialized.com/us/en/turbo-tero-30/p/275157) (clearance) | $2,749 (EOL) | 530Wh · **UL 2849/2271 stated on page** | 2.0E mid-drive 50Nm | claimed up to 68mi | 51lb | 110mm fork | S-XL, 179→L |
+| [Ride1Up Prodigy V2](https://ride1up.com/product/prodigy-v2/) | $2,395 (sale) | 504Wh Samsung | Brose mid-drive 90Nm · torque | 73 Tour / 32 Boost (ElectricBikeReview) | 58-61lb | 100mm air fork | ST 5'0"-6'0" / XR 5'5"-6'1" ✓XR |
+| [Priority Current Plus](https://www.prioritybicycles.com/products/currentplus) | $3,299 | 720Wh · UL stated | 500W mid-drive (140Nm peak) · torque | claimed 20-75mi (owners 40-50 mixed) | 55lb | **none** (belt + internal gearing) | S/M/L, 179→L |
+| [Aventon Soltera 3 ADV](https://www.aventon.com/products/soltera-3-adv) (light tier) | $1,499 (out of stock; prior 2.5 $1,199 in stock) | 366.8Wh | 250W (500W peak)/40Nm · torque | ~40mi class | **37lb** | rigid | L 5'9"-6'1" ✓ |
+| [Velotric Tempo](https://www.velotricbike.com/products/velotric-tempo-city-ebike) (light tier) | $1,499 | 374Wh · UL dual · USB-C | 350W (650W peak)/45Nm | claimed 60mi (dubious at 374Wh) | 39lb | rigid | HS L 5'6"-6'4" ✓ |
+| [Jasion EB5 Ultra](https://www.jasionbike.com) (white-label) | delisted from own site; Amazon ~$349-500 swings | 1040Wh · **no UL** | "2500W peak" (marketing) · cadence | no test | — | dual spring forks | one size |
+
+![Lectric XP4 750](../assets/entries/025-irvine-landing-fall-guide/ebike-lectric-xp4-750.png)
+*Lectric XP4 750 Long-Range (high-step): 840Wh + 85Nm + USB-C out — the best range-per-dollar on the table at $1,299. Image: Lectric*
+
+![Velotric Discover 2](../assets/entries/025-irvine-landing-fall-guide/ebike-velotric-discover-2.png)
+*Velotric Discover 2: 705.6Wh + USB-C out + dual UL certification, on sale at $1,499. Image: Velotric*
+
+![Aventon Level 4 REC](../assets/entries/025-irvine-landing-fall-guide/ebike-aventon-level-4-rec.jpg)
+*Aventon Level 4 REC: Bicycling calls it "our baseline e-bike"; EBR measured 97 miles in Eco. Image: Aventon*
+
+**Budget tier (≤$1,000)**: the [XP4 500](https://lectricebikes.com/products/xp-black) ($999) is OutdoorGearLab's 2026 ["spectacular value"](https://www.outdoorgearlab.com/topics/biking/best-electric-bike) — torque sensor, hydraulic brakes, full UL kit, 55.1mi low-assist tested. Cheaper still: the [Ride1Up Portola 02](https://ride1up.com/product/portola/) (**from $895**) took EBR's 2026 "Best Budget" — 750W/90Nm + torque/cadence dual sensor + **UL 2849**, the only certified torque-sensing folding fat bike under $1,000 (15Ah version claimed 30-60mi). Heybike's Cityscape 2.0 ($899; $799 "Deal" variant) is a rare white-label with a UL 2849 claim, but "in accordance with" ≠ "UL Listed" — verify the certificate before dorm charging. The XP Lite 2.0 ($899, 49lb) is the lightest trustworthy folder here, but cadence-only + 375Wh std battery means short trips only.
+
+**The $1,000-2,000 workhorse tier (where 60mi lives)**:
+
+- **XP4 750 LR ($1,299) — the range answer inside a budget.** [WIRED, Nov 2025](https://www.wired.com/review/lectric-xp4-750-electric-bike/): "The best affordable ebike on the market. Astounding range for the price"; [OutdoorGearLab scored it 86/100, #2 of 19 tested](https://www.outdoorgearlab.com/reviews/biking/electric-bike/lectric-xp4-750); EBR measured 63.4mi in Eco. The $300 step up from the 500 buys 840Wh + 85Nm + suspension seatpost — **the lowest-priced entry to an honest 60mi on this table**. Downsides: heavy folding structure (~72lb with battery), and the 50mm coil fork is basic suspension at best.
+- **Discover 2 ($1,499 sale) — best single spec sheet for the money**: 705.6Wh + USB-C out + dual UL + 440lb payload; EBR testing relayed by RiderGuide measured 86.7mi Eco; Ebike Escape praises seat comfort and integration. Reddit gripes: 63lb heft, DTC service without local shops, and the vendor's own torque spec inconsistency (75 vs 90Nm). 179cm takes the L.
+- **Level 4 REC ($1,999) — the press-consensus baseline**: [Bicycling 2026-08](https://www.bicycling.com/bikes-gear/a20048026/best-electric-bikes/) ("our baseline e-bike"), [OutdoorGearLab 85/100 best daily](https://www.outdoorgearlab.com/topics/biking/best-electric-bike), and EBR's "Best Commuter" all pick the same bike; torque sensor + regen + 733Wh, and EBR's 97-mile Eco run is the longest tested figure on this table. Known tax: Aventon's slow customer service is a long-running Reddit complaint.
+- **Aventure 3 ($1,999)**: the do-everything fat position — 400lb payload, 80mm fork + suspension seatpost, 30-second Boost overclock; EBR-positive but 76lb is among the heaviest here.
+- **Nomad 2 ($1,999 with a free $550 long-range battery)**: effectively **dual batteries from the factory**; 505lb payload leads the table; EBR 4.7/5 "Best Comfort". For full suspension see the new Nomad 2X ($2,299, rear-shock version).
+- **Summit 1 ($1,699)**: Velotric's entry mountain bike — 120mm fork + 27.5×2.6 + Shimano hydraulics; [Ebike Escape](https://ebikeescape.com/velotric-summit-1-review) called it "the most affordable trail-worthy ebike I've reviewed", though a hub motor caps steep climbs below mid-drives.
+- **Mokwheel Basalt ST 2.0 ($1,800)**: 940Wh, second-largest battery here, with the unique trick that the battery can power an optional **inverter accessory — a portable power station** for camping/outages; [ElectricBikeReview's tested take](https://electricbikereview.com/mokwheel/basalt-2-review) is favorable, but small-brand QC is a lottery (one reported controller failure after rain).
+- **Radster Road ($1,999) ⚠️**: the best-specced Rad ever (100Nm torque + dual UL + 720Wh), but **Rad Power filed Chapter 11 in Dec 2025**; assets sold for $13.2M to Life EV (closed Mar 2026), and **warranties on bikes sold before Dec 15, 2025 are not honored** — evaluate as "buying the hardware, not the warranty"; not recommended for first-time buyers.
+
+![Ride1Up TrailRush](../assets/entries/025-irvine-landing-fall-guide/ebike-ride1up-trailrush.webp)
+*Ride1Up TrailRush: Brose mid-drive + 120mm RockShox + 150mm dropper — $1,995 buys WIRED and Bicycling's shared "best cheap eMTB". Image: Ride1Up*
+
+![Aventon Ramblas ADV](../assets/entries/025-irvine-landing-fall-guide/ebike-aventon-ramblas-adv.jpg)
+*Aventon Ramblas ADV: in-house A100 mid-drive at 100Nm + 130mm RockShox Psylo, 54lb; EBR 4.8/5, Ebike Escape 9.3/10. Image: Aventon*
+
+**Mountain / step-up tier ($2,000+)**:
+
+- **TrailRush ($1,995) — the only real mountain bike under $2,000**: German Brose mid-drive at 90Nm + 120mm RockShox Judy + **150mm dropper** + Shimano Deore 10-speed + 4-piston hydraulics; no competing spec sheet at the price, and [WIRED and Bicycling jointly crowned it 2026's "best cheap eMTB"](https://www.bicycling.com/bikes-gear/a20048026/best-electric-bikes/). At 504Wh with a claimed 30-50mi, 60mi is out — mountain or range, pick one.
+- **Ramblas ADV ($2,899) — the budget-eMTB benchmark**: in-house A100 mid-drive at 100Nm + 708Wh, and 54lb makes it the lightest mid-drive here; [EBR 4.8/5](https://electricbikereport.com/aventon-ramblas-review), Ebike Escape 9.3/10, OGL 4.5/5, top-5 on EBR's all-time range chart. **The only bike on this table that satisfies real suspension + light + 60mi (eco) simultaneously.** 179cm takes L (177-188).
+- **Marlin+ 6 ($2,499)**: the cheapest legitimate Bosch bike — Active Line Plus mid-drive + 400Wh, with a dealer network no DTC can match; the costs are 400Wh (57mi Eco tested) and 50Nm. Step to the Marlin+ 8 ($3,999) for the air fork and 12-speed.
+- **Talon E+ (2026, $2,950)**: lightest of the three (47.8lb) and the only one with an official size chart (179cm sits on the M 171-184 / L 176-192 boundary — choose by inseam); Yamaha-based 75Nm + 6 sensors; the cost is the smallest battery here at 430Wh. Cycling Electric gave the prior generation 4.5/5 as best-value hardtail eMTB.
+- **Tero 3.0 ($2,749, clearance)**: 530Wh + Class 3 + UL dual certification printed on the page, down from $3,250 and discontinued — ride-quality praised (BikeRadar 3.5/5) but the 50Nm motor is gentle; **grab one before they're gone**.
+- **Prodigy V2 ($2,395 sale)**: the Brose mid-drive commuter; ElectricBikeReview measured 73mi in Tour (flat-eco scenario); 100mm air fork; the 504Wh battery is small and the XR size (5'5"-6'1") tops out right at 179cm.
+- **Current Plus ($3,299) — the ten-year maintenance-free flagship**: Gates belt + Shimano internal gearing + torque mid-drive + 720Wh; press calls it a premium ride. **No suspension, 55lb** — it competes on worry-free commuting, not trails.
+
+**Light tier (60mi is out — know it going in)**: [Soltera 3 ADV](https://www.aventon.com/products/soltera-3-adv) ($1,499, **currently out of stock**; the prior Soltera 2.5 at $1,199 is in stock and was [CNET's 2026 "best e-bike overall"](https://www.cnet.com/roadshow/personal-mobility/best-electric-bike/)) at 37lb with a torque sensor is WIRED's 2026 best commuter; Velotric Tempo ($1,499) at 39lb + USB-C; the T1 ($2,199) is lightest at 36lb with a 352.8Wh battery. **Real range for this entire tier is <45mi** — fine for a campus where charging is easy and distances are short, but mutually exclusive with the 60mi goal.
+
+**Brand risk, ranked (2026-09)**: dealer brands (Cannondale/Marin/Trek/Giant/Specialized) > large DTC (Lectric/Aventon/Velotric/Ride1Up) > mid-size DTC (Heybike/Mokwheel) > Amazon white-labels (Jasion/Engwe/Totem) > bankrupt-reboot (Rad) > dead (Juiced). Two cautionary tales: **Juiced went bankrupt in late 2024 and Lectric bought the IP in Mar 2025 — batteries and warranties evaporate with the company**; and Rad Power above. White-label pathologies: inflated wattage ("2500W peak" is a peak marketing number), no UL (unsellable in California after SB 1271), and after-sales that live exactly as long as the store.
+
+**The 2026 list consensus across six outlets** (winners cross-check against the table above):
+
+| Outlet (updated) | Budget/value | Commuter baseline | Best cheap eMTB | Light tier |
+|---|---|---|---|---|
+| [WIRED](https://www.wired.com/story/best-electric-bikes/) (2026-04) | Lectric XP4 750 (best-selling/best value) | Soltera 3 (best commuter) | TrailRush | Soltera 3 (37lb) |
+| [Bicycling](https://www.bicycling.com/bikes-gear/a20048026/best-electric-bikes/) (2026-08) | Soltera 2.5 (best cheap) | **Level 4 REC (baseline)** | TrailRush | — |
+| [EBR](https://electricbikereport.com/best-electric-bikes/) (2026) | Portola (best budget) / XP4 (best value) / XPress 2 (budget commuter) | Level 4 REC (97mi Eco tested) | Ramblas ADV (budget eMTB) | — |
+| [OutdoorGearLab](https://www.outdoorgearlab.com/topics/biking/best-electric-bike) (2026-07) | XP4 (spectacular value) / XP4 750 best folding (86, #2 of 19) | Level 4 REC (85, best daily) | — | — |
+| [Tom's Guide](https://www.tomsguide.com/best-picks/best-electric-bikes) (2026-09) | Roadster V3 (best overall/budget) | Segway Myon | — | — |
+| [CNET](https://www.cnet.com/roadshow/personal-mobility/best-electric-bike) (2025-11) | Soltera 2.5 (best overall) | — | — | — |
+| r/ebikes community | Lectric (the default budget answer) | Aventon/Ride1Up (step-up) | — | — |
+
+**Conclusions — five ways to spend it at 179cm wanting 60mi**:
+
+1. **Budget floor, $1,299: Lectric XP4 750 LR** — 840Wh/85Nm/USB-C with a tested 63.4mi Eco; the cheapest honest-60mi ticket on the table. Accept the heavy folder and basic fork.
+2. **Best single spec sheet, $1,499: Velotric Discover 2** — tested 86.7mi Eco (second-longest here), USB-C out, dual UL, 440lb payload; not the bike for weight watchers.
+3. **Press-consensus baseline, $1,999: Aventon Level 4 REC** — three outlets' shared commuter pick with a tested 97mi Eco; slow service is the known tax.
+4. **Real suspension: TrailRush at $1,995 first (hardtail + dropper, 60mi out); if 60mi and suspension must coexist, the only answer is the Ramblas ADV at $2,899 (54lb + 130mm + 708Wh)**; beyond that, the Talon E+ at $2,950 (lightest, 47.8lb) and the Marlin+ 6 at $2,499 (Bosch dealer network).
+5. **Ten-year flagship: Priority Current Plus at $3,299** — belt + internal gearing + 720Wh; no suspension, pure commuter.
+
+**179cm sizing cheat-sheet**: on DTC two-size lineups (Regular/Large) always take the **L** — 179cm on an R will crowd the knees (exceptions like the Pace 5 REC ST-L 5'9"-6'3" go by inseam); Lectric's one size spans 4'10"-6'3"; Giant's official chart puts 179cm on the **M/L boundary** (M 171-184 / L 176-192) — longer torso takes the L; Trek S-XXL take L; Specialized S-XL take L; Priority S/M/L take L (5'10"-6'3"). Removable batteries are standard across this table; USB output exists on the XP4/XPeak/Discover 2/Nomad 2/Radster and Tempo/T1, and Mokwheel's inverter route is the most complete (AC output). **Re-open every link before ordering — these are 2026-09-19 snapshots and promos move.**
+
 ## 8. Method & Limits
 
 - **Distances & times**: 🚗/🚲 values are computed per-route from Palo Verde with the OSRM public routing engine (`routing.openstreetmap.de`, routed-car / routed-bike), free-flow estimates; Google live traffic typically adds 20-40%, worse in LA peaks. A workspace script (`route_watch.py`) **rescans everything daily at 6:00am** and snapshots the data; if a value drifts materially from Google Maps, this note gets a manual revision. Click any destination above for a live Google Maps route;
 - **Rideshare estimates**: UberX/Lyft off-peak single-rider ranges modeled from typical OC/LA rates against public fare references — **not live quotes**; peak and event nights run 1.3-2×, shared rides save ~25-35%; calibrate with the app after landing. One-line takeaway: **OC trips run $14-24; LA trips $55-90** — take Amtrak ($19+) plus Metro for LA, or find carpool companions and stay overnight;
-- **Verification window**: two research rounds, 2026-09-10/11; the §7 shopping addendum is a 2026-09-16 live-price snapshot (the bed-frame subsection includes a two-pass scan plus next-day reprice); §7.7 monitors are a 2026-09-19 street-price snapshot and §7.8 the same-day 27″ addendum; all prices/dates come from official or primary ticketing pages (linked inline). Still moving: LA Zoo Lights 2026 dates, LACMA/Huntington/Griffith ticket prices, Neverender face value, and every monitor promo in §7.7/§7.8 — re-open the links before buying;
+- **Verification window**: two research rounds, 2026-09-10/11; the §7 shopping addendum is a 2026-09-16 live-price snapshot (the bed-frame subsection includes a two-pass scan plus next-day reprice); §7.7 monitors are a 2026-09-19 street-price snapshot, §7.8 the same-day 27″ addendum, and §7.9 e-bikes a same-day manufacturer-price verification; all prices/dates come from official or primary ticketing pages (linked inline). Still moving: LA Zoo Lights 2026 dates, LACMA/Huntington/Griffith ticket prices, Neverender face value, every monitor promo in §7.7/§7.8, and every bike price in §7.9 — re-open the links before buying;
 - **Images**: Wikimedia Commons (CC0 / CC BY / CC BY-SA), credited per caption — thanks to the photographers.
 
 ---
