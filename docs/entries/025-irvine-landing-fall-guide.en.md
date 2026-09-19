@@ -475,11 +475,42 @@ The two picks are $7 apart: **DUMOS 16″ by default** ($43.19); UNIPEAK if stru
 
 1. **Advertised range is a best-case scenario**: minimum assist + flat ground + a light rider + a steady 12-15mph cruise. "90mi" implies <11Wh/mi, reachable only under those conditions; mixed-assist riding at real speeds (15-20mph) burns 15-25Wh/mi, so a 360-500Wh pack honestly delivers **20-40mi**. EBR's figures (used in this table) come from riding the battery to empty at Eco and at Turbo — the two kinds of numbers were never comparable.
 2. **The battery is the biggest cost gap and the biggest safety gap**: major brands use LG/Samsung 21700 cells with a certified BMS (UL 2271); white-labels often use no-name cells with inflated ratings (a "20Ah" that's really 14-16Ah), a full tier worse in cycle life and thermal-runaway behavior.
-3. **No UL = unsellable in California + unchargeable in dorms**: after SB 1271, uncertified white-labels are illegal to sell in California, and UCI housing charging rules only accept UL — part of what the $350 saves is the cost of that certification.
+3. **UL has become an entry ticket, not a bonus**(corrected the evening of 2026-09-19): after SB 1271 took effect, white-labels broadly added SGS/TÜV-issued ANSI/CAN/UL 2849 — many $200-450 listings now carry it, and it is the *uncertified* ones that get their California shipping blocked by Amazon (see addendum no. 2 below). But the cert audits the electrical system design; it does not vouch for cell consistency, longevity, or mechanical parts. Only the still-uncertified ones are a dorm-charging risk.
 4. **Inflated wattage is industry convention**: "2500W peak" is a seconds-long peak; rated power is often 350-750W; climbing is about rated power and torque (Nm) — a number white-labels never publish.
 5. **Components and after-sales are the invisible half**: mechanical disc brakes vs hydraulics; no-name forks and tires that can't stop a 60-70lb bike at 25mph+; after-sales lives exactly as long as the store — no parts supply chain, no recall mechanism (Lectric and Rad both ran CPSC recalls with free part replacements; white-labels never will).
 
 One line: **$350 buys "an e-bike that moves"; the $1,300-2,000 in this table buys "legal, repairable, honest about its range, and chargeable in your dorm" — the gap isn't the range number, it's whether the number is honest.**
+
+**Addendum no. 2: the $200-450 Amazon tier, listing by listing**(evening of 2026-09-19, live in a logged-in browser, delivery address 92617):
+
+The headline: this tier is a **white-label commodity market** — one Shenzhen 26″ hardtail platform (500W rated / 1000W peak, 48V 374.4Wh removable, mechanical discs, steel frame ~57lb) wearing a dozen badges (Loeook/Funhang/Vivi/ANCHEER…), where the price differences are freight + certification paperwork + review count (the Loeook listing is sold by "Funhangstore" — same operation). **Shipping blocks are per-listing: the same bike is deliverable under one ASIN and "cannot be shipped due to local laws or Amazon policy" under another — confirm delivery on your own account before ordering.**
+
+| Model (ASIN) | Price | Ratings | Battery / motor | Honest range est. | UL wording strength | Ships to 92617 |
+|---|---|---|---|---|---|---|
+| ★[Loeook EB-M1](https://www.amazon.com/dp/B0GCZK19ZB)(the famous "$200" bike) | $229.99 + $80 freight | 4.4★/193 | 48V 374.4Wh removable / 500W rated (1000W peak) · steel 56.9lb | 19-31mi (claimed 50mi) | **Strongest**: UL 2271 by SGS + UL 2849 by TÜV | ✅ Sept 23-24, 16 left |
+| Funhang EB-M1 (same bike, B0G93DRBZM) | $229.99 | 4.3★/263 | same | same | strong (same factory papers) | ❌ cannot ship — buy the Loeook ASIN |
+| ★[Vivi Peak 750W](https://www.amazon.com/dp/B0C1SQ5Z1L) | $394.62 free ship | 4.4★/97 | 374.4Wh / 500W rated (749W peak) · alloy fork | 19-31mi | medium: SGS Certified to UL2849 | ✅ fulfilled by Amazon |
+| [ANCHEER Sunshine](https://www.amazon.com/dp/B0GBWYZPVR) | $409.99 free ship | 4.3★/**598** | 374Wh / 500W | 19-31mi | medium: UL2849 (no certifier named) | ✅ 8 left |
+| ★[ANCHEER Gladiator](https://www.amazon.com/dp/B0GVGVFXMG) | $449.99 free ship | 4.1★/111 | **48V 10.4Ah=499Wh** / 500W (749W peak) | **25-42mi**(biggest pack in tier) | medium: UL2849 Compliant | ✅ 19 left |
+| Jasion EB5 (B09L63HGDP, #1 Best Seller) | $199 | 4.1★/2,617 | 360Wh / 350W rated ("1000W peak") | independent test 14-20mi | **no UL on page** | ❌ blocked |
+| Qlife Racer (B0G93PR6RB) | $239.99 | 4.5★/122 | 374.4Wh / rated W undisclosed | 19-31mi | none | ❌ blocked |
+| HopCycle/VOLTVOGUE EB3S (B0GVJQ5235) | $299.99 | 4.4★/79 | claims "15Ah" while the spec table says 36Wh — self-contradictory | unverifiable | SGS ANSI/CAN/UL 2849 | ❌ (observed) |
+
+**How to buy this tier at 179cm**: cheapest + best certification paperwork → **Loeook EB-M1, $310 all-in**(steel frame, mechanical discs, cadence sensor, an honest 19-31mi; 1★ reports include a stripped pedal thread and an inaccurate fuel gauge); least logistics friction → **Vivi Peak 750W**(fulfilled by Amazon, free shipping, alloy fork); biggest review base → ANCHEER Sunshine (598); the only big battery in the tier → **ANCHEER Gladiator's 499Wh (25-42mi)** — which still never reaches 60mi; **374-499Wh is this tier's physical ceiling, and no bike here honestly does 60mi**. The 1-3★ reviews cluster on batteries dying within weeks, LCD/throttle/charger faults, and mechanical failures inside two weeks (stripped pedals, bending rims) — budget a 20-30% chance of after-sales hassle and treat it as a consumable.
+
+**Addendum no. 3: used and refurbished channels**(2026-09-19):
+
+| Channel | Recourse | Same-day prices for 179cm |
+|---|---|---|
+| [Upway.co](https://upway.co) (certified refurb, the "Carvana of e-bikes") | **1-yr warranty + 14-day returns**, 50-point inspection, packs under 80% capacity replaced, ships to CA (from $99) | **Aventon Level.2 $1,049**(vs $1,599; code `WELCOME100` → ~$949)· Aventure $999 · Velotric Discover 1 $1,049 · Pace 350.2 $649 · Specialized Tero 3.0 from $2,249 |
+| eBay Refurbished tiers | SquareTrade 1-2 yr + eBay MBG | used Level.2 $950-1,100 · Discover 2 $1,100-1,500 |
+| OC local used (FB Marketplace / Craigslist) | none, test rides, cash | **XP 3.0 $450-650 · XP4 $600-800**(a 0-mile XP4 seen at $700)· Pace 500 $400-650 · Level.2 $800-1,150 · Discover 2 $1,100-1,450 · **RadRover $500-850 post-bankruptcy**(no warranty, careful) |
+| Amazon Resale (ex-Warehouse) | 30-day returns | essentially no e-bike stock — skip |
+| UCI campus channels | none | the "UCI Free & For Sale" FB group + UCI's monthly used-bike sale; **December graduation dumps are the best window** |
+
+**Used-bike checklist**: ① battery — ask cycle count, photo the full-charge voltage, **any swelling is a hard no**(a replacement pack costs $350-600 and erases the discount); ② look for UL marks (all Lectric/Aventon/Velotric have them; pre-2023 Rads and white-labels don't); ③ power on with the battery out to test display/lights, listen for grinding hub-motor noise, test brake cut-offs; ④ check for cracks at the head tube, dropouts, motor mount; ⑤ match the serial to the listing, check it at [bikeindex.org](https://bikeindex.org), get a dated bill of sale. SB 1271 covers new sales/rentals, not private used sales — but an uncertified used bike means charging risk and weak resale, so **stick to certified big-brand used**.
+
+The lowest-hassle route: **Upway's Level.2 at $1,049 (~$949 with the code)** — warrantied and returnable, $650 under new. The absolute-cheapest route: **a $600-750 XP4/XP 3.0 off OC Marketplace/Craigslist**, paid only after a battery-and-motor inspection.
 
 **The 2026 list consensus across six outlets** (winners cross-check against the table above):
 
