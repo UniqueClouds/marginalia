@@ -293,7 +293,7 @@ The two picks are $7 apart: **DUMOS 16″ by default** ($43.19); UNIPEAK if stru
 
 **The verdict in three lines**:
 
-- **Cheapest**: INNOCN 32M2V ($499.99 direct, promos to ~$400) — a 1,152-zone Mini LED, the only true HDR1000 4K under $500, at the cost of a small-brand warranty and dark-scene halos;
+- **Cheapest**: Acer Nitro XV325QK (**$399.99**, 31.5″, 1,152 zones) — puts the 32″ Mini LED floor under $400; the $349.99 27″ XV275K (§7.8) goes lower still;
 - **Easiest to live with**: Dell S3225QC (Amazon $641.99 / Walmart ~$572 / refurb $519.99) — the cheapest name-brand 32″ 4K QD-OLED, with a genuinely good speaker pair thrown in; the cost is 120Hz;
 - **For gaming**: LG 32GX850A-B ($749.99) and MSI MPG 321URX (from $799.99) — the former a 2026 dual-mode OLED (4K165 / FHD330), the latter the 4K 240Hz QD-OLED baseline; if burn-in worry rules OLED out but you want HDR brightness, take the TCL 32R84 ($650, zone-count disputed, see below).
 
@@ -301,7 +301,8 @@ The two picks are $7 apart: **DUMOS 16″ by default** ($43.19); UNIPEAK if stru
 
 | Model | Snapshot price | Zones | Panel / refresh | One-line role |
 |---|---|---|---|---|
-| [INNOCN 32M2V](https://innocn.com/en-us/products/innocn-32-inch-4k-miniled-gaming-monitor-32m2v-2026) (144Hz original / 160Hz 2026 rev) | **$499.99 direct** (Aug 2026 promo $399.98; OOS on Amazon) | **1,152** | QD-IPS · 144/160Hz · HDR1000 | Cheapest of the field, strongest HDR at the price |
+| [Acer Nitro XV325QK](https://www.amazon.com/dp/B0FKMNJSQT) (31.5″) | **$399.99** | **1,152** | Fast IPS · 4K160 / FHD320 dual mode · HDR1000 | **New floor price (9/19)**: cheapest 32″ Mini LED |
+| [INNOCN 32M2V](https://innocn.com/en-us/products/innocn-32-inch-4k-miniled-gaming-monitor-32m2v-2026) (144Hz original / 160Hz 2026 rev) | **$499.99 direct** (Aug 2026 promo $399.98; OOS on Amazon) | **1,152** | QD-IPS · 144/160Hz · HDR1000 | Strongest HDR reputation at the price |
 | [TCL 32R84](https://us.tcl.com/products/monitor-32r84) (2025) | $649.99 (TCL direct; OOS on Amazon) | **2,304 official / 1,400 Reddit-measured (disputed)** | Fast HVA · 165Hz · HDR1400 | Brightness-per-dollar ceiling + 90W USB-C |
 | [Samsung Odyssey Neo G7 G70NC](https://www.amazon.com/s?k=Samsung+Odyssey+Neo+G7+32) | ~$699 (3rd party; Amazon OOS) | 1,196 | VA 1000R curve · 165Hz · HDR600 | EOL clearance — only interesting under $600 |
 
@@ -347,13 +348,52 @@ The two picks are $7 apart: **DUMOS 16″ by default** ($43.19); UNIPEAK if stru
 
 **Alienware AW3225QF**: 1800R-curved 4K 240Hz QD-OLED, an RTINGS premium pick, 4.7★ at Best Buy, Dell 3-year burn-in coverage. Promos run $780-900 with an all-time low of $699.99 (Feb 2026); right now Dell direct asks $999.99 and Amazon third parties $1,139 — **wait for a sale**. If the curve works for you it's the flavor pick; otherwise the 321URX. Above this sits the PG32UCDM ($900-1,050) and the dual-mode LG 32GS95UE (4K240/FHD480, ~$1,000-1,300) — only if the budget is uncapped.
 
-**How to choose, cheapest first**: ~$500 and no compromises left → INNOCN 32M2V ($499.99 direct, ~$400 on promo); ~$600 for work-first with peace of mind → Dell S3225QC (Walmart ~$572 or refurb $519.99 is the deal); ~$650 if burn-in anxiety rules and HDR brightness matters → TCL 32R84 (no burn-in to fear, and the zone dispute doesn't change the picture-quality verdict); ~$671 for 165Hz gaming → MSI MAG 321UP; ~$750 for serious gaming → LG 32GX850A-B (dual mode) or MSI MPG 321URX (from $799.99); the curved AW3225QF is the flavor pick on a promo. Housekeeping either way: on OLED set a burn-in screensaver and auto-hiding taskbar; on Mini LED, dark-scene halos are physics, and VRR + local dimming together can flicker occasionally.
+**How to choose, cheapest first**: under $400 and no compromises left → Acer XV325QK (31.5″ Mini LED); ~$500 INNOCN 32M2V (steadier HDR reputation) or the 27″ XV275K ($349.99, §7.8); ~$600 for work-first with peace of mind → Dell S3225QC (Walmart ~$572 or refurb $519.99 is the deal); ~$650 if burn-in anxiety rules and HDR brightness matters → TCL 32R84 (no burn-in to fear, and the zone dispute doesn't change the picture-quality verdict); ~$671 for 165Hz gaming → MSI MAG 321UP; ~$750 for serious gaming → LG 32GX850A-B (dual mode) or MSI MPG 321URX (from $799.99); the curved AW3225QF is the flavor pick on a promo. Housekeeping either way: on OLED set a burn-in screensaver and auto-hiding taskbar; on Mini LED, dark-scene halos are physics, and VRR + local dimming together can flicker occasionally.
+
+### 7.8 The 27-inch tier: cheaper than 32″ (2026-09-19 addendum)
+
+> Same requirements (4K + Mini LED / OLED + ≥100Hz) walked down to 27″, priced the same way as §7.7 (live Amazon in a real browser, specs verified against listing text). Verdict first: **the 27″ Mini LED floor is $349.99 — $50 below the cheapest 32″ — but 27″ OLED runs dearer than 32″ ($799 up). If OLED on a budget: buy 32″ (Dell $641.99). If Mini LED on a budget: either size works.**
+
+**27″ 4K Mini LED**:
+
+| Model | Snapshot price | Zones | Panel / refresh | One-line role |
+|---|---|---|---|---|
+| [Acer Nitro XV275K](https://www.amazon.com/dp/B0FKNB5D1W) | **$349.99** | **1,152** | Fast IPS · 4K160 / FHD320 dual mode (DFR) · HDR1000 | Cheapest of everything: 1,000 nits + 99% Adobe RGB |
+| [KTC M27P6](https://www.amazon.com/dp/B0F7Q8ZWLY) | $424.99 (list $499.99) | **1,152** | Fast IPS · 4K160 / FHD320 · HDR1400 · USB-C 65W · KVM | +$75 buys HDR1400, Type-C single-cable, white |
+
+![Acer Nitro XV275K](../assets/entries/025-irvine-landing-fall-guide/acer-xv275k.jpg)
+*Acer Nitro XV275K (27″) / XV325QK (31.5″) share this official render: the 4K160 / FHD320 DFR dual mode. Image: Amazon listing*
+
+![KTC M27P6](../assets/entries/025-irvine-landing-fall-guide/ktc-m27p6.jpg)
+*KTC M27P6: white chassis, 4K160/FHD320 dual mode, HDR1400, USB-C 65W, KVM. Image: Amazon listing*
+
+**XV275K**: the listing states **1,152 zones**, VESA DisplayHDR 1000, 1,000 nits, 0.5ms GtG, 99% Adobe RGB / 97% DCI-P3 in so many words. Professional reviews of this exact rev are still scarce; but the previous XV275K P3 (576 zones) was already an RTINGS value favorite, and the new one doubles the zones, adds the DFR dual mode and costs less. **The answer to "cheapest possible Mini LED."**
+
+**KTC M27P6**: DisplayNinja (July 2026) rates it "the best 27″ mini LED HDR gaming monitor" (4K 160Hz + 1080p 320Hz dual mode, 1,152 zones); PCMag calls out top-notch HDR, a full port selection and clean build. The previous value king INNOCN 27M2V is gone from Amazon (DisplayNinja now points to the KTC too), and Cooler Master's GP27U has been delisted as well. KTC's even cheaper QD-MiniLED M27U6 ($314.98) is 4K@72Hz — under the ≥100Hz bar, excluded.
+
+**27″ 4K OLED** (from $799 — dearer than 32″ OLED):
+
+| Model | Snapshot price | Refresh | One-line role |
+|---|---|---|---|
+| [Samsung Odyssey G81SF](https://www.amazon.com/dp/B0DVM3BJHK) | **$799.00** (list $1,299.99) | 240Hz | 4K QD-OLED 166 PPI · Glare Free · full anti-burn-in kit |
+| [MSI MPG 272URX](https://www.amazon.com/dp/B0DWYC5S8X) | **$799.99** | 240Hz | DP 2.1 UHBR20 · 98W USB-C · 3-yr burn-in warranty |
+| [ASUS ROG XG27UCDMG](https://www.amazon.com/dp/B0DM6RWRQC) | $948.38 | 240Hz | 2026 Tandem QD-OLED (PG27UCDM currently $1,099, inflated) |
+
+![Samsung Odyssey G81SF](../assets/entries/025-irvine-landing-fall-guide/samsung-g81sf.jpg)
+*Samsung Odyssey G8 27″ official image (badge carries the series' older copy; the listing is the G81SF, 4K 240Hz). Image: Amazon listing*
+
+![MSI MPG 272URX](../assets/entries/025-irvine-landing-fall-guide/msi-272urx.jpg)
+*MSI MPG 272URX: 27″ 4K 240Hz with DP 2.1, 98W USB-C, and the 3-year OLED warranty printed on the badge. Image: Amazon listing*
+
+**G81SF**: TechRadar — "one of the best, if not the best, 4K 27-inch gaming monitor money can buy in its class"; RTINGS praises its deep blacks and vivid color for HDR content. Samsung's differentiator is the **anti-burn-in kit**: a pulsating-heat-pipe active cooler plus automatic logo/taskbar brightness detection. **272URX**: the 32″ 321URX's sibling with the fullest spec sheet (DP 2.1 UHBR20, 98W USB-C, OLED Care 2.0, 3-year burn-in warranty). They cost nearly the same — pick the G81SF for Samsung's burn-in software, the 272URX for ports and warranty terms.
+
+**27″ vs 32″**: OLED on a budget → **buy 32″** (Dell $641.99 / LG $749.99 — cheaper and bigger than 27″ OLED at $799); Mini LED on a budget → the 27″ XV275K at $349.99 is the floor of the whole market; shallow desk (<70cm) or a preference for 166-PPI text sharpness → 27″ OLED earns its keep; big-screen media → 32″.
 
 ## 8. Method & Limits
 
 - **Distances & times**: 🚗/🚲 values are computed per-route from Palo Verde with the OSRM public routing engine (`routing.openstreetmap.de`, routed-car / routed-bike), free-flow estimates; Google live traffic typically adds 20-40%, worse in LA peaks. A workspace script (`route_watch.py`) **rescans everything daily at 6:00am** and snapshots the data; if a value drifts materially from Google Maps, this note gets a manual revision. Click any destination above for a live Google Maps route;
 - **Rideshare estimates**: UberX/Lyft off-peak single-rider ranges modeled from typical OC/LA rates against public fare references — **not live quotes**; peak and event nights run 1.3-2×, shared rides save ~25-35%; calibrate with the app after landing. One-line takeaway: **OC trips run $14-24; LA trips $55-90** — take Amtrak ($19+) plus Metro for LA, or find carpool companions and stay overnight;
-- **Verification window**: two research rounds, 2026-09-10/11; the §7 shopping addendum is a 2026-09-16 live-price snapshot (the bed-frame subsection includes a two-pass scan plus next-day reprice); §7.7 monitors are a 2026-09-19 street-price snapshot; all prices/dates come from official or primary ticketing pages (linked inline). Still moving: LA Zoo Lights 2026 dates, LACMA/Huntington/Griffith ticket prices, Neverender face value, and every monitor promo in §7.7 — re-open the links before buying;
+- **Verification window**: two research rounds, 2026-09-10/11; the §7 shopping addendum is a 2026-09-16 live-price snapshot (the bed-frame subsection includes a two-pass scan plus next-day reprice); §7.7 monitors are a 2026-09-19 street-price snapshot and §7.8 the same-day 27″ addendum; all prices/dates come from official or primary ticketing pages (linked inline). Still moving: LA Zoo Lights 2026 dates, LACMA/Huntington/Griffith ticket prices, Neverender face value, and every monitor promo in §7.7/§7.8 — re-open the links before buying;
 - **Images**: Wikimedia Commons (CC0 / CC BY / CC BY-SA), credited per caption — thanks to the photographers.
 
 ---

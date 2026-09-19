@@ -293,7 +293,7 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 **三句话结论**:
 
-- **预算最低**:INNOCN 32M2V(官网 $499.99,促销可到 ~$400)——1,152 分区 Mini LED,$500 内唯一真 HDR1000 的 4K,代价是小厂售后与暗场光晕;
+- **预算最低**:Acer Nitro XV325QK(**$399.99**,31.5″,1,152 分区)——把 32 寸 Mini LED 地板价打到 $400 内;预算再紧就上 $349.99 的 27 寸版 XV275K(§8);
 - **综合最省心**:Dell S3225QC(Amazon $641.99 / Walmart ~$572 / 官翻 $519.99)——最便宜的名牌 32″ 4K QD-OLED,还送一对评测交口称赞的扬声器,代价是 120Hz;
 - **游戏向**:LG 32GX850A-B($749.99)与 MSI MPG 321URX($799.99 起)——前者是 2026 新款双模 OLED(4K165 / FHD330),后者是 4K 240Hz QD-OLED 基准线;怕烧屏又要 HDR 亮度选 TCL 32R84($650,分区数有争议,见下)。
 
@@ -301,7 +301,8 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 | 款 | 快照价 | 分区数 | 面板 / 刷新 | 一句话定位 |
 |---|---|---|---|---|
-| [INNOCN 32M2V](https://innocn.com/en-us/products/innocn-32-inch-4k-miniled-gaming-monitor-32m2v-2026)(144Hz 老款 / 160Hz 2026 新款)| **官网 $499.99**(2026-08 促销 $399.98;Amazon 当前无货)| **1,152** | QD-IPS · 144/160Hz · HDR1000 | 全场最低,同价位最强 HDR |
+| [Acer Nitro XV325QK](https://www.amazon.com/dp/B0FKMNJSQT)(31.5″) | **$399.99** | **1,152** | Fast IPS · 4K160 / FHD320 双模 · HDR1000 | **9/19 新地板价**:全场最便宜 32 寸 Mini LED |
+| [INNOCN 32M2V](https://innocn.com/en-us/products/innocn-32-inch-4k-miniled-gaming-monitor-32m2v-2026)(144Hz 老款 / 160Hz 2026 新款)| **官网 $499.99**(2026-08 促销 $399.98;Amazon 当前无货)| **1,152** | QD-IPS · 144/160Hz · HDR1000 | 同价位最强 HDR 口碑 |
 | [TCL 32R84](https://us.tcl.com/products/monitor-32r84)(2025)| $649.99(TCL 官方;Amazon 现无货)| **官方 2,304 / Reddit 实测 1,400(有争议)** | Fast HVA · 165Hz · HDR1400 | 同价亮度天花板 + 90W USB-C |
 | [Samsung Odyssey Neo G7 G70NC](https://www.amazon.com/s?k=Samsung+Odyssey+Neo+G7+32) | ~$699(第三方;Amazon 自营缺货)| 1,196 | VA 曲面 1000R · 165Hz · HDR600 | EOL 清仓,< $600 才值得捡 |
 
@@ -347,13 +348,52 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 **Alienware AW3225QF**:1800R 曲面 4K 240Hz QD-OLED,RTINGS premium pick,Best Buy 4.7★,Dell 三年保修含烧屏。促销常见 $780-900,历史低点 $699.99(2026-02);现 Dell 官网 $999.99、Amazon 第三方 $1,139 虚高,**等促销再上车**。接受曲面看它,不接受看 321URX。再往上(ASUS PG32UCDM $900-1,050、LG 32GS95UE 双模 4K240/FHD480 ~$1,000-1,300)属预算无上限选项。
 
-**怎么选(按预算从低到高)**:~$500 什么都不要 → INNOCN 32M2V(官网 $499.99,蹲促销 ~$400);~$600 办公 + 偶尔游戏、要省心 → Dell S3225QC(Walmart ~$572 / 官翻 $519.99 最划算);~$650 怕烧屏要 HDR 亮度 → TCL 32R84(Mini LED 无烧屏焦虑,分区争议不影响画质结论);~$671 游戏 165Hz → MSI MAG 321UP;~$750 主游戏 → LG 32GX850A-B(双模)或 MSI MPG 321URX($799.99 起);曲面爱好者 AW3225QF 等促销。共同注意事项:QD-OLED/WOLED 记得开防烧屏屏保/自动隐藏任务栏;Mini LED 暗场光晕是物理特性,VRR + 分区调光同开偶发闪烁。
+**怎么选(按预算从低到高)**:$400 内什么都不要 → Acer XV325QK(31.5″ Mini LED);~$500 INNOCN 32M2V(HDR 口碑更稳)或 27 寸 XV275K($349.99,§8);~$600 办公 + 偶尔游戏、要省心 → Dell S3225QC(Walmart ~$572 / 官翻 $519.99 最划算);~$650 怕烧屏要 HDR 亮度 → TCL 32R84(Mini LED 无烧屏焦虑,分区争议不影响画质结论);~$671 游戏 165Hz → MSI MAG 321UP;~$750 主游戏 → LG 32GX850A-B(双模)或 MSI MPG 321URX($799.99 起);曲面爱好者 AW3225QF 等促销。共同注意事项:QD-OLED/WOLED 记得开防烧屏屏保/自动隐藏任务栏;Mini LED 暗场光晕是物理特性,VRR + 分区调光同开偶发闪烁。
+
+### 8. 显示器 27 寸档:比 32 寸更便宜(2026-09-19 增补)
+
+> 同样需求线(4K + Mini LED / OLED + ≥100Hz)下探 27 寸,核价方式与 §7.7 相同(浏览器逐款实测 Amazon,listing 原文核验分区与规格)。结论先行:**27 寸 Mini LED 地板只要 $349.99,比 32 寸最便宜还低 $50;但 27 寸 OLED 反而更贵($799 起)——OLED 想省钱要买 32 寸(Dell $641.99),Mini LED 想省钱 27/32 寸都行。**
+
+**27 寸 4K Mini LED**:
+
+| 款 | 快照价 | 分区数 | 面板 / 刷新 | 一句话定位 |
+|---|---|---|---|---|
+| [Acer Nitro XV275K](https://www.amazon.com/dp/B0FKNB5D1W) | **$349.99** | **1,152** | Fast IPS · 4K160 / FHD320 双模(DFR)· HDR1000 | 全场最低:1000 nits + 99% Adobe RGB |
+| [KTC M27P6](https://www.amazon.com/dp/B0F7Q8ZWLY) | $424.99(划线 $499.99) | **1,152** | Fast IPS · 4K160 / FHD320 · HDR1400 · USB-C 65W · KVM | 多 $75:HDR1400 + Type-C 一线连 + 白色 |
+
+![Acer Nitro XV275K](../assets/entries/025-irvine-landing-fall-guide/acer-xv275k.jpg)
+*Acer Nitro XV275K(27″)/ XV325QK(31.5″)共用官方渲染图:4K160 与 FHD320 的 DFR 双模。图:Amazon 官方主图*
+
+![KTC M27P6](../assets/entries/025-irvine-landing-fall-guide/ktc-m27p6.jpg)
+*KTC M27P6:白色 + 4K160/FHD320 双模,HDR1400、USB-C 65W、KVM。图:Amazon 官方主图*
+
+**XV275K**:listing 原文明写 **1,152 分区**、VESA DisplayHDR 1000、1000 nits、0.5ms GtG、99% Adobe RGB / 97% DCI-P3。新品专业测评还少;不过前代 XV275K P3(576 分区)本就是 RTINGS 性价比推荐,新一代分区翻倍、加 DFR 双模,价格反而更低。**想花钱最少体验 Mini LED,这就是答案。**
+
+**KTC M27P6**:DisplayNinja 2026-07 评其为 "the best 27″ mini LED HDR gaming monitor"(4K 160Hz + 1080p 320Hz 双模 + 1,152 分区);PCMag 点名 HDR 表现顶级、接口齐全、做工规整。上代性价比王 INNOCN 27M2V 已在 Amazon 下架(DisplayNinja 也改推 KTC);Cooler Master GP27U 同样下架。KTC 更便宜的 QD-MiniLED M27U6($314.98)是 4K@72Hz,不满足 ≥100Hz 线,排除。
+
+**27 寸 4K OLED**($799 起,比 32 寸 OLED 还贵):
+
+| 款 | 快照价 | 刷新 | 一句话定位 |
+|---|---|---|---|
+| [Samsung Odyssey G81SF](https://www.amazon.com/dp/B0DVM3BJHK) | **$799.00**(划线 $1,299.99) | 240Hz | 4K QD-OLED 166 PPI · Glare Free · 防烧全家桶 |
+| [MSI MPG 272URX](https://www.amazon.com/dp/B0DWYC5S8X) | **$799.99** | 240Hz | DP 2.1 UHBR20 · 98W USB-C · 3 年保修含烧屏 |
+| [ASUS ROG XG27UCDMG](https://www.amazon.com/dp/B0DM6RWRQC) | $948.38 | 240Hz | 2026 Tandem QD-OLED(PG27UCDM 现 $1,099 虚高)|
+
+![Samsung Odyssey G81SF](../assets/entries/025-irvine-landing-fall-guide/samsung-g81sf.jpg)
+*Samsung Odyssey G8 27″ 官方图(角标沿用系列旧文案,listing 实为 G81SF 4K 240Hz)。图:Amazon 官方主图*
+
+![MSI MPG 272URX](../assets/entries/025-irvine-landing-fall-guide/msi-272urx.jpg)
+*MSI MPG 272URX:27″ 4K 240Hz,DP 2.1、98W USB-C,角标直接印了 3 年 OLED 保修。图:Amazon 官方主图*
+
+**G81SF**:TechRadar 评它 "one of the best, if not the best, 4K 27-inch gaming monitor money can buy in its class";RTINGS 称其深黑 + 鲜艳、适合 HDR 内容消费。三星的差异化在**防烧全家桶**:Pulsating Heat Pipe 主动散热 + logo/任务栏亮度自动检测。**272URX**:与 32 寸 321URX 同门,规格最全(DP 2.1 UHBR20、98W USB-C、OLED Care 2.0、3 年保修含烧屏)。两台几乎同价:要三星防烧软件选 G81SF,要接口与保修条款选 272URX。
+
+**和 32 寸怎么取舍**:OLED 预算优先 → **买 32 寸**(Dell $641.99 / LG $749.99,比 27 寸 OLED 的 $799 便宜且更大);Mini LED 预算优先 → 27 寸 XV275K($349.99)全场最低;桌面深度 <70cm 或偏好小屏高密度(166 PPI 文字更细)→ 27 寸 OLED 值得;要大屏影音 → 32 寸。
 
 ## 八、方法与局限
 
 - **距离与时间**:🚗/🚲 全部由 OSRM 公共路由引擎(`routing.openstreetmap.de`,routed-car / routed-bike)从 Palo Verde 出发逐条计算,为免费流估计;Google 实时路况通常 +20-40%,LA 侧高峰可翻倍。由 [route_watch.py](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/025-irvine-landing-fall-guide/)(工作区脚本)**每天早上 6:00 自动重扫**,数据快照存工作区,与 Google Maps 有明显偏差时再人工修版;点击各目的地可打开 Google Maps 路径核对实时值;
 - **打车估算**:UberX/Lyft 为平峰单人估算区间(按 OC/LA 常见费率模型推算并对照公开行情),**非实时报价**;高峰与大型活动日 ×1.3-2,拼车约省 25-35%;落地后用 App 实测校准一次最稳。一句话结论:**OC 侧一趟 $14-24,LA 侧一趟 $55-90**——LA 行程优先 Amtrak($19 起)+ Metro 接驳,或拼车过夜;
-- **核验窗口**:2026-09-10/11 两轮检索;§七采购增补为 2026-09-16 实价快照(床架小节含当日两轮扫描与次日复价);§7.7 显示器为 2026-09-19 行情快照;所有票价、日期均来自官方或一级票务页(链接内联)。仍会变动的:LA Zoo Lights 2026 具体日期、LACMA / Huntington / Griffith 票价、Neverender 官方面价、以及本节全部显示器促销价——购票/下单前点开链接再确认;
+- **核验窗口**:2026-09-10/11 两轮检索;§七采购增补为 2026-09-16 实价快照(床架小节含当日两轮扫描与次日复价);§7.7 显示器为 2026-09-19 行情快照、§8 27 寸档为当日增补;所有票价、日期均来自官方或一级票务页(链接内联)。仍会变动的:LA Zoo Lights 2026 具体日期、LACMA / Huntington / Griffith 票价、Neverender 官方面价、以及 §7.7/§8 全部显示器促销价——购票/下单前点开链接再确认;
 - **图片**:Wikimedia Commons(CC0 / CC BY / CC BY-SA),图注逐一署名,感谢各位拍摄者。
 
 ---
