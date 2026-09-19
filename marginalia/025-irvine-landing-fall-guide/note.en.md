@@ -486,6 +486,16 @@ The two picks are $7 apart: **DUMOS 16″ by default** ($43.19); UNIPEAK if stru
 
 **Brand risk, ranked (2026-09)**: dealer brands (Cannondale/Marin/Trek/Giant/Specialized) > large DTC (Lectric/Aventon/Velotric/Ride1Up) > mid-size DTC (Heybike/Mokwheel) > Amazon white-labels (Jasion/Engwe/Totem) > bankrupt-reboot (Rad) > dead (Juiced). Two cautionary tales: **Juiced went bankrupt in late 2024 and Lectric bought the IP in Mar 2025 — batteries and warranties evaporate with the company**; and Rad Power above. White-label pathologies: inflated wattage ("2500W peak" is a peak marketing number), no UL (unsellable in California after SB 1271), and after-sales that live exactly as long as the store.
 
+**Addendum: why do $350 Amazon bikes also claim "60-90mi" — the actual gap**(added 2026-09-19):
+
+1. **Advertised range is a best-case scenario**: minimum assist + flat ground + a light rider + a steady 12-15mph cruise. "90mi" implies <11Wh/mi, reachable only under those conditions; mixed-assist riding at real speeds (15-20mph) burns 15-25Wh/mi, so a 360-500Wh pack honestly delivers **20-40mi**. EBR's figures (used in this table) come from riding the battery to empty at Eco and at Turbo — the two kinds of numbers were never comparable.
+2. **The battery is the biggest cost gap and the biggest safety gap**: major brands use LG/Samsung 21700 cells with a certified BMS (UL 2271); white-labels often use no-name cells with inflated ratings (a "20Ah" that's really 14-16Ah), a full tier worse in cycle life and thermal-runaway behavior.
+3. **No UL = unsellable in California + unchargeable in dorms**: after SB 1271, uncertified white-labels are illegal to sell in California, and UCI housing charging rules only accept UL — part of what the $350 saves is the cost of that certification.
+4. **Inflated wattage is industry convention**: "2500W peak" is a seconds-long peak; rated power is often 350-750W; climbing is about rated power and torque (Nm) — a number white-labels never publish.
+5. **Components and after-sales are the invisible half**: mechanical disc brakes vs hydraulics; no-name forks and tires that can't stop a 60-70lb bike at 25mph+; after-sales lives exactly as long as the store — no parts supply chain, no recall mechanism (Lectric and Rad both ran CPSC recalls with free part replacements; white-labels never will).
+
+One line: **$350 buys "an e-bike that moves"; the $1,300-2,000 in this table buys "legal, repairable, honest about its range, and chargeable in your dorm" — the gap isn't the range number, it's whether the number is honest.**
+
 **The 2026 list consensus across six outlets** (winners cross-check against the table above):
 
 | Outlet (updated) | Budget/value | Commuter baseline | Best cheap eMTB | Light tier |
