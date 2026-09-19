@@ -306,7 +306,7 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 ### 7. 显示器:32″ 4K Mini LED / OLED 梯队(2026-09-19)
 
-> 需求线:32 寸 + 4K + 面板必须是 Mini LED 或 OLED + 刷新率 ≥100Hz——入选款实际全部 ≥120Hz。快照价 2026-09-19:**用浏览器逐款实测 Amazon 页面实价**(zip 92617),并与 TCL/MSI/Dell/INNOCN 官方页及 Walmart 行情交叉核验;促销波动大,**下单以页面实价为准**。测评意见来自 RTINGS、TechPowerUp、Tom's Hardware、WIRED、DisplayNinja 与 Reddit 实测帖(链接内联,可达性已验证)。
+> 需求线:32 寸 + 4K + 面板必须是 Mini LED 或 OLED + 刷新率 ≥100Hz——入选款实际全部 ≥120Hz。**9/19 定调:不要曲面屏,且用户偏好 Mini LED**(曲面款 Neo G7 / AW3225QF 表中保留仅作记录,已出局)。快照价 2026-09-19:**用浏览器逐款实测 Amazon 页面实价**(zip 92617),并与 TCL/MSI/Dell/INNOCN 官方页及 Walmart 行情交叉核验;促销波动大,**下单以页面实价为准**。测评意见来自 RTINGS、TechPowerUp、Tom's Hardware、WIRED、DisplayNinja 与 Reddit 实测帖(链接内联,可达性已验证)。
 
 **三句话结论**:
 
@@ -321,7 +321,7 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 | [Acer Nitro XV325QK](https://www.amazon.com/dp/B0FKMNJSQT)(31.5″) | **$399.99** | **1,152** | Fast IPS · 4K160 / FHD320 双模 · HDR1000 | **9/19 新地板价**:全场最便宜 32 寸 Mini LED |
 | [INNOCN 32M2V](https://innocn.com/en-us/products/innocn-32-inch-4k-miniled-gaming-monitor-32m2v-2026)(144Hz 老款 / 160Hz 2026 新款)| **官网 $499.99**(2026-08 促销 $399.98;Amazon 当前无货)| **1,152** | QD-IPS · 144/160Hz · HDR1000 | 同价位最强 HDR 口碑 |
 | [TCL 32R84](https://us.tcl.com/products/monitor-32r84)(2025)| $649.99(TCL 官方;Amazon 现无货)| **官方 2,304 / Reddit 实测 1,400(有争议)** | Fast HVA · 165Hz · HDR1400 | 同价亮度天花板 + 90W USB-C |
-| [Samsung Odyssey Neo G7 G70NC](https://www.amazon.com/s?k=Samsung+Odyssey+Neo+G7+32) | ~$699(第三方;Amazon 自营缺货)| 1,196 | VA 曲面 1000R · 165Hz · HDR600 | EOL 清仓,< $600 才值得捡 |
+| [Samsung Odyssey Neo G7 G70NC](https://www.amazon.com/s?k=Samsung+Odyssey+Neo+G7+32) | ~$699(第三方;Amazon 自营缺货)| 1,196 | VA 曲面 1000R · 165Hz · HDR600 | **❌ 曲面,按需求排除**(且 EOL 清仓)|
 
 ![INNOCN 32M2V](../assets/entries/025-irvine-landing-fall-guide/monitor-innocn-32m2v.jpg)
 *INNOCN 32M2V 官方产品图(144Hz 版,160Hz 新款同模具)。图:INNOCN*
@@ -333,7 +333,7 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 **TCL 32R84**:先给分区数打问号——官方渲染图标 **2,304 分区**,Reddit 用户闪烁计数实测 50×28=**1,400**([实测帖](https://www.reddit.com/r/Monitors/comments/1p81t3g/)),TCL 客服则坚称"1400 是峰值亮度 nits,实际 2,304 分区"([客服口径帖](https://www.reddit.com/r/Monitors/comments/1p7k8cq/tcl_32r84_actually_has_2304_dimming_zones))。无论采信哪个数,它都是这个价位分区最多的 Mini LED。规格:HDR1400(峰值 ~1,400-1,500 nits)、96% DCI-P3、90W USB-C 一线连。[r/OLED_Gaming 长测](https://www.reddit.com/r/OLED_Gaming/comments/1nruxpb/tcl_r84_32_miniled_review_my_oled_alternative)的结论是"我拥有过的最好的 LCD 显示器,能和 240Hz OLED 掰手腕";Best Buy 同系列 4.6-4.7★。缺点同样典型:暗场光标光晕、反光晕算法压高光细节、VA 暗场拖影(可调好)、磨砂涂层文字发灰。
 
-**Neo G7(G70NC)**:2022 年的 32″ 4K Mini LED 标杆(1,196 分区、1000R 曲面),当年 RTINGS 好评;如今 Amazon 自营缺货、第三方 $699,属 EOL 清仓——**除非 <$600,否则上排两款任一都更值**。更高端的 BenQ EX321UX(~$1,100)与 ASUS PG32UQX(~$1,700+)属于"贵但没贵到点子上",跳过。
+**Neo G7(G70NC)**:2022 年的 32″ 4K Mini LED 标杆(1,196 分区、1000R 曲面),当年 RTINGS 好评;如今 Amazon 自营缺货、第三方 $699,属 EOL 清仓。**9/19 起曲面按需求排除,该款出局。**更高端的 BenQ EX321UX(~$1,100)与 ASUS PG32UQX(~$1,700+)属于"贵但没贵到点子上",跳过。
 
 **OLED 梯队**(全部为三星 QD-OLED 面板):
 
@@ -343,7 +343,7 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 | [MSI MAG 321UP](https://www.amazon.com/dp/B0D9HY3JH2) | **$671.14** | 165Hz | 321URX 同面板减配版,游戏性价比 |
 | [LG 32GX850A-B](https://www.amazon.com/dp/B0FLQLPNNH)(2026 新款)| **$749.99**(划线 $1,299.99)| 4K165 / FHD330 双模 | 镜面 WOLED,双模游戏性价比之王 |
 | [MSI MPG 321URX](https://www.amazon.com/dp/B0DPXYZYPT) | **$799.99-859** | 240Hz | 4K 240Hz QD-OLED 基准线 |
-| [Alienware AW3225QF](https://www.dell.com/en-us/shop/alienware-32-curved-qd-oled-gaming-monitor-aw3225qf/apd/210-bmqq/monitors) | Dell 官网 $999.99(Amazon 第三方 $1,139 虚高;促销常见 $780-900,ATL $699.99)| 240Hz | 1800R 曲面,Dell 三年烧屏保修 |
+| [Alienware AW3225QF](https://www.dell.com/en-us/shop/alienware-32-curved-qd-oled-gaming-monitor-aw3225qf/apd/210-bmqq/monitors) | Dell 官网 $999.99(Amazon 第三方 $1,139 虚高;促销常见 $780-900,ATL $699.99)| 240Hz | 1800R 曲面——**❌ 按需求排除** |
 
 ![Dell S3225QC](../assets/entries/025-irvine-landing-fall-guide/monitor-dell-s3225qc.png)
 *Dell S3225QC:白色支架 + 下置音响网,32″ 4K QD-OLED 120Hz。图:WIRED*
@@ -363,9 +363,9 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 **LG 32GX850A-B(2026 黑马)**:LG 2026 年的 32″ **镜面 WOLED** UltraGear,主打 Dual Mode——**4K @165Hz 与 FHD @330Hz 一键切换**,0.03ms、G-SYNC Compatible、1.5M:1 对比度。Amazon 实测 **$749.99**(划线 $1,299.99),比 321URX 便宜 $50 还多一档 330Hz。上市太新,专业测评未出;Best Buy 早期口碑集中在"RPG 与竞技游戏一键切换很爽"。注意全屏亮度 ~275 nits(WOLED 典型水准,亮度党看 Mini LED)。**$750 档 OLED 游戏屏的默认答案。**
 
-**Alienware AW3225QF**:1800R 曲面 4K 240Hz QD-OLED,RTINGS premium pick,Best Buy 4.7★,Dell 三年保修含烧屏。促销常见 $780-900,历史低点 $699.99(2026-02);现 Dell 官网 $999.99、Amazon 第三方 $1,139 虚高,**等促销再上车**。接受曲面看它,不接受看 321URX。再往上(ASUS PG32UCDM $900-1,050、LG 32GS95UE 双模 4K240/FHD480 ~$1,000-1,300)属预算无上限选项。
+**Alienware AW3225QF**:**9/19 起曲面按需求排除。**(留档:1800R 曲面 4K 240Hz QD-OLED,RTINGS premium pick,Best Buy 4.7★,Dell 三年保修含烧屏;促销常见 $780-900,历史低点 $699.99(2026-02)——日后改主意再捡促销。)再往上(ASUS PG32UCDM $900-1,050、LG 32GS95UE 双模 4K240/FHD480 ~$1,000-1,300)属预算无上限选项。
 
-**怎么选(按预算从低到高)**:$400 内什么都不要 → Acer XV325QK(31.5″ Mini LED);~$500 INNOCN 32M2V(HDR 口碑更稳)或 27 寸 XV275K($349.99,§8);~$600 办公 + 偶尔游戏、要省心 → Dell S3225QC(Walmart ~$572 / 官翻 $519.99 最划算);~$650 怕烧屏要 HDR 亮度 → TCL 32R84(Mini LED 无烧屏焦虑,分区争议不影响画质结论);~$671 游戏 165Hz → MSI MAG 321UP;~$750 主游戏 → LG 32GX850A-B(双模)或 MSI MPG 321URX($799.99 起);曲面爱好者 AW3225QF 等促销。共同注意事项:QD-OLED/WOLED 记得开防烧屏屏保/自动隐藏任务栏;Mini LED 暗场光晕是物理特性,VRR + 分区调光同开偶发闪烁。
+**怎么选(Mini LED 优先)**:$400 内 → **Acer XV325QK**(31.5″,1,152 分区)或 27 寸 XV275K($349.99,§8);~$500 → INNOCN 32M2V(HDR 口碑最稳,官网购);~$650 要品牌调校与 90W USB-C → TCL 32R84(Mini LED 无烧屏焦虑,分区争议不影响画质结论)。**OLED 只在两种情况反超**:暗房电影占比高(Dell S3225QC,$519.99-641.99)或要 240Hz 游戏(LG 32GX850A $749.99 / MSI MPG 321URX $799.99 起)。共同注意事项:Mini LED 暗场光晕是物理特性,VRR + 分区调光同开偶发闪烁;若仍入 OLED,记得防烧屏屏保/自动隐藏任务栏。
 
 ### 8. 显示器 27 寸档:比 32 寸更便宜(2026-09-19 增补)
 

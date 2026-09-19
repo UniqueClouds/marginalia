@@ -306,7 +306,7 @@ The two picks are $7 apart: **DUMOS 16″ by default** ($43.19); UNIPEAK if stru
 
 ### 7.7 Monitors: the 32″ 4K Mini LED / OLED ladder (2026-09-19)
 
-> Requirements: 32″ + 4K + the panel must be Mini LED or OLED + refresh ≥100Hz — every pick here is in fact ≥120Hz. Snapshot prices as of 2026-09-19: **live Amazon pages walked one by one in a real browser** (ZIP 92617), cross-checked against TCL/MSI/Dell/INNOCN official pages and Walmart; promos move fast, so **trust the live page at checkout**. Review opinions come from RTINGS, TechPowerUp, Tom's Hardware, WIRED, DisplayNinja and Reddit hands-on threads (linked inline, reachability verified).
+> Requirements: 32″ + 4K + the panel must be Mini LED or OLED + refresh ≥100Hz — every pick here is in fact ≥120Hz. **Settled 9/19: no curved panels, and the user leans Mini LED** (the curved Neo G7 / AW3225QF stay in the tables for the record, out of the running). Snapshot prices as of 2026-09-19: **live Amazon pages walked one by one in a real browser** (ZIP 92617), cross-checked against TCL/MSI/Dell/INNOCN official pages and Walmart; promos move fast, so **trust the live page at checkout**. Review opinions come from RTINGS, TechPowerUp, Tom's Hardware, WIRED, DisplayNinja and Reddit hands-on threads (linked inline, reachability verified).
 
 **The verdict in three lines**:
 
@@ -321,7 +321,7 @@ The two picks are $7 apart: **DUMOS 16″ by default** ($43.19); UNIPEAK if stru
 | [Acer Nitro XV325QK](https://www.amazon.com/dp/B0FKMNJSQT) (31.5″) | **$399.99** | **1,152** | Fast IPS · 4K160 / FHD320 dual mode · HDR1000 | **New floor price (9/19)**: cheapest 32″ Mini LED |
 | [INNOCN 32M2V](https://innocn.com/en-us/products/innocn-32-inch-4k-miniled-gaming-monitor-32m2v-2026) (144Hz original / 160Hz 2026 rev) | **$499.99 direct** (Aug 2026 promo $399.98; OOS on Amazon) | **1,152** | QD-IPS · 144/160Hz · HDR1000 | Strongest HDR reputation at the price |
 | [TCL 32R84](https://us.tcl.com/products/monitor-32r84) (2025) | $649.99 (TCL direct; OOS on Amazon) | **2,304 official / 1,400 Reddit-measured (disputed)** | Fast HVA · 165Hz · HDR1400 | Brightness-per-dollar ceiling + 90W USB-C |
-| [Samsung Odyssey Neo G7 G70NC](https://www.amazon.com/s?k=Samsung+Odyssey+Neo+G7+32) | ~$699 (3rd party; Amazon OOS) | 1,196 | VA 1000R curve · 165Hz · HDR600 | EOL clearance — only interesting under $600 |
+| [Samsung Odyssey Neo G7 G70NC](https://www.amazon.com/s?k=Samsung+Odyssey+Neo+G7+32) | ~$699 (3rd party; Amazon OOS) | 1,196 | VA 1000R curve · 165Hz · HDR600 | **❌ curved — excluded by requirement** (and EOL clearance) |
 
 ![INNOCN 32M2V](../assets/entries/025-irvine-landing-fall-guide/monitor-innocn-32m2v.jpg)
 *INNOCN 32M2V press image (144Hz version; the 160Hz rev shares the chassis). Image: INNOCN*
@@ -333,7 +333,7 @@ The two picks are $7 apart: **DUMOS 16″ by default** ($43.19); UNIPEAK if stru
 
 **TCL 32R84**: flag the zone count first — the press render says **2,304 zones**, a Reddit flicker-count teardown measured 50×28 = **1,400** ([teardown thread](https://www.reddit.com/r/Monitors/comments/1p81t3g/)), and TCL support insists "1,400 is the peak-brightness nits; it really has 2,304 zones" ([support thread](https://www.reddit.com/r/Monitors/comments/1p7k8cq/tcl_32r84_actually_has_2304_dimming_zones)). Either way it's the most zones per dollar in the tier. Specs: HDR1400 (~1,400-1,500 nits peak), 96% DCI-P3, 90W USB-C single-cable. The [r/OLED_Gaming long-term review](https://www.reddit.com/r/OLED_Gaming/comments/1nruxpb/tcl_r84_32_miniled_review_my_oled_alternative) calls it "the best LCD monitor I've owned, trading blows with a 240Hz OLED"; Best Buy's family sits at 4.6-4.7★. The cons are textbook Mini LED: cursor halos on dark scenes, a counter-blooming algorithm that clamps highlights, VA dark smear (fixable), and a matte coating that some find grainy on text.
 
-**Neo G7 (G70NC)**: the 2022 benchmark for this class (1,196 zones, 1000R curve), RTINGS-approved in its day; now Amazon-direct OOS with third parties at $699 — EOL clearance. **Unless it dips under $600, either pick above is the better buy.** Stepping up, the BenQ EX321UX (~$1,100) and ASUS PG32UQX (~$1,700+) cost more without changing the story — skipped.
+**Neo G7 (G70NC)**: the 2022 benchmark for this class (1,196 zones, 1000R curve), RTINGS-approved in its day; now Amazon-direct OOS with third parties at $699 — EOL clearance. **Excluded as of 9/19: curved.** Stepping up, the BenQ EX321UX (~$1,100) and ASUS PG32UQX (~$1,700+) cost more without changing the story — skipped.
 
 **The OLED ladder** (all Samsung QD-OLED panels):
 
@@ -343,7 +343,7 @@ The two picks are $7 apart: **DUMOS 16″ by default** ($43.19); UNIPEAK if stru
 | [MSI MAG 321UP](https://www.amazon.com/dp/B0D9HY3JH2) | **$671.14** | 165Hz | Same panel as 321URX, cost-trimmed |
 | [LG 32GX850A-B](https://www.amazon.com/dp/B0FLQLPNNH) (2026) | **$749.99** (list $1,299.99) | 4K165 / FHD330 dual mode | Glossy WOLED, the dual-mode gaming value king |
 | [MSI MPG 321URX](https://www.amazon.com/dp/B0DPXYZYPT) | **$799.99-859** | 240Hz | The 4K 240Hz QD-OLED baseline |
-| [Alienware AW3225QF](https://www.dell.com/en-us/shop/alienware-32-curved-qd-oled-gaming-monitor-aw3225qf/apd/210-bmqq/monitors) | Dell direct $999.99 (Amazon 3rd-party $1,139 inflated; promos $780-900, ATL $699.99) | 240Hz | 1800R curve, Dell 3-yr burn-in warranty |
+| [Alienware AW3225QF](https://www.dell.com/en-us/shop/alienware-32-curved-qd-oled-gaming-monitor-aw3225qf/apd/210-bmqq/monitors) | Dell direct $999.99 (Amazon 3rd-party $1,139 inflated; promos $780-900, ATL $699.99) | 240Hz | 1800R curve — **❌ excluded by requirement** |
 
 ![Dell S3225QC](../assets/entries/025-irvine-landing-fall-guide/monitor-dell-s3225qc.png)
 *Dell S3225QC: white stand, speaker grille below the panel; 32″ 4K QD-OLED at 120Hz. Image: WIRED*
@@ -363,9 +363,9 @@ The two picks are $7 apart: **DUMOS 16″ by default** ($43.19); UNIPEAK if stru
 
 **LG 32GX850A-B (2026 dark horse)**: LG's 2026 32″ **glossy WOLED** UltraGear built around Dual Mode — one-key switching between **4K @165Hz and FHD @330Hz** — with 0.03ms, G-SYNC Compatible and 1.5M:1 contrast. Measured **$749.99** on Amazon (list $1,299.99), $50 under the 321URX with an extra 330Hz gear. Too new for professional reviews yet; early Best Buy feedback centers on the "RPG vs competitive in one toggle" flexibility. Mind the ~275-nit full-field brightness (typical WOLED — brightness-first buyers should look at Mini LED). **The default answer at $750 for an OLED gaming panel.**
 
-**Alienware AW3225QF**: 1800R-curved 4K 240Hz QD-OLED, an RTINGS premium pick, 4.7★ at Best Buy, Dell 3-year burn-in coverage. Promos run $780-900 with an all-time low of $699.99 (Feb 2026); right now Dell direct asks $999.99 and Amazon third parties $1,139 — **wait for a sale**. If the curve works for you it's the flavor pick; otherwise the 321URX. Above this sits the PG32UCDM ($900-1,050) and the dual-mode LG 32GS95UE (4K240/FHD480, ~$1,000-1,300) — only if the budget is uncapped.
+**Alienware AW3225QF**: **excluded as of 9/19 — curved.** (For the record: 1800R-curved 4K 240Hz QD-OLED, an RTINGS premium pick, 4.7★ at Best Buy, Dell 3-year burn-in coverage; promos $780-900, all-time low $699.99 in Feb 2026 — revisit only if the curve stance changes.) Above this sits the PG32UCDM ($900-1,050) and the dual-mode LG 32GS95UE (4K240/FHD480, ~$1,000-1,300) — only if the budget is uncapped.
 
-**How to choose, cheapest first**: under $400 and no compromises left → Acer XV325QK (31.5″ Mini LED); ~$500 INNOCN 32M2V (steadier HDR reputation) or the 27″ XV275K ($349.99, §7.8); ~$600 for work-first with peace of mind → Dell S3225QC (Walmart ~$572 or refurb $519.99 is the deal); ~$650 if burn-in anxiety rules and HDR brightness matters → TCL 32R84 (no burn-in to fear, and the zone dispute doesn't change the picture-quality verdict); ~$671 for 165Hz gaming → MSI MAG 321UP; ~$750 for serious gaming → LG 32GX850A-B (dual mode) or MSI MPG 321URX (from $799.99); the curved AW3225QF is the flavor pick on a promo. Housekeeping either way: on OLED set a burn-in screensaver and auto-hiding taskbar; on Mini LED, dark-scene halos are physics, and VRR + local dimming together can flicker occasionally.
+**How to choose (Mini LED first)**: under $400 → **Acer XV325QK** (31.5″, 1,152 zones) or the 27″ XV275K ($349.99, §7.8); ~$500 → INNOCN 32M2V (the steadiest HDR reputation, buy direct); ~$650 for brand tuning and 90W USB-C → TCL 32R84 (no burn-in to fear, and the zone dispute doesn't change the picture-quality verdict). **OLED only wins in two cases**: dark-room movies dominate (Dell S3225QC, $519.99-641.99) or 240Hz gaming matters most (LG 32GX850A $749.99 / MSI MPG 321URX from $799.99). Housekeeping: Mini LED dark-scene halos are physics, and VRR + local dimming together can flicker occasionally; if you do go OLED, set a burn-in screensaver and auto-hiding taskbar.
 
 ### 7.8 The 27-inch tier: cheaper than 32″ (2026-09-19 addendum)
 
