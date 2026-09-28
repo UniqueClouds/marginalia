@@ -291,7 +291,7 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 ### 7. 显示器:32″ 4K Mini LED / OLED 梯队(2026-09-19)
 
-> 需求线:32 寸 + 4K + 面板必须是 Mini LED 或 OLED + 刷新率 ≥100Hz——入选款实际全部 ≥120Hz。**9/19 定调:不要曲面屏,且用户偏好 Mini LED**(曲面款 Neo G7 / AW3225QF 表中保留仅作记录,已出局)。快照价 2026-09-21(每周一自动复扫,改动 ≥$30 才入册):**用浏览器逐款实测 Amazon 页面实价**(zip 92617),并与 TCL/MSI/Dell/INNOCN 官方页及 Walmart 行情交叉核验;促销波动大,**下单以页面实价为准**。测评意见来自 RTINGS、TechPowerUp、Tom's Hardware、WIRED、DisplayNinja 与 Reddit 实测帖(链接内联,可达性已验证)。
+> 需求线:32 寸 + 4K + 面板必须是 Mini LED 或 OLED + 刷新率 ≥100Hz——入选款实际全部 ≥120Hz。**9/19 定调:不要曲面屏,且用户偏好 Mini LED**(曲面款 Neo G7 / AW3225QF 表中保留仅作记录,已出局)。快照价 2026-09-28(每周一自动复扫,改动 ≥$30 才入册):**用浏览器逐款实测 Amazon 页面实价**(zip 92617),并与 TCL/MSI/Dell/INNOCN 官方页及 Walmart 行情交叉核验;促销波动大,**下单以页面实价为准**。测评意见来自 RTINGS、TechPowerUp、Tom's Hardware、WIRED、DisplayNinja 与 Reddit 实测帖(链接内联,可达性已验证)。
 
 **三句话结论**:
 
@@ -324,7 +324,7 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 | 款 | 快照价(9/19 实测) | 刷新 | 一句话定位 |
 |---|---|---|---|
-| [Dell S3225QC](https://www.amazon.com/dp/B0FB46P6F6) | Amazon **$641.99** · Walmart ~$572 · 官翻 $519.99(MSRP $849.99)| 120Hz | 最便宜名牌 32″ 4K QD-OLED + 好扬声器 |
+| [Dell S3225QC](https://www.amazon.com/dp/B0FB46P6F6) | Amazon **$742.46**(9/28 回涨 $100;9/21 曾 $641.99)· Walmart ~$572 · 官翻 $519.99(MSRP $849.99)| 120Hz | 最便宜名牌 32″ 4K QD-OLED + 好扬声器——**现走 Walmart/官翻,别按原价买** |
 | [MSI MAG 321UP](https://www.amazon.com/dp/B0D9HY3JH2) | **$671.14** | 165Hz | 321URX 同面板减配版,游戏性价比 |
 | [LG 32GX850A-B](https://www.amazon.com/dp/B0FLQLPNNH)(2026 新款)| **$799.00**(9/21 回涨 $49;9/19 曾 $749.99;划线 $1,299.99)| 4K165 / FHD330 双模 | 镜面 WOLED,双模——但涨完与 321URX 同价 |
 | [MSI MPG 321URX](https://www.amazon.com/dp/B0DPXYZYPT) | **$799.99-859** | 240Hz | 4K 240Hz QD-OLED 基准线 |
@@ -342,7 +342,7 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 ![LG 32GX850A](../assets/entries/025-irvine-landing-fall-guide/monitor-lg-32gx850a.jpg)
 *LG 32GX850A UltraGear(2026):镜面 WOLED,Dual Mode 4K165/FHD330。图为官方渲染(背面)。图:NotebookCheck*
 
-**Dell S3225QC**:[RTINGS 对比同门 IPS-Black 的 S3225QS](https://www.rtings.com/monitor/reviews/dell/s3225qc),结论是画质全面胜出——QD-OLED 深黑、亮部、广色域;[WIRED 给了 9/10](https://www.wired.com/review/dell-32-plus-qd-oled/),扬声器 "better than almost every other monitor I've tested"。Tom's Hardware 的扣分项:只有 120Hz、无 gamma 预设;三角子像素的细字彩边与 ABL 亮房间偏暗是所有 QD-OLED 的通病。**$519(官翻)-$642(Amazon)视渠道而定,它仍是「名牌 + OLED + 4K」的最低门槛,办公 + 影音首选;求最低价蹲 Walmart(~$572)/官翻。**
+**Dell S3225QC**:[RTINGS 对比同门 IPS-Black 的 S3225QS](https://www.rtings.com/monitor/reviews/dell/s3225qc),结论是画质全面胜出——QD-OLED 深黑、亮部、广色域;[WIRED 给了 9/10](https://www.wired.com/review/dell-32-plus-qd-oled/),扬声器 "better than almost every other monitor I've tested"。Tom's Hardware 的扣分项:只有 120Hz、无 gamma 预设;三角子像素的细字彩边与 ABL 亮房间偏暗是所有 QD-OLED 的通病。**9/28 复扫 Amazon 回涨到 $742.46(9/21 为 $641.99)——低价都在 Walmart(~$572)与官翻($519.99),别按 Amazon 现价上车;办公 + 影音首选的地位不变。**
 
 **MSI MAG 321UP / MPG 321URX**:同一块 31.5″ 4K QD-OLED——321UP 是 MAG 主流线的 **165Hz 减配版**(支架/接口缩水,Amazon 实测 $671.14),321URX 是 **240Hz 全配版**(90W USB-C + KVM,$799.99 起)。TFTCentral 确认该家族共享 OLED Care 2.0 与 **3 年保修含烧屏**(2026 年还有换装 Tandem OLED 新面板的 321UPX,约 $780 起)。[RTINGS 称 321URX](https://www.rtings.com/monitor/reviews/msi/mpg-321urx-qd-oled) "superb gaming monitor",PCGuide 2025 年度评它 "the best 4K OLED"。**165Hz 够用买 321UP 省 $130;要 240Hz 买 321URX。**
 
@@ -350,7 +350,7 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 **Alienware AW3225QF**:**9/19 起曲面按需求排除。**(留档:1800R 曲面 4K 240Hz QD-OLED,RTINGS premium pick,Best Buy 4.7★,Dell 三年保修含烧屏;促销常见 $780-900,历史低点 $699.99(2026-02)——日后改主意再捡促销。)再往上(ASUS PG32UCDM $900-1,050、LG 32GS95UE 双模 4K240/FHD480 ~$1,000-1,300)属预算无上限选项。
 
-**怎么选(Mini LED 优先)**:$400 内 → **Acer XV325QK**(31.5″,1,152 分区)或 27 寸 XV275K(9/21 实测 $340.44,新低附近,§8);~$500 → INNOCN 32M2V(HDR 口碑最稳,官网购);~$650 要品牌调校与 90W USB-C → TCL 32R84(Mini LED 无烧屏焦虑,分区争议不影响画质结论)。**OLED 只在两种情况反超**:暗房电影占比高(Dell S3225QC,$519.99-641.99)或要 240Hz 游戏(MSI MPG 321URX $799.99 起;LG 32GX850A 回涨到 $799 后暂不推荐)。共同注意事项:Mini LED 暗场光晕是物理特性,VRR + 分区调光同开偶发闪烁;若仍入 OLED,记得防烧屏屏保/自动隐藏任务栏。
+**怎么选(Mini LED 优先)**:$400 内 → **Acer XV325QK**(31.5″,1,152 分区)或 27 寸 XV275K(9/28 实测 $345.46,§8);~$500 → INNOCN 32M2V(HDR 口碑最稳,官网购);~$650 要品牌调校与 90W USB-C → TCL 32R84(Mini LED 无烧屏焦虑,分区争议不影响画质结论)。**OLED 只在两种情况反超**:暗房电影占比高(Dell S3225QC——Amazon 回涨至 $742.46,走 Walmart ~$572/官翻 $519.99)或 240Hz 游戏(MSI MPG 321URX $799.99 起;LG 32GX850A 维持 $779.99,暂不推荐)。共同注意事项:Mini LED 暗场光晕是物理特性,VRR + 分区调光同开偶发闪烁;若仍入 OLED,记得防烧屏屏保/自动隐藏任务栏。
 
 ### 8. 显示器 27 寸档:比 32 寸更便宜(2026-09-19 增补)
 
@@ -377,7 +377,7 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 | 款 | 快照价 | 刷新 | 一句话定位 |
 |---|---|---|---|
-| [Samsung Odyssey G81SF](https://www.amazon.com/dp/B0DVM3BJHK) | **$799.00**(划线 $1,299.99) | 240Hz | 4K QD-OLED 166 PPI · Glare Free · 防烧全家桶 |
+| [Samsung Odyssey G81SF](https://www.amazon.com/dp/B0DVM3BJHK) | **$699.99**(9/28 大降 $99,新低;划线 $1,299.99) | 240Hz | 4K QD-OLED 166 PPI · Glare Free · 防烧全家桶 |
 | [MSI MPG 272URX](https://www.amazon.com/dp/B0DWYC5S8X) | **$799.99** | 240Hz | DP 2.1 UHBR20 · 98W USB-C · 3 年保修含烧屏 |
 | [ASUS ROG XG27UCDMG](https://www.amazon.com/dp/B0DM6RWRQC) | $948.38 | 240Hz | 2026 Tandem QD-OLED(PG27UCDM 现 $1,099 虚高)|
 
@@ -387,9 +387,9 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 ![MSI MPG 272URX](../assets/entries/025-irvine-landing-fall-guide/msi-272urx.jpg)
 *MSI MPG 272URX:27″ 4K 240Hz,DP 2.1、98W USB-C,角标直接印了 3 年 OLED 保修。图:Amazon 官方主图*
 
-**G81SF**:TechRadar 评它 "one of the best, if not the best, 4K 27-inch gaming monitor money can buy in its class";RTINGS 称其深黑 + 鲜艳、适合 HDR 内容消费。三星的差异化在**防烧全家桶**:Pulsating Heat Pipe 主动散热 + logo/任务栏亮度自动检测。**272URX**:与 32 寸 321URX 同门,规格最全(DP 2.1 UHBR20、98W USB-C、OLED Care 2.0、3 年保修含烧屏)。两台几乎同价:要三星防烧软件选 G81SF,要接口与保修条款选 272URX。
+**G81SF**:TechRadar 评它 "one of the best, if not the best, 4K 27-inch gaming monitor money can buy in its class";RTINGS 称其深黑 + 鲜艳、适合 HDR 内容消费。三星的差异化在**防烧全家桶**:Pulsating Heat Pipe 主动散热 + logo/任务栏亮度自动检测。**272URX**:与 32 寸 321URX 同门,规格最全(DP 2.1 UHBR20、98W USB-C、OLED Care 2.0、3 年保修含烧屏;9/28 仅剩 8 台)。**9/28 风向反转:G81SF 大降到 $699.99,比 272URX($799.99)便宜 $100——现在反向推荐 G81SF。**
 
-**和 32 寸怎么取舍**:OLED 预算优先 → **买 32 寸**(Dell $641.99 / LG $799.00;27 寸 OLED G81SF 9/21 实测 $789——LG 回涨后两边几乎同价,32 寸更大更划算);Mini LED 预算优先 → 27 寸 XV275K($340.44)全场最低;桌面深度 <70cm 或偏好小屏高密度(166 PPI 文字更细)→ 27 寸 OLED 值得;要大屏影音 → 32 寸。
+**和 32 寸怎么取舍**:OLED 预算优先 → **9/28 起反转:买 27 寸 G81SF($699.99)**,已低于 32 寸 OLED(Dell Amazon 回涨到 $742.46、官翻/Walmart $519-572 除外;LG $779.99);Mini LED 预算优先 → 27 寸 XV275K($345.46)全场最低;桌面深度 <70cm 或偏好小屏高密度(166 PPI 文字更细)→ 27 寸 OLED 值得;要大屏影音 → 32 寸。
 
 ### 9. 电助力自行车:美国主流平把 e-bike 横向调研(2026-09-19)
 
