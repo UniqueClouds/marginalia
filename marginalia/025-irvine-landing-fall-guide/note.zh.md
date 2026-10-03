@@ -424,12 +424,12 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 | ★[Lectric XP4 750 LR](https://lectricebikes.com/products/xp-black-long-range) | **$1,299** | 840Wh · UL 2849/2271 · 显示器 USB-C 输出 | 750W(峰值1,310W)/85Nm · 扭矩 | **Eco 63.4 / Turbo 36.9mi(EBR)** | ~72lb 带电池 | 50mm 弹簧叉 + 簧座管 | 单码 4'10"-6'3" ✓ |
 | [Lectric XP4 500](https://lectricebikes.com/products/xp-black) | $999 | 499Wh · UL 双认证 · USB-C | 500W/55Nm · 扭矩 | 55.1 / 30.2mi(EBR) | ~70lb | 50mm 叉 | 单码 ✓ |
 | [Lectric XPress 2](https://lectricebikes.com/products/xpress-750-high-step-black-ebike) | $1,399 | 672Wh · UL 2271 | 750W(峰值1,310W)/85Nm · 扭矩/踏频双模 | 无独立实测 | ~64lb | 硬叉(通勤定位) | 单码 ST/HS ✓ |
-| [Lectric XPeak 2.0](https://lectricebikes.com/products/xpeak-high-step-ebike) | $1,399(LR $1,599) | 720Wh / 960Wh LR · UL · USB-C | 750W(峰值1,310W)/85Nm · PWR+ 混合 | 46.1mi 纯油门(960Wh 版,EBR);官方 60/80 | ~75lb | 80mm RST 叉 | ST 5'2"-6'3" / HS 5'4"-6'5" ✓ |
+| [Lectric XPeak 2.0](https://lectricebikes.com/products/xpeak-high-step-ebike) | $1,499(LR $1,699) | 720Wh / 960Wh LR · UL · USB-C | 750W(峰值1,310W)/85Nm · PWR+ 混合 | 46.1mi 纯油门(960Wh 版,EBR);官方 60/80 | ~75lb | 80mm RST 叉 | ST 5'2"-6'3" / HS 5'4"-6'5" ✓ |
 | ★[Ride1Up Portola 02](https://ride1up.com/product/portola/) | **$895 起** | 480Wh / 720Wh 双档 · **UL 2849** | 750W/90Nm · **扭矩/踏频双模** | 25-45mi(10Ah)/ 30-60mi(15Ah) | — | 硬叉(折叠胖胎) | 单码,高步/中折两架 |
 | [Ride1Up TrailRush](https://ride1up.com/product/trailrush/) | $1,995 | 504Wh Samsung | **Brose 中置 90Nm · 扭矩** | 官方 30-50mi | — | **120mm RockShox + 150mm 升降座管** | M/L 两码 ✓ |
 | ★[Velotric Discover 2](https://www.velotricbike.com/products/velotric-discover-2) | **$1,499**(促)/$1,999 | 705.6Wh · UL 2271 · **USB-C 输出** | 750W(峰值1,100W)/75Nm · SensorSwap | **Eco 86.7 / Turbo 37.4mi(EBR)** | 63lb | 80mm 液压叉 | R 4'11"-5'9" / L 5'6"-6'4" ✓L |
 | [Velotric Nomad 2](https://www.velotricbike.com/products/velotric-nomad-2) | $1,999(**送 $550 长续航电池**) | 705.6Wh · UL 2271 · USB-C | 750W(峰值1,300W)/90Nm | 官方 65/45mi | 75lb(载重 505lb) | 100mm RST 叉 | R 5'2"-5'11" / L 5'10"-6'5" ✓L |
-| [Velotric Summit 1](https://www.velotricbike.com/products/velotric-summit-1) | $1,699 | 705.6Wh · UL 2271 | 750W(峰值1,300W)/90Nm | 官方 70/60mi | 62lb | 120mm 液压叉 | R 5'1"-5'10" / L 5'8"-6'6" ✓L |
+| [Velotric Summit 1](https://www.velotricbike.com/products/velotric-summit-1) | $1,599 | 705.6Wh · UL 2271 | 750W(峰值1,300W)/90Nm | 官方 70/60mi | 62lb | 120mm 液压叉 | R 5'1"-5'10" / L 5'8"-6'6" ✓L |
 | ★[Aventon Level 4 REC](https://www.aventon.com/products/level-4-rec) | $1,999 | 733Wh · UL · 能量回收 | 750W(Boost 1,440W)/80Nm · 扭矩 | **Eco 97 / Turbo 43.8mi(EBR)** | 68.5lb | 80mm 叉 + 50mm 簧座管 | R 5'3"-5'10" / L 5'10"-6'4" ✓L |
 | [Aventon Aventure 3](https://www.aventon.com/products/aventure-3) | $1,999 | 733Wh · UL 2271 | 750W(Boost 1,440W)/80Nm · 扭矩 | 官方 65mi(未独立实测) | 76lb(载重 400lb) | 80mm 叉 + 簧座管 + 26×4.0 | R / L ✓L |
 | [Aventon Ramblas ADV](https://www.aventon.com/products/ramblas-adv) | $2,899 | 708Wh · TÜV/UL 2271 | **A100 中置 250W(峰值750W)/100Nm · 扭矩** | EBR 续航总榜前 5(官方 90mi) | **54lb** | **130mm RockShox + 150mm dropper + SRAM 4 活塞** | M 165-176 / L 177-188 ✓L |
@@ -461,8 +461,8 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 - **Discover 2($1,499 促)——单配置性价比最高**:705.6Wh + USB-C 输出 + UL 双认证 + 440lb 载重,EBR 实测 Eco 86.7mi(RiderGuide 转引);Ebike Escape 称其座椅舒适度与整合度出色。r/ebikes 常见抱怨:63lb 偏重、DTC 售后无本地店、官方扭矩标称打架(75 vs 90Nm)。179cm 取 L。
 - **Level 4 REC($1,999)——媒体共识的「基准车」**:[Bicycling 2026-08](https://www.bicycling.com/bikes-gear/a20048026/best-electric-bikes/)(“our baseline e-bike”)、[OutdoorGearLab 85 分最佳日常](https://www.outdoorgearlab.com/topics/biking/best-electric-bike)、EBR「最佳通勤」三家同选;扭矩传感 + 动能回收 + 733Wh,EBR 实测 Eco 97mi 为全表第一。短板:Aventon 售后响应慢是 Reddit 长期吐槽点。
 - **Aventure 3($1,999)**:fat 胎全能位,400lb 载重 + 80mm 叉 + 簧座管,Boost 模式 30 秒超频;EBR 好评但 76lb 是全表最重之一。
-- **Nomad 2($1,999 + 送 $550 长续航电池)**:等于**双电池出厂**,续航上限翻倍;载重 505lb 全表第一,EBR 4.7/5「最佳舒适」;要全避震看新出的 Nomad 2X($2,299,后避震版本)。
-- **Summit 1($1,699)**:Velotric 的入门山地——120mm 叉 + 27.5×2.6 + Shimano 油碟;[Ebike Escape](https://ebikeescape.com/velotric-summit-1-review) 评 "most affordable trail-worthy ebike",但轮毂电机爬陡坡上限低于中置。
+- **Nomad 2($1,999 + 送 $550 长续航电池)**:等于**双电池出厂**,续航上限翻倍;载重 505lb 全表第一,EBR 4.7/5「最佳舒适」;要全避震看新出的 Nomad 2X($2,399,后避震版本)。
+- **Summit 1($1,599)**:Velotric 的入门山地——120mm 叉 + 27.5×2.6 + Shimano 油碟;[Ebike Escape](https://ebikeescape.com/velotric-summit-1-review) 评 "most affordable trail-worthy ebike",但轮毂电机爬陡坡上限低于中置。
 - **Mokwheel Basalt ST 2.0($1,800)**:940Wh 全表第二大电池,独家卖点是**电池可外接逆变器当移动电源**(另购配件),露营/停电神器;[ElectricBikeReview 实测口径](https://electricbikereview.com/mokwheel/basalt-2-review)好,但小厂 QC 抽奖(有控制器雨后故障个案)。
 - **Radster Road($1,999)⚠️**:硬件是 Rad 史上最强(100Nm 扭矩 + UL 双认证 + 720Wh),但 **Rad Power 2025-12 申请 Chapter 11**、资产 $13.2M 卖给 Life EV(2026-03 交割),**2025-12-15 前售出车辆的保修不再兑现**——按「买硬件不买保修」评估,不推荐新手买。
 
@@ -502,11 +502,11 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 | 车型(ASIN) | 价 | 评价 | 电池 / 电机 | 真实续航估 | UL 措辞强度 | 92617 配送 |
 |---|---|---|---|---|---|---|
-| ★[Loeook EB-M1](https://www.amazon.com/dp/B0GCZK19ZB)(即流传的 $200 台) | $229.99 + $80 运费 | 4.4★/193 | 48V 374.4Wh 可拆 / 500W 额定(1000W peak)·钢架 56.9lb | 19-31mi(标 50mi) | **最强**:UL 2271 by SGS + UL 2849 by TÜV | ✅ 9/23-24 达,余 16 |
-| Funhang EB-M1(同车换牌,B0G93DRBZM) | $229.99 | 4.3★/263 | 同上 | 同上 | 强(同厂文件) | ❌ cannot ship——买 Loeook 的 ASIN |
-| ★[Vivi Peak 750W](https://www.amazon.com/dp/B0C1SQ5Z1L) | $394.62 免运费 | 4.4★/97 | 374.4Wh / 500W 额定(749W peak)·铝叉 | 19-31mi | 中:SGS Certified to UL2849 | ✅ Amazon 自营发货 |
-| [ANCHEER Sunshine](https://www.amazon.com/dp/B0GBWYZPVR) | $409.99 免运费 | 4.3★/**598** | 374Wh / 500W | 19-31mi | 中:UL2849(未署认证机构) | ✅ 余 8 |
-| ★[ANCHEER Gladiator](https://www.amazon.com/dp/B0GVGVFXMG) | $449.99 免运费 | 4.1★/111 | **48V 10.4Ah=499Wh** / 500W(749W peak) | **25-42mi**(本档最大电池) | 中:UL2849 Compliant | ✅ 余 19 |
+| ★[Loeook EB-M1](https://www.amazon.com/dp/B0GCZK19ZB)(即流传的 $200 台) | $219.99 + 运费(9/28 实测) | 4.4★/193 | 48V 374.4Wh 可拆 / 500W 额定(1000W peak)·钢架 56.9lb | 19-31mi(标 50mi) | **最强**:UL 2271 by SGS + UL 2849 by TÜV | ✅ 9/23-24 达,余 16 |
+| Funhang EB-M1(同车换牌,B0G93DRBZM) | $219.99 | 4.3★/263 | 同上 | 同上 | 强(同厂文件) | ❌ cannot ship——买 Loeook 的 ASIN |
+| ★[Vivi Peak 750W](https://www.amazon.com/dp/B0C1SQ5Z1L) | $475.99 免运费 | 4.4★/97 | 374.4Wh / 500W 额定(749W peak)·铝叉 | 19-31mi | 中:SGS Certified to UL2849 | ✅ Amazon 自营发货 |
+| [ANCHEER Sunshine](https://www.amazon.com/dp/B0GBWYZPVR) | $399.99 免运费 | 4.3★/**598** | 374Wh / 500W | 19-31mi | 中:UL2849(未署认证机构) | ✅ 余 8 |
+| ★[ANCHEER Gladiator](https://www.amazon.com/dp/B0GVGVFXMG) | $469.99 免运费 | 4.1★/111 | **48V 10.4Ah=499Wh** / 500W(749W peak) | **25-42mi**(本档最大电池) | 中:UL2849 Compliant | ✅ 余 19 |
 | Jasion EB5(B09L63HGDP,#1 Best Seller) | $199 | 4.1★/2,617 | 360Wh / 350W 额定(标 1000W peak) | 独立实测 14-20mi | **无 UL 标注** | ❌ 「local laws or Amazon policy」屏蔽 |
 | Qlife Racer(B0G93PR6RB) | $239.99 | 4.5★/122 | 374.4Wh / 额定功率不标注 | 19-31mi | 无 | ❌ 屏蔽 |
 | HopCycle/VOLTVOGUE EB3S(B0GVJQ5235) | $299.99 | 4.4★/79 | 标「15Ah」但规格表写 36Wh,自相矛盾 | 不可信 | SGS ANSI/CAN/UL 2849 | ❌(观测) |
@@ -517,7 +517,7 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 | 渠道 | 保障 | 给 179cm 的当日现价 |
 |---|---|---|
-| [Upway.co](https://upway.co)(认证翻新,Carvana 模式) | **1 年保修 + 14 天退货**,50 点质检,电池 <80% 容量直接换新,加州可送(运费 $99 起) | **Aventon Level.2 $1,049**(原 $1,599;新客码 `WELCOME100` → ~$949)· Aventure $999 · Velotric Discover 1 $1,049 · Pace 350.2 $649 · Specialized Tero 3.0 $2,249 起 |
+| [Upway.co](https://upway.co)(认证翻新,Carvana 模式) | **1 年保修 + 14 天退货**,50 点质检,电池 <80% 容量直接换新,加州可送(运费 $99 起) | **Aventon Level.2 $1,149-1,199**(9/28 复价回升;9/19 曾 $1,049,`WELCOME100` 仍可用)· Aventure(2021) $899-999 · 翻新 Aventure 3 $1,599 / Soltera 3 ADV $1,199 新上架 · Discover 1 / Pace 350.2 本周未列 |
 | eBay Refurbished 档 | SquareTrade 1-2 年保修 + eBay MBG | 二手 Level.2 $950-1,100 · Discover 2 $1,100-1,500 |
 | OC 本地二手(FB Marketplace / Craigslist) | 无保障、可试骑、现金价 | **XP 3.0 $450-650 · XP4 $600-800**(见过 0 mile $700)· Pace 500 $400-650 · Level.2 $800-1,150 · Discover 2 $1,100-1,450 · **RadRover 破产后 $500-850**(无保修,慎入) |
 | Amazon Resale(原 Warehouse) | 30 天退 | 基本无 e-bike 库存,跳过 |
@@ -525,7 +525,9 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 **二手验车五步**:①电池——问循环数、满电电压拍照,**鼓包一票否决**(换电池 $350-600 会直接吃掉折扣);②认 UL 标(Lectric/Aventon/Velotric 全系有;2023 前的 Rad 与白牌没有);③取出电池开机测表头/灯光,听电机有无打磨异响,试刹车断电;④查头管/尾勾/电机座裂纹;⑤序列号对 listing、[bikeindex.org](https://bikeindex.org) 查盗、写日期收据。SB 1271 只管新售/租赁,私人二手不受罚——但无证二手车意味着充电风险与将来难转手,**优先收大牌认证车**。
 
-最省心路线:**Upway 的 Level.2 $1,049(叠码 ~$949)**,有保修有退货,比新机省 $650;绝对省钱路线:**OC 本地 $600-750 收 XP4/XP 3.0**,验完电池电机再付钱。
+最省心路线:**Upway 的 Level.2 ~$1,149(9/28 价,叠码再减 $100)**,有保修有退货,比新机省 ~$450;
+
+**复价记录 2026-09-28(第 1 期周报)**:品牌档——XPeak 2.0 促销架撤除,标准/LR 全面 +$100($1,499 / LR $1,699);Summit 1 −$100 到 $1,599;Nomad 2X +$100 到 $2,399;其余 11 款 ±$0(Lectric 全线、Level 4 REC、Aventure 3、Ramblas、Portola、TrailRush、Basalt ST 2.0、Current Plus);Velotric 新上市 Discover 3($1,999)/ Summit 2($1,999)/ Discover M($2,499,中置)。Amazon 预算档——Vivi +$81 到 $475.99、Gladiator +$20 到 $469.99、Loeook −$10 到 $219.99(档内新低)、Sunshine −$10 到 $399.99;EB5/Funhang 配送屏蔽未变。二手——Upway Level.2 回升 $1,149-1,199,翻新 Aventure 3($1,599)/ Soltera 3 ADV($1,199)上架。绝对省钱路线:**OC 本地 $600-750 收 XP4/XP 3.0**,验完电池电机再付钱。
 
 **六家媒体的 2026 榜单共识**(获奖位与上表交叉验证一致):
 
