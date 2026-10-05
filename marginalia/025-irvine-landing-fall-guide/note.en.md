@@ -501,6 +501,21 @@ Excluded on the record: AOC Q27 260Hz ($159.99, 4.6★ — tilt-only, no pivot),
 
 **Brand risk, ranked (2026-09)**: dealer brands (Cannondale/Marin/Trek/Giant/Specialized) > large DTC (Lectric/Aventon/Velotric/Ride1Up) > mid-size DTC (Heybike/Mokwheel) > Amazon white-labels (Jasion/Engwe/Totem) > bankrupt-reboot (Rad) > dead (Juiced). Two cautionary tales: **Juiced went bankrupt in late 2024 and Lectric bought the IP in Mar 2025 — batteries and warranties evaporate with the company**; and Rad Power above. White-label pathologies: inflated wattage ("2500W peak" is a peak marketing number), no UL (unsellable in California after SB 1271), and after-sales that live exactly as long as the store.
 
+**Long-range tier (added 2026-10-05 — the honest-60mi+ candidates; prices = same-day site snapshots)**:
+
+| Model | Price | Battery config (all removable) | Range (tested first) | Form factor / notes |
+|---|---|---|---|---|
+| ★[NIU BQi-C3 Pro](https://shop.niu.com/products/niu-bqi-c3-pro-bike) | **$799 clearance**(was $1,999-2,499) | **dual 2×48V 9.6Ah ≈ 920Wh** · UL 2849 | claimed 90mi; [Tom's Guide "best for range anxiety"](https://www.tomsguide.com/reviews/niu-bqi-c3-pro-e-bike); Best Buy owner reviews cluster at 30-50mi real | step-thru commuter, Gates belt + hydraulics, 70.5lb; **clearance caveats: the $250 spare battery and chargers are out of stock on NIU's shop, and NIU's US operation is small — after-sales is on you** |
+| [Aventon Level 4 ADV](https://www.aventon.com/products/level-4-adv) | $2,799 | 800Wh Samsung | **EBR-tested 118mi Eco / 55mi Turbo (longest tested on this table)** | commuter + light trail, Ultro S mid-drive; the no-compromise answer |
+| [Lectric XPeak 2.0 std](https://lectricebikes.com/products/xpeak-high-step-ebike) | $1,299 | 720Wh | eco-60mi class | fat hardtail, just dropped $200 this week (see reprice log) |
+| [Lectric XPeak 2.0 LR](https://lectricebikes.com/products/xpeak-high-step-long-range-ebike) | $1,699 | **960Wh** | EBR 46.1mi throttle-only, near-80mi eco | the big-battery off-road pick |
+| [Heybike Ranger 3.0 Pro](https://heybike.com/products/ranger-3-0-pro) | $1,399 (Special Offer, was $1,499) | 720Wh · torque sensor | claimed 90mi (no independent test) | folding fat; strong spec/price, weaker service reputation than Lectric |
+| [Mokwheel Scoria 2.0](https://mokwheel.com/products/scoria) | $1,800 | **940Wh** IPX7 · UL 2849 | dealer-measured ~48mi mixed, eco 60-80 | step-thru commuter; optional inverter AC output |
+| [Himiway D5 2.0](https://himiwaybike.com/products/d5-2) | $1,999 (ST same) | **960Wh** (48V 20Ah) | claimed 80mi class (no independent test) | established fat-cruiser brand; overlaps Lectric LR pricing — pick the Lectric unless you want the full-fat package |
+| [Velotric Discover 3](https://www.velotricbike.com/products/velotric-discover-3-commuter-ebike) | $1,999 | 705.6Wh class (Discover 2 generation) | claimed ~75mi | Discover 2's successor at launch price — wait for cuts |
+
+**How to buy long-range**: NIU at $799 is the new range-per-dollar king, but you're buying the triple package of clearance pricing, a big-name spec sheet, and owner reviews that undercut the claim — accept the after-sales risk or move on. The $1,299 Lectric pair (XP4 750 LR / XPeak std) is the steady answer; with an unlimited budget, the Level 4 ADV's tested 118mi is in a class of its own. Range-extender route: the Specialized Tero 3.0 / Giant Talon E+ / Trek Marlin+ all take a 250Wh extender, but the total beats the Lectric LR — only worth it if you're already committed to the dealer-brand ecosystem.
+
 **Addendum: why do $350 Amazon bikes also claim "60-90mi" — the actual gap**(added 2026-09-19):
 
 1. **Advertised range is a best-case scenario**: minimum assist + flat ground + a light rider + a steady 12-15mph cruise. "90mi" implies <11Wh/mi, reachable only under those conditions; mixed-assist riding at real speeds (15-20mph) burns 15-25Wh/mi, so a 360-500Wh pack honestly delivers **20-40mi**. EBR's figures (used in this table) come from riding the battery to empty at Eco and at Turbo — the two kinds of numbers were never comparable.

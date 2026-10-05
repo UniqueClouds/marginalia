@@ -501,6 +501,21 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 **避雷与品牌风险(2026-09 排序)**:经销商体系(Cannondale/Marin/Trek/Giant/Specialized)> 大体量 DTC(Lectric/Aventon/Velotric/Ride1Up)> 中型 DTC(Heybike/Mokwheel)> Amazon 白牌(Jasion/Engwe/Totem)> 破产重组(Rad)> 已死(Juiced)。两个教案:**Juiced 2024 末破产,Lectric 2025-03 收购 IP 重建——电池与保修随公司死亡蒸发**;Rad Power 见上。白牌通病:虚标功率("2500W peak" 是峰值营销)、无 UL(SB 1271 后已在加州禁售)、售后即店铺寿命。
 
+**长续航专列(2026-10-05 增补,「真 60mi+」硬指标候选,价格=当日官网快照)**:
+
+| 车型 | 价 | 电池配置(均可拆) | 续航(实测优先) | 形制 / 备注 |
+|---|---|---|---|---|
+| ★[NIU BQi-C3 Pro](https://shop.niu.com/products/niu-bqi-c3-pro-bike) | **$799 清仓**(原 $1,999-2,499) | **双电 2×48V 9.6Ah ≈ 920Wh** · UL 2849 | 标称 90mi;[Tom's Guide「best for range anxiety」](https://www.tomsguide.com/reviews/niu-bqi-c3-pro-e-bike);Best Buy 实口碑 30-50mi 抱怨集中 | Step-thru 通勤,Gates 皮带 + 油碟,70.5lb;**清仓尾货:备用电池($250)与充电器官网缺货,NIU 美国体量小=售后自负** |
+| [Aventon Level 4 ADV](https://www.aventon.com/products/level-4-adv) | $2,799 | 800Wh Samsung | **EBR 实测 Eco 118mi / Turbo 55mi(全表实测第一)** | 通勤+轻越野,中置 Ultro S;预算无压力的长续航答案 |
+| [Lectric XPeak 2.0 标准版](https://lectricebikes.com/products/xpeak-high-step-ebike) | $1,299 | 720Wh | eco 60mi 级 | 胖胎山地,本周刚降 $200(见复价记录) |
+| [Lectric XPeak 2.0 LR](https://lectricebikes.com/products/xpeak-high-step-long-range-ebike) | $1,699 | **960Wh** | EBR 46.1mi 纯油门,eco 近 80mi | 大电池越野位 |
+| [Heybike Ranger 3.0 Pro](https://heybike.com/products/ranger-3-0-pro) | $1,399(Special Offer,原 $1,499) | 720Wh · 扭矩传感 | 标称 90mi(无独立实测) | 折叠胖胎;配置/价格好,售后口碑弱于 Lectric |
+| [Mokwheel Scoria 2.0](https://mokwheel.com/products/scoria) | $1,800 | **940Wh** IPX7 · UL 2849 | 经销商实测 ~48mi 混合,eco 60-80 | 通勤(ST);可外接逆变器 AC 输出 |
+| [Himiway D5 2.0](https://himiwaybike.com/products/d5-2) | $1,999(ST 同价) | **960Wh**(48V 20Ah) | 标称 80mi 级(无独立实测) | 胖胎巡航老牌;价位与 Lectric LR 重叠,除非要全配置 fat 否则选后者 |
+| [Velotric Discover 3](https://www.velotricbike.com/products/velotric-discover-3-commuter-ebike) | $1,999 | 705.6Wh 级(Discover 2 同代) | 标称 ~75mi | Discover 2 继任者,上市价,等降价 |
+
+**长续航怎么买**:$799 的 NIU 是续航/价格比新王,但买的是「清仓价 + 大牌名单 + 实口碑落差」三件套——下手前接受售后风险;$1,299 的 Lectric 双雄(XP4 750 LR / XPeak 标准版)是稳态答案;要 EBR 实测背书且预算无压力,Level 4 ADV 的实测 118mi 一骑绝尘。增程路线:Specialized Tero 3.0 / Giant Talon E+ / Trek Marlin+ 均可加 250Wh 增程电池,但增程后总价都超过 Lectric LR,只适合已锁定大牌经销商体系的人。
+
 **增补:为什么 Amazon $350 的车也敢标「60-90mi」——和本表差距在哪**(2026-09-19):
 
 1. **宣传续航是「最优场景」的产物**:最低助力 + 平路 + 轻骑手 + 12-15mph 巡航。「90mi」意味着 <11Wh/mi,只有上述条件踩得到;真实混合助力(15-20mph)是 15-25Wh/mi,360-500Wh 电池实骑 **20-40mi**。本表的 EBR 口径是骑到电池耗尽、Eco↔Turbo 各一轮——两组数字本来就不可以直接比较。
