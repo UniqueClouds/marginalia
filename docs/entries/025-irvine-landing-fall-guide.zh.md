@@ -291,7 +291,7 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 ### 7. 显示器:32″ 4K Mini LED / OLED 梯队(2026-09-19)
 
-> 需求线:32 寸 + 4K + 面板必须是 Mini LED 或 OLED + 刷新率 ≥100Hz——入选款实际全部 ≥120Hz。**9/19 定调:不要曲面屏,且用户偏好 Mini LED**(曲面款 Neo G7 / AW3225QF 表中保留仅作记录,已出局)。快照价 2026-10-03(周一例行 + monitor.deals(Hardware Unboxed 团队促销跟踪站)参考扫描;改动 ≥$30 才入册):**用浏览器逐款实测 Amazon 页面实价**(zip 92617),并与 TCL/MSI/Dell/INNOCN 官方页及 Walmart 行情交叉核验;促销波动大,**下单以页面实价为准**。测评意见来自 RTINGS、TechPowerUp、Tom's Hardware、WIRED、DisplayNinja 与 Reddit 实测帖(链接内联,可达性已验证)。
+> 需求线:32 寸 + 4K + 面板必须是 Mini LED 或 OLED + 刷新率 ≥100Hz——入选款实际全部 ≥120Hz。**9/19 定调:不要曲面屏,且用户偏好 Mini LED**(曲面款 Neo G7 / AW3225QF 表中保留仅作记录,已出局)。快照价 2026-10-05(每周一自动复扫,改动 ≥$30 才入册):**用浏览器逐款实测 Amazon 页面实价**(zip 92617),并与 TCL/MSI/Dell/INNOCN 官方页及 Walmart 行情交叉核验;促销波动大,**下单以页面实价为准**。测评意见来自 RTINGS、TechPowerUp、Tom's Hardware、WIRED、DisplayNinja 与 Reddit 实测帖(链接内联,可达性已验证)。
 
 **三句话结论**:
 
@@ -379,7 +379,7 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 |---|---|---|---|
 | [Samsung Odyssey G81SF](https://www.amazon.com/dp/B0DVM3BJHK) | **$699.99**(9/28 新低;10/3 monitor.deals 现跟踪 $750——促销已收,再现 $700 内可冲) | 240Hz | 4K QD-OLED 166 PPI · Glare Free · 防烧全家桶 |
 | [MSI MPG 272URX](https://www.amazon.com/dp/B0DWYC5S8X) | **$799.99**(10/3 仅剩 1 台;monitor.deals 曾闪促 $750 已过期) | 240Hz | DP 2.1 UHBR20 · 98W USB-C · 3 年保修含烧屏 |
-| [ASUS ROG XG27UCDMG](https://www.amazon.com/dp/B0DM6RWRQC) | $948.38 | 240Hz | 2026 Tandem QD-OLED(PG27UCDM 现 $1,099 虚高)|
+| [ASUS ROG XG27UCDMG](https://www.amazon.com/dp/B0DM6RWRQC) | **$899.00**(10/5 降 $49,低于首发)| 240Hz | 2026 Tandem QD-OLED(PG27UCDM 现 $1,099 虚高)|
 
 ![Samsung Odyssey G81SF](../assets/entries/025-irvine-landing-fall-guide/samsung-g81sf.jpg)
 *Samsung Odyssey G8 27″ 官方图(角标沿用系列旧文案,listing 实为 G81SF 4K 240Hz)。图:Amazon 官方主图*

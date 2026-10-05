@@ -291,7 +291,7 @@ The two picks are $7 apart: **DUMOS 16″ by default** ($43.19); UNIPEAK if stru
 
 ### 7.7 Monitors: the 32″ 4K Mini LED / OLED ladder (2026-09-19)
 
-> Requirements: 32″ + 4K + the panel must be Mini LED or OLED + refresh ≥100Hz — every pick here is in fact ≥120Hz. **Settled 9/19: no curved panels, and the user leans Mini LED** (the curved Neo G7 / AW3225QF stay in the tables for the record, out of the running). Snapshot prices as of 2026-10-03 (Monday cadence plus a reference scan of monitor.deals, the Hardware Unboxed team's deal tracker; only moves ≥$30 make it into the tables): **live Amazon pages walked one by one in a real browser** (ZIP 92617), cross-checked against TCL/MSI/Dell/INNOCN official pages and Walmart; promos move fast, so **trust the live page at checkout**. Review opinions come from RTINGS, TechPowerUp, Tom's Hardware, WIRED, DisplayNinja and Reddit hands-on threads (linked inline, reachability verified).
+> Requirements: 32″ + 4K + the panel must be Mini LED or OLED + refresh ≥100Hz — every pick here is in fact ≥120Hz. **Settled 9/19: no curved panels, and the user leans Mini LED** (the curved Neo G7 / AW3225QF stay in the tables for the record, out of the running). Snapshot prices as of 2026-10-05 (automatic Monday rescan; only moves ≥$30 make it into the tables): **live Amazon pages walked one by one in a real browser** (ZIP 92617), cross-checked against TCL/MSI/Dell/INNOCN official pages and Walmart; promos move fast, so **trust the live page at checkout**. Review opinions come from RTINGS, TechPowerUp, Tom's Hardware, WIRED, DisplayNinja and Reddit hands-on threads (linked inline, reachability verified).
 
 **The verdict in three lines**:
 
@@ -379,7 +379,7 @@ The two picks are $7 apart: **DUMOS 16″ by default** ($43.19); UNIPEAK if stru
 |---|---|---|---|
 | [Samsung Odyssey G81SF](https://www.amazon.com/dp/B0DVM3BJHK) | **$699.99** (9/28 new low; monitor.deals now tracks it at $750 on 10/3 — promo closed, jump if it dips under $700 again) | 240Hz | 4K QD-OLED 166 PPI · Glare Free · full anti-burn-in kit |
 | [MSI MPG 272URX](https://www.amazon.com/dp/B0DWYC5S8X) | **$799.99** (1 left on 10/3; monitor.deals' $750 flash deal has expired) | 240Hz | DP 2.1 UHBR20 · 98W USB-C · 3-yr burn-in warranty |
-| [ASUS ROG XG27UCDMG](https://www.amazon.com/dp/B0DM6RWRQC) | $948.38 | 240Hz | 2026 Tandem QD-OLED (PG27UCDM currently $1,099, inflated) |
+| [ASUS ROG XG27UCDMG](https://www.amazon.com/dp/B0DM6RWRQC) | **$899.00** (down $49 on 10/5, under its debut price) | 240Hz | 2026 Tandem QD-OLED (PG27UCDM currently $1,099, inflated) |
 
 ![Samsung Odyssey G81SF](../assets/entries/025-irvine-landing-fall-guide/samsung-g81sf.jpg)
 *Samsung Odyssey G8 27″ official image (badge carries the series' older copy; the listing is the G81SF, 4K 240Hz). Image: Amazon listing*
