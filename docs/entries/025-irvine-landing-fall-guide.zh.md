@@ -500,7 +500,9 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 **长续航怎么买**:$799 的 NIU 是续航/价格比新王,但买的是「清仓价 + 大牌名单 + 实口碑落差」三件套——下手前接受售后风险;$1,299 的 Lectric 双雄(XP4 750 LR / XPeak 标准版)是稳态答案;要 EBR 实测背书且预算无压力,Level 4 ADV 的实测 118mi 一骑绝尘。增程路线:Specialized Tero 3.0 / Giant Talon E+ / Trek Marlin+ 均可加 250Wh 增程电池,但增程后总价都超过 Lectric LR,只适合已锁定大牌经销商体系的人。
 
-**增补:为什么 Amazon $350 的车也敢标「60-90mi」——和本表差距在哪**(2026-09-19):
+**UC/学生优惠通道(2026-10-05 核)**:UC 系统级 [e-bike purchase program](https://procurement.ucop.edu/news/new-e-bike-purchase-program)(2024-01 起,UAW 协议产物)——指定 vendor 就四家:**Lectric、Ride1Up、Velotric、Dirwin**,学生/教职工用 UC 邮箱在 vendor 官网注册即可看 UC 目录价,官方口径「部分型号 15%-60% off」([bike.uci.edu](https://www.bike.uci.edu) 为 UCI 入口)。**XPeak/XP4 750 若在 UC 目录打 15%,\$1,299 即变 \$1,104——这是「\$1,000 上下」最现实的通道,下单前必查**;Ride1Up TrailRush 与 Velotric Summit 同理。叠加项:Aventon 有 ID.me 学生 5% 与 Student Beans \$75(官网校验);Lectric 无学生折扣但本身就是 UC vendor;CARB 个券(最高 \$2,000)资金 2025-12 已枯竭。UC 目录价与公开促销通常二选一不可叠。
+
+**增补:为什么 Amazon \$350 的车也敢标「60-90mi」——和本表差距在哪**(2026-09-19):
 
 1. **宣传续航是「最优场景」的产物**:最低助力 + 平路 + 轻骑手 + 12-15mph 巡航。「90mi」意味着 <11Wh/mi,只有上述条件踩得到;真实混合助力(15-20mph)是 15-25Wh/mi,360-500Wh 电池实骑 **20-40mi**。本表的 EBR 口径是骑到电池耗尽、Eco↔Turbo 各一轮——两组数字本来就不可以直接比较。
 2. **电池是最大的成本差,也是最大的安全差**:大牌用 LG/Samsung 21700 电芯 + 认证 BMS(UL 2271);白牌常用杂牌电芯且容量虚标(标 20Ah 实际 14-16Ah),循环寿命与热失控风险差一个档次。
