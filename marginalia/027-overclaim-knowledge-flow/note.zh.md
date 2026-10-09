@@ -5,6 +5,11 @@ date: 2026-10-08
 published: 2026-10-08
 kind: proposal
 sources:
+  - "Peng, Qiu, Fosse & Uzzi (2024), doi:10.1073/pnas.2320066121；PMC 全文"
+  - "Qiu, Chen & Li (2026), Counterfactual LLM-based Framework for Measuring Rhetorical Style；ICLR 正式论文"
+  - "Fang et al. (2022), doi:10.1145/3510003.3510121；作者实验室全文"
+  - "Stavrova et al. (2025), doi:10.1038/s44271-025-00293-8；出版者全文"
+  - "Chen, Teplitskiy & Jurgens (2025), doi:10.18653/v1/2025.acl-long.1534；ACL Anthology"
   - "Gilbert (1977), doi:10.1177/030631277700700112；出版者记录"
   - "Small (1978), doi:10.1177/030631277800800305；出版者摘要与原文扫描"
   - "Latour (1987), Science in Action；作者书目与原书第一部分扫描"
@@ -20,20 +25,36 @@ sources:
   - "Szulanski (1996), doi:10.1002/smj.4250171105；Wiley 摘要与元数据"
 initial-prompt: "overclaim in academic research paper；overclaim and 形式上 或者 名义上的 知识流动 而非实质上的流动。搜索相关的一些基础文献放进去即可，然后更新我的网页。"
 agent: Codex
-follow-up-prompt: "知识社会学和科学学没有这个相关内容的探究的文献么"
+follow-up-prompt: "知识社会学和科学学没有这个相关内容的探究的文献么；联系 Sophie Qiu 的 promotional language、陈鸿的 Counterfactual LLM-based Framework for Measuring Rhetorical Style，以及 Hongbo 的 This Is Damn Slick，研究修辞性论文（包括 overclaim）是否更容易被引用。"
 model: GPT-6
 issue: 75
 ---
 
 # Overclaim 与名义上的知识流动——研究想法与基础文献
 
-> 研究种子：学术论文中的 overclaim，是否让关于知识的宣称流动得更快，却不一定让知识本身被理解、检验或转化？本条整理问题和基础文献，尚无实证结果。
+> 研究种子：论文的修辞是否提高可见度与被引用的机会？这些引用又有多少转化为实质知识使用，overclaim 是否改变这种转化？本条整理问题和基础文献，尚无本研究的实证结果。
 
 ## 核心想法
 
-论文对贡献、普适性、因果关系或现实影响的宣称，可能超过其研究设计与证据所支持的范围。这样的 **overclaim（过度宣称）** 不仅是写作或研究诚信问题，也可以从知识流动的角度研究：下游接收到的是有条件的研究发现，还是被包装成确定事实的贡献叙事？
+将入口从 overclaim 扩展到**论文的修辞及其后续接受**：promotional language 强调重要性或新颖性；rhetorical style 还包括愿景、确定性与贡献的组织方式。**Overclaim（过度宣称）** 则要求判断宣称是否超出设计与证据。它可以借助修辞实现，却不是所有强修辞或积极用词的同义词。
 
-一个待检验的机制是：较强的宣称更容易被引用、复述和用来证明研究的重要性；但其方法、证据边界和适用条件并未随之进入下游工作。由此可能出现**可见的传播与实质的知识使用之间的脱耦**。也可能存在相反路径：强宣称引发更多检验、批评和修正，从而促进实质性流动。
+拟议的传播链是：**修辞呈现 → 被注意／阅读 → 被引用 → 实质使用**。已有研究支持其中修辞与引用、关注的关联；每一步的转化仍需分别观察。强修辞可能帮助有价值的发现被采用，也可能主要增加背景引用或合法化用途，还可能引发实质性的检验、批评和修正。
+
+原来的问题因此保留为更具体的一支：当宣称超出证据时，下游接收到的是有条件的研究发现，还是被包装成确定事实的贡献叙事？应同时观察**使用的深度**与**传递的准确性**，因为失真的论断也可能被实质采用。
+
+## 与 promotional language、修辞测量和 OSS 宣传研究的连接
+
+1. **Peng, H., Qiu, H. S., Fosse, H. B., & Uzzi, B. (2024). _Promotional language and the adoption of innovative ideas in science._ PNAS, 121(25), e2320066121.** [全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC11194578/) · [DOI](https://doi.org/10.1073/pnas.2320066121)。Sophie Qiu 的这项共同一作研究分析**基金申请书**中的宣传性语言，关联资助、创新性及受资助项目后续论文的产出和引用。它提示修辞参与科学资源配置；没有直接测量论文摘要修辞，也没有把宣传性语言等同于无依据的夸大。文中的词语替换检验针对模型预测，不能当作真实引用的随机实验。
+
+2. **Qiu, J., Chen, H., & Li, Z. (2026). _Counterfactual LLM-based Framework for Measuring Rhetorical Style._ ICLR 2026.** [正式记录](https://proceedings.iclr.cc/paper_files/paper/2026/hash/085b4b5d1f81ad9e057ad2b3de922ad4-Abstract-Conference.html) · [正式全文](https://proceedings.iclr.cc/paper_files/paper/2026/file/085b4b5d1f81ad9e057ad2b3de922ad4-Paper-Conference.pdf)。对相同实质内容生成不同 persona 的摘要，结合成对比较与 Bradley–Terry 模型测量修辞。在 8,485 篇 ICLR 投稿中，控制评审均分、子领域和年份后，修辞强度仍正向预测引用与媒体关注。这已经直接覆盖“修辞性论文是否更容易被引用”的关联问题。**反事实用于测量风格，未随机改变真实论文的曝光**；评审分数也只是质量代理，因此不能直接解释为修辞的因果效应。
+
+3. **Fang, H., Lamba, H., Herbsleb, J., & Vasilescu, B. (2022). _“This Is Damn Slick!” Estimating the Impact of Tweets on Open Source Project Popularity and New Contributors._ ICSE 2022, 2116–2129.** [作者全文](https://cmustrudel.github.io/papers/fang2022twitter.pdf) · [DOI](https://doi.org/10.1145/3510003.3510121)。Hongbo 的研究使用匹配与双重差分，估计推文集中提及对 OSS 项目的影响：平均新增 stars 约增加 7%，新增 commit authors 约增加 2%。可借鉴的是**把受欢迎程度与实际参与分开测量**。处理变量是推文曝光，不是标题中那句话的修辞强度；“宣传性”分类也主要依据链接对象。Stars、贡献者与论文引用、知识使用只能作机制类比，不能直接互换。
+
+4. **Stavrova, O., Kleinberg, B., Evans, A. M., & Ivanović, M. (2025). _Scientific publications that use promotional language in the abstract receive more citations and public attention._ Communications Psychology, 3, 118.** [全文](https://www.nature.com/articles/s44271-025-00293-8)。直接分析 Nature、Science 和 PNAS 的 136,615 篇摘要：宣传词占比每增加 **1 个百分点**，模型预测年均引用多约 9–14%；有控制变量的模型约为 9%。这是论文语言与引用关联的另一项直接证据，尚不是因果识别。详见已有 [023 · 顶刊媒体化](../023-journal-mediatization/note.zh.md)。
+
+5. **Chen, H., Teplitskiy, M., & Jurgens, D. (2025). _The Noisy Path from Source to Citation: Measuring How Scholars Engage with Past Research._ ACL 2025, 31786–31802.** [正式记录与全文](https://aclanthology.org/2025.acl-long.1534/)。陈鸿的另一篇论文匹配被引原文论断与引用句，测量 **citation fidelity（引用忠实度）**，并研究引用链中的失真。它为连接“源论文修辞—下游论断变化”提供工具。忠实度与实质使用仍须分别编码：准确复述未必改变研究，经过改造的方法也可能被实质使用。
+
+**研究定位**：既然修辞与被引用的关联已有直接研究，更值得推进的是把这类测量接到知识流动上：**修辞带来的引用优势，主要表现为名义承认、准确而深入的使用，还是失真论断的传播？Overclaim 是否改变这些结果的组合？** 这是拟议的整合方向，尚不能宣称首次发现。
 
 ## 先区分三个概念
 
@@ -63,7 +84,7 @@ issue: 75
 
 7. **Teplitskiy, M., Duede, E., Menietti, M., & Lakhani, K. R. (2022). _How Status of Research Papers Affects the Way They Are Read and Cited._ Research Policy, 51(4), 104484.** [DOI](https://doi.org/10.1016/j.respol.2022.104484) · [作者机构全文](https://knowledge.uchicago.edu/record/5150/files/How-status-of-research-papers-affects-the-way-they-are-read-and-cited.pdf)。对 15 个领域、9,380 位通讯作者提供的 17,154 条随机抽样引用进行调查，54% 被报告为对引用者影响很小或没有影响；但最常被引的论文，其引用反而更可能对应实质影响。它直接研究“修辞性／实质性引用”，也反对简单的“高引用 = 空洞声望”假设。这是作者自报影响，且没有直接检验 overclaim 的作用。
 
-**据此调整定位**：已有研究已经区分了引用与知识影响，也展示了理论选择性挪用和假说事实化。可以继续推进的是，把**宣称是否超出证据**与**下游是否实质使用知识**放在同一条传播链里观察，并区分过度宣称发生在源论文还是后续引用中。二者应作为不同维度：实质使用仍可能传播失真的论断；准确的背景引用也可能没有改变引用者的研究。
+**与新切口的连接**：这些研究解释为什么引用可以增加承认与权威，却不一定同等增加知识影响。可以把**修辞强度、宣称是否超出证据、下游是否实质使用及是否忠实传递**放在同一条传播链里观察，并区分过度宣称发生在源论文还是后续引用中。
 
 ## 补充文献：组织机制、研究利用与转移阻力
 
@@ -79,12 +100,14 @@ issue: 75
 
 6. **Szulanski, G. (1996). _Exploring Internal Stickiness: Impediments to the Transfer of Best Practice Within the Firm._ Strategic Management Journal, 17(S2), 27–43.** [DOI](https://doi.org/10.1002/smj.4250171105)。知识转移受吸收能力、因果模糊和来源—接收方关系等因素制约。它提供一个替代解释：实质转移不足可能源于接收方条件或转移阻力，而不是源论文的 overclaim。
 
-## 一个可以继续推进的问题
+## 更新后的问题与一个小规模起点
 
-**当论文宣称超出证据时，下游是否更容易保留其贡献叙事，却遗漏使该知识可以被准确使用的条件？**
+1. **引用优势**：在考虑研究内容、证据质量、作者地位、领域和论文年龄后，修辞强度是否仍与被引用的概率、数量及首次被引时间相关？复核已有发现，同时单独考察 overclaim，而不把宣传词计数当作 overclaim 指标。
+2. **知识转化**：更强修辞所伴随的引用增长，是背景／合法化引用增加，还是方法、理论、结果的具体使用增加？同时报告各类引用的数量与占比；实质使用占比下降，不意味着实质使用总量下降。
+3. **失真传播**：overclaim 是否更容易让下游保留贡献叙事、遗漏适用条件，或将假说写成事实？也考察谨慎的源论断在后续引用中被强化，以及批评／复现是否反而增加。
 
-还应追问：源论文原本谨慎的论断，是否会在后续引用中逐步增强确定性或扩大适用范围？因此，观察单位应包括**具体论断的引用链及其措辞、证据与用途变化**，而不只是整篇论文的引用数。这是拟议的研究切口，尚未确立其新颖性。
+先在一个领域选择少量源论文及其后续引用，使用固定长度的观察窗口。修辞测量可借鉴陈鸿的内容条件化比较，并人工核查反事实摘要是否确实保留技术内容；另用全文对照“源宣称—证据—局限”标注 overclaim。逐条配对引用句与源论断，分别编码引用功能、具体使用、忠实度和边界条件。未观察到使用时保留“实质使用未确认”，不能凭摘要用词、引用位置或数量直接认定空洞流动。
 
-可以从少量源论文及其引用论文配对开始，逐条对照“源宣称—支持证据—下游使用”。分别编码宣称是否越界、下游是承认／合法化还是具体使用，以及适用条件是否被保留。跨学科推广前先在一个领域验证判断标准；结合全文与人工核查，不能仅凭积极用词、引用位置或引用数量认定 overclaim 或空洞流动。未找到使用证据的案例应保留不确定性，并考虑时间滞后、论文质量与领域差异。
+应使用引用发生前的文本版本，考虑新颖性、开放获取、代码可用性和作者声望等替代解释。媒体曝光可能是修辞影响引用的**中介**，估计总关联与考察传播路径时应分别处理。内容条件化测量和质量控制不能自动消除混杂；若要检验因果机制，可随机展示内容一致、修辞不同的摘要，测量阅读选择或引用意愿，但这些结果不等同于真实长期引用。
 
 与已有随想的连接：[004 · 故事会量化](../004-storytelling-quantified/note.zh.md)关注叙事如何被衡量；[007 · Nuance 兴衰](../007-nuance-rises-and-falls/note.zh.md)关注边界与限定如何表达；[023 · 顶刊媒体化](../023-journal-mediatization/note.zh.md)关注宣称如何被放大。本想法进一步问：这些叙事进入后续工作时，究竟带走了哪些知识？
