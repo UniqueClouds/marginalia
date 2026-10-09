@@ -1,4 +1,4 @@
-# How weak evidence becomes a foundation for knowledge chains — overclaim, verbosity, and citation amplification
+# How rhetoric amplifies knowledge in networks — selective citation, social media promotion, and weak foundations
 
 <div class="lang-switch" markdown>
 <svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 12h18M12 3c2.8 2.6 4.2 5.6 4.2 9s-1.4 6.4-4.2 9c-2.8-2.6-4.2-5.6-4.2-9S9.2 5.6 12 3Z" fill="none" stroke="currentColor" stroke-width="2"/></svg> Language / 语言：[中文](027-overclaim-knowledge-flow.zh.md) · **English**
@@ -6,13 +6,15 @@
 
 <div class='marg-meta'><span><svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5.5" width="16" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 10h16" stroke="currentColor" stroke-width="2"/><path d="M8.5 3.5v4M15.5 3.5v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="14.7" r="1.7" class="acc-dot"/></svg> 2026-10-08</span><span><svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4h6.1c.4 0 .78.16 1.06.44l7 7a1.5 1.5 0 0 1 0 2.12l-6.1 6.1a1.5 1.5 0 0 1-2.12 0l-7-7A1.5 1.5 0 0 1 4 11.48V5.5Z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="8.7" cy="8.7" r="1.4" class="acc-dot"/></svg> proposal</span><span><svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5.85 8.5l12.3 7M18.15 8.5l-12.3 7" class="acc" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg> issue #75</span></div>
 
-<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-027</td></tr><tr><td>title</td><td>How weak evidence becomes a foundation for knowledge chains — overclaim, verbosity, and citation amplification</td></tr><tr><td>date</td><td>2026-10-08</td></tr><tr><td>published</td><td>2026-10-08</td></tr><tr><td>kind</td><td>proposal</td></tr><tr><td>issue</td><td>75</td></tr></table></details>
+<details class='marg-prov'><summary>Provenance（来源与元数据）</summary><table><tr><td>id</td><td>marginalia-027</td></tr><tr><td>title</td><td>How rhetoric amplifies knowledge in networks — selective citation, social media promotion, and weak foundations</td></tr><tr><td>date</td><td>2026-10-08</td></tr><tr><td>published</td><td>2026-10-08</td></tr><tr><td>kind</td><td>proposal</td></tr><tr><td>issue</td><td>75</td></tr></table></details>
 
-> Research seed: can an insufficiently supported claim attract early citations through overclaim or verbose packaging, then become an apparently reliable shared premise for a chain of subsequent research? This is a mechanism to test, not an empirical finding of the proposed study.
+> Research seed: how do paper presentation, social media promotion, and citers’ selection and interpretation amplify knowledge’s visibility and network prominence? Is that prominence accompanied by independent evidence and substantive contribution, or mainly by rhetoric and support for positions? Dependency chains rooted in weak evidence are one risk pathway. These are questions to test.
 
 ## Core idea
 
-The central object is **a claim with insufficient evidential support that subsequent research treats as a reliable premise**. Other parts of the source paper may be sound. Assess what makes the particular claim insufficiently grounded—design, measurement, controls, inference, or scope—independently of citation counts and writing style.
+The current overarching question is **how rhetoric changes knowledge’s position in communication and citation networks**. Separately measure source-paper rhetoric, promotional-post rhetoric, and which papers citers select and how they restate or use claims. Rhetorical citation can legitimately organize arguments and acknowledge knowledge; unsupported amplification requires separate assessment.
+
+One previously proposed risk pathway is **an insufficiently supported claim being treated as a reliable premise by later work**. Other parts of the source paper may be sound. Assess what makes the particular claim insufficiently grounded—design, measurement, controls, inference, or scope—independently of citation counts and writing style.
 
 The proposed mechanism is **weak evidence + overclaim/verbose packaging → an early wave of citations → adoption as an established premise → repeated citations appearing to provide multiple sources of support → further research depending on the same weak foundation**. Citation counts may grow without corresponding growth in independent evidence for the claim. Each transition requires testing; neither packaging-induced uptake nor a problematic entire chain is an established conclusion.
 
@@ -39,6 +41,39 @@ A related case is **Leung, P. T. M., Macdonald, E. M., Stanbrook, M. B., Dhalla,
 5. **Chen, H., Teplitskiy, M., & Jurgens, D. (2025). _The Noisy Path from Source to Citation: Measuring How Scholars Engage with Past Research._ ACL 2025, 31786–31802.** [Official record and paper](https://aclanthology.org/2025.acl-long.1534/). Hong Chen's related work matches source claims to citation sentences to measure **citation fidelity** and investigate distortion along citation chains. This offers a tool for connecting source rhetoric with downstream changes in claims. Fidelity and substantive use still require separate coding: accurate repetition may not change research, while an adapted method may be substantively used.
 
 **Role of these studies:** Sophie's work provides background on rhetoric, reception, and resource allocation; the ICLR paper provides rhetorical measurement and citation associations; Hongbo's study offers a design analogy connecting early exposure to later participation. None establishes the complete mechanism of weak source claims gaining uptake through packaging and creating dependencies across generations. The ACL study helps track distortion, but source evidential support still requires separate assessment: faithful repetition of a weak claim can also sustain a problematic foundation. This is a proposed integration, not an established novelty claim.
+
+## Further connection: selective citation and social media promotion
+
+### The UW study: shared evidence, competing perceived consensuses
+
+**Beers, A., Nguyễn, S., Starbird, K., West, J. D., & Spiro, E. S. (2023). _Selective and deceptive citation in the construction of dueling consensuses._ Science Advances, 9(38), eadh1933.** [DOI](https://doi.org/10.1126/sciadv.adh1933) · [Open paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC10516490/). Closely matches the remembered UW study, with **masks** as its case. Comparing academic citations with scientific commentary circulated via Twitter, it shows how selection and interpretation construct opposing perceived consensuses; misleading citation is especially prominent in anti-mask commentary. It does not establish equivalent polarization within academia or measure citation-induced changes in political attitudes.
+
+Extend this question to academic groups selecting work consistent with their methods, theories, or arguments, examining **what is selected, how it is cited, and how relevant contrary evidence is treated**. Differences may reflect legitimate scope or methodological choices; selection does not automatically imply distortion. Distinguish reliable source papers being misused from weak source claims being faithfully transmitted.
+
+### Three textual locations and three outcome levels
+
+| Location/stage | Measure separately | Outcomes |
+|---|---|---|
+| Source paper | Abstract/discussion rhetoric, claim–evidence alignment, necessary detail versus redundancy | Original claims and their evidential support |
+| Author promotion and third-party retelling | Contribution framing, expanded implications, certainty, and retained limitations; distinguish authors, institutions, and third parties | Spread, discussion, clicks/reading, and audience composition |
+| Later academic citations | Background, endorsement/criticism, concrete use, selective quotation, and dependency on source claims | Citation growth, endorsement-based centrality, concentration within groups, multi-generation dependencies, and new independent evidence |
+
+**The proposed connection is paper/claim → promotional post → social circulation and selective retelling → academic citations and their uses → position in the knowledge network.** Test each transition; social and academic communities are not necessarily the same. Existing academic status may also increase social circulation, requiring chronology and possible feedback to be retained.
+
+“Undeservedly large prominence” requires an explicit benchmark: among comparable topics, paper ages, and evidence levels, does presentation or alignment with a group's position accompany greater endorsement and network prominence without corresponding independent validation? This measures relative prominence, not an algorithmically determined citation entitlement. Operationalize “unnecessary networks” as repeated referencing or dependencies on a specifically unsupported premise, assessed individually. Centrality, topical popularity, or being a citation descendant alone cannot establish a problematic network.
+
+### Research directly connecting arXiv, Twitter, and citations
+
+**Bagchi, C., Malmi, E., & Grabowicz, P. A. (2025). _Effects of Research Paper Promotion via ArXiv and X._ ICWSM, 19(1), 160–177.** [Official paper](https://ojs.aaai.org/index.php/ICWSM/article/view/35809) · [Author preprint](https://arxiv.org/abs/2401.11116). Links preprints, social mentions, and subsequent citations, estimating promotion effects from observational data with confounding adjustment and distinguishing author from other accounts. Promotion and citation growth already have direct research. Extend this to **specific promotional wording, claim expansion relative to the original, and types and communities of subsequent citation**. Adjustment does not guarantee removal of unmeasured confounding.
+
+Experimental results suggest keeping the outcomes separate: **Luc et al. (2021), _Does Tweeting Improve Citations? One-Year Results From the TSSMN Prospective Randomized Trial_** ([Study](https://pubmed.ncbi.nlm.nih.gov/32504611/)) reports greater one-year citation growth in the randomized promotion group. **Branch et al. (2024), _Controlled experiment finds no detectable citation bump from Twitter promotion_** ([Paper](https://doi.org/10.1371/journal.pone.0292201)) finds increased downloads and online attention without a statistically significant three-year citation increase. These test promotion schemes, not isolated rhetorical wording. Visibility, discussion, and citations are separate outcomes.
+
+### Two separable pilot studies
+
+1. **Original paper–tweet–later citations:** within one field, link arXiv IDs, versions, and publication DOIs into one work identity. Retain pre-promotion text and tweet timestamps; annotate claims added and conditions removed in promotion. Measure circulation/discussion and subsequent citations and uses within fixed windows. Record impressions only when available; likes and reposts are not actual exposure, and missing impressions are not zero. Multiple tweets about one paper enable comparisons of wording and circulation, but paper-level citation growth cannot be attributed directly to a particular tweet.
+2. **Groups–literature selection–claim use:** define groups from prior collaboration, methods, or explicit theoretical positions, avoiding circular definition from the citation outcomes to be explained. Build a candidate pool of relevant literature available at the time. Compare selection of supporting and opposing findings, manually checking applicability. Separate endorsement, criticism, method use, and background reference. Examine whether different groups quote different parts of the same paper and infer different conclusions, then test how these selections shape endorsement networks and claim prominence.
+
+Retain paper rhetoric, tweet rhetoric, and citation interpretation as separate measurements, inspecting claim expansion between them. Account for pre-promotion author status, account audience, topic popularity, open access, and paper age. Circulation may mediate the effect of rhetoric, so distinguish estimation of a total effect from analysis of the pathway. High-quality papers can also gain citations, and criticism can raise total counts; extra citations are not automatically unsupported amplification. The weak-foundation question remains a stratified branch: **do weak claims made easier to promote and select become shared premises without independent support?**
 
 ## Separate foundations, presentation, and downstream dependency
 
@@ -87,7 +122,7 @@ This question has an established intellectual history and should not be situated
 
 6. **Szulanski, G. (1996). _Exploring Internal Stickiness: Impediments to the Transfer of Best Practice Within the Firm._ Strategic Management Journal, 17(S2), 27–43.** [DOI](https://doi.org/10.1002/smj.4250171105). Identifies barriers involving absorptive capacity, causal ambiguity, and source–recipient relationships. Provides an alternative explanation: limited substantive transfer may arise from recipient conditions or transfer barriers rather than overclaim in the source paper.
 
-## Revised questions and a small-scale starting point
+## Retained branch: weak foundations and multi-generation dependencies
 
 **Among insufficiently supported source claims, does overclaim or verbose packaging increase early uptake and help the claim become a recurring premise for later research without independent validation?**
 

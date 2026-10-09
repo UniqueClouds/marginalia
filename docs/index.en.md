@@ -226,7 +226,7 @@ Currently 27 items · each distilled through **issue → PR → squash commit**;
 
     ---
 
-    How weak evidence becomes a foundation for knowledge chains — overclaim, verbosity, and citation amplification
+    How rhetoric amplifies knowledge in networks — selective citation, social media promotion, and weak foundations
 
     [中文](entries/027-overclaim-knowledge-flow.zh.md) · [English](entries/027-overclaim-knowledge-flow.en.md)
 
