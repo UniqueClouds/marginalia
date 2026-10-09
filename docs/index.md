@@ -226,7 +226,7 @@
 
     ---
 
-    薄弱证据如何成为知识链条的根基——Overclaim、冗长包装与引用放大
+    修辞如何放大知识的网络地位——选择性引用、社交媒体宣传与薄弱根基
 
     [中文版](entries/027-overclaim-knowledge-flow.zh.md) · [English](entries/027-overclaim-knowledge-flow.en.md)
 
