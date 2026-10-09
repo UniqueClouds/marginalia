@@ -62,7 +62,7 @@ issue:           N
 | 022 | [被模型拽着走：引力、移动的地基与「Attention is all you need」的社会同构](marginalia/022-gravity-of-models/note.zh.md) · [EN](marginalia/022-gravity-of-models/note.en.md) | 2026-09-06 | [#51](https://github.com/UniqueClouds/marginalia/issues/51) |
 | 023 | [当 Nature 学会标题党：顶刊的媒体化与 taste 重定向](marginalia/023-journal-mediatization/note.zh.md) · [EN](marginalia/023-journal-mediatization/note.en.md) | 2026-09-06 | [#52](https://github.com/UniqueClouds/marginalia/issues/52) |
 | 024 | [铁轨铺在火车前面：发布周期的政治经济学——从 CPU 跑分到 SOTA](marginalia/024-release-cycle-politics/note.zh.md) · [EN](marginalia/024-release-cycle-politics/note.en.md) | 2026-09-06 | [#53](https://github.com/UniqueClouds/marginalia/issues/53) |
-| 027 | [Overclaim 与名义上的知识流动——研究想法与基础文献](marginalia/027-overclaim-knowledge-flow/note.zh.md) · [English](marginalia/027-overclaim-knowledge-flow/note.en.md) | 2026-10-08 | [#75](https://github.com/UniqueClouds/marginalia/issues/75) |
+| 027 | [薄弱证据如何成为知识链条的根基——Overclaim、冗长包装与引用放大](marginalia/027-overclaim-knowledge-flow/note.zh.md) · [English](marginalia/027-overclaim-knowledge-flow/note.en.md) | 2026-10-08 | [#75](https://github.com/UniqueClouds/marginalia/issues/75) |
 
 ## 制品（Artifacts）
 
