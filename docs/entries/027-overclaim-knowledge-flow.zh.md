@@ -26,7 +26,27 @@
 
 这不是把引用分成“有用／没用”。引文数量只能说明可见关联；概念影响可能长期、间接发生。批评性引用也可能有实质贡献，名义使用也可能产生声望、资源或合法性上的真实后果。两个维度应分别判断，不预设 overclaim 与名义流动必然相伴。
 
-## 基础文献：各自提供什么
+## 更直接的基础：知识社会学、科学社会学与科学学
+
+这个问题已有明确的文献前史，不应仅用组织脱耦或一般知识转移来定位。相关研究分别考察**引用的修辞功能、论文作为概念符号、知识的选择性解释、论断的事实化，以及引用与实际影响的差异**。这些概念彼此相关，却不都等于 overclaim，也没有共同证明“引用越多，知识越空洞”。
+
+1. **Gilbert, G. N. (1977). _Referencing as Persuasion._ Social Studies of Science, 7(1), 113–122.** [DOI](https://doi.org/10.1177/030631277700700112)。引用可以参与说服读者、支持论证，不只是记录知识债务。这是“引用流动与知识使用不能直接画等号”的经典起点；修辞功能本身不等于欺骗或没有知识贡献。
+
+2. **Small, H. G. (1978). _Cited Documents as Concept Symbols._ Social Studies of Science, 8(3), 327–340.** [DOI](https://doi.org/10.1177/030631277800800305) · [原文扫描](https://garfield.library.upenn.edu/small/hsmallsocstudsciv8y1978.pdf)。通过化学论文的引用语境，研究被引文献如何成为某个概念、方法或数据的标准符号。这最接近“论文名字／标签在流动”的问题；但符号也可能有效压缩并传递知识，不能直接认定为名义使用。
+
+3. **Latour, B. (1987). _Science in Action: How to Follow Scientists and Engineers Through Society._ Harvard University Press.** [作者书目](https://www.bruno-latour.fr/node/130.html) · [原书第一部分](https://classes.matthewjbrown.net/teaching-files/hps/latour-SiA-pt1.pdf)。第一章（尤其原书 pp. 22–23、42–43）追踪下游文本如何通过 **modalities（对论断的限定与修饰）**，把一句话推向公认事实，或带回其生产条件与争议。适合研究限定条件如何消失、论断如何被事实化。事实稳定化并不自动是 overclaim；必须另行判断证据是否足以支持这种确定性。
+
+4. **Cozzens, S. E. (1989). _What Do Citations Count? The Rhetoric-First Model._ Scientometrics, 15, 437–447.** [DOI](https://doi.org/10.1007/BF02017064)。主张先从修辞、再从奖励与承认理解引用。它提醒我们：相同的引用数可能包含不同的论证用途与影响强度，不能未经检验就当作“实质知识流量”。
+
+5. **Mizruchi, M. S., & Fein, L. C. (1999). _The Social Construction of Organizational Knowledge: A Study of the Uses of Coercive, Mimetic, and Normative Isomorphism._ Administrative Science Quarterly, 44(4), 653–683.** [DOI](https://doi.org/10.2307/2667051)。追踪 DiMaggio 与 Powell 的经典同构论文如何被选择性挪用：模仿性同构获得不成比例的关注，不同概念的操作化也出现混淆。这是社会科学内部“理论被引用，但其内容与区分在流动中被重构”的直接个案，不只是抽象的知识社会学背景。
+
+6. **Greenberg, S. A. (2009). _How Citation Distortions Create Unfounded Authority: Analysis of a Citation Network._ BMJ, 339, b2680.** [DOI](https://doi.org/10.1136/bmj.b2680)。研究一个特定生物医学论断的引用网络，识别忽略反证的引用偏差、无新增相关数据的放大，以及仅通过引用把假说变成事实的情况。这是 **overclaim × 传播中的认识论失真** 最直接的经验锚点；它展示一种可能机制，不能据此判断所有引用网络都如此。
+
+7. **Teplitskiy, M., Duede, E., Menietti, M., & Lakhani, K. R. (2022). _How Status of Research Papers Affects the Way They Are Read and Cited._ Research Policy, 51(4), 104484.** [DOI](https://doi.org/10.1016/j.respol.2022.104484) · [作者机构全文](https://knowledge.uchicago.edu/record/5150/files/How-status-of-research-papers-affects-the-way-they-are-read-and-cited.pdf)。对 15 个领域、9,380 位通讯作者提供的 17,154 条随机抽样引用进行调查，54% 被报告为对引用者影响很小或没有影响；但最常被引的论文，其引用反而更可能对应实质影响。它直接研究“修辞性／实质性引用”，也反对简单的“高引用 = 空洞声望”假设。这是作者自报影响，且没有直接检验 overclaim 的作用。
+
+**据此调整定位**：已有研究已经区分了引用与知识影响，也展示了理论选择性挪用和假说事实化。可以继续推进的是，把**宣称是否超出证据**与**下游是否实质使用知识**放在同一条传播链里观察，并区分过度宣称发生在源论文还是后续引用中。二者应作为不同维度：实质使用仍可能传播失真的论断；准确的背景引用也可能没有改变引用者的研究。
+
+## 补充文献：组织机制、研究利用与转移阻力
 
 1. **Boutron, I., Dutton, S., Ravaud, P., & Altman, D. G. (2010). _Reporting and Interpretation of Randomized Controlled Trials With Statistically Nonsignificant Results for Primary Outcomes._ JAMA, 303(20), 2058–2064.** [DOI](https://doi.org/10.1001/jama.2010.651) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/20501928/)。研究临床试验报告中的 **spin**：在主要结果不显著时，如何突出有利解释或转移注意力。可作为“宣称—证据不匹配”的操作化起点；临床试验的类别和发生率不能直接外推到 HCI／SE 或所有学科。
 
@@ -43,6 +63,8 @@
 ## 一个可以继续推进的问题
 
 **当论文宣称超出证据时，下游是否更容易保留其贡献叙事，却遗漏使该知识可以被准确使用的条件？**
+
+还应追问：源论文原本谨慎的论断，是否会在后续引用中逐步增强确定性或扩大适用范围？因此，观察单位应包括**具体论断的引用链及其措辞、证据与用途变化**，而不只是整篇论文的引用数。这是拟议的研究切口，尚未确立其新颖性。
 
 可以从少量源论文及其引用论文配对开始，逐条对照“源宣称—支持证据—下游使用”。分别编码宣称是否越界、下游是承认／合法化还是具体使用，以及适用条件是否被保留。跨学科推广前先在一个领域验证判断标准；结合全文与人工核查，不能仅凭积极用词、引用位置或引用数量认定 overclaim 或空洞流动。未找到使用证据的案例应保留不确定性，并考虑时间滞后、论文质量与领域差异。
 
