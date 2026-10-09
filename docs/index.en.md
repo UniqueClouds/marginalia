@@ -18,7 +18,7 @@
 
 ## 📚 Entries
 
-Currently 26 items · each distilled through **issue → PR → squash commit**; bilingual (English / 中文), opening with full provenance metadata.
+Currently 27 items · each distilled through **issue → PR → squash commit**; bilingual (English / 中文), opening with full provenance metadata.
 
 <div class="grid cards" markdown>
 
@@ -221,6 +221,14 @@ Currently 26 items · each distilled through **issue → PR → squash commit**;
     Using the UCI Student Health Center——getting your money''s worth out of GSHIP
 
     [中文](entries/026-uci-gship-clinic-guide.zh.md) · [English](entries/026-uci-gship-clinic-guide.en.md)
+
+- <svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9.5 7v10" class="acc" stroke-width="2" stroke-linecap="round" fill="none"/><path d="M12.5 8.5H16M12.5 12H16M12.5 15.5H15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> **ENTRY 027** · 2026-10-08
+
+    ---
+
+    Overclaim and nominal knowledge flow — a research idea and foundational readings
+
+    [中文](entries/027-overclaim-knowledge-flow.zh.md) · [English](entries/027-overclaim-knowledge-flow.en.md)
 
 - <svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9.5 7v10" class="acc" stroke-width="2" stroke-linecap="round" fill="none"/><path d="M12.5 8.5H16M12.5 12H16M12.5 15.5H15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> **ENTRY 006 · ARTIFACT** · 2026-08-17
 
