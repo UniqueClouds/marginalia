@@ -1,6 +1,6 @@
 ---
 id: marginalia-027
-title: "Overclaim and nominal knowledge flow — a research idea and foundational readings"
+title: "How weak evidence becomes a foundation for knowledge chains — overclaim, verbosity, and citation amplification"
 date: 2026-10-08
 published: 2026-10-08
 kind: proposal
@@ -15,7 +15,7 @@ sources:
   - "Latour (1987), Science in Action; author bibliography and scanned first part"
   - "Cozzens (1989), doi:10.1007/BF02017064; publisher abstract"
   - "Mizruchi & Fein (1999), doi:10.2307/2667051; publisher abstract"
-  - "Greenberg (2009), doi:10.1136/bmj.b2680; original research abstract"
+  - "Greenberg (2009), doi:10.1136/bmj.b2680; PubMed abstract and PMC full text"
   - "Teplitskiy et al. (2022), doi:10.1016/j.respol.2022.104484; publisher full text"
   - "Boutron et al. (2010), doi:10.1001/jama.2010.651; PubMed/publisher abstract and metadata"
   - "Meyer & Rowan (1977), doi:10.1086/226550; publisher abstract and metadata"
@@ -23,24 +23,34 @@ sources:
   - "Weiss (1979), doi:10.2307/3109916; JSTOR metadata and university-hosted scan"
   - "Carlile (2004), doi:10.1287/orsc.1040.0094; INFORMS abstract and metadata"
   - "Szulanski (1996), doi:10.1002/smj.4250171105; Wiley abstract and metadata"
+  - "Leung et al. (2017), doi:10.1056/NEJMc1700150; author institution ICES research record"
 initial-prompt: "overclaim in academic research paper; overclaim and 形式上 或者 名义上的 知识流动 而非实质上的流动. Find a few foundational readings and update my website."
 agent: Codex
 follow-up-prompt: "Are there related investigations in the sociology of knowledge and science studies? Connect Sophie Qiu's promotional-language research, Hong Chen's Counterfactual LLM-based Framework for Measuring Rhetorical Style, and Hongbo's This Is Damn Slick to whether rhetorical papers, including overclaim, are more likely to be cited."
+clarification-prompt: "Focus on papers with weak foundations that attract a wave of citations through overclaim or oververbose presentation, leading to knowledge chains whose foundations are problematic."
 model: GPT-6
 issue: 75
 ---
 
-# Overclaim and nominal knowledge flow — a research idea and foundational readings
+# How weak evidence becomes a foundation for knowledge chains — overclaim, verbosity, and citation amplification
 
-> Research seed: does rhetoric make papers more visible and more likely to be cited? How much of that attention translates into substantive knowledge use, and does overclaim change this translation? This note records questions and readings, not empirical findings from the proposed study.
+> Research seed: can an insufficiently supported claim attract early citations through overclaim or verbose packaging, then become an apparently reliable shared premise for a chain of subsequent research? This is a mechanism to test, not an empirical finding of the proposed study.
 
 ## Core idea
 
-Broaden the entry point from overclaim to **papers' rhetoric and subsequent reception**. Promotional language emphasizes importance or novelty; rhetorical style also includes visionary framing, certainty, and the organization of contributions. **Overclaim** requires a separate judgment that a claim exceeds its design and evidence. It can operate through rhetoric but is not synonymous with strong rhetoric or positive wording.
+The central object is **a claim with insufficient evidential support that subsequent research treats as a reliable premise**. Other parts of the source paper may be sound. Assess what makes the particular claim insufficiently grounded—design, measurement, controls, inference, or scope—independently of citation counts and writing style.
 
-The proposed chain is **rhetorical presentation → attention/reading → citation → substantive use**. Prior research supports associations between rhetoric, citations, and attention; each transition needs separate observation. Strong rhetoric might help valuable findings get adopted, primarily increase background or legitimating citations, or encourage substantive testing, criticism, and correction.
+The proposed mechanism is **weak evidence + overclaim/verbose packaging → an early wave of citations → adoption as an established premise → repeated citations appearing to provide multiple sources of support → further research depending on the same weak foundation**. Citation counts may grow without corresponding growth in independent evidence for the claim. Each transition requires testing; neither packaging-induced uptake nor a problematic entire chain is an established conclusion.
 
-The original question remains a specific branch: when claims exceed evidence, do downstream users receive conditional findings or contribution narratives presented as established facts? Examine both **depth of use** and **accuracy of transmission**, since distorted claims can also be substantively adopted.
+Trace **how apparent authority forms and how later work depends on it**. Downstream authors can accurately reproduce the source, substantively adopt its methods, or build studies around it while inheriting an insufficiently verified premise. Nominal citation, citation distortion, and substantive use are distinct features of the chain: **faithful transmission does not establish a reliable foundation, and substantive use does not guarantee a sound knowledge chain**. Independent validation, refutation, or narrower scope may repair or interrupt the dependency.
+
+## Closest literature anchor and the links still to test
+
+**Greenberg (2009)** is the core anchor: [How Citation Distortions Create Unfounded Authority](https://pmc.ncbi.nlm.nih.gov/articles/PMC2714656/). Its claim-specific network identifies neglected contrary evidence, amplification without new relevant data, and hypotheses becoming facts through citation. It motivates studying how citations generate unsupported authority but does not directly test verbose source presentation as the trigger for early uptake. The proposed connection joins **source evidential gaps, presentation, early reception, and dependencies across generations**.
+
+A related case is **Leung, P. T. M., Macdonald, E. M., Stanbrook, M. B., Dhalla, I. A., & Juurlink, D. N. (2017). _A 1980 Letter on the Risk of Opioid Addiction._ NEJM, 376(22), 2194–2195.** [DOI](https://doi.org/10.1056/NEJMc1700150) · [Author institution record](https://www.ices.on.ca/publications/journal-articles/a-1980-letter-on-the-risk-of-opioid-addiction/). Examines how a brief letter was widely invoked to support low addiction risk in chronic-pain treatment without sufficient evidence for that extension. It illustrates the need to trace original support and downstream uses. A problematic chain does not require a verbose source; overextension may arise downstream.
+
+**Measure overclaim and oververbose presentation separately.** Overclaim exceeds evidence; oververbose provisionally means repetition, redundancy, or elaborate packaging relative to actual information added. Such presentation might obscure evidential gaps or create an impression of thorough support, but it might instead reduce citations by increasing reading costs. Both are hypotheses. Length can reflect necessary technical detail and is not itself evidence of packaging or poor quality. The two features can occur together or independently.
 
 ## Connecting promotional language, rhetorical measurement, and OSS promotion
 
@@ -54,17 +64,20 @@ The original question remains a specific branch: when claims exceed evidence, do
 
 5. **Chen, H., Teplitskiy, M., & Jurgens, D. (2025). _The Noisy Path from Source to Citation: Measuring How Scholars Engage with Past Research._ ACL 2025, 31786–31802.** [Official record and paper](https://aclanthology.org/2025.acl-long.1534/). Hong Chen's related work matches source claims to citation sentences to measure **citation fidelity** and investigate distortion along citation chains. This offers a tool for connecting source rhetoric with downstream changes in claims. Fidelity and substantive use still require separate coding: accurate repetition may not change research, while an adapted method may be substantively used.
 
-**Positioning:** since direct studies already examine rhetoric and citations, pursue their connection to knowledge flow: **does the citation advantage associated with rhetoric primarily involve nominal acknowledgment, accurate and substantive use, or circulation of distorted claims? Does overclaim change this combination?** This is a proposed integration, not an established claim of novelty.
+**Role of these studies:** Sophie's work provides background on rhetoric, reception, and resource allocation; the ICLR paper provides rhetorical measurement and citation associations; Hongbo's study offers a design analogy connecting early exposure to later participation. None establishes the complete mechanism of weak source claims gaining uptake through packaging and creating dependencies across generations. The ACL study helps track distortion, but source evidential support still requires separate assessment: faithful repetition of a weak claim can also sustain a problematic foundation. This is a proposed integration, not an established novelty claim.
 
-## Three distinct concepts
+## Separate foundations, presentation, and downstream dependency
 
 | Concept | Working definition | Evidence to examine |
 |---|---|---|
+| Weak evidential foundation | Insufficient design, measurement, controls, or inference for a particular claim; not a judgment that the entire paper is invalid | Assess source support and uncertainty; low citations, negative findings, or non-replication alone do not establish weakness |
+| Oververbose presentation | Redundancy, repetition, or elaborate packaging relative to information added; a provisional definition | Human assessment of redundancy and new information, accounting for necessary technical detail and genre; length alone is insufficient |
+| Dependency on a weak foundation | Later work uses the claim as a premise while its support traces back to the same evidential gap | Distinguish independent evidence from repeated citation; assess dependency in reasoning, design, or methods and subsequent validation or repair |
 | Overclaim | Claim strength or scope exceeds evidential support | Compare abstract/discussion claims with methods, results, and limitations; e.g., causality inferred from correlation or unrestricted generalization from a limited sample |
 | Formal / nominal knowledge flow | Papers, terms, or contribution narratives enter downstream texts, but observed evidence establishes only acknowledgment, repetition, or legitimation | Background citations, contribution labels, repeated conclusions; when concrete use is not observed, record “substantive use unconfirmed” |
 | Substantive knowledge flow | Knowledge enters downstream reasoning or work and changes problem framing, methods, explanations, or practice | Method adaptation, theoretical derivation, treatment of boundary conditions, replication or refutation, traceable design/decision changes |
 
-These categories do not divide citations into useful and useless. Citation counts establish visible connections; conceptual influence can be indirect and delayed. Critical citations may contribute substantively, and nominal use can have real effects on reputation, resources, or legitimacy. Assess overclaim and use separately rather than assuming they coincide.
+Citation counts establish visible connections. Separately assess foundations, presentation, fidelity, downstream use, and new independent support. Citing a paper does not imply dependence on its weak claim; criticism, correction, and successful independent validation should not count as perpetuating the weak foundation.
 
 ## More direct foundations: sociology of knowledge and science studies
 
@@ -84,7 +97,7 @@ This question has an established intellectual history and should not be situated
 
 7. **Teplitskiy, M., Duede, E., Menietti, M., & Lakhani, K. R. (2022). _How Status of Research Papers Affects the Way They Are Read and Cited._ Research Policy, 51(4), 104484.** [DOI](https://doi.org/10.1016/j.respol.2022.104484) · [Institutional full text](https://knowledge.uchicago.edu/record/5150/files/How-status-of-research-papers-affects-the-way-they-are-read-and-cited.pdf). Surveys 17,154 randomly sampled citations supplied by 9,380 corresponding authors across 15 fields. Authors report little or no influence for 54% of citations, but citations to the most highly cited papers are more likely to reflect substantive influence. Directly investigates rhetorical versus substantive citations while challenging an equation of high citation counts with empty prestige. Influence is self-reported, and the study does not directly test overclaim.
 
-**Connection to the revised question:** these studies explain why citations can increase recognition and authority without an equivalent increase in knowledge influence. Examine **rhetorical strength, claim–evidence mismatch, substantive use, and faithful transmission** along the same circulation chain, distinguishing overclaim in the source from overclaim introduced by subsequent citations.
+**Connection to the revised question:** these studies connect rhetorical citation and fact stabilization to unsupported authority. Focus on claim-level foundations and dependencies across generations: even when citations support substantive research, ask whether independent evidence is added or dependence on the same weak source grows.
 
 ## Supporting readings: organizational mechanisms, utilization, and transfer barriers
 
@@ -102,12 +115,14 @@ This question has an established intellectual history and should not be situated
 
 ## Revised questions and a small-scale starting point
 
-1. **Citation advantage:** after accounting for research content, evidence quality, author status, field, and paper age, does rhetorical strength remain associated with citation probability, counts, and time to first citation? Revisit existing findings and examine overclaim separately, rather than treating promotional-word counts as an overclaim measure.
-2. **Knowledge translation:** does the citation growth associated with stronger rhetoric involve more background/legitimating references or more concrete use of methods, theories, and findings? Report both counts and shares: a declining share of substantive citations does not imply a declining absolute number.
-3. **Distortion:** does overclaim favor preservation of contribution narratives, loss of boundary conditions, or conversion of hypotheses into facts? Also examine amplification of initially cautious source claims and possible increases in criticism or replication.
+**Among insufficiently supported source claims, does overclaim or verbose packaging increase early uptake and help the claim become a recurring premise for later research without independent validation?**
 
-Start within one field with a small set of source papers and subsequent citations, using observation windows of equal length. Adapt Hong Chen's content-conditioned comparisons for rhetoric, manually checking whether generated counterfactual abstracts preserve technical content. Separately annotate overclaim by comparing full-text claims, evidence, and limitations. Match citation sentences to source claims and code citation function, concrete use, fidelity, and retained conditions independently. Record unobserved use as “substantive use unconfirmed”; abstract wording, citation position, or counts alone cannot establish empty circulation.
+1. **Initiation:** assess evidential support independently, then examine early citation growth in relation to overclaim, verbosity, and their interaction. Compare different combinations of evidence and presentation strength; avoid selecting only highly cited papers that later proved problematic.
+2. **Stabilization and branching:** trace when a claim shifts from a proposal to an established premise, whether later research actually depends on it, and whether multiple references share a single source. Record chain depth, dependent branches, and growth in independent evidence. A whole-paper citation graph cannot substitute for a claim-specific chain.
+3. **Persistence and repair:** distinguish nominal repetition, unverified practical dependency, independent validation, refutation, and correction. Examine continued reliance after new evidence or corrections and identify branches that acquire reliable support.
 
-Use text versions that predate the citations and consider alternative explanations involving novelty, open access, code availability, and author reputation. Media exposure may **mediate** the rhetoric–citation relationship, so distinguish estimating the total association from examining the transmission pathway. Content-conditioned measurement and quality controls do not automatically remove confounding. Randomly showing content-equivalent abstracts with different rhetoric could test reading choices or citation intentions, but these outcomes do not equal real long-term citations.
+Start within one field with a small set of source claims and two or three citation generations, tracing claim, direct evidence, citation purpose, and new evidence. Where feasible, hide citation counts and author identities during evidence assessment; record uncertainty and disagreements. Use source text predating the citations. Adapt content-conditioned rhetorical comparisons, assess verbosity separately, and manually verify technical content, dependency, and independence of evidence. Missing support does not prove a claim false, and citation descendants are not automatically problematic.
 
-Connections to existing notes: [004 · Storytelling quantified](../004-storytelling-quantified/note.en.md) examines narratives as measurable constructs; [007 · Nuance rises and falls](../007-nuance-rises-and-falls/note.en.md) examines qualifications and limits; [023 · Journal mediatization](../023-journal-mediatization/note.en.md) examines amplification. This idea asks what knowledge those narratives carry into subsequent work.
+Use equal early observation windows and consider field, novelty, author status, open access, and paper age. The number of dependent studies is not automatically a measure of causal harm. Report associations separately from mechanism evidence. Randomized presentation of content-equivalent texts could test perceived credibility, verification behavior, and intended use, but would not establish the formation of long-term knowledge chains.
+
+Connections to existing notes: [004 · Storytelling quantified](../004-storytelling-quantified/note.en.md) examines narratives as measurable constructs; [007 · Nuance rises and falls](../007-nuance-rises-and-falls/note.en.md) examines qualifications and limits; [023 · Journal mediatization](../023-journal-mediatization/note.en.md) examines amplification. This idea asks how an insufficiently supported premise becomes a shared foundation through presentation and citation.

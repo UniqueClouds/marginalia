@@ -226,7 +226,7 @@ Currently 27 items · each distilled through **issue → PR → squash commit**;
 
     ---
 
-    Overclaim and nominal knowledge flow — a research idea and foundational readings
+    How weak evidence becomes a foundation for knowledge chains — overclaim, verbosity, and citation amplification
 
     [中文](entries/027-overclaim-knowledge-flow.zh.md) · [English](entries/027-overclaim-knowledge-flow.en.md)
 
