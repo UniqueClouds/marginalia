@@ -393,17 +393,17 @@ The two picks are $7 apart: **DUMOS 16″ by default** ($43.19); UNIPEAK if stru
 
 ### 7.8.1 Secondary-screen special (2026-10-03): max-value portrait-capable picks
 
-> Goal change: the 32″ 4K is now the main screen, so the hunt is for a **secondary** — 27″ fine, 1440p fine, **must pivot to portrait**, value above all; no Mini LED/OLED mandate anymore. Six candidates walked live on Amazon (10/3), resolution/refresh/zones verified against listing text, stand pivot capability checked against official spec sheets.
+> Goal change: the 32″ 4K is now the main screen, so the hunt is for a **secondary** — 27″ fine, 1440p fine, **must pivot to portrait**, value above all; no Mini LED/OLED mandate anymore. Six candidates walked live on Amazon (10/3), resolution/refresh/zones verified against listing text, stand pivot capability checked against official spec sheets. Snapshot prices as of 2026-10-19 (automatic Monday rescan, threshold ≥$15).
 
 | Model | Snapshot price | Panel / refresh | Pivots? | One-line role |
 |---|---|---|---|---|
-| [AOC Q27G3XMN](https://www.amazon.com/dp/B0C8ZJKPWC) (**default pick**) | **$218.49** (4.4★) | QHD 180Hz · **Mini LED HDR1000** (336 zones) | ✅ full: height/tilt/swivel/**pivot** | $218 for Mini LED + portrait + 180Hz — the value king of the whole field |
-| [KTC M27T6S](https://www.amazon.com/dp/B0GX29CGZK) | $299.99 (4.3★) | QHD 210Hz Fast IPS · Mini LED HDR1400 (**1,152 zones**) | ✅ full (incl. pivot) | +$81: 3.4× the zones and steadier IPS text — the HDR-quality step-up |
+| [AOC Q27G3XMN](https://www.amazon.com/dp/B0C8ZJKPWC) | **$276.64** (4.4★; three straight weekly rises 218.49→229.99→276.64) | QHD 180Hz · **Mini LED HDR1000** (336 zones) | ✅ full: height/tilt/swivel/**pivot** | Up $58 in three weeks — **the default-pick crown passes to the M27T6S** (below) |
+| [KTC M27T6S](https://www.amazon.com/dp/B0GX29CGZK) (**default pick** as of 10/19) | **$299.99** (4.3★) | QHD 210Hz Fast IPS · Mini LED HDR1400 (**1,152 zones**) | ✅ full (incl. pivot) | **Now just $23 over the AOC**: +$23 buys 3.4× the zones, HDR1400 and 210Hz |
 | [GIGABYTE M27Q2](https://www.amazon.com/dp/B0GKFQXR3R) | **$159.99** (4.4★) | QHD 170Hz SuperSpeed IPS | ❌ officially height/tilt only, no pivot | Cheapest QHD IPS; portrait only via a **VESA arm (+ ~$20-30)** |
 
 Excluded on the record: AOC Q27 260Hz ($159.99, 4.6★ — tilt-only, no pivot), LG 27GS60QC ($185.81 — **curved**, excluded by preference), INNOCN GA27T1M ($379.99, 2K 320Hz Mini LED — overkill for a secondary).
 
-**How to choose**: default **Q27G3XMN at $218.49** — portrait + Mini LED HDR + 180Hz has no rival under $220; want the 1,152-zone HDR and IPS text → M27T6S at $299.99; absolute floor → M27Q2 at $159.99 + a VESA arm (still <$190 all-in, with full adjustability). **Mixing with the 4K main screen**: QHD 27″ ≈ 109 PPI vs the 32″ 4K's ≈ 138 PPI — run Windows at 150% main / 125% secondary; the density difference is noticeable side by side but livable. If it must match, that means a 4K 27″ secondary (~$300+, outside this round's value range).
+**How to choose (updated 10/19)**: the default pick moves to **M27T6S at $299.99** — with the AOC's three-week climb to $276.64, only $23 more buys 1,152 zones / HDR1400 / 210Hz instead of haggling with the AOC; buy the AOC back if it falls under $240. Absolute floor → M27Q2 at $159.99 + a VESA arm (still <$190 all-in, with full adjustability). **Mixing with the 4K main screen**: QHD 27″ ≈ 109 PPI vs the 32″ 4K's ≈ 138 PPI — run Windows at 150% main / 125% secondary; the density difference is noticeable side by side but livable. If it must match, that means a 4K 27″ secondary (~$300+, outside this round's value range).
 
 ### 7.9 E-bikes: a survey of mainstream US flat-bar models (2026-09-19)
 

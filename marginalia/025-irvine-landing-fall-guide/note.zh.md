@@ -3,7 +3,7 @@ id: marginalia-025
 title: '尔湾落地与秋季生活指南——从借记卡、冲浪到 Swervedriver'
 date: 2026-09-11
 published: 2026-09-11
-updated: 2026-10-05
+updated: 2026-10-19
 kind: landing-guide(落地与秋季生活调研)
 sources:
   - '官方核验:UCI 校历/Transportation/Campus Rec/Athletics、City of Irvine、CicLAvia、AFI、Universal、Six Flags-Knott''s、Sawdust、Disney、NHL-Ducks、USC、Lakers、各场馆票务页(DICE/Songkick/LiveNation/Teragram/Wayfarer/Lodge Room/The Frida)'
@@ -409,17 +409,17 @@ Wikipedia 解释过 HB 为什么叫 Surf City:南北两个半球的涌轮流聚�
 
 ### 8.1 副屏特辑(2026-10-03):性价比拉满的竖屏副机
 
-> 目标切换:主屏已是 32 寸 4K,现在找**副屏**——27 寸可、2K 可、**必须能竖屏(pivot)**、性价比优先,面板类型不再强求。6 款候选逐台实测 Amazon(10/3),分辨率/刷新/分区以 listing 原文核验,支架竖屏能力以官方规格页核对。
+> 目标切换:主屏已是 32 寸 4K,现在找**副屏**——27 寸可、2K 可、**必须能竖屏(pivot)**、性价比优先,面板类型不再强求。6 款候选逐台实测 Amazon(10/3),分辨率/刷新/分区以 listing 原文核验,支架竖屏能力以官方规格页核对。快照价 2026-10-19(每周一自动复扫,阈值 ≥$15)。
 
 | 款 | 快照价 | 面板 / 刷新 | 能竖屏? | 一句话定位 |
 |---|---|---|---|---|
-| [AOC Q27G3XMN](https://www.amazon.com/dp/B0C8ZJKPWC)(**默认推荐**) | **$218.49**(4.4★) | QHD 180Hz · **Mini LED HDR1000**(336 分区) | ✅ 全套:升降/俯仰/旋转/**pivot** | $218 集齐 Mini LED + 竖屏 + 180Hz,全场性价比之王 |
-| [KTC M27T6S](https://www.amazon.com/dp/B0GX29CGZK) | $299.99(4.3★) | QHD 210Hz Fast IPS · Mini LED HDR1400(**1,152 分区**) | ✅ 全套(含 pivot) | 多 $81:分区数 3.4 倍 + IPS 文字观感更稳,HDR 品质党加钱到这 |
+| [AOC Q27G3XMN](https://www.amazon.com/dp/B0C8ZJKPWC) | **$276.64**(4.4★;三周连涨 218.49→229.99→276.64) | QHD 180Hz · **Mini LED HDR1000**(336 分区) | ✅ 全套:升降/俯仰/旋转/**pivot** | 三周涨 $58,**默认推荐的位子让给 M27T6S**(见下) |
+| [KTC M27T6S](https://www.amazon.com/dp/B0GX29CGZK)(**默认推荐**,10/19 起) | **$299.99**(4.3★) | QHD 210Hz Fast IPS · Mini LED HDR1400(**1,152 分区**) | ✅ 全套(含 pivot) | **现与 AOC 只差 $23**:多 $23 = 3.4 倍分区 + HDR1400 + 210Hz,全拿 |
 | [GIGABYTE M27Q2](https://www.amazon.com/dp/B0GKFQXR3R) | **$159.99**(4.4★) | QHD 170Hz SuperSpeed IPS | ❌ 官方 spec 仅升降/俯仰,无 pivot | 最低价 QHD IPS;竖屏唯一办法是 **VESA 臂(+ ~$20-30)** |
 
 排除记录:AOC Q27 260Hz($159.99,4.6★——tilt-only 不能竖)、LG 27GS60QC($185.81——**曲面**,按偏好排除)、INNOCN GA27T1M($379.99,2K 320Hz Mini LED——给副屏性能过剩)。
 
-**怎么选**:默认 **Q27G3XMN $218.49**——竖屏 + Mini LED HDR + 180Hz 在 $220 内没有对手;要 1,152 分区的高级 HDR 与 IPS 文字 → M27T6S $299.99;想压到极限 → M27Q2 $159.99 + VESA 臂(总价 <$190,还送全向可调)。**与 4K 主屏混搭注意**:QHD 27″ ≈ 109 PPI vs 主屏 32″ 4K ≈ 138 PPI,Windows 缩放建议主 150% / 副 125%,并排文字密度差异可感但可接受;真要严丝合缝得上 4K 27″ 副屏(~$300+,不在本轮性价比射程)。
+**怎么选(10/19 更新)**:默认推荐换位为 **M27T6S $299.99**——AOC 三周连涨到 $276.64 后,只加 $23 就拿 1,152 分区/HDR1400/210Hz,比纠缠 AOC 划算;AOC 回落到 $240 以下可回收。极限省钱仍是 M27Q2 $159.99 + VESA 臂(总价 <$190)。**与 4K 主屏混搭注意**:QHD 27″ ≈ 109 PPI vs 主屏 32″ 4K ≈ 138 PPI,Windows 缩放建议主 150% / 副 125%,并排文字密度差异可感但可接受;真要严丝合缝得上 4K 27″ 副屏(~$300+,不在本轮性价比射程)。
 
 ### 9. 电助力自行车:美国主流平把 e-bike 横向调研(2026-09-19)
 
