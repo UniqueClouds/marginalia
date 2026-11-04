@@ -68,6 +68,9 @@ markdown_extensions:
 extra_css:
   - assets/extra.css
 
+extra_javascript:
+  - entries/data/nsf-award-browser.js
+
 extra:
   social:
     - icon: fontawesome/brands/github
