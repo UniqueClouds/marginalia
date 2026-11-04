@@ -62,6 +62,7 @@ issue:           N
 | 023 | [When Nature learns clickbait — essay: journal mediatization and the redirection of taste](marginalia/023-journal-mediatization/note.en.md) · [中文](marginalia/023-journal-mediatization/note.zh.md) | 2026-09-06 | [#52](https://github.com/UniqueClouds/marginalia/issues/52) |
 | 024 | [Laying the track ahead of the train — essay: the political economy of release cycles, from CPU benchmarks to SOTA](marginalia/024-release-cycle-politics/note.en.md) · [中文](marginalia/024-release-cycle-politics/note.zh.md) | 2026-09-06 | [#53](https://github.com/UniqueClouds/marginalia/issues/53) |
 | 027 | [How rhetoric amplifies knowledge in networks — selective citation, social media promotion, and weak foundations](marginalia/027-overclaim-knowledge-flow/note.en.md) · [中文](marginalia/027-overclaim-knowledge-flow/note.zh.md) | 2026-10-08 | [#75](https://github.com/UniqueClouds/marginalia/issues/75) |
+| 028 | [The Abstract Is a Small Proposal: rhetoric in NSF award abstracts](marginalia/028-nsf-funding-rhetoric/note.en.md) · [中文](marginalia/028-nsf-funding-rhetoric/note.zh.md) | 2026-11-04 | [#81](https://github.com/UniqueClouds/marginalia/issues/81) → [#82](https://github.com/UniqueClouds/marginalia/pull/82) |
 
 ## Artifacts
 

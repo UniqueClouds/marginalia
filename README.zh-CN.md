@@ -63,6 +63,7 @@ issue:           N
 | 023 | [当 Nature 学会标题党：顶刊的媒体化与 taste 重定向](marginalia/023-journal-mediatization/note.zh.md) · [EN](marginalia/023-journal-mediatization/note.en.md) | 2026-09-06 | [#52](https://github.com/UniqueClouds/marginalia/issues/52) |
 | 024 | [铁轨铺在火车前面：发布周期的政治经济学——从 CPU 跑分到 SOTA](marginalia/024-release-cycle-politics/note.zh.md) · [EN](marginalia/024-release-cycle-politics/note.en.md) | 2026-09-06 | [#53](https://github.com/UniqueClouds/marginalia/issues/53) |
 | 027 | [修辞如何放大知识的网络地位——选择性引用、社交媒体宣传与薄弱根基](marginalia/027-overclaim-knowledge-flow/note.zh.md) · [English](marginalia/027-overclaim-knowledge-flow/note.en.md) | 2026-10-08 | [#75](https://github.com/UniqueClouds/marginalia/issues/75) |
+| 028 | [摘要是一份微型提案：NSF 资助摘要的修辞拆解](marginalia/028-nsf-funding-rhetoric/note.zh.md) · [English](marginalia/028-nsf-funding-rhetoric/note.en.md) | 2026-11-04 | [#81](https://github.com/UniqueClouds/marginalia/issues/81) → [#82](https://github.com/UniqueClouds/marginalia/pull/82) |
 
 ## 制品（Artifacts）
 
