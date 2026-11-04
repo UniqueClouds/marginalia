@@ -18,6 +18,8 @@
 
 **这里读到的是 NSF 公开 award abstract，不是完整申请书。** NSF 说明，Award Search 提供资助摘要，提交的 proposal 属于提交机构的保密知识产权；因此我没有找到这些获资助申请书的完整正文。每个案例都链接回 NSF 原页面，供你查看完整公开摘要。项目摘要与论文成果能帮助观察项目如何被公开呈现，但不能还原完整的研究计划、预算论证、评审意见或评审者真实判断。
 
+**查看完整摘要原文：**[打开 19,630 条项目浏览页](docs/028-nsf-award-browser.zh.md)。每条记录可展开查看英文摘要、PI/学校/金额/学科元数据、NSF 页面列出的论文成果，以及原数据中已有的中文译文；也可按标题、PI、学校、领域和金额筛选。
+
 ## 可以标注的论证链
 
 一个常见、但不是每篇摘要都照此排列的结构是：
@@ -115,6 +117,9 @@ NSF 记录列出的成果包括 [“TestLoop: A Process Model Describing Human-i
 - Peng、Qiu、Fosse 与 Uzzi 的研究 [“Promotional language and the adoption of innovative ideas in science”](https://doi.org/10.1073/pnas.2320066121) 使用了资助与未资助申请文本，发现 promotional language 与资助、创新性及后续影响存在关联；其中的词语替换实验测量的是文本带来的正面印象，不是真实评审中的随机处理。它提示修辞值得研究，不意味着应堆砌夸张词或过度宣称。
 - NSF Award Search 的成果列表以及论文致谢可以帮助追踪关联，但“页面列为成果”不等于“该奖项是唯一资金来源”。
 - 完整申请书、详细预算论证和评审材料不在公开摘要里。本笔记因此分析的是**资助项目如何公开讲述自己的计划**，而不是完整 proposal 的全部写作策略。
+
+
+<div class='marg-attach'><svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l8.57-8.57A4 4 0 1 1 18 8.84l-8.59 8.57a2 2 0 0 1-2.83-2.83l8.49-8.48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> 附属材料：[028-nsf-award-browser.en.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/028-nsf-funding-rhetoric/docs/028-nsf-award-browser.en.md) · [028-nsf-award-browser.zh.md](https://github.com/UniqueClouds/marginalia/blob/main/marginalia/028-nsf-funding-rhetoric/docs/028-nsf-award-browser.zh.md)</div>
 
 
 ---

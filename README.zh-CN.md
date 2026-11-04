@@ -76,6 +76,7 @@ issue:           N
 | 四学科风格五份完整报告 | [005](marginalia/005-discipline-style-voices/reports/05-cross-discipline.zh.md) | [#12](https://github.com/UniqueClouds/marginalia/pull/12) |
 | `academic-voices` 技能——五种实测风格、密度基线 + voice 分类器 | [005](marginalia/005-discipline-style-voices/artifact.zh.md) | [#13](https://github.com/UniqueClouds/marginalia/pull/13) |
 | `ocr_pipeline` 扫描书夹心 OCR——图像零重编码 + 字符级不可见文字层 | [014](marginalia/014-sandwich-ocr-books/note.zh.md) | [#36](https://github.com/UniqueClouds/marginalia/pull/36) |
+| NSF 资助摘要浏览器与元数据快照——19,630 条记录（gzip 约 29.6 MB） | [028](marginalia/028-nsf-funding-rhetoric/docs/028-nsf-award-browser.zh.md) | [#83](https://github.com/UniqueClouds/marginalia/pull/83) |
 
 ## 语言
 
@@ -83,4 +84,4 @@ issue:           N
 
 ## 许可
 
-本仓库及[网站](https://uniqueclouds.github.io/marginalia/)的内容物——条目笔记、报告、播客清单——均按 **[知识共享署名-非商业性使用 4.0 国际 (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)** 提供：署名即可用于任何非商业目的，商业使用需先取得许可。底层语料本身不在仓库中分发，仍受各自原始来源管辖（每条条目的 `sources` 字段已注明）。
+本仓库及[网站](https://uniqueclouds.github.io/marginalia/)的内容物——条目笔记、报告、播客清单——均按 **[知识共享署名-非商业性使用 4.0 国际 (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)** 提供：署名即可用于任何非商业目的，商业使用需先取得许可。底层语料通常不在仓库中分发。028 条目是例外：其 NSF 资助数据导出包含 NSF 明确说明属于公共领域且不受版权保护的奖项记录和英文摘要（[NSF Award Search](https://www.nsf.gov/funding/award-search)）；我们整理的主题标签和中文译文仍作为网站内容按 CC BY-NC 提供。相关论文只列有书目信息，不包含论文全文；论文内容仍受出版方条款约束。

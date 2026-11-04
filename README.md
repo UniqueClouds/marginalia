@@ -75,6 +75,7 @@ Companions to the entries above, published **verbatim** — live skills, origina
 | Five full discipline-style reports (中文) | [005](marginalia/005-discipline-style-voices/reports/05-cross-discipline.zh.md) | [#12](https://github.com/UniqueClouds/marginalia/pull/12) |
 | `academic-voices` skill — five measured voices, density baselines + voice classifier | [005](marginalia/005-discipline-style-voices/artifact.en.md) | [#13](https://github.com/UniqueClouds/marginalia/pull/13) |
 | `ocr_pipeline` — sandwich OCR for scanned books: byte-identical page images + per-character invisible text layer | [014](marginalia/014-sandwich-ocr-books/note.en.md) | [#36](https://github.com/UniqueClouds/marginalia/pull/36) |
+| NSF award abstract browser and metadata snapshot — 19,630 records (gzip ~29.6 MB) | [028](marginalia/028-nsf-funding-rhetoric/docs/028-nsf-award-browser.en.md) | [#83](https://github.com/UniqueClouds/marginalia/pull/83) |
 
 ## Languages
 
@@ -82,4 +83,4 @@ Every **note** exists twice — `*.en.md` and `*.zh.md`, same content, neither a
 
 ## License
 
-The contents of this repository and the [website](https://uniqueclouds.github.io/marginalia/) — the entry notes, reports, the podcast guide — are licensed under **[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)**. You're free to share and adapt for any non-commercial purpose, as long as you credit the source; commercial use requires prior permission. The underlying data corpora are not redistributed here and remain governed by their original sources (each entry's `sources` field cites them).
+The contents of this repository and the [website](https://uniqueclouds.github.io/marginalia/) — the entry notes, reports, the podcast guide — are licensed under **[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)**. You're free to share and adapt for any non-commercial purpose, as long as you credit the source; commercial use requires prior permission. Underlying corpora are generally not redistributed. Entry 028 is an exception: its NSF award export contains award records and English abstracts that NSF identifies as public domain and not subject to copyright ([NSF Award Search](https://www.nsf.gov/funding/award-search)); our curated topic labels and Chinese translations remain site content under CC BY-NC. Linked publication metadata does not include article full text, and the publications remain subject to publisher terms.

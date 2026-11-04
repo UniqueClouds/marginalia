@@ -29,6 +29,8 @@ Topic labels overlap, so the counts below should not be added together: Computin
 
 **These are public NSF award abstracts, not complete proposals.** NSF states that Award Search supplies award abstracts and that submitted proposals are confidential intellectual property of the submitting organizations. I did not locate the full funded applications for these examples. Each case links to its NSF record so you can read the full public abstract. Abstracts and linked research outputs cannot reconstruct the project description, budget justification, reviewer comments, or reviewers' actual judgments.
 
+**Browse the full original abstracts:** [open the 19,630-award browser](docs/028-nsf-award-browser.en.md). Each record expands to show its English abstract, PI/institution/amount/field metadata, publications listed by NSF, and any Chinese translation already present in the source corpus. Search by title, PI, institution, area, and amount.
+
 ## A rhetorical chain to annotate
 
 A recurring, though not universal, structure is:
