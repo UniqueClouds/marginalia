@@ -18,7 +18,7 @@
 
 ## 📚 Entries
 
-Currently 28 items · each distilled through **issue → PR → squash commit**; bilingual (English / 中文), opening with full provenance metadata.
+Currently 29 items · each distilled through **issue → PR → squash commit**; bilingual (English / 中文), opening with full provenance metadata.
 
 <div class="grid cards" markdown>
 
@@ -237,6 +237,14 @@ Currently 28 items · each distilled through **issue → PR → squash commit**;
     The Abstract Is a Small Proposal: Rhetorical Moves in NSF Award Abstracts Across Software Engineering, AI & Society, Science of Science, and Organization Studies
 
     [中文](entries/028-nsf-funding-rhetoric.zh.md) · [English](entries/028-nsf-funding-rhetoric.en.md)
+
+- <svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9.5 7v10" class="acc" stroke-width="2" stroke-linecap="round" fill="none"/><path d="M12.5 8.5H16M12.5 12H16M12.5 15.5H15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> **ENTRY 029** · 2026-11-13
+
+    ---
+
+    Before AGENTS.md: ICSE 1976–1999 papers on documentation, process and documents that machines read
+
+    [中文](entries/029-icse-pre2000-docs.zh.md) · [English](entries/029-icse-pre2000-docs.en.md)
 
 - <svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9.5 7v10" class="acc" stroke-width="2" stroke-linecap="round" fill="none"/><path d="M12.5 8.5H16M12.5 12H16M12.5 15.5H15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> **ENTRY 006 · ARTIFACT** · 2026-08-17
 

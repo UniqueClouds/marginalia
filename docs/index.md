@@ -18,7 +18,7 @@
 
 ## 📚 条目 Entries
 
-目前 28 条 · 每条以 **issue → PR → squash commit** 仪式沉淀；中英双语，开头带完整溯源元数据。
+目前 29 条 · 每条以 **issue → PR → squash commit** 仪式沉淀；中英双语，开头带完整溯源元数据。
 
 <div class="grid cards" markdown>
 
@@ -237,6 +237,14 @@
     摘要是一份微型提案：NSF 资助摘要的修辞拆解——软件工程、AI 与社会、科学学与组织研究
 
     [中文版](entries/028-nsf-funding-rhetoric.zh.md) · [English](entries/028-nsf-funding-rhetoric.en.md)
+
+- <svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9.5 7v10" class="acc" stroke-width="2" stroke-linecap="round" fill="none"/><path d="M12.5 8.5H16M12.5 12H16M12.5 15.5H15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> **ENTRY 029** · 2026-11-13
+
+    ---
+
+    AGENTS.md 之前：ICSE 1976–1999 里关于文档、过程与“机器读的文档”的论文清单
+
+    [中文版](entries/029-icse-pre2000-docs.zh.md) · [English](entries/029-icse-pre2000-docs.en.md)
 
 - <svg class="marg-ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9.5 7v10" class="acc" stroke-width="2" stroke-linecap="round" fill="none"/><path d="M12.5 8.5H16M12.5 12H16M12.5 15.5H15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> **ENTRY 006 · ARTIFACT** · 2026-08-17
 
