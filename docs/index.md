@@ -242,7 +242,7 @@
 
     ---
 
-    AGENTS.md 之前：ICSE 1976–1999 里关于文档、过程与“机器读的文档”的论文清单
+    ICSE 1976–1999 老论文与摘要
 
     [中文版](entries/029-icse-pre2000-docs.zh.md) · [English](entries/029-icse-pre2000-docs.en.md)
 
