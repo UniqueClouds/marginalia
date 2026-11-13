@@ -242,7 +242,7 @@ Currently 29 items · each distilled through **issue → PR → squash commit**;
 
     ---
 
-    Before AGENTS.md: ICSE 1976–1999 papers on documentation, process and documents that machines read
+    ICSE 1976–1999: old papers and their abstracts
 
     [中文](entries/029-icse-pre2000-docs.zh.md) · [English](entries/029-icse-pre2000-docs.en.md)
 
