@@ -26,7 +26,7 @@ Daniel Teichroew; Ernest A. Hershey III · p. 2 · [ACM DL](https://dl.acm.org/c
 
 ### Program Evolution and Its Impact on Software Engineering
 
-M. M. Lehman; F. N. Parr · pp. 350–357 · [ACM DL](https://dl.acm.org/doi/10.5555/800253.807698)
+Meir M. Lehman; Francis N. Parr · pp. 350–357 · [ACM DL](https://dl.acm.org/doi/10.5555/800253.807698)
 
 > Large scale, widely used programs such as operating systems are never complete. They undergo a continuing evolutionary cycle of maintenance, augmentation and restructuring to keep pace with evolving usage and implementation technologies. The paper provides quantitative evidence, from widely different environments, of the existence and nature of this evolutionary process. Interpretations and possible significance of some of the observed phenomena are discussed. Some implications for software engineering and for project planners and managers are noted.
 
@@ -46,7 +46,7 @@ E. Burton Swanson · pp. 492–497 · [ACM DL](https://dl.acm.org/doi/10.5555/80
 
 ### Software Engineering: A Keynote Address
 
-C. A. R. Hoare · pp. 1–4 · [ACM DL](https://dl.acm.org/citation.cfm?id=803183)
+Charles Antony Richard Hoare · pp. 1–4 · [ACM DL](https://dl.acm.org/citation.cfm?id=803183)
 
 > This paper argues that our recent progress in the development of a sound programming methodology should not lead us to ignore the more difficult aspects of engineering; and that in future we should pay more attention to the quality of our designs, and not just the accuracy of their implementation.
 
@@ -100,7 +100,7 @@ Yukikazu Nakamoto; T. Iwamoto; M. Hori; Kenichi Hagihara; Nobuki Tokura · pp. 3
 
 ### An Examination of Evolution Dynamics
 
-M. J. Lawrence · pp. 188–196 · [ACM DL](https://dl.acm.org/doi/10.5555/800254.807761)
+Michael J. Lawrence · pp. 188–196 · [ACM DL](https://dl.acm.org/doi/10.5555/800254.807761)
 
 > Data on the history of seven systems was analysed to statistically test the 5 laws of software evolution proposed first by Belady and Lehman in 1976.While there was some evidence supporting laws 1 and 2, laws 3-5 were not supported by the data. In the light of the result a new discontinuous model of software evolution is proposed to replace the smoothly changing continuous model proposed by Lehman.
 
@@ -124,13 +124,13 @@ Walter F. Tichy · pp. 58–67 · [ACM DL](https://dl.acm.org/citation.cfm?id=80
 
 ### MAP: A Tool for Understanding Software
 
-S. Warren · pp. 28–39 · [ACM DL](https://dl.acm.org/doi/10.5555/800254.807745)
+Sally Warren · pp. 28–39 · [ACM DL](https://dl.acm.org/doi/10.5555/800254.807745)
 
 > Maintenance of software is a major problem that the data processing industry faces today. This paper describes MAP, a tool, that addresses the problems of software maintenance by helping programmers to understand their programs.
 
 ### The Dimensions of Healthy Maintenance
 
-Robert S. Arnold; D. A. Parker · pp. 10–27 · [ACM DL](https://dl.acm.org/doi/10.5555/800254.807744)
+Robert S. Arnold; Donald A. Parker · pp. 10–27 · [ACM DL](https://dl.acm.org/doi/10.5555/800254.807744)
 
 > What characterizes “healthy” or “satisfactory” software maintenance? How can we know it when we see it? This paper gives initial answers to these questions. We first argue the need for objectively measurable maintenance performance criteria in judging the “adequacy” of maintenance and present a set of criteria for judging maintenance performance in a particular software environment. We then subject the criteria to a practical test by applying them in this environment. We show how applying the criteria enables an informed overall maintenance performance appraisal, locates general maintenance problems, stimulates suggestions for improving maintenance on individual projects, allows these projects' maintenance to be compared and the projects ordered for improvement, and assesses the potential effectiveness of the suggestions in new project maintenance. We also sketch how criteria application can be generalized to software development monitoring and design methodology evaluation.
 
@@ -214,7 +214,7 @@ Bill Curtis; Herb Krasner; Vincent Y. Shen; Neil Iscoe · pp. 96–105 · [ACM D
 
 ### Process Models, Process Programs, Programming Support
 
-M. M. Lehman · pp. 14–16 · [ACM DL](https://dl.acm.org/doi/10.5555/41765.41767)
+Meir M. Lehman · pp. 14–16 · [ACM DL](https://dl.acm.org/doi/10.5555/41765.41767)
 
 *No abstract available.*
 
@@ -228,7 +228,7 @@ Leon J. Osterweil · pp. 2–13 · [ACM DL](https://dl.acm.org/doi/10.5555/41765
 
 ### Tailoring the Software Process to Project Goals and Environments
 
-Victor R. Basili; H. Dieter Rombach · pp. 345–359 · [ACM DL](https://dl.acm.org/citation.cfm?id=41804)
+Victor R. Basili; Hans Dieter Rombach · pp. 345–359 · [ACM DL](https://dl.acm.org/citation.cfm?id=41804)
 
 > This paper presents a methodology for improving the software process by tailoring it to the specific project goals and environment. This improvement process is aimed at the global software process model as well as methods and tools supporting that model. The basic idea is to use defect profiles to help characterize the environment and evaluate the project goals and the effectiveness of methods and tools in a quantitative way. The improvement process is implemented iteratively by setting project improvement goals, characterizing those goals and the environment, in part, via defect profiles in a quantitative way, choosing methods and tools fitting those characteristics, evaluating the actual behavior of the chosen set of methods and tools, and refining the project goals based on the evaluation results. All these activities require analysis of large amounts of data and, therefore, support by an automated tool. Such a tool — TAME (Tailoring A Measurement Environment) — is currently being developed.
 
@@ -508,7 +508,7 @@ Václav Rajlich · pp. 669–670 · [ACM DL](https://dl.acm.org/doi/10.1145/2532
 
 ### Process Modelling - Where Next
 
-M. M. Lehman · pp. 549–552 · [ACM DL](https://dl.acm.org/doi/10.1145/253228.253441)
+Meir M. Lehman · pp. 549–552 · [ACM DL](https://dl.acm.org/doi/10.1145/253228.253441)
 
 > After limited interest prior to the 1980s, the software process attracted the attention of a small group of researchers and practitioners as evidenced by a series of International Process Workshops commencing with the first in 1984.General interest had, however, to wait until Osterweil's now classic paper being honoured today and the present author's response were delivered at ICSE 87.This brief paper seeks to move forward from the positions presented then to introduce three process related issues, software process improvement, feedback in the software process and business process improvement.The first is, currently the principal focus of the software process community.The second, it is believed, should be.The third is equally relevant.Individually and collectively these issues appear, to this author at least, to make the majority view of the current focus of process modelling in general and process programming in particular largely irrelevant.
 
